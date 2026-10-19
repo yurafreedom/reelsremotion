@@ -1,0 +1,128 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "background": "#1a1a1a",
+  "audio": null,
+  "scenes": [
+    {
+      "id": "s1",
+      "durationInFrames": 113,
+      "video": {
+        "src": "placeholder",
+        "x": 0,
+        "y": 0,
+        "width": 880,
+        "height": 500,
+        "borderRadius": 20,
+        "startFrom": 0
+      },
+      "words": [
+        {
+          "text": "Она",
+          "start": 0,
+          "end": 113,
+          "x": 0,
+          "y": -200,
+          "font": "cleanSans",
+          "size": 44,
+          "weight": 400,
+          "color": "#ffffff",
+          "enterFrom": "left",
+          "case": "none"
+        },
+        {
+          "text": "не",
+          "start": 5,
+          "end": 113,
+          "x": 0,
+          "y": -138,
+          "font": "cleanSans",
+          "size": 44,
+          "weight": 400,
+          "color": "#ffffff",
+          "enterFrom": "right",
+          "case": "none"
+        },
+        {
+          "text": "требует",
+          "start": 11,
+          "end": 113,
+          "x": 0,
+          "y": -76,
+          "font": "cleanSans",
+          "size": 44,
+          "weight": 400,
+          "color": "#ffffff",
+          "enterFrom": "left",
+          "case": "none"
+        },
+        {
+          "text": "сверхмеры,",
+          "start": 25,
+          "end": 113,
+          "x": 0,
+          "y": -14,
+          "font": "cleanSans",
+          "size": 44,
+          "weight": 400,
+          "color": "#ffffff",
+          "enterFrom": "right",
+          "case": "none"
+        },
+        {
+          "text": "простой",
+          "start": 52,
+          "end": 113,
+          "x": 0,
+          "y": 48,
+          "font": "cleanSans",
+          "size": 44,
+          "weight": 400,
+          "color": "#ffffff",
+          "enterFrom": "left",
+          "case": "none"
+        },
+        {
+          "text": "решение",
+          "start": 65,
+          "end": 113,
+          "x": 0,
+          "y": 110,
+          "font": "cleanSans",
+          "size": 44,
+          "weight": 400,
+          "color": "#ffffff",
+          "enterFrom": "right",
+          "case": "none"
+        },
+        {
+          "text": "всегда",
+          "start": 78,
+          "end": 113,
+          "x": 0,
+          "y": 172,
+          "font": "cleanSans",
+          "size": 44,
+          "weight": 400,
+          "color": "#ffffff",
+          "enterFrom": "left",
+          "case": "none"
+        },
+        {
+          "text": "лучше.",
+          "start": 86,
+          "end": 113,
+          "x": 0,
+          "y": 234,
+          "font": "cleanSans",
+          "size": 44,
+          "weight": 400,
+          "color": "#ffffff",
+          "enterFrom": "right",
+          "case": "none"
+        }
+      ]
+    }
+  ]
+}
