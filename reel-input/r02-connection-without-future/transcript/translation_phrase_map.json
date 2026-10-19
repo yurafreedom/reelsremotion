@@ -1,0 +1,120 @@
+{
+  "rule": "DISPLAY RU for English speech is phrase-group mapping only. Never treat Russian display words as acoustically aligned to English source words.",
+  "human_decision_artifact": "reel-input/HUMAN_EDITORIAL_DECISIONS.md",
+  "clips": [
+    {
+      "id": "r02-question",
+      "source_start": 4558.42,
+      "source_end": 4581.6,
+      "source_language": [
+        "en"
+      ],
+      "source_text": "Have you ever found yourself taking every romantic connection with any girl or woman way too serious, too responsibility to the point where you can just let yourself see someone, just make love without feeling guilty or burdened by responsibility, especially when you already sense from the start that there is no future together.",
+      "display_ru": "Ты когда-нибудь ловила себя на том, что воспринимаешь каждую романтическую связь слишком серьёзно и берёшь на себя слишком много ответственности, настолько, что не можешь просто встречаться с кем-то, ходить на свидания или заниматься любовью без чувства вины и груза ответственности, особенно когда с самого начала понимаешь, что общего будущего нет?",
+      "translation_provenance": "transcripts/video1219377731/en_spans_ru.json[32]",
+      "mapping_status": "HUMAN_DECISION_APPLIED_TO_RETAINED_GROUPS; FINAL_SUBTITLE_APPROVAL_PENDING",
+      "groups": [
+        {
+          "id": "r02-question-g1",
+          "source_start": 4558.42,
+          "source_end": 4576.84,
+          "clip_start": 0,
+          "clip_end": 18.42,
+          "source_text": "Have you ever found yourself taking every romantic connection with any girl or woman way too serious, too responsibility to the point where you can just let yourself see someone, just make love without feeling guilty or burdened by responsibility,",
+          "display_ru": "Ты когда-нибудь ловила себя на том, что воспринимаешь каждую романтическую связь слишком серьёзно и берёшь на себя слишком много ответственности, настолько, что не можешь просто встречаться с кем-то, ходить на свидания или заниматься любовью без чувства вины и груза ответственности,"
+        },
+        {
+          "id": "r02-question-g2",
+          "source_start": 4577.08,
+          "source_end": 4581.6,
+          "clip_start": 18.66,
+          "clip_end": 23.18,
+          "source_text": "especially when you already sense from the start that there is no future together.",
+          "display_ru": "особенно когда с самого начала понимаешь, что общего будущего нет?"
+        }
+      ]
+    },
+    {
+      "id": "r02-unique-value",
+      "source_start": 4731.52,
+      "source_end": 4752.32,
+      "source_language": [
+        "en"
+      ],
+      "source_text": "Это очень actionally indulging that pleasure to meet someone, to make their day better, their week better, their month better, to give them an experience they've never had before, because it doesn't have to be an incredible experience, only you can provide, but you and that one person together are completely unique.",
+      "display_ru": "Это очень... на самом деле потакание тому удовольствию: встретить кого-то, сделать его день лучше, его неделю лучше, его месяц лучше, дать ему опыт, которого у него никогда раньше не было, потому что это не обязательно должен быть невероятный опыт, который можешь дать только ты, но ты и этот один человек вместе, совершенно уникальны.",
+      "translation_provenance": "transcripts/video1219377731/en_spans_ru.json[33]",
+      "mapping_status": "PARTIALLY_HUMAN_APPROVED; REMAINDER_PENDING",
+      "groups": [
+        {
+          "id": "r02-unique-value-g1",
+          "source_start": 4731.52,
+          "source_end": 4738.84,
+          "clip_start": 0,
+          "clip_end": 7.32,
+          "source_text": "Это очень actionally indulging that pleasure to meet someone, to make their day better, their week better, their month better,",
+          "display_ru": "Это очень... на самом деле потакание тому удовольствию: встретить кого-то, сделать его день лучше, его неделю лучше, его месяц лучше,"
+        },
+        {
+          "id": "r02-unique-value-g2",
+          "source_start": 4739.28,
+          "source_end": 4742.42,
+          "clip_start": 7.76,
+          "clip_end": 10.9,
+          "source_text": "to give them an experience they've never had before,",
+          "display_ru": "дать ему опыт, которого у него никогда раньше не было,"
+        },
+        {
+          "id": "r02-unique-value-g3",
+          "source_start": 4742.84,
+          "source_end": 4752,
+          "clip_start": 11.32,
+          "clip_end": 20.48,
+          "source_text": "because it doesn't have to be an incredible experience, only you can provide, but you and that one person together are completely unique.",
+          "display_ru": "потому что это не обязательно должен быть невероятный опыт, который можешь дать только ты, но ты и этот один человек вместе, совершенно уникальны."
+        }
+      ]
+    },
+    {
+      "id": "r02-permission-payoff",
+      "source_start": 4843.9,
+      "source_end": 4866.06,
+      "source_language": [
+        "en"
+      ],
+      "source_text": "Go connect with people, go have fleeting moments of pleasure. Do not feel pressure or expectation as long as you have good intentions and you do not intend to hurt anyone unless that's their kink and you have their consent and that's what they want. Then you have good intentions, you enter into something light without any expectations.",
+      "display_ru": "Иди устанавливай связи с людьми, иди переживай мимолётные моменты удовольствия. Не чувствуй давления или ожиданий, пока у тебя добрые намерения и ты не собираешься кому-то навредить, если только это не их кинк, и у тебя есть их согласие, и это то, чего они хотят. Тогда у тебя добрые намерения, ты входишь во что-то лёгкое без всяких ожиданий.",
+      "translation_provenance": "transcripts/video1219377731/en_spans_ru.json[34]",
+      "mapping_status": "HUMAN_DECISION_APPLIED_TO_RETAINED_GROUPS; FINAL_SUBTITLE_APPROVAL_PENDING",
+      "groups": [
+        {
+          "id": "r02-permission-payoff-g1",
+          "source_start": 4843.9,
+          "source_end": 4847.42,
+          "clip_start": 0,
+          "clip_end": 3.52,
+          "source_text": "Go connect with people, go have fleeting moments of pleasure.",
+          "display_ru": "Иди устанавливай связи с людьми, иди переживай мимолётные моменты удовольствия."
+        },
+        {
+          "id": "r02-permission-payoff-g2",
+          "source_start": 4847.42,
+          "source_end": 4859.22,
+          "clip_start": 3.52,
+          "clip_end": 15.32,
+          "source_text": "Do not feel pressure or expectation as long as you have good intentions and you do not intend to hurt anyone unless that's their kink and you have their consent and that's what they want.",
+          "display_ru": "Не чувствуй давления или ожиданий, пока у тебя добрые намерения и ты не собираешься кому-то навредить, если только это не их кинк, и у тебя есть их согласие, и это то, чего они хотят."
+        },
+        {
+          "id": "r02-permission-payoff-g3",
+          "source_start": 4859.86,
+          "source_end": 4866.06,
+          "clip_start": 15.96,
+          "clip_end": 22.16,
+          "source_text": "Then you have good intentions, you enter into something light without any expectations.",
+          "display_ru": "Тогда у тебя добрые намерения, ты входишь во что-то лёгкое без всяких ожиданий."
+        }
+      ]
+    }
+  ]
+}

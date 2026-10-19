@@ -1,0 +1,837 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "R05",
+  "slug": "r05-adult-love-is-conditional",
+  "title": "Adult Love Is Conditional",
+  "stage": "series-production-candidate",
+  "approval_status": "HUMAN_SOURCE_APPROVED; SERIES_PRODUCTION_CANDIDATE_AUTHORIZED",
+  "source_authority": {
+    "source_video": "video1219377731.mp4",
+    "native_asr_word_timing": "transcripts/video1219377731/asr_video1219377731.json",
+    "native_srt": "transcripts/video1219377731/subtitles_native.srt",
+    "english_translation_srt": "transcripts/video1219377731/subtitles_en.srt",
+    "contextual_english_to_russian": "transcripts/video1219377731/en_spans_ru.json",
+    "prose_transcripts": "semantic search only; never timing authority"
+  },
+  "source_media": {
+    "duration_seconds": 13974.421333,
+    "video": "h264 1280x720 25fps yuv420p",
+    "audio": "aac stereo 48000Hz",
+    "source_untouched": true
+  },
+  "clips": [
+    {
+      "id": "r05-conditions-boundaries",
+      "role": "full-argument",
+      "source_video": "video1219377731.mp4",
+      "source_start": 12133.07,
+      "source_end": 12189.05,
+      "source_start_tc": "03:22:13.070",
+      "source_end_tc": "03:23:09.050",
+      "extracted_duration_expected": 55.98,
+      "output_path": "reel-input/r05-adult-love-is-conditional/public/clips/001_full-argument.mp4",
+      "extraction_mode": "exact-reencode",
+      "languages": [
+        "ru"
+      ],
+      "speaker": "Russian-speaking host, likely Evgeniia",
+      "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+      "source_quote": "потому что привычка доказывать эту ценность, она настолько въедена в психику, что даже когда уже как бы все тебя безусловно до конца всего приняли, ты все равно, ты начинаешь понимать, что взрослая любовь, она все равно условна. И там начинается момент взросления. То есть, когда ты принимаешь условную любовь, как что-то очень классное, развивающее тебя и здоровое, тут начинается вот это вот переход от твоей детской части, которая хочет безусловно любить мамочку, люби меня за то, что я просто такой красивей есть, до того, что, блять, оказывается, условия это прям классно, границы это прям круто, блять, меня возвращают и структурируют. Блин, у меня яйца начинают появляться, какие-то другого формата, другого размера, и это прям круто.",
+      "source_subtitles": [
+        {
+          "id": 2234,
+          "start": 12133.07,
+          "end": 12140.59,
+          "start_tc": "03:22:13.070",
+          "end_tc": "03:22:20.590",
+          "original_segment_start": 12133.07,
+          "original_segment_end": 12140.59,
+          "language": "ru",
+          "text": "потому что привычка доказывать эту ценность, она настолько въедена в психику,",
+          "words": [
+            {
+              "word": "потому",
+              "start": 12133.07,
+              "end": 12133.27
+            },
+            {
+              "word": "что",
+              "start": 12133.27,
+              "end": 12133.77
+            },
+            {
+              "word": "привычка",
+              "start": 12133.77,
+              "end": 12135.33
+            },
+            {
+              "word": "доказывать",
+              "start": 12135.33,
+              "end": 12136.45
+            },
+            {
+              "word": "эту",
+              "start": 12136.45,
+              "end": 12136.63
+            },
+            {
+              "word": "ценность,",
+              "start": 12136.63,
+              "end": 12137.13
+            },
+            {
+              "word": "она",
+              "start": 12137.13,
+              "end": 12137.33
+            },
+            {
+              "word": "настолько",
+              "start": 12137.33,
+              "end": 12137.75
+            },
+            {
+              "word": "въедена",
+              "start": 12137.75,
+              "end": 12139.79
+            },
+            {
+              "word": "в",
+              "start": 12139.79,
+              "end": 12139.95
+            },
+            {
+              "word": "психику,",
+              "start": 12139.95,
+              "end": 12140.59
+            }
+          ]
+        },
+        {
+          "id": 2235,
+          "start": 12141.47,
+          "end": 12147.25,
+          "start_tc": "03:22:21.470",
+          "end_tc": "03:22:27.250",
+          "original_segment_start": 12141.47,
+          "original_segment_end": 12147.25,
+          "language": "ru",
+          "text": "что даже когда уже как бы все тебя безусловно до конца всего приняли,",
+          "words": [
+            {
+              "word": "что",
+              "start": 12141.47,
+              "end": 12142.13
+            },
+            {
+              "word": "даже",
+              "start": 12142.13,
+              "end": 12142.79
+            },
+            {
+              "word": "когда",
+              "start": 12142.79,
+              "end": 12143.09
+            },
+            {
+              "word": "уже",
+              "start": 12143.09,
+              "end": 12143.41
+            },
+            {
+              "word": "как",
+              "start": 12143.41,
+              "end": 12143.61
+            },
+            {
+              "word": "бы",
+              "start": 12143.61,
+              "end": 12143.83
+            },
+            {
+              "word": "все",
+              "start": 12143.83,
+              "end": 12144.15
+            },
+            {
+              "word": "тебя",
+              "start": 12144.15,
+              "end": 12144.87
+            },
+            {
+              "word": "безусловно",
+              "start": 12144.87,
+              "end": 12145.69
+            },
+            {
+              "word": "до",
+              "start": 12145.69,
+              "end": 12145.85
+            },
+            {
+              "word": "конца",
+              "start": 12145.85,
+              "end": 12146.13
+            },
+            {
+              "word": "всего",
+              "start": 12146.13,
+              "end": 12146.67
+            },
+            {
+              "word": "приняли,",
+              "start": 12146.67,
+              "end": 12147.25
+            }
+          ]
+        },
+        {
+          "id": 2236,
+          "start": 12148.03,
+          "end": 12153.83,
+          "start_tc": "03:22:28.030",
+          "end_tc": "03:22:33.830",
+          "original_segment_start": 12148.03,
+          "original_segment_end": 12153.83,
+          "language": "ru",
+          "text": "ты все равно, ты начинаешь понимать, что взрослая любовь, она все равно условна.",
+          "words": [
+            {
+              "word": "ты",
+              "start": 12148.03,
+              "end": 12148.03
+            },
+            {
+              "word": "все",
+              "start": 12148.03,
+              "end": 12148.53
+            },
+            {
+              "word": "равно,",
+              "start": 12148.53,
+              "end": 12148.77
+            },
+            {
+              "word": "ты",
+              "start": 12148.93,
+              "end": 12149.17
+            },
+            {
+              "word": "начинаешь",
+              "start": 12149.17,
+              "end": 12150.07
+            },
+            {
+              "word": "понимать,",
+              "start": 12150.07,
+              "end": 12151.07
+            },
+            {
+              "word": "что",
+              "start": 12151.07,
+              "end": 12151.45
+            },
+            {
+              "word": "взрослая",
+              "start": 12151.45,
+              "end": 12152.13
+            },
+            {
+              "word": "любовь,",
+              "start": 12152.13,
+              "end": 12152.61
+            },
+            {
+              "word": "она",
+              "start": 12152.61,
+              "end": 12152.77
+            },
+            {
+              "word": "все",
+              "start": 12152.77,
+              "end": 12152.97
+            },
+            {
+              "word": "равно",
+              "start": 12152.97,
+              "end": 12153.19
+            },
+            {
+              "word": "условна.",
+              "start": 12153.19,
+              "end": 12153.83
+            }
+          ]
+        },
+        {
+          "id": 2237,
+          "start": 12154.43,
+          "end": 12156.19,
+          "start_tc": "03:22:34.430",
+          "end_tc": "03:22:36.190",
+          "original_segment_start": 12154.43,
+          "original_segment_end": 12156.19,
+          "language": "ru",
+          "text": "И там начинается момент взросления.",
+          "words": [
+            {
+              "word": "И",
+              "start": 12154.43,
+              "end": 12154.57
+            },
+            {
+              "word": "там",
+              "start": 12154.57,
+              "end": 12154.75
+            },
+            {
+              "word": "начинается",
+              "start": 12154.75,
+              "end": 12155.21
+            },
+            {
+              "word": "момент",
+              "start": 12155.21,
+              "end": 12155.45
+            },
+            {
+              "word": "взросления.",
+              "start": 12155.45,
+              "end": 12156.19
+            }
+          ]
+        },
+        {
+          "id": 2238,
+          "start": 12157.11,
+          "end": 12159.81,
+          "start_tc": "03:22:37.110",
+          "end_tc": "03:22:39.810",
+          "original_segment_start": 12157.11,
+          "original_segment_end": 12159.81,
+          "language": "ru",
+          "text": "То есть, когда ты принимаешь условную любовь,",
+          "words": [
+            {
+              "word": "То",
+              "start": 12157.11,
+              "end": 12157.35
+            },
+            {
+              "word": "есть,",
+              "start": 12157.35,
+              "end": 12157.55
+            },
+            {
+              "word": "когда",
+              "start": 12157.61,
+              "end": 12157.89
+            },
+            {
+              "word": "ты",
+              "start": 12157.89,
+              "end": 12158.17
+            },
+            {
+              "word": "принимаешь",
+              "start": 12158.17,
+              "end": 12158.73
+            },
+            {
+              "word": "условную",
+              "start": 12158.73,
+              "end": 12159.29
+            },
+            {
+              "word": "любовь,",
+              "start": 12159.29,
+              "end": 12159.81
+            }
+          ]
+        },
+        {
+          "id": 2239,
+          "start": 12159.89,
+          "end": 12163.65,
+          "start_tc": "03:22:39.890",
+          "end_tc": "03:22:43.650",
+          "original_segment_start": 12159.89,
+          "original_segment_end": 12163.65,
+          "language": "ru",
+          "text": "как что-то очень классное, развивающее тебя и здоровое,",
+          "words": [
+            {
+              "word": "как",
+              "start": 12159.89,
+              "end": 12159.91
+            },
+            {
+              "word": "что",
+              "start": 12159.91,
+              "end": 12160.25
+            },
+            {
+              "word": "-то",
+              "start": 12160.25,
+              "end": 12160.45
+            },
+            {
+              "word": "очень",
+              "start": 12160.45,
+              "end": 12160.97
+            },
+            {
+              "word": "классное,",
+              "start": 12160.97,
+              "end": 12161.55
+            },
+            {
+              "word": "развивающее",
+              "start": 12161.63,
+              "end": 12162.43
+            },
+            {
+              "word": "тебя",
+              "start": 12162.43,
+              "end": 12162.69
+            },
+            {
+              "word": "и",
+              "start": 12162.69,
+              "end": 12162.93
+            },
+            {
+              "word": "здоровое,",
+              "start": 12162.93,
+              "end": 12163.65
+            }
+          ]
+        },
+        {
+          "id": 2240,
+          "start": 12164.47,
+          "end": 12168.79,
+          "start_tc": "03:22:44.470",
+          "end_tc": "03:22:48.790",
+          "original_segment_start": 12164.47,
+          "original_segment_end": 12168.79,
+          "language": "ru",
+          "text": "тут начинается вот это вот переход от твоей детской части,",
+          "words": [
+            {
+              "word": "тут",
+              "start": 12164.47,
+              "end": 12164.99
+            },
+            {
+              "word": "начинается",
+              "start": 12164.99,
+              "end": 12165.51
+            },
+            {
+              "word": "вот",
+              "start": 12165.51,
+              "end": 12165.81
+            },
+            {
+              "word": "это",
+              "start": 12165.81,
+              "end": 12165.99
+            },
+            {
+              "word": "вот",
+              "start": 12165.99,
+              "end": 12166.13
+            },
+            {
+              "word": "переход",
+              "start": 12166.13,
+              "end": 12166.51
+            },
+            {
+              "word": "от",
+              "start": 12166.51,
+              "end": 12166.99
+            },
+            {
+              "word": "твоей",
+              "start": 12166.99,
+              "end": 12167.93
+            },
+            {
+              "word": "детской",
+              "start": 12167.93,
+              "end": 12168.35
+            },
+            {
+              "word": "части,",
+              "start": 12168.35,
+              "end": 12168.79
+            }
+          ]
+        },
+        {
+          "id": 2241,
+          "start": 12168.79,
+          "end": 12171.01,
+          "start_tc": "03:22:48.790",
+          "end_tc": "03:22:51.010",
+          "original_segment_start": 12168.79,
+          "original_segment_end": 12171.01,
+          "language": "ru",
+          "text": "которая хочет безусловно любить мамочку,",
+          "words": [
+            {
+              "word": "которая",
+              "start": 12168.79,
+              "end": 12169.13
+            },
+            {
+              "word": "хочет",
+              "start": 12169.13,
+              "end": 12169.49
+            },
+            {
+              "word": "безусловно",
+              "start": 12169.49,
+              "end": 12170.21
+            },
+            {
+              "word": "любить",
+              "start": 12170.21,
+              "end": 12170.53
+            },
+            {
+              "word": "мамочку,",
+              "start": 12170.53,
+              "end": 12171.01
+            }
+          ]
+        },
+        {
+          "id": 2242,
+          "start": 12171.05,
+          "end": 12173.33,
+          "start_tc": "03:22:51.050",
+          "end_tc": "03:22:53.330",
+          "original_segment_start": 12171.05,
+          "original_segment_end": 12173.33,
+          "language": "ru",
+          "text": "люби меня за то, что я просто такой красивей есть,",
+          "words": [
+            {
+              "word": "люби",
+              "start": 12171.05,
+              "end": 12171.29
+            },
+            {
+              "word": "меня",
+              "start": 12171.29,
+              "end": 12171.45
+            },
+            {
+              "word": "за",
+              "start": 12171.45,
+              "end": 12171.61
+            },
+            {
+              "word": "то,",
+              "start": 12171.61,
+              "end": 12171.71
+            },
+            {
+              "word": "что",
+              "start": 12171.73,
+              "end": 12171.87
+            },
+            {
+              "word": "я",
+              "start": 12171.87,
+              "end": 12171.99
+            },
+            {
+              "word": "просто",
+              "start": 12171.99,
+              "end": 12172.21
+            },
+            {
+              "word": "такой",
+              "start": 12172.21,
+              "end": 12172.51
+            },
+            {
+              "word": "красивей",
+              "start": 12172.51,
+              "end": 12172.99
+            },
+            {
+              "word": "есть,",
+              "start": 12172.99,
+              "end": 12173.33
+            }
+          ]
+        },
+        {
+          "id": 2243,
+          "start": 12174.19,
+          "end": 12178.15,
+          "start_tc": "03:22:54.190",
+          "end_tc": "03:22:58.150",
+          "original_segment_start": 12174.19,
+          "original_segment_end": 12178.15,
+          "language": "ru",
+          "text": "до того, что, блять, оказывается, условия это прям классно,",
+          "words": [
+            {
+              "word": "до",
+              "start": 12174.19,
+              "end": 12174.71
+            },
+            {
+              "word": "того,",
+              "start": 12174.71,
+              "end": 12175.23
+            },
+            {
+              "word": "что,",
+              "start": 12175.41,
+              "end": 12175.49
+            },
+            {
+              "word": "блять,",
+              "start": 12175.69,
+              "end": 12176.09
+            },
+            {
+              "word": "оказывается,",
+              "start": 12176.33,
+              "end": 12176.71
+            },
+            {
+              "word": "условия",
+              "start": 12176.79,
+              "end": 12177.15
+            },
+            {
+              "word": "это",
+              "start": 12177.15,
+              "end": 12177.31
+            },
+            {
+              "word": "прям",
+              "start": 12177.31,
+              "end": 12177.51
+            },
+            {
+              "word": "классно,",
+              "start": 12177.51,
+              "end": 12178.15
+            }
+          ]
+        },
+        {
+          "id": 2244,
+          "start": 12178.23,
+          "end": 12183.55,
+          "start_tc": "03:22:58.230",
+          "end_tc": "03:23:03.550",
+          "original_segment_start": 12178.23,
+          "original_segment_end": 12183.55,
+          "language": "ru",
+          "text": "границы это прям круто, блять, меня возвращают и структурируют.",
+          "words": [
+            {
+              "word": "границы",
+              "start": 12178.23,
+              "end": 12178.79
+            },
+            {
+              "word": "это",
+              "start": 12178.79,
+              "end": 12178.93
+            },
+            {
+              "word": "прям",
+              "start": 12178.93,
+              "end": 12179.15
+            },
+            {
+              "word": "круто,",
+              "start": 12179.15,
+              "end": 12179.67
+            },
+            {
+              "word": "блять,",
+              "start": 12179.99,
+              "end": 12180.19
+            },
+            {
+              "word": "меня",
+              "start": 12180.29,
+              "end": 12180.41
+            },
+            {
+              "word": "возвращают",
+              "start": 12180.41,
+              "end": 12181.97
+            },
+            {
+              "word": "и",
+              "start": 12181.97,
+              "end": 12182.29
+            },
+            {
+              "word": "структурируют.",
+              "start": 12182.29,
+              "end": 12183.55
+            }
+          ]
+        },
+        {
+          "id": 2245,
+          "start": 12183.79,
+          "end": 12185.93,
+          "start_tc": "03:23:03.790",
+          "end_tc": "03:23:05.930",
+          "original_segment_start": 12183.79,
+          "original_segment_end": 12185.93,
+          "language": "ru",
+          "text": "Блин, у меня яйца начинают появляться,",
+          "words": [
+            {
+              "word": "Блин,",
+              "start": 12183.79,
+              "end": 12184.01
+            },
+            {
+              "word": "у",
+              "start": 12184.11,
+              "end": 12184.19
+            },
+            {
+              "word": "меня",
+              "start": 12184.19,
+              "end": 12184.33
+            },
+            {
+              "word": "яйца",
+              "start": 12184.33,
+              "end": 12184.67
+            },
+            {
+              "word": "начинают",
+              "start": 12184.67,
+              "end": 12185.11
+            },
+            {
+              "word": "появляться,",
+              "start": 12185.11,
+              "end": 12185.93
+            }
+          ]
+        },
+        {
+          "id": 2246,
+          "start": 12185.97,
+          "end": 12189.05,
+          "start_tc": "03:23:05.970",
+          "end_tc": "03:23:09.050",
+          "original_segment_start": 12185.97,
+          "original_segment_end": 12189.05,
+          "language": "ru",
+          "text": "какие-то другого формата, другого размера, и это прям круто.",
+          "words": [
+            {
+              "word": "какие",
+              "start": 12185.97,
+              "end": 12186.21
+            },
+            {
+              "word": "-то",
+              "start": 12186.21,
+              "end": 12186.33
+            },
+            {
+              "word": "другого",
+              "start": 12186.33,
+              "end": 12186.85
+            },
+            {
+              "word": "формата,",
+              "start": 12186.85,
+              "end": 12187.33
+            },
+            {
+              "word": "другого",
+              "start": 12187.45,
+              "end": 12187.71
+            },
+            {
+              "word": "размера,",
+              "start": 12187.71,
+              "end": 12188.17
+            },
+            {
+              "word": "и",
+              "start": 12188.23,
+              "end": 12188.29
+            },
+            {
+              "word": "это",
+              "start": 12188.29,
+              "end": 12188.43
+            },
+            {
+              "word": "прям",
+              "start": 12188.43,
+              "end": 12188.65
+            },
+            {
+              "word": "круто.",
+              "start": 12188.65,
+              "end": 12189.05
+            }
+          ]
+        }
+      ],
+      "boundary_flags": {
+        "start_inside_subtitle": false,
+        "end_inside_subtitle": false
+      },
+      "linguistic_boundary_note": "starts with a subordinate clause connected to prior context; hook card should supply context, or include preceding segment after review.",
+      "include_reason": "Contains unconditional acceptance, adult love being conditional, maturation, and the conditions/boundaries payoff.",
+      "removable_filler": "The final anatomical metaphor/profanity can be retained verbatim or omitted as a complete ending; do not sanitize it silently.",
+      "visual_qc": "REVIEW_REQUIRED_AT_EXACT_EDGES",
+      "display_ru": {
+        "kind": "native-source-proposal",
+        "alignment": "native ASR word timing available; verify ASR errors by ear",
+        "provenance": "transcripts/video1219377731/asr_video1219377731.json",
+        "text": "потому что привычка доказывать эту ценность, она настолько въедена в психику, что даже когда уже как бы все тебя безусловно до конца всего приняли, ты всё равно начинаешь понимать, что взрослая любовь всё равно условна. И там начинается момент взросления. То есть когда ты принимаешь условную любовь как что-то очень классное, развивающее тебя и здоровое, тут начинается переход от твоей детской части, которая хочет безусловно: «Люби меня за то, что я просто такой красивый есть», — до того, что, блять, оказывается, условия — это прям классно, границы — это прям круто, блять, меня возвращают и структурируют. Блин, у меня яйца начинают появляться — какие-то другого формата, другого размера, — и это прям круто."
+      },
+      "translation_groups": [],
+      "human_review": {
+        "audio_review": "APPROVED",
+        "start_edge": "HUMAN APPROVED earlier context; APPLIED at 03:22:13.070",
+        "end_edge": "APPROVED; final phrase и это прям круто is complete",
+        "corrections": [
+          {
+            "id": "C09",
+            "decision": "ACCEPT",
+            "approved_source_text": "красивый",
+            "approved_display_text": "красивый",
+            "preserve_colloquial_syntax": true
+          }
+        ]
+      }
+    }
+  ],
+  "human_decision_batch": {
+    "applied_at": "2026-08-21",
+    "artifact": "reel-input/HUMAN_EDITORIAL_DECISIONS.md",
+    "canonical_episode_asr_modified": false
+  },
+  "series_production": {
+    "width_aware_layout": true,
+    "canonical_episode_asr_modified": false,
+    "master_source_modified": false
+  }
+}

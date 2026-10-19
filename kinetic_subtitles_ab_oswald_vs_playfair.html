@@ -1,0 +1,178 @@
+<h2 class="sr-only">Two side-by-side vertical 9:16 kinetic-subtitle players comparing accent styles: variant A uses bold Oswald accents, variant B uses Playfair italic accents, both burgundy with white outline.</h2>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,500;1,600;1,700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.31.0/dist/tabler-icons.min.css');
+/* Fallback-значения переменных и чёрный фон страницы — чтобы фрагмент корректно
+   выглядел и при открытии напрямую, и при встраивании во внешнюю страницу. */
+:root{
+  --font-sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  --font-mono:ui-monospace,SFMono-Regular,Menlo,monospace;
+  --text-primary:#f7f5f3;--text-secondary:#9a9490;
+  --surface-1:#15110f;--surface-2:#221b18;
+  --border-strong:rgba(255,255,255,.18);--radius:8px;
+}
+html,body{background:#0c0a0b;margin:0}
+.kt-wrap{display:flex;flex-direction:column;align-items:center;padding:1rem 0;font-family:var(--font-sans);width:100%;box-sizing:border-box}
+.kt-row{display:flex;gap:20px;justify-content:center;flex-wrap:wrap}
+.kt-col{display:flex;flex-direction:column;align-items:center}
+.kt-tag{font-size:12px;color:var(--text-secondary);margin-bottom:8px;font-family:var(--font-mono);text-align:center;line-height:1.4}
+.kt-tag b{color:var(--text-primary);font-weight:500}
+.kt-stage{position:relative;width:300px;height:533px;border-radius:24px;overflow:hidden;background:#0c0a0b;border:1px solid rgba(255,255,255,.09);box-sizing:border-box}
+.kt-glow{position:absolute;inset:0;background:radial-gradient(120% 55% at 50% 8%, rgba(150,30,48,.28), rgba(12,10,11,0) 60%);pointer-events:none}
+.kt-vig{position:absolute;inset:0;background:radial-gradient(130% 100% at 50% 50%, rgba(0,0,0,0) 55%, rgba(0,0,0,.55) 100%);pointer-events:none}
+.kt-layer{position:absolute;inset:0}
+.kt-chunk{position:absolute;left:20px;right:20px;top:55%;display:flex;flex-wrap:wrap;justify-content:center;align-items:baseline;gap:5px 8px;text-align:center;will-change:transform,opacity}
+.kt-w{position:relative;display:inline-block;will-change:transform,opacity,filter;line-height:1.05;color:#f7f5f3}
+.kt-n{font-family:'Oswald',sans-serif;font-weight:500;font-size:27px;text-transform:uppercase;letter-spacing:.3px;text-shadow:0 2px 14px rgba(0,0,0,.55)}
+.kt-s{font-family:'Oswald',sans-serif;font-weight:700;font-size:29px;text-transform:uppercase;text-shadow:0 2px 14px rgba(0,0,0,.6)}
+.acc-os .kt-a{font-family:'Oswald',sans-serif;font-weight:700;font-size:34px;text-transform:uppercase;letter-spacing:.3px;color:#a01f33;-webkit-text-stroke:1.4px #fff;paint-order:stroke fill;text-shadow:0 3px 15px rgba(0,0,0,.6),0 0 20px rgba(160,30,50,.35)}
+.acc-os .kt-A{font-family:'Oswald',sans-serif;font-weight:700;font-size:46px;text-transform:uppercase;letter-spacing:.2px;color:#b0223a;-webkit-text-stroke:1.7px #fff;paint-order:stroke fill;text-shadow:0 4px 18px rgba(0,0,0,.6),0 0 24px rgba(170,35,55,.4)}
+.acc-pf .kt-a{font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:600;font-size:37px;color:#a01f33;-webkit-text-stroke:1.2px #fff;paint-order:stroke fill;text-shadow:0 3px 15px rgba(0,0,0,.6),0 0 20px rgba(160,30,50,.35)}
+.acc-pf .kt-A{font-family:'Playfair Display',Georgia,serif;font-style:italic;font-weight:700;font-size:50px;color:#b0223a;-webkit-text-stroke:1.5px #fff;paint-order:stroke fill;text-shadow:0 4px 18px rgba(0,0,0,.6),0 0 24px rgba(170,35,55,.4)}
+.kt-bar{position:absolute;left:20px;right:20px;bottom:18px;height:3px;border-radius:3px;background:rgba(255,255,255,.14)}
+.kt-fill{position:absolute;left:0;top:0;height:100%;width:0;background:#b0223a;border-radius:3px}
+.kt-ctrls{display:flex;align-items:center;gap:10px;width:100%;max-width:420px;margin-top:16px}
+.kt-btn{flex:none;width:38px;height:38px;border-radius:50%;border:1px solid var(--border-strong,rgba(255,255,255,.18));background:var(--surface-2,#221b18);color:var(--text-primary,#f7f5f3);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:17px;line-height:1}
+.kt-btn:hover{background:var(--surface-1,#15110f)}
+#ktPlay{background:#b0223a;border-color:#b0223a;color:#fff}
+#ktPlay:hover{background:#c4283f}
+.kt-time{font-family:var(--font-mono);font-size:12px;color:var(--text-secondary);min-width:74px;text-align:center}
+.kt-scrub{flex:1}
+.kt-spd{flex:none;width:42px;height:30px;border-radius:var(--radius,8px);border:1px solid var(--border-strong,rgba(255,255,255,.18));background:var(--surface-2,#221b18);color:var(--text-secondary,#9a9490);cursor:pointer;font-size:12px;font-family:var(--font-mono)}
+
+/* Мобильная адаптация: видео в один столбец, плеер на всю ширину экрана */
+@media (max-width:680px){
+  .kt-wrap{padding:.75rem 0}
+  .kt-row{flex-direction:column;gap:22px}
+  .kt-col{width:100%}
+  .kt-stage{width:min(300px,86vw);height:auto;aspect-ratio:300/533;max-height:78vh}
+  .kt-ctrls{max-width:min(420px,90vw);padding:0 12px;box-sizing:border-box}
+}
+@media (max-width:680px) and (max-height:760px){
+  /* На невысоких экранах ужимаем, чтобы оба плеера были листаемы */
+  .kt-stage{width:min(300px,60vh)}
+}
+</style>
+
+<div class="kt-wrap">
+  <div class="kt-row">
+    <div class="kt-col">
+      <div class="kt-tag"><b>A</b> · акцент Oswald жирный</div>
+      <div class="kt-stage acc-os"><div class="kt-glow"></div><div class="kt-layer" id="layA"></div><div class="kt-vig"></div><div class="kt-bar"><div class="kt-fill" id="fillA"></div></div></div>
+    </div>
+    <div class="kt-col">
+      <div class="kt-tag"><b>B</b> · акцент Playfair курсив</div>
+      <div class="kt-stage acc-pf"><div class="kt-glow"></div><div class="kt-layer" id="layB"></div><div class="kt-vig"></div><div class="kt-bar"><div class="kt-fill" id="fillB"></div></div></div>
+    </div>
+  </div>
+  <div class="kt-ctrls">
+    <button class="kt-btn" id="ktPlay" aria-label="Play"><i class="ti ti-player-play"></i></button>
+    <button class="kt-btn" id="ktRe" aria-label="Restart"><i class="ti ti-refresh"></i></button>
+    <span class="kt-time" id="ktTime">0:00 / 0:58</span>
+    <input class="kt-scrub" id="ktScrub" type="range" min="0" max="58.5" step="0.02" value="0" aria-label="Timeline scrubber"/>
+    <button class="kt-spd" id="ktSpd">1×</button>
+  </div>
+</div>
+
+<script>
+(function(){
+  var n='n',s='s',a='a',A='A';
+  var SEG=[
+    {t:0.2,w:[['У',n],['меня',n],['есть',n],['пример',n]]},
+    {t:2.0,w:[['друг',n],['—',n],['невероятно',n],['красивый',a]]},
+    {t:3.6,w:[['невероятно',n],['успешный',a]]},
+    {t:5.0,w:[['был',n],['одержим',A],['ею',n]]},
+    {t:10.0,w:[['он',n],['показал',n],['переписку',n]]},
+    {t:11.4,w:[['«что',n],['я',n],['не так',a],['сделал?»',n]]},
+    {t:14.0,w:[['не',n],['переспал',n],['с',n],['ней',n]]},
+    {t:15.0,w:[['после',n],['шести',A],['свиданий',n]]},
+    {t:18.2,w:[['«какого',n],['хрена',a],['происходит?»',n]]},
+    {t:20.2,w:[['я',n],['думала,',n],['я',n],['тебе',n],['нравлюсь',a]]},
+    {t:22.4,w:[['в',n],['чём',n],['проблема?»',a]]},
+    {t:24.3,w:[['«я',n],['не',n],['чувствую',n],['себя',n],['желанной',A]]},
+    {t:26.8,w:[['ты',n],['водишь',n],['в',n],['нужные',n],['места',n]]},
+    {t:29.0,w:[['ты',n],['явно',n],['добытчик',a]]},
+    {t:31.0,w:[['готов',n],['дать',n],['мне',n],['всё',n]]},
+    {t:33.2,w:[['но',n],['не',n],['то, что нужно',s]]},
+    {t:35.4,w:[['твоё',n],['внимание',a]]},
+    {t:37.6,w:[['твоё',n],['желание',A]]},
+    {t:40.3,w:[['вышла',n],['из',n],['долгих',n],['отношений',n]]},
+    {t:42.6,w:[['переехала',n],['в',n],['новый',n],['город',n]]},
+    {t:44.8,w:[['на',n],['пике карьеры',a]]},
+    {t:46.8,w:[['взяла',n],['жизнь',n],['под',n],['контроль',a]]},
+    {t:49.0,w:[['кайфовала',n],['от',n],['этой',n],['власти',a]]},
+    {t:51.2,w:[['хотела',n],['чувствовать',n],['себя',n],['живой',A]]},
+    {t:54.3,w:[['он',n],['дал',n],['ей',n],['это',n],['ощущение',n]]},
+    {t:56.2,w:[['но',n],['всё',n],['быстро',n],['рухнуло',A]]}
+  ];
+  var TOTAL=58.5,FADE=0.4,WDUR=0.44,PERW=0.18;
+  for(var i=0;i<SEG.length;i++){SEG[i].tEnd=(i<SEG.length-1)?SEG[i+1].t:TOTAL;}
+
+  function build(layerId){
+    var layer=document.getElementById(layerId), chunks=[];
+    SEG.forEach(function(seg){
+      var el=document.createElement('div'); el.className='kt-chunk'; el.style.display='none';
+      var words=[];
+      seg.w.forEach(function(pair,idx){
+        var sp=document.createElement('span'); sp.className='kt-w kt-'+pair[1]; sp.textContent=pair[0];
+        el.appendChild(sp);
+        words.push({el:sp,style:pair[1],tRev:seg.t+idx*PERW,fall:(pair[0]==='рухнуло')});
+      });
+      layer.appendChild(el);
+      chunks.push({el:el,words:words,t:seg.t,tEnd:seg.tEnd});
+    });
+    return chunks;
+  }
+  var A1=build('layA'), B1=build('layB');
+
+  function eOut(p){return 1-Math.pow(1-p,3);}
+  function eBack(p){var c1=1.70158,c3=c1+1;return 1+c3*Math.pow(p-1,3)+c1*Math.pow(p-1,2);}
+  function clamp(v){return v<0?0:v>1?1:v;}
+
+  function renderSet(chunks,t,fillId){
+    for(var i=0;i<chunks.length;i++){
+      var c=chunks[i];
+      var vis=t>=c.t-0.05 && t<c.tEnd+FADE;
+      if(!vis){ if(c.el.style.display!=='none') c.el.style.display='none'; continue; }
+      if(c.el.style.display==='none') c.el.style.display='flex';
+      var cAlpha=1,yLeave=0;
+      if(t>c.tEnd){ var f=clamp((t-c.tEnd)/FADE); cAlpha=1-f; yLeave=-f*30; }
+      c.el.style.opacity=cAlpha.toFixed(3);
+      c.el.style.transform='translateY(calc(-50% + '+yLeave.toFixed(1)+'px))';
+      for(var j=0;j<c.words.length;j++){
+        var w=c.words[j];
+        var p=clamp((t-w.tRev)/WDUR), pe=eOut(p), ty, sc;
+        if(w.fall){ var pb=eBack(p); ty=(p<1?(-26*(1-pb)):0); sc=0.96+0.04*pb; }
+        else if(w.style==='A'){ var pk=eBack(p); ty=(1-pe)*16; sc=0.9+0.1*pk; }
+        else { ty=(1-pe)*16; sc=0.92+0.08*pe; }
+        var bl=(1-pe)*4;
+        w.el.style.opacity=pe.toFixed(3);
+        w.el.style.transform='translateY('+ty.toFixed(1)+'px) scale('+sc.toFixed(3)+')';
+        w.el.style.filter= bl>0.15 ? 'blur('+bl.toFixed(1)+'px)' : 'none';
+      }
+    }
+    document.getElementById(fillId).style.width=(clamp(t/TOTAL)*100)+'%';
+  }
+  function render(t){ renderSet(A1,t,'fillA'); renderSet(B1,t,'fillB'); }
+
+  function fmt(x){var m=Math.floor(x/60),sec=Math.floor(x%60);return m+':'+(sec<10?'0':'')+sec;}
+  var timeEl=document.getElementById('ktTime'), scrub=document.getElementById('ktScrub');
+  function setT(t){ render(t); scrub.value=t; timeEl.textContent=fmt(t)+' / '+fmt(TOTAL); }
+
+  var playing=false,raf=null,wallStart=0,tAtPlay=0,speed=1;
+  var playBtn=document.getElementById('ktPlay');
+  function icon(name){playBtn.innerHTML='<i class="ti ti-'+name+'"></i>';}
+  function tick(now){ if(!playing)return; var t=tAtPlay+(now-wallStart)/1000*speed; if(t>=TOTAL){ t=TOTAL; setT(t); stop(); icon('refresh'); playBtn.setAttribute('data-end','1'); return;} setT(t); raf=requestAnimationFrame(tick); }
+  function play(){ if(playBtn.getAttribute('data-end')){ playBtn.removeAttribute('data-end'); setT(0);} playing=true; icon('player-pause'); wallStart=performance.now(); tAtPlay=parseFloat(scrub.value); raf=requestAnimationFrame(tick); }
+  function stop(){ playing=false; icon('player-play'); if(raf)cancelAnimationFrame(raf); }
+  playBtn.addEventListener('click',function(){ playing?stop():play(); });
+  document.getElementById('ktRe').addEventListener('click',function(){ stop(); playBtn.removeAttribute('data-end'); setT(0); play(); });
+  scrub.addEventListener('input',function(){ if(playing)stop(); playBtn.removeAttribute('data-end'); setT(parseFloat(scrub.value)); });
+  var spd=document.getElementById('ktSpd'),speeds=[1,1.5,2],si=0;
+  spd.addEventListener('click',function(){ si=(si+1)%speeds.length; speed=speeds[si]; spd.textContent=speed+'×'; if(playing){ wallStart=performance.now(); tAtPlay=parseFloat(scrub.value);} });
+
+  setT(0);
+  // Автоплей при загрузке (анимация без звука — браузеры не блокируют).
+  play();
+})();
+</script>

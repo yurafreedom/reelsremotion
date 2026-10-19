@@ -1,0 +1,1124 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "R07",
+  "slug": "r07-kneeling-return-to-body",
+  "title": "Kneeling / Returning to the Body",
+  "stage": "preproduction",
+  "approval_status": "HUMAN_AUDIO_APPROVED; SELECTED_20MS_JOIN; VISUAL_DESIGN_PENDING; FINAL_TIMELINE_NOT_AUTHORIZED",
+  "final_human_gate": {
+    "join_01": "APPROVED",
+    "guest_proof": "APPROVED",
+    "c10": "ACCEPTED",
+    "always_correction": "ACCEPTED",
+    "retained_blocks": [
+      { "start": 868.89, "end": 883.55, "start_tc": "00:14:28.890", "end_tc": "00:14:43.550" },
+      { "start": 900.0, "end": 917.52, "start_tc": "00:15:00.000", "end_tc": "00:15:17.520", "must_remain_complete": true },
+      { "start": 938.18, "end": 961.32, "start_tc": "00:15:38.180", "end_tc": "00:16:01.320" }
+    ],
+    "full_sequence_preview": "scratch_check/final_human_gate/r07/r07_full_retained_sequence_preview.mp4",
+    "full_sequence_confirmation": "CONTENT_APPROVED; AUDIO_CLICK_REMEDIATION_REQUIRED_AT_JOIN_02",
+    "join_02_audio_status": "APPROVED_20MS_OPTION_A",
+    "join_02_audio_option_a": "scratch_check/final_human_gate/r07/r07_join_02_audio_A_20ms.mp4",
+    "join_02_audio_option_b": "scratch_check/final_human_gate/r07/r07_join_02_audio_B_50ms.mp4",
+    "join_02_audio_option_b_status": "REJECTED_NOT_SELECTED",
+    "selected_audio_join": "20MS_OPTION_A",
+    "join_02_video_transition": "UNCHANGED_HARD_CUT",
+    "source_blocks_changed": false,
+    "final_timeline_authorized": false
+  },
+  "source_authority": {
+    "source_video": "video1219377731.mp4",
+    "native_asr_word_timing": "transcripts/video1219377731/asr_video1219377731.json",
+    "native_srt": "transcripts/video1219377731/subtitles_native.srt",
+    "english_translation_srt": "transcripts/video1219377731/subtitles_en.srt",
+    "contextual_english_to_russian": "transcripts/video1219377731/en_spans_ru.json",
+    "prose_transcripts": "semantic search only; never timing authority"
+  },
+  "source_media": {
+    "duration_seconds": 13974.421333,
+    "video": "h264 1280x720 25fps yuv420p",
+    "audio": "aac stereo 48000Hz",
+    "source_untouched": true
+  },
+  "clips": [
+    {
+      "id": "r07-reframe",
+      "role": "definition",
+      "source_video": "video1219377731.mp4",
+      "source_start": 868.89,
+      "source_end": 917.52,
+      "source_start_tc": "00:14:28.890",
+      "source_end_tc": "00:15:17.520",
+      "extracted_duration_expected": 48.63,
+      "output_path": "reel-input/r07-kneeling-return-to-body/public/clips/001_definition.mp4",
+      "extraction_mode": "exact-reencode",
+      "languages": [
+        "ru"
+      ],
+      "speaker": "Russian-speaking host, likely Evgeniia",
+      "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+      "source_quote": "И вот, когда я поняла, что значит, стать на колени, это не стать на колени перед человеком, это стать на колени, чтобы успокоиться, чтобы заземлиться, чтобы вообще прийти в себя, вернуться в тело, потому что мы думаем, что мы дохрена умные, мы всё знаем, мы просто самые классные, но, как говорит Эндрю, что мне было сначала очень больно, а потом очень приятно. То есть динамика всегда высвобождает очень большое количество эндорфинов именно от того, что тебя успокаивают, тебе дают контейнер, тебе задают один вопрос в одну секунду, тогда как наш мозг обрабатывает миллион вопросов за одну секунду, и это очень сильно вызывает тревожность.",
+      "source_subtitles": [
+        {
+          "id": 224,
+          "start": 868.89,
+          "end": 870.31,
+          "start_tc": "00:14:28.890",
+          "end_tc": "00:14:30.310",
+          "language": "ru",
+          "text": "И вот, когда я поняла,",
+          "words": [
+            {
+              "word": "И",
+              "start": 868.89,
+              "end": 868.89
+            },
+            {
+              "word": "вот,",
+              "start": 868.89,
+              "end": 868.99
+            },
+            {
+              "word": "когда",
+              "start": 869.05,
+              "end": 869.25
+            },
+            {
+              "word": "я",
+              "start": 869.25,
+              "end": 869.41
+            },
+            {
+              "word": "поняла,",
+              "start": 869.41,
+              "end": 870.31
+            }
+          ]
+        },
+        {
+          "id": 225,
+          "start": 870.47,
+          "end": 872.09,
+          "start_tc": "00:14:30.470",
+          "end_tc": "00:14:32.090",
+          "language": "ru",
+          "text": "что значит, стать на колени,",
+          "words": [
+            {
+              "word": "что",
+              "start": 870.47,
+              "end": 870.69
+            },
+            {
+              "word": "значит,",
+              "start": 870.69,
+              "end": 871.07
+            },
+            {
+              "word": "стать",
+              "start": 871.33,
+              "end": 871.37
+            },
+            {
+              "word": "на",
+              "start": 871.37,
+              "end": 871.61
+            },
+            {
+              "word": "колени,",
+              "start": 871.61,
+              "end": 872.09
+            }
+          ]
+        },
+        {
+          "id": 226,
+          "start": 872.61,
+          "end": 874.85,
+          "start_tc": "00:14:32.610",
+          "end_tc": "00:14:34.850",
+          "language": "ru",
+          "text": "это не стать на колени перед человеком,",
+          "words": [
+            {
+              "word": "это",
+              "start": 872.61,
+              "end": 872.89
+            },
+            {
+              "word": "не",
+              "start": 872.89,
+              "end": 873.05
+            },
+            {
+              "word": "стать",
+              "start": 873.05,
+              "end": 873.19
+            },
+            {
+              "word": "на",
+              "start": 873.19,
+              "end": 873.43
+            },
+            {
+              "word": "колени",
+              "start": 873.43,
+              "end": 873.75
+            },
+            {
+              "word": "перед",
+              "start": 873.75,
+              "end": 874.01
+            },
+            {
+              "word": "человеком,",
+              "start": 874.01,
+              "end": 874.85
+            }
+          ]
+        },
+        {
+          "id": 227,
+          "start": 875.19,
+          "end": 876.25,
+          "start_tc": "00:14:35.190",
+          "end_tc": "00:14:36.250",
+          "language": "ru",
+          "text": "это стать на колени,",
+          "words": [
+            {
+              "word": "это",
+              "start": 875.19,
+              "end": 875.41
+            },
+            {
+              "word": "стать",
+              "start": 875.41,
+              "end": 875.63
+            },
+            {
+              "word": "на",
+              "start": 875.63,
+              "end": 875.85
+            },
+            {
+              "word": "колени,",
+              "start": 875.85,
+              "end": 876.25
+            }
+          ]
+        },
+        {
+          "id": 228,
+          "start": 876.25,
+          "end": 878.87,
+          "start_tc": "00:14:36.250",
+          "end_tc": "00:14:38.870",
+          "language": "ru",
+          "text": "чтобы успокоиться, чтобы заземлиться,",
+          "words": [
+            {
+              "word": "чтобы",
+              "start": 876.25,
+              "end": 876.71
+            },
+            {
+              "word": "успокоиться,",
+              "start": 876.71,
+              "end": 877.53
+            },
+            {
+              "word": "чтобы",
+              "start": 877.89,
+              "end": 878.07
+            },
+            {
+              "word": "заземлиться,",
+              "start": 878.07,
+              "end": 878.87
+            }
+          ]
+        },
+        {
+          "id": 229,
+          "start": 879.05,
+          "end": 879.41,
+          "start_tc": "00:14:39.050",
+          "end_tc": "00:14:39.410",
+          "language": "ru",
+          "text": "чтобы",
+          "words": [
+            {
+              "word": "чтобы",
+              "start": 879.05,
+              "end": 879.41
+            }
+          ]
+        },
+        {
+          "id": 230,
+          "start": 881.01,
+          "end": 882.43,
+          "start_tc": "00:14:41.010",
+          "end_tc": "00:14:42.430",
+          "language": "ru",
+          "text": "вообще прийти в себя,",
+          "words": [
+            {
+              "word": "вообще",
+              "start": 881.01,
+              "end": 881.53
+            },
+            {
+              "word": "прийти",
+              "start": 881.53,
+              "end": 882.05
+            },
+            {
+              "word": "в",
+              "start": 882.05,
+              "end": 882.19
+            },
+            {
+              "word": "себя,",
+              "start": 882.19,
+              "end": 882.43
+            }
+          ]
+        },
+        {
+          "id": 231,
+          "start": 882.43,
+          "end": 884.57,
+          "start_tc": "00:14:42.430",
+          "end_tc": "00:14:44.570",
+          "language": "ru",
+          "text": "вернуться в тело, потому что мы думаем,",
+          "words": [
+            {
+              "word": "вернуться",
+              "start": 882.43,
+              "end": 882.85
+            },
+            {
+              "word": "в",
+              "start": 882.85,
+              "end": 883.11
+            },
+            {
+              "word": "тело,",
+              "start": 883.11,
+              "end": 883.55
+            },
+            {
+              "word": "потому",
+              "start": 883.57,
+              "end": 883.85
+            },
+            {
+              "word": "что",
+              "start": 883.85,
+              "end": 884.05
+            },
+            {
+              "word": "мы",
+              "start": 884.05,
+              "end": 884.19
+            },
+            {
+              "word": "думаем,",
+              "start": 884.19,
+              "end": 884.57
+            }
+          ]
+        },
+        {
+          "id": 232,
+          "start": 884.73,
+          "end": 886.57,
+          "start_tc": "00:14:44.730",
+          "end_tc": "00:14:46.570",
+          "language": "ru",
+          "text": "что мы дохрена умные, мы всё знаем,",
+          "words": [
+            {
+              "word": "что",
+              "start": 884.73,
+              "end": 884.75
+            },
+            {
+              "word": "мы",
+              "start": 884.75,
+              "end": 884.89
+            },
+            {
+              "word": "дохрена",
+              "start": 884.89,
+              "end": 885.29
+            },
+            {
+              "word": "умные,",
+              "start": 885.29,
+              "end": 885.73
+            },
+            {
+              "word": "мы",
+              "start": 885.79,
+              "end": 885.89
+            },
+            {
+              "word": "всё",
+              "start": 885.89,
+              "end": 886.13
+            },
+            {
+              "word": "знаем,",
+              "start": 886.13,
+              "end": 886.57
+            }
+          ]
+        },
+        {
+          "id": 233,
+          "start": 886.57,
+          "end": 887.35,
+          "start_tc": "00:14:46.570",
+          "end_tc": "00:14:47.350",
+          "language": "ru",
+          "text": "мы",
+          "words": [
+            {
+              "word": "мы",
+              "start": 886.57,
+              "end": 887.35
+            }
+          ]
+        },
+        {
+          "id": 234,
+          "start": 889.59,
+          "end": 890.27,
+          "start_tc": "00:14:49.590",
+          "end_tc": "00:14:50.270",
+          "language": "ru",
+          "text": "просто",
+          "words": [
+            {
+              "word": "просто",
+              "start": 889.59,
+              "end": 890.27
+            }
+          ]
+        },
+        {
+          "id": 235,
+          "start": 891.75,
+          "end": 892.43,
+          "start_tc": "00:14:51.750",
+          "end_tc": "00:14:52.430",
+          "language": "ru",
+          "text": "самые",
+          "words": [
+            {
+              "word": "самые",
+              "start": 891.75,
+              "end": 892.43
+            }
+          ]
+        },
+        {
+          "id": 236,
+          "start": 892.43,
+          "end": 893.77,
+          "start_tc": "00:14:52.430",
+          "end_tc": "00:14:53.770",
+          "language": "ru",
+          "text": "классные, но,",
+          "words": [
+            {
+              "word": "классные,",
+              "start": 892.43,
+              "end": 893.17
+            },
+            {
+              "word": "но,",
+              "start": 893.53,
+              "end": 893.77
+            }
+          ]
+        },
+        {
+          "id": 237,
+          "start": 893.81,
+          "end": 895.55,
+          "start_tc": "00:14:53.810",
+          "end_tc": "00:14:55.550",
+          "language": "ru",
+          "text": "как говорит Эндрю, что мне было",
+          "words": [
+            {
+              "word": "как",
+              "start": 893.81,
+              "end": 894.17
+            },
+            {
+              "word": "говорит",
+              "start": 894.17,
+              "end": 894.51
+            },
+            {
+              "word": "Эндрю,",
+              "start": 894.51,
+              "end": 894.95
+            },
+            {
+              "word": "что",
+              "start": 895.05,
+              "end": 895.07
+            },
+            {
+              "word": "мне",
+              "start": 895.07,
+              "end": 895.25
+            },
+            {
+              "word": "было",
+              "start": 895.25,
+              "end": 895.55
+            }
+          ]
+        },
+        {
+          "id": 238,
+          "start": 896.75,
+          "end": 898.67,
+          "start_tc": "00:14:56.750",
+          "end_tc": "00:14:58.670",
+          "language": "ru",
+          "text": "сначала очень больно,",
+          "words": [
+            {
+              "word": "сначала",
+              "start": 896.75,
+              "end": 897.43
+            },
+            {
+              "word": "очень",
+              "start": 897.43,
+              "end": 897.83
+            },
+            {
+              "word": "больно,",
+              "start": 897.83,
+              "end": 898.67
+            }
+          ]
+        },
+        {
+          "id": 239,
+          "start": 898.71,
+          "end": 899.95,
+          "start_tc": "00:14:58.710",
+          "end_tc": "00:14:59.950",
+          "language": "ru",
+          "text": "а потом очень приятно.",
+          "words": [
+            {
+              "word": "а",
+              "start": 898.71,
+              "end": 898.99
+            },
+            {
+              "word": "потом",
+              "start": 898.99,
+              "end": 899.19
+            },
+            {
+              "word": "очень",
+              "start": 899.19,
+              "end": 899.41
+            },
+            {
+              "word": "приятно.",
+              "start": 899.41,
+              "end": 899.95
+            }
+          ]
+        },
+        {
+          "id": 240,
+          "start": 900,
+          "end": 904.52,
+          "start_tc": "00:15:00.000",
+          "end_tc": "00:15:04.520",
+          "language": "ru",
+          "text": "То есть динамика всегда высвобождает очень большое количество эндорфинов именно от того,",
+          "words": [
+            {
+              "word": "То",
+              "start": 900,
+              "end": 900.36
+            },
+            {
+              "word": "есть",
+              "start": 900.36,
+              "end": 900.56
+            },
+            {
+              "word": "динамика",
+              "start": 900.56,
+              "end": 901.24
+            },
+            {
+              "word": "всегда",
+              "start": 901.24,
+              "end": 901.5
+            },
+            {
+              "word": "высвобождает",
+              "start": 901.5,
+              "end": 902.1
+            },
+            {
+              "word": "очень",
+              "start": 902.1,
+              "end": 902.3
+            },
+            {
+              "word": "большое",
+              "start": 902.3,
+              "end": 902.44
+            },
+            {
+              "word": "количество",
+              "start": 902.44,
+              "end": 902.92
+            },
+            {
+              "word": "эндорфинов",
+              "start": 902.92,
+              "end": 903.4
+            },
+            {
+              "word": "именно",
+              "start": 903.4,
+              "end": 903.74
+            },
+            {
+              "word": "от",
+              "start": 903.74,
+              "end": 904.28
+            },
+            {
+              "word": "того,",
+              "start": 904.28,
+              "end": 904.52
+            }
+          ]
+        },
+        {
+          "id": 241,
+          "start": 904.62,
+          "end": 910.38,
+          "start_tc": "00:15:04.620",
+          "end_tc": "00:15:10.380",
+          "language": "ru",
+          "text": "что тебя успокаивают, тебе дают контейнер, тебе задают один вопрос в одну секунду,",
+          "words": [
+            {
+              "word": "что",
+              "start": 904.62,
+              "end": 904.76
+            },
+            {
+              "word": "тебя",
+              "start": 904.76,
+              "end": 905.04
+            },
+            {
+              "word": "успокаивают,",
+              "start": 905.04,
+              "end": 905.98
+            },
+            {
+              "word": "тебе",
+              "start": 906.16,
+              "end": 906.32
+            },
+            {
+              "word": "дают",
+              "start": 906.32,
+              "end": 906.58
+            },
+            {
+              "word": "контейнер,",
+              "start": 906.58,
+              "end": 907.46
+            },
+            {
+              "word": "тебе",
+              "start": 907.82,
+              "end": 908.24
+            },
+            {
+              "word": "задают",
+              "start": 908.24,
+              "end": 908.6
+            },
+            {
+              "word": "один",
+              "start": 908.6,
+              "end": 909.02
+            },
+            {
+              "word": "вопрос",
+              "start": 909.02,
+              "end": 909.46
+            },
+            {
+              "word": "в",
+              "start": 909.46,
+              "end": 909.66
+            },
+            {
+              "word": "одну",
+              "start": 909.66,
+              "end": 909.8
+            },
+            {
+              "word": "секунду,",
+              "start": 909.8,
+              "end": 910.38
+            }
+          ]
+        },
+        {
+          "id": 242,
+          "start": 910.48,
+          "end": 915.16,
+          "start_tc": "00:15:10.480",
+          "end_tc": "00:15:15.160",
+          "language": "ru",
+          "text": "тогда как наш мозг обрабатывает миллион вопросов за одну секунду,",
+          "words": [
+            {
+              "word": "тогда",
+              "start": 910.48,
+              "end": 910.7
+            },
+            {
+              "word": "как",
+              "start": 910.7,
+              "end": 910.9
+            },
+            {
+              "word": "наш",
+              "start": 910.9,
+              "end": 911.12
+            },
+            {
+              "word": "мозг",
+              "start": 911.12,
+              "end": 911.46
+            },
+            {
+              "word": "обрабатывает",
+              "start": 911.46,
+              "end": 911.96
+            },
+            {
+              "word": "миллион",
+              "start": 911.96,
+              "end": 912.48
+            },
+            {
+              "word": "вопросов",
+              "start": 912.48,
+              "end": 913.18
+            },
+            {
+              "word": "за",
+              "start": 913.18,
+              "end": 913.88
+            },
+            {
+              "word": "одну",
+              "start": 913.88,
+              "end": 914.62
+            },
+            {
+              "word": "секунду,",
+              "start": 914.62,
+              "end": 915.16
+            }
+          ]
+        },
+        {
+          "id": 243,
+          "start": 915.18,
+          "end": 917.52,
+          "start_tc": "00:15:15.180",
+          "end_tc": "00:15:17.520",
+          "language": "ru",
+          "text": "и это очень сильно вызывает тревожность.",
+          "words": [
+            {
+              "word": "и",
+              "start": 915.18,
+              "end": 915.38
+            },
+            {
+              "word": "это",
+              "start": 915.38,
+              "end": 915.54
+            },
+            {
+              "word": "очень",
+              "start": 915.54,
+              "end": 915.92
+            },
+            {
+              "word": "сильно",
+              "start": 915.92,
+              "end": 916.28
+            },
+            {
+              "word": "вызывает",
+              "start": 916.28,
+              "end": 916.72
+            },
+            {
+              "word": "тревожность.",
+              "start": 916.72,
+              "end": 917.52
+            }
+          ]
+        }
+      ],
+      "boundary_flags": {
+        "start_inside_subtitle": false,
+        "end_inside_subtitle": false
+      },
+      "linguistic_boundary_note": "starts with a complete framing clause and ends on the anxiety consequence.",
+      "include_reason": "Explicitly reframes kneeling as calming, grounding, returning to the body and reducing cognitive overload/anxiety.",
+      "removable_filler": "The 'we are very smart/best' aside and endorphin sentence may be tightened at complete phrase boundaries.",
+      "visual_qc": "REVIEW_REQUIRED_AT_EXACT_EDGES",
+      "display_ru": {
+        "kind": "native-source-proposal",
+        "alignment": "native ASR word timing available; verify ASR errors by ear",
+        "provenance": "transcripts/video1219377731/asr_video1219377731.json",
+        "text": "И вот, когда я поняла, что значит, стать на колени, это не стать на колени перед человеком, это стать на колени, чтобы успокоиться, чтобы заземлиться, чтобы вообще прийти в себя, вернуться в тело, потому что мы думаем, что мы дохрена умные, мы всё знаем, мы просто самые классные, но, как говорит Эндрю, что мне было сначала очень больно, а потом очень приятно. То есть динамика всегда высвобождает очень большое количество эндорфинов именно от того, что тебя успокаивают, тебе дают контейнер, тебе задают один вопрос в одну секунду, тогда как наш мозг обрабатывает миллион вопросов за одну секунду, и это очень сильно вызывает тревожность."
+      },
+      "translation_groups": [],
+      "human_review": {
+        "corrections": [
+          {
+            "id": "R07-ALWAYS",
+            "decision": "ACCEPT",
+            "approved_source_text": "Динамика всегда высвобождает",
+            "approved_display_text": "Динамика всегда высвобождает",
+            "canonical_episode_asr_modified": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "r07-lived-experience",
+      "role": "guest-proof",
+      "source_video": "video1219377731.mp4",
+      "source_start": 938.18,
+      "source_end": 961.32,
+      "source_start_tc": "00:15:38.180",
+      "source_end_tc": "00:16:01.320",
+      "extracted_duration_expected": 23.14,
+      "output_path": "reel-input/r07-kneeling-return-to-body/public/clips/002_guest-proof.mp4",
+      "extraction_mode": "exact-reencode",
+      "languages": [
+        "en"
+      ],
+      "speaker": "English-speaking guest, likely Andrew",
+      "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+      "source_quote": "For me it was most beneficial after the first 10 minutes of being on my knees, because it starts to hurt and get uncomfortable and that makes you feel what you're thinking about, like actually you live it.",
+      "source_subtitles": [
+        {
+          "id": 244,
+          "start": 938.18,
+          "end": 948.36,
+          "start_tc": "00:15:38.180",
+          "end_tc": "00:15:48.360",
+          "language": "en",
+          "text": "For me it was most beneficial after the first 10 minutes of being on my knees,",
+          "words": [
+            {
+              "word": "For",
+              "start": 938.18,
+              "end": 938.9
+            },
+            {
+              "word": "me",
+              "start": 938.9,
+              "end": 939.62
+            },
+            {
+              "word": "it",
+              "start": 939.62,
+              "end": 939.78
+            },
+            {
+              "word": "was",
+              "start": 939.78,
+              "end": 940.06
+            },
+            {
+              "word": "most",
+              "start": 940.06,
+              "end": 942.6
+            },
+            {
+              "word": "beneficial",
+              "start": 942.6,
+              "end": 943.46
+            },
+            {
+              "word": "after",
+              "start": 943.46,
+              "end": 943.98
+            },
+            {
+              "word": "the",
+              "start": 943.98,
+              "end": 944.18
+            },
+            {
+              "word": "first",
+              "start": 944.18,
+              "end": 944.6
+            },
+            {
+              "word": "10",
+              "start": 944.6,
+              "end": 946.56
+            },
+            {
+              "word": "minutes",
+              "start": 946.56,
+              "end": 947.02
+            },
+            {
+              "word": "of",
+              "start": 947.02,
+              "end": 947.42
+            },
+            {
+              "word": "being",
+              "start": 947.42,
+              "end": 947.64
+            },
+            {
+              "word": "on",
+              "start": 947.64,
+              "end": 947.84
+            },
+            {
+              "word": "my",
+              "start": 947.84,
+              "end": 948
+            },
+            {
+              "word": "knees,",
+              "start": 948,
+              "end": 948.36
+            }
+          ]
+        },
+        {
+          "id": 245,
+          "start": 949.08,
+          "end": 956.5,
+          "start_tc": "00:15:49.080",
+          "end_tc": "00:15:56.500",
+          "language": "en",
+          "text": "because it starts to hurt and get uncomfortable and that makes you feel what you're thinking about,",
+          "words": [
+            {
+              "word": "because",
+              "start": 949.08,
+              "end": 949.44
+            },
+            {
+              "word": "it",
+              "start": 949.44,
+              "end": 949.68
+            },
+            {
+              "word": "starts",
+              "start": 949.68,
+              "end": 949.86
+            },
+            {
+              "word": "to",
+              "start": 949.86,
+              "end": 950.12
+            },
+            {
+              "word": "hurt",
+              "start": 950.12,
+              "end": 950.4
+            },
+            {
+              "word": "and",
+              "start": 950.4,
+              "end": 950.74
+            },
+            {
+              "word": "get",
+              "start": 950.74,
+              "end": 950.9
+            },
+            {
+              "word": "uncomfortable",
+              "start": 950.9,
+              "end": 951.3
+            },
+            {
+              "word": "and",
+              "start": 951.3,
+              "end": 952.34
+            },
+            {
+              "word": "that",
+              "start": 952.34,
+              "end": 952.56
+            },
+            {
+              "word": "makes",
+              "start": 952.56,
+              "end": 952.94
+            },
+            {
+              "word": "you",
+              "start": 952.94,
+              "end": 953.24
+            },
+            {
+              "word": "feel",
+              "start": 953.24,
+              "end": 955.2
+            },
+            {
+              "word": "what",
+              "start": 955.2,
+              "end": 955.6
+            },
+            {
+              "word": "you're",
+              "start": 955.6,
+              "end": 955.82
+            },
+            {
+              "word": "thinking",
+              "start": 955.82,
+              "end": 956.08
+            },
+            {
+              "word": "about,",
+              "start": 956.08,
+              "end": 956.5
+            }
+          ]
+        },
+        {
+          "id": 246,
+          "start": 959.16,
+          "end": 961.32,
+          "start_tc": "00:15:59.160",
+          "end_tc": "00:16:01.320",
+          "language": "en",
+          "text": "like actually you live it.",
+          "words": [
+            {
+              "word": "like",
+              "start": 959.16,
+              "end": 959.68
+            },
+            {
+              "word": "actually",
+              "start": 959.68,
+              "end": 960.2
+            },
+            {
+              "word": "you",
+              "start": 960.2,
+              "end": 960.56
+            },
+            {
+              "word": "live",
+              "start": 960.56,
+              "end": 960.8
+            },
+            {
+              "word": "it.",
+              "start": 960.8,
+              "end": 961.32
+            }
+          ]
+        }
+      ],
+      "boundary_flags": {
+        "start_inside_subtitle": false,
+        "end_inside_subtitle": false
+      },
+      "linguistic_boundary_note": "complete English span after a 20-second source pause; edit plan must signal the jump.",
+      "include_reason": "Adds a literal English description of discomfort making thoughts physically felt/lived.",
+      "removable_filler": "None; keep translation phrase-grouped rather than karaoke-mapped word by word.",
+      "visual_qc": "REVIEW_REQUIRED_AT_EXACT_EDGES",
+      "display_ru": {
+        "kind": "translation-layer",
+        "alignment": "phrase-group-only; no Russian acoustic word timestamps",
+        "provenance": "transcripts/video1219377731/en_spans_ru.json[5]",
+        "text": "Для меня самое полезное наступало после первых 10 минут стояния на коленях, потому что начинает болеть и становится некомфортно, и это заставляет тебя почувствовать, о чём ты думаешь, почувствовать, что ты говоришь, — то есть ты действительно это проживаешь."
+      },
+      "translation_groups": [
+        {
+          "id": "r07-lived-experience-g1",
+          "source_start": 938.18,
+          "source_end": 948.36,
+          "clip_start": 0,
+          "clip_end": 10.18,
+          "source_text": "For me it was most beneficial after the first 10 minutes of being on my knees,",
+          "display_ru": "Для меня самое полезное наступало после первых 10 минут стояния на коленях,"
+        },
+        {
+          "id": "r07-lived-experience-g2",
+          "source_start": 949.08,
+          "source_end": 961.32,
+          "clip_start": 10.9,
+          "clip_end": 23.14,
+          "source_text": "because it starts to hurt and get uncomfortable and that makes you feel what you're thinking about, feel what you're saying, like actually you live it.",
+          "display_ru": "потому что начинает болеть и становится некомфортно, и это заставляет тебя почувствовать, о чём ты думаешь, почувствовать, что ты говоришь, — то есть ты действительно это проживаешь.",
+          "canonical_source_text": "because it starts to hurt and get uncomfortable and that makes you feel what you're thinking about, like actually you live it.",
+          "source_text_status": "HUMAN_CORRECTED_MUTABLE_LAYER_C10"
+        }
+      ],
+      "human_review": {
+        "audio_review": "APPROVED",
+        "start_edge": "APPROVED",
+        "end_edge": "APPROVED; final complete phrase: like actually you live it; last word: it",
+        "corrections": [
+          {
+            "id": "C10",
+            "decision": "ACCEPT",
+            "approved_source_text": "that makes you feel what you're thinking about, feel what you're saying",
+            "approved_display_text": "и это заставляет тебя почувствовать, о чём ты думаешь, почувствовать, что ты говоришь, — то есть ты действительно это проживаешь.",
+            "alignment": "phrase-group-only; no Russian acoustic word timestamps"
+          }
+        ]
+      }
+    }
+  ],
+  "human_decision_batch": {
+    "applied_at": "2026-08-21",
+    "artifact": "reel-input/HUMAN_EDITORIAL_DECISIONS.md",
+    "canonical_episode_asr_modified": false
+  }
+}

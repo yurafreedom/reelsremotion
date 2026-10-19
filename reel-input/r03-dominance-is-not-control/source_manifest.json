@@ -1,0 +1,546 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "R03",
+  "slug": "r03-dominance-is-not-control",
+  "title": "Dominance Is Not Control",
+  "stage": "series-production-candidate",
+  "approval_status": "HUMAN_SOURCE_APPROVED; SERIES_PRODUCTION_CANDIDATE_AUTHORIZED",
+  "source_authority": {
+    "source_video": "video1219377731.mp4",
+    "native_asr_word_timing": "transcripts/video1219377731/asr_video1219377731.json",
+    "native_srt": "transcripts/video1219377731/subtitles_native.srt",
+    "english_translation_srt": "transcripts/video1219377731/subtitles_en.srt",
+    "contextual_english_to_russian": "transcripts/video1219377731/en_spans_ru.json",
+    "prose_transcripts": "semantic search only; never timing authority"
+  },
+  "source_media": {
+    "duration_seconds": 13974.421333,
+    "video": "h264 1280x720 25fps yuv420p",
+    "audio": "aac stereo 48000Hz",
+    "source_untouched": true
+  },
+  "clips": [
+    {
+      "id": "r03-stabilization",
+      "role": "body-payoff",
+      "source_video": "video1219377731.mp4",
+      "source_start": 2202.04,
+      "source_end": 2241.98,
+      "source_start_tc": "00:36:42.040",
+      "source_end_tc": "00:37:21.980",
+      "extracted_duration_expected": 39.94,
+      "output_path": "reel-input/r03-dominance-is-not-control/public/clips/001_body-payoff.mp4",
+      "extraction_mode": "exact-reencode",
+      "languages": [
+        "ru"
+      ],
+      "speaker": "Russian-speaking host, likely Evgeniia",
+      "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+      "source_quote": "и когда я вижу его такого спокойного, порядочного, упорядоченного, наводящего структуру, последовательного, составляющего графики, знающего, что мы будем делать, планирующего, мне становится спокойней, потому что есть более сильная нервная система, которая регулирует себя лучше рядом со мной, чем я в этот момент сама себя могу регулировать, то есть начинаем вкатываться, да, в динамику, что такое, то есть Dominant это не тот, кто тебя поглощает и за тебя принимает решение, это тот, кто стабилизирует тебя в момент, когда ты рассыпаешься,",
+      "source_subtitles": [
+        {
+          "id": 388,
+          "start": 2202.04,
+          "end": 2212.14,
+          "start_tc": "00:36:42.040",
+          "end_tc": "00:36:52.140",
+          "original_segment_start": 2202.04,
+          "original_segment_end": 2212.14,
+          "language": "ru",
+          "text": "и когда я вижу его такого спокойного, порядочного, упорядоченного, наводящего структуру, последовательного,",
+          "words": [
+            {
+              "word": "и",
+              "start": 2202.04,
+              "end": 2202.76
+            },
+            {
+              "word": "когда",
+              "start": 2202.76,
+              "end": 2202.96
+            },
+            {
+              "word": "я",
+              "start": 2202.96,
+              "end": 2203.12
+            },
+            {
+              "word": "вижу",
+              "start": 2203.12,
+              "end": 2203.36
+            },
+            {
+              "word": "его",
+              "start": 2203.36,
+              "end": 2203.74
+            },
+            {
+              "word": "такого",
+              "start": 2203.74,
+              "end": 2204.1
+            },
+            {
+              "word": "спокойного,",
+              "start": 2204.1,
+              "end": 2204.92
+            },
+            {
+              "word": "порядочного,",
+              "start": 2205.02,
+              "end": 2205.98
+            },
+            {
+              "word": "упорядоченного,",
+              "start": 2206.04,
+              "end": 2207.34
+            },
+            {
+              "word": "наводящего",
+              "start": 2207.44,
+              "end": 2208.84
+            },
+            {
+              "word": "структуру,",
+              "start": 2208.84,
+              "end": 2211.22
+            },
+            {
+              "word": "последовательного,",
+              "start": 2211.24,
+              "end": 2212.14
+            }
+          ]
+        },
+        {
+          "id": 389,
+          "start": 2212.18,
+          "end": 2218.78,
+          "start_tc": "00:36:52.180",
+          "end_tc": "00:36:58.780",
+          "original_segment_start": 2212.18,
+          "original_segment_end": 2218.78,
+          "language": "ru",
+          "text": "составляющего графики, знающего, что мы будем делать, планирующего, мне становится спокойней,",
+          "words": [
+            {
+              "word": "составляющего",
+              "start": 2212.18,
+              "end": 2212.86
+            },
+            {
+              "word": "графики,",
+              "start": 2212.86,
+              "end": 2213.56
+            },
+            {
+              "word": "знающего,",
+              "start": 2214.04,
+              "end": 2214.94
+            },
+            {
+              "word": "что",
+              "start": 2215.04,
+              "end": 2215.14
+            },
+            {
+              "word": "мы",
+              "start": 2215.14,
+              "end": 2215.28
+            },
+            {
+              "word": "будем",
+              "start": 2215.28,
+              "end": 2215.48
+            },
+            {
+              "word": "делать,",
+              "start": 2215.48,
+              "end": 2215.88
+            },
+            {
+              "word": "планирующего,",
+              "start": 2216.1,
+              "end": 2216.82
+            },
+            {
+              "word": "мне",
+              "start": 2217.18,
+              "end": 2217.52
+            },
+            {
+              "word": "становится",
+              "start": 2217.52,
+              "end": 2217.98
+            },
+            {
+              "word": "спокойней,",
+              "start": 2217.98,
+              "end": 2218.78
+            }
+          ]
+        },
+        {
+          "id": 390,
+          "start": 2220.44,
+          "end": 2226,
+          "start_tc": "00:37:00.440",
+          "end_tc": "00:37:06.000",
+          "original_segment_start": 2220.44,
+          "original_segment_end": 2226,
+          "language": "ru",
+          "text": "потому что есть более сильная нервная система, которая регулирует себя лучше рядом со мной,",
+          "words": [
+            {
+              "word": "потому",
+              "start": 2220.44,
+              "end": 2221.16
+            },
+            {
+              "word": "что",
+              "start": 2221.16,
+              "end": 2221.56
+            },
+            {
+              "word": "есть",
+              "start": 2221.56,
+              "end": 2222.18
+            },
+            {
+              "word": "более",
+              "start": 2222.18,
+              "end": 2222.48
+            },
+            {
+              "word": "сильная",
+              "start": 2222.48,
+              "end": 2222.98
+            },
+            {
+              "word": "нервная",
+              "start": 2222.98,
+              "end": 2223.36
+            },
+            {
+              "word": "система,",
+              "start": 2223.36,
+              "end": 2223.68
+            },
+            {
+              "word": "которая",
+              "start": 2223.8,
+              "end": 2224.1
+            },
+            {
+              "word": "регулирует",
+              "start": 2224.1,
+              "end": 2224.72
+            },
+            {
+              "word": "себя",
+              "start": 2224.72,
+              "end": 2224.94
+            },
+            {
+              "word": "лучше",
+              "start": 2224.94,
+              "end": 2225.22
+            },
+            {
+              "word": "рядом",
+              "start": 2225.22,
+              "end": 2225.52
+            },
+            {
+              "word": "со",
+              "start": 2225.52,
+              "end": 2225.8
+            },
+            {
+              "word": "мной,",
+              "start": 2225.8,
+              "end": 2226
+            }
+          ]
+        },
+        {
+          "id": 391,
+          "start": 2226,
+          "end": 2232.78,
+          "start_tc": "00:37:06.000",
+          "end_tc": "00:37:12.780",
+          "original_segment_start": 2226,
+          "original_segment_end": 2232.78,
+          "language": "ru",
+          "text": "чем я в этот момент сама себя могу регулировать, то есть начинаем вкатываться, да, в динамику,",
+          "words": [
+            {
+              "word": "чем",
+              "start": 2226,
+              "end": 2226.28
+            },
+            {
+              "word": "я",
+              "start": 2226.28,
+              "end": 2226.52
+            },
+            {
+              "word": "в",
+              "start": 2226.52,
+              "end": 2226.84
+            },
+            {
+              "word": "этот",
+              "start": 2226.84,
+              "end": 2227.02
+            },
+            {
+              "word": "момент",
+              "start": 2227.02,
+              "end": 2227.3
+            },
+            {
+              "word": "сама",
+              "start": 2227.3,
+              "end": 2227.66
+            },
+            {
+              "word": "себя",
+              "start": 2227.66,
+              "end": 2227.86
+            },
+            {
+              "word": "могу",
+              "start": 2227.86,
+              "end": 2228.1
+            },
+            {
+              "word": "регулировать,",
+              "start": 2228.1,
+              "end": 2228.84
+            },
+            {
+              "word": "то",
+              "start": 2229.52,
+              "end": 2229.56
+            },
+            {
+              "word": "есть",
+              "start": 2229.56,
+              "end": 2229.76
+            },
+            {
+              "word": "начинаем",
+              "start": 2229.76,
+              "end": 2230.9
+            },
+            {
+              "word": "вкатываться,",
+              "start": 2230.9,
+              "end": 2231.56
+            },
+            {
+              "word": "да,",
+              "start": 2231.68,
+              "end": 2231.78
+            },
+            {
+              "word": "в",
+              "start": 2231.92,
+              "end": 2232.08
+            },
+            {
+              "word": "динамику,",
+              "start": 2232.08,
+              "end": 2232.78
+            }
+          ]
+        },
+        {
+          "id": 392,
+          "start": 2232.78,
+          "end": 2238.78,
+          "start_tc": "00:37:12.780",
+          "end_tc": "00:37:18.780",
+          "original_segment_start": 2232.78,
+          "original_segment_end": 2238.78,
+          "language": "ru",
+          "text": "что такое, то есть Dominant это не тот, кто тебя поглощает и за тебя принимает решение, это тот,",
+          "words": [
+            {
+              "word": "что",
+              "start": 2232.78,
+              "end": 2233.04
+            },
+            {
+              "word": "такое,",
+              "start": 2233.04,
+              "end": 2233.38
+            },
+            {
+              "word": "то",
+              "start": 2233.96,
+              "end": 2234.02
+            },
+            {
+              "word": "есть",
+              "start": 2234.02,
+              "end": 2234.2
+            },
+            {
+              "word": "Dominant",
+              "start": 2234.2,
+              "end": 2234.88
+            },
+            {
+              "word": "это",
+              "start": 2234.88,
+              "end": 2235.08
+            },
+            {
+              "word": "не",
+              "start": 2235.08,
+              "end": 2235.24
+            },
+            {
+              "word": "тот,",
+              "start": 2235.24,
+              "end": 2235.44
+            },
+            {
+              "word": "кто",
+              "start": 2235.52,
+              "end": 2235.68
+            },
+            {
+              "word": "тебя",
+              "start": 2235.68,
+              "end": 2235.86
+            },
+            {
+              "word": "поглощает",
+              "start": 2235.86,
+              "end": 2236.46
+            },
+            {
+              "word": "и",
+              "start": 2236.46,
+              "end": 2236.58
+            },
+            {
+              "word": "за",
+              "start": 2236.58,
+              "end": 2236.66
+            },
+            {
+              "word": "тебя",
+              "start": 2236.66,
+              "end": 2236.84
+            },
+            {
+              "word": "принимает",
+              "start": 2236.84,
+              "end": 2237.34
+            },
+            {
+              "word": "решение,",
+              "start": 2237.34,
+              "end": 2237.86
+            },
+            {
+              "word": "это",
+              "start": 2238.04,
+              "end": 2238.54
+            },
+            {
+              "word": "тот,",
+              "start": 2238.54,
+              "end": 2238.78
+            }
+          ]
+        },
+        {
+          "id": 393,
+          "start": 2238.88,
+          "end": 2241.98,
+          "start_tc": "00:37:18.880",
+          "end_tc": "00:37:21.980",
+          "original_segment_start": 2238.88,
+          "original_segment_end": 2249.26,
+          "language": "ru",
+          "text": "кто стабилизирует тебя в момент, когда ты рассыпаешься,",
+          "words": [
+            {
+              "word": "кто",
+              "start": 2238.88,
+              "end": 2239.08
+            },
+            {
+              "word": "стабилизирует",
+              "start": 2239.08,
+              "end": 2239.96
+            },
+            {
+              "word": "тебя",
+              "start": 2239.96,
+              "end": 2240.14
+            },
+            {
+              "word": "в",
+              "start": 2240.14,
+              "end": 2240.28
+            },
+            {
+              "word": "момент,",
+              "start": 2240.28,
+              "end": 2240.48
+            },
+            {
+              "word": "когда",
+              "start": 2240.58,
+              "end": 2240.8
+            },
+            {
+              "word": "ты",
+              "start": 2240.8,
+              "end": 2240.94
+            },
+            {
+              "word": "рассыпаешься,",
+              "start": 2240.94,
+              "end": 2241.98
+            }
+          ]
+        }
+      ],
+      "boundary_flags": {
+        "start_inside_subtitle": false,
+        "end_inside_subtitle": true
+      },
+      "linguistic_boundary_note": "starts at a new example clause and closes the definition before a topic return.",
+      "include_reason": "Moves from observable calm/structure to the explicit 'not absorbs/decides for you' stabilization definition.",
+      "removable_filler": "The list of calm/ordered/planning qualities may be tightened only at phrase boundaries; keep the definition intact.",
+      "visual_qc": "REVIEW_REQUIRED_AT_EXACT_EDGES",
+      "display_ru": {
+        "kind": "native-source-proposal",
+        "alignment": "native ASR word timing available; verify ASR errors by ear",
+        "provenance": "transcripts/video1219377731/asr_video1219377731.json",
+        "text": "и когда я вижу его такого спокойного, порядочного, упорядоченного, наводящего структуру, последовательного, составляющего графики, знающего, что мы будем делать, планирующего, мне становится спокойней, потому что есть более сильная нервная система, которая регулирует себя лучше рядом со мной, чем я в этот момент сама себя могу регулировать, то есть начинаем вкатываться, да, в динамику, что такое, то есть Dominant это не тот, кто тебя поглощает и за тебя принимает решение, это тот, кто стабилизирует тебя в момент, когда ты рассыпаешься,"
+      },
+      "translation_groups": [],
+      "human_review": {
+        "audio_review": "APPROVED",
+        "end_edge": "HUMAN_APPROVED after когда ты рассыпаешься; APPLIED at 00:37:21.980"
+      }
+    }
+  ],
+  "human_decision_batch": {
+    "applied_at": "2026-08-21",
+    "artifact": "reel-input/HUMAN_EDITORIAL_DECISIONS.md",
+    "canonical_episode_asr_modified": false
+  },
+  "series_production": {
+    "width_aware_layout": true,
+    "canonical_episode_asr_modified": false,
+    "master_source_modified": false
+  }
+}

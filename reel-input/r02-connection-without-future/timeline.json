@@ -1,0 +1,6581 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 1984,
+  "subtitleLayout": {
+    "system": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+    "maxLines": 4,
+    "minimumFontSize": 44,
+    "internalMargin": 24,
+    "safeBounds": {
+      "left": 120,
+      "right": 960,
+      "top": 220,
+      "bottom": 1620
+    },
+    "groups": [
+      {
+        "id": "question:q-g1:page:1",
+        "authorityGroupId": "question:q-g1",
+        "pageIndex": 0,
+        "pageCount": 3,
+        "tokenStart": 0,
+        "tokenEnd": 6,
+        "displayText": "Ты когда-нибудь ловила себя на том,",
+        "lineCount": 2,
+        "font": "nikulinaSans",
+        "fontSize": 45,
+        "weight": 600,
+        "safeWidth": 840,
+        "safeBounds": {
+          "left": 120,
+          "right": 960,
+          "top": 220,
+          "bottom": 1620
+        },
+        "fixedFinalLayout": true,
+        "horizontalReflow": false,
+        "verticalReflow": false,
+        "lines": [
+          {
+            "text": "Ты когда-нибудь",
+            "lineIndex": 0,
+            "width": 371,
+            "x": 0,
+            "y": 480,
+            "bounds": {
+              "left": 354.5,
+              "right": 725.5,
+              "top": 1414.35,
+              "bottom": 1465.65
+            },
+            "wordFinalPositions": [
+              {
+                "text": "Ты",
+                "x": 383.41,
+                "y": 1440,
+                "left": 354.5,
+                "right": 412.31
+              },
+              {
+                "text": "когда-нибудь",
+                "x": 577.45,
+                "y": 1440,
+                "left": 429.4,
+                "right": 725.5
+              }
+            ]
+          },
+          {
+            "text": "ловила себя на том,",
+            "lineIndex": 1,
+            "width": 436,
+            "x": 0,
+            "y": 540,
+            "bounds": {
+              "left": 322,
+              "right": 758,
+              "top": 1474.35,
+              "bottom": 1525.65
+            },
+            "wordFinalPositions": [
+              {
+                "text": "ловила",
+                "x": 398.03,
+                "y": 1500,
+                "left": 322,
+                "right": 474.06
+              },
+              {
+                "text": "себя",
+                "x": 538.77,
+                "y": 1500,
+                "left": 490.79,
+                "right": 586.75
+              },
+              {
+                "text": "на",
+                "x": 626.86,
+                "y": 1500,
+                "left": 603.48,
+                "right": 650.23
+              },
+              {
+                "text": "том,",
+                "x": 712.48,
+                "y": 1500,
+                "left": 666.96,
+                "right": 758
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "question:q-g1:page:2",
+        "authorityGroupId": "question:q-g1",
+        "pageIndex": 1,
+        "pageCount": 3,
+        "tokenStart": 6,
+        "tokenEnd": 21,
+        "displayText": "что воспринимаешь каждую романтическую связь слишком серьёзно и берёшь на себя слишком много ответственности, настолько,",
+        "lineCount": 4,
+        "font": "nikulinaSans",
+        "fontSize": 45,
+        "weight": 600,
+        "safeWidth": 840,
+        "safeBounds": {
+          "left": 120,
+          "right": 960,
+          "top": 220,
+          "bottom": 1620
+        },
+        "fixedFinalLayout": true,
+        "horizontalReflow": false,
+        "verticalReflow": false,
+        "lines": [
+          {
+            "text": "что воспринимаешь каждую",
+            "lineIndex": 0,
+            "width": 637,
+            "x": 0,
+            "y": 420,
+            "bounds": {
+              "left": 221.5,
+              "right": 858.5,
+              "top": 1354.35,
+              "bottom": 1405.65
+            },
+            "wordFinalPositions": [
+              {
+                "text": "что",
+                "x": 257.11,
+                "y": 1380,
+                "left": 221.5,
+                "right": 292.72
+              },
+              {
+                "text": "воспринимаешь",
+                "x": 488.7,
+                "y": 1380,
+                "left": 309.65,
+                "right": 667.75
+              },
+              {
+                "text": "каждую",
+                "x": 771.59,
+                "y": 1380,
+                "left": 684.68,
+                "right": 858.5
+              }
+            ]
+          },
+          {
+            "text": "романтическую связь слишком",
+            "lineIndex": 1,
+            "width": 691,
+            "x": 0,
+            "y": 480,
+            "bounds": {
+              "left": 194.5,
+              "right": 885.5,
+              "top": 1414.35,
+              "bottom": 1465.65
+            },
+            "wordFinalPositions": [
+              {
+                "text": "романтическую",
+                "x": 367.87,
+                "y": 1440,
+                "left": 194.5,
+                "right": 541.24
+              },
+              {
+                "text": "связь",
+                "x": 615.9,
+                "y": 1440,
+                "left": 558.11,
+                "right": 673.69
+              },
+              {
+                "text": "слишком",
+                "x": 788.03,
+                "y": 1440,
+                "left": 690.55,
+                "right": 885.5
+              }
+            ]
+          },
+          {
+            "text": "серьёзно и берёшь на себя слишком",
+            "lineIndex": 2,
+            "width": 813,
+            "x": 0,
+            "y": 540,
+            "bounds": {
+              "left": 133.5,
+              "right": 946.5,
+              "top": 1474.35,
+              "bottom": 1525.65
+            },
+            "wordFinalPositions": [
+              {
+                "text": "серьёзно",
+                "x": 233.52,
+                "y": 1500,
+                "left": 133.5,
+                "right": 333.54
+              },
+              {
+                "text": "и",
+                "x": 362.43,
+                "y": 1500,
+                "left": 350.33,
+                "right": 374.54
+              },
+              {
+                "text": "берёшь",
+                "x": 475.05,
+                "y": 1500,
+                "left": 391.33,
+                "right": 558.77
+              },
+              {
+                "text": "на",
+                "x": 599.02,
+                "y": 1500,
+                "left": 575.56,
+                "right": 622.49
+              },
+              {
+                "text": "себя",
+                "x": 687.44,
+                "y": 1500,
+                "left": 639.28,
+                "right": 735.59
+              },
+              {
+                "text": "слишком",
+                "x": 849.44,
+                "y": 1500,
+                "left": 752.39,
+                "right": 946.5
+              }
+            ]
+          },
+          {
+            "text": "много ответственности, настолько,",
+            "lineIndex": 3,
+            "width": 773,
+            "x": 0,
+            "y": 600,
+            "bounds": {
+              "left": 153.5,
+              "right": 926.5,
+              "top": 1534.35,
+              "bottom": 1585.65
+            },
+            "wordFinalPositions": [
+              {
+                "text": "много",
+                "x": 218.37,
+                "y": 1560,
+                "left": 153.5,
+                "right": 283.24
+              },
+              {
+                "text": "ответственности,",
+                "x": 488.8,
+                "y": 1560,
+                "left": 300.15,
+                "right": 677.45
+              },
+              {
+                "text": "настолько,",
+                "x": 810.43,
+                "y": 1560,
+                "left": 694.35,
+                "right": 926.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "question:q-g1:page:3",
+        "authorityGroupId": "question:q-g1",
+        "pageIndex": 2,
+        "pageCount": 3,
+        "tokenStart": 21,
+        "tokenEnd": 40,
+        "displayText": "что не можешь просто встречаться с кем-то, ходить на свидания или заниматься любовью без чувства вины и груза ответственности,",
+        "lineCount": 4,
+        "font": "nikulinaSans",
+        "fontSize": 45,
+        "weight": 600,
+        "safeWidth": 840,
+        "safeBounds": {
+          "left": 120,
+          "right": 960,
+          "top": 220,
+          "bottom": 1620
+        },
+        "fixedFinalLayout": true,
+        "horizontalReflow": false,
+        "verticalReflow": false,
+        "lines": [
+          {
+            "text": "что не можешь просто встречаться",
+            "lineIndex": 0,
+            "width": 781,
+            "x": 0,
+            "y": 420,
+            "bounds": {
+              "left": 149.5,
+              "right": 930.5,
+              "top": 1354.35,
+              "bottom": 1405.65
+            },
+            "wordFinalPositions": [
+              {
+                "text": "что",
+                "x": 184.87,
+                "y": 1380,
+                "left": 149.5,
+                "right": 220.23
+              },
+              {
+                "text": "не",
+                "x": 262.03,
+                "y": 1380,
+                "left": 237.05,
+                "right": 287
+              },
+              {
+                "text": "можешь",
+                "x": 395.57,
+                "y": 1380,
+                "left": 303.82,
+                "right": 487.32
+              },
+              {
+                "text": "просто",
+                "x": 579.07,
+                "y": 1380,
+                "left": 504.14,
+                "right": 654.01
+              },
+              {
+                "text": "встречаться",
+                "x": 800.66,
+                "y": 1380,
+                "left": 670.83,
+                "right": 930.5
+              }
+            ]
+          },
+          {
+            "text": "с кем-то, ходить на свидания",
+            "lineIndex": 1,
+            "width": 639,
+            "x": 0,
+            "y": 480,
+            "bounds": {
+              "left": 220.5,
+              "right": 859.5,
+              "top": 1414.35,
+              "bottom": 1465.65
+            },
+            "wordFinalPositions": [
+              {
+                "text": "с",
+                "x": 231.06,
+                "y": 1440,
+                "left": 220.5,
+                "right": 241.62
+              },
+              {
+                "text": "кем-то,",
+                "x": 334.69,
+                "y": 1440,
+                "left": 258.32,
+                "right": 411.07
+              },
+              {
+                "text": "ходить",
+                "x": 502.67,
+                "y": 1440,
+                "left": 427.77,
+                "right": 577.57
+              },
+              {
+                "text": "на",
+                "x": 617.6,
+                "y": 1440,
+                "left": 594.27,
+                "right": 640.93
+              },
+              {
+                "text": "свидания",
+                "x": 758.57,
+                "y": 1440,
+                "left": 657.63,
+                "right": 859.5
+              }
+            ]
+          },
+          {
+            "text": "или заниматься любовью без чувства",
+            "lineIndex": 2,
+            "width": 826,
+            "x": 0,
+            "y": 540,
+            "bounds": {
+              "left": 127,
+              "right": 953,
+              "top": 1474.35,
+              "bottom": 1525.65
+            },
+            "wordFinalPositions": [
+              {
+                "text": "или",
+                "x": 165.22,
+                "y": 1500,
+                "left": 127,
+                "right": 203.44
+              },
+              {
+                "text": "заниматься",
+                "x": 343.24,
+                "y": 1500,
+                "left": 220.2,
+                "right": 466.28
+              },
+              {
+                "text": "любовью",
+                "x": 583.89,
+                "y": 1500,
+                "left": 483.04,
+                "right": 684.73
+              },
+              {
+                "text": "без",
+                "x": 737.75,
+                "y": 1500,
+                "left": 701.5,
+                "right": 773.99
+              },
+              {
+                "text": "чувства",
+                "x": 871.88,
+                "y": 1500,
+                "left": 790.76,
+                "right": 953
+              }
+            ]
+          },
+          {
+            "text": "вины и груза ответственности,",
+            "lineIndex": 3,
+            "width": 676,
+            "x": 0,
+            "y": 600,
+            "bounds": {
+              "left": 202,
+              "right": 878,
+              "top": 1534.35,
+              "bottom": 1585.65
+            },
+            "wordFinalPositions": [
+              {
+                "text": "вины",
+                "x": 257.01,
+                "y": 1560,
+                "left": 202,
+                "right": 312.01
+              },
+              {
+                "text": "и",
+                "x": 341.13,
+                "y": 1560,
+                "left": 328.94,
+                "right": 353.33
+              },
+              {
+                "text": "груза",
+                "x": 426.75,
+                "y": 1560,
+                "left": 370.25,
+                "right": 483.25
+              },
+              {
+                "text": "ответственности,",
+                "x": 689.09,
+                "y": 1560,
+                "left": 500.18,
+                "right": 878
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "question:q-g2:page:1",
+        "authorityGroupId": "question:q-g2",
+        "pageIndex": 0,
+        "pageCount": 1,
+        "tokenStart": 0,
+        "tokenEnd": 10,
+        "displayText": "особенно когда с самого начала понимаешь, что общего будущего нет?",
+        "lineCount": 3,
+        "font": "nikulinaSans",
+        "fontSize": 56,
+        "weight": 600,
+        "safeWidth": 840,
+        "safeBounds": {
+          "left": 120,
+          "right": 960,
+          "top": 220,
+          "bottom": 1620
+        },
+        "fixedFinalLayout": true,
+        "horizontalReflow": false,
+        "verticalReflow": false,
+        "lines": [
+          {
+            "text": "особенно когда с самого",
+            "lineIndex": 0,
+            "width": 684,
+            "x": 0,
+            "y": 477.5,
+            "bounds": {
+              "left": 198,
+              "right": 882,
+              "top": 1405.58,
+              "bottom": 1469.42
+            },
+            "wordFinalPositions": [
+              {
+                "text": "особенно",
+                "x": 327.97,
+                "y": 1437.5,
+                "left": 198,
+                "right": 457.94
+              },
+              {
+                "text": "когда",
+                "x": 552.53,
+                "y": 1437.5,
+                "left": 479.56,
+                "right": 625.5
+              },
+              {
+                "text": "с",
+                "x": 660.63,
+                "y": 1437.5,
+                "left": 647.12,
+                "right": 674.15
+              },
+              {
+                "text": "самого",
+                "x": 788.88,
+                "y": 1437.5,
+                "left": 695.77,
+                "right": 882
+              }
+            ]
+          },
+          {
+            "text": "начала понимаешь,",
+            "lineIndex": 1,
+            "width": 534,
+            "x": 0,
+            "y": 542.5,
+            "bounds": {
+              "left": 273,
+              "right": 807,
+              "top": 1470.58,
+              "bottom": 1534.42
+            },
+            "wordFinalPositions": [
+              {
+                "text": "начала",
+                "x": 364.42,
+                "y": 1502.5,
+                "left": 273,
+                "right": 455.84
+              },
+              {
+                "text": "понимаешь,",
+                "x": 642.44,
+                "y": 1502.5,
+                "left": 477.88,
+                "right": 807
+              }
+            ]
+          },
+          {
+            "text": "что общего будущего нет?",
+            "lineIndex": 2,
+            "width": 729,
+            "x": 0,
+            "y": 607.5,
+            "bounds": {
+              "left": 175.5,
+              "right": 904.5,
+              "top": 1535.58,
+              "bottom": 1599.42
+            },
+            "wordFinalPositions": [
+              {
+                "text": "что",
+                "x": 219.64,
+                "y": 1567.5,
+                "left": 175.5,
+                "right": 263.79
+              },
+              {
+                "text": "общего",
+                "x": 386.36,
+                "y": 1567.5,
+                "left": 285.49,
+                "right": 487.22
+              },
+              {
+                "text": "будущего",
+                "x": 637.91,
+                "y": 1567.5,
+                "left": 508.93,
+                "right": 766.89
+              },
+              {
+                "text": "нет?",
+                "x": 846.54,
+                "y": 1567.5,
+                "left": 788.59,
+                "right": 904.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "context:c-g1:page:1",
+        "authorityGroupId": "context:c-g1",
+        "pageIndex": 0,
+        "pageCount": 2,
+        "tokenStart": 0,
+        "tokenEnd": 10,
+        "displayText": "Это очень... на самом деле потакание тому удовольствию: встретить кого-то,",
+        "lineCount": 3,
+        "font": "nikulinaSans",
+        "fontSize": 52,
+        "weight": 600,
+        "safeWidth": 840,
+        "safeBounds": {
+          "left": 120,
+          "right": 960,
+          "top": 220,
+          "bottom": 1620
+        },
+        "fixedFinalLayout": true,
+        "horizontalReflow": false,
+        "verticalReflow": false,
+        "lines": [
+          {
+            "text": "Это очень... на самом деле",
+            "lineIndex": 0,
+            "width": 680,
+            "x": 0,
+            "y": 465,
+            "bounds": {
+              "left": 200,
+              "right": 880,
+              "top": 1395.36,
+              "bottom": 1454.64
+            },
+            "wordFinalPositions": [
+              {
+                "text": "Это",
+                "x": 244.99,
+                "y": 1425,
+                "left": 200,
+                "right": 289.98
+              },
+              {
+                "text": "очень...",
+                "x": 401.84,
+                "y": 1425,
+                "left": 308.66,
+                "right": 495.01
+              },
+              {
+                "text": "на",
+                "x": 540.98,
+                "y": 1425,
+                "left": 513.69,
+                "right": 568.27
+              },
+              {
+                "text": "самом",
+                "x": 664.89,
+                "y": 1425,
+                "left": 586.96,
+                "right": 742.82
+              },
+              {
+                "text": "деле",
+                "x": 820.75,
+                "y": 1425,
+                "left": 761.5,
+                "right": 880
+              }
+            ]
+          },
+          {
+            "text": "потакание тому удовольствию:",
+            "lineIndex": 1,
+            "width": 796,
+            "x": 0,
+            "y": 525,
+            "bounds": {
+              "left": 142,
+              "right": 938,
+              "top": 1455.36,
+              "bottom": 1514.64
+            },
+            "wordFinalPositions": [
+              {
+                "text": "потакание",
+                "x": 273.18,
+                "y": 1485,
+                "left": 142,
+                "right": 404.37
+              },
+              {
+                "text": "тому",
+                "x": 483.67,
+                "y": 1485,
+                "left": 423.14,
+                "right": 544.2
+              },
+              {
+                "text": "удовольствию:",
+                "x": 750.49,
+                "y": 1485,
+                "left": 562.98,
+                "right": 938
+              }
+            ]
+          },
+          {
+            "text": "встретить кого-то,",
+            "lineIndex": 2,
+            "width": 466,
+            "x": 0,
+            "y": 585,
+            "bounds": {
+              "left": 307,
+              "right": 773,
+              "top": 1515.36,
+              "bottom": 1574.64
+            },
+            "wordFinalPositions": [
+              {
+                "text": "встретить",
+                "x": 431.48,
+                "y": 1545,
+                "left": 307,
+                "right": 555.97
+              },
+              {
+                "text": "кого-то,",
+                "x": 673.96,
+                "y": 1545,
+                "left": 574.93,
+                "right": 773
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "context:c-g1:page:2",
+        "authorityGroupId": "context:c-g1",
+        "pageIndex": 1,
+        "pageCount": 2,
+        "tokenStart": 10,
+        "tokenEnd": 20,
+        "displayText": "сделать его день лучше, его неделю лучше, его месяц лучше,",
+        "lineCount": 3,
+        "font": "nikulinaSans",
+        "fontSize": 52,
+        "weight": 600,
+        "safeWidth": 840,
+        "safeBounds": {
+          "left": 120,
+          "right": 960,
+          "top": 220,
+          "bottom": 1620
+        },
+        "fixedFinalLayout": true,
+        "horizontalReflow": false,
+        "verticalReflow": false,
+        "lines": [
+          {
+            "text": "сделать его день лучше,",
+            "lineIndex": 0,
+            "width": 614,
+            "x": 0,
+            "y": 465,
+            "bounds": {
+              "left": 233,
+              "right": 847,
+              "top": 1395.36,
+              "bottom": 1454.64
+            },
+            "wordFinalPositions": [
+              {
+                "text": "сделать",
+                "x": 328.39,
+                "y": 1425,
+                "left": 233,
+                "right": 423.77
+              },
+              {
+                "text": "его",
+                "x": 482.38,
+                "y": 1425,
+                "left": 442.41,
+                "right": 522.35
+              },
+              {
+                "text": "день",
+                "x": 600.57,
+                "y": 1425,
+                "left": 540.98,
+                "right": 660.15
+              },
+              {
+                "text": "лучше,",
+                "x": 762.89,
+                "y": 1425,
+                "left": 678.79,
+                "right": 847
+              }
+            ]
+          },
+          {
+            "text": "его неделю лучше,",
+            "lineIndex": 1,
+            "width": 479,
+            "x": 0,
+            "y": 525,
+            "bounds": {
+              "left": 300.5,
+              "right": 779.5,
+              "top": 1455.36,
+              "bottom": 1514.64
+            },
+            "wordFinalPositions": [
+              {
+                "text": "его",
+                "x": 340.87,
+                "y": 1485,
+                "left": 300.5,
+                "right": 381.24
+              },
+              {
+                "text": "неделю",
+                "x": 495.42,
+                "y": 1485,
+                "left": 400.06,
+                "right": 590.77
+              },
+              {
+                "text": "лучше,",
+                "x": 694.55,
+                "y": 1485,
+                "left": 609.6,
+                "right": 779.5
+              }
+            ]
+          },
+          {
+            "text": "его месяц лучше,",
+            "lineIndex": 2,
+            "width": 437,
+            "x": 0,
+            "y": 585,
+            "bounds": {
+              "left": 321.5,
+              "right": 758.5,
+              "top": 1515.36,
+              "bottom": 1574.64
+            },
+            "wordFinalPositions": [
+              {
+                "text": "его",
+                "x": 361.74,
+                "y": 1545,
+                "left": 321.5,
+                "right": 401.99
+              },
+              {
+                "text": "месяц",
+                "x": 495.56,
+                "y": 1545,
+                "left": 420.75,
+                "right": 570.37
+              },
+              {
+                "text": "лучше,",
+                "x": 673.82,
+                "y": 1545,
+                "left": 589.13,
+                "right": 758.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "context:c-g2:page:1",
+        "authorityGroupId": "context:c-g2",
+        "pageIndex": 0,
+        "pageCount": 1,
+        "tokenStart": 0,
+        "tokenEnd": 10,
+        "displayText": "дать ему опыт, которого у него никогда раньше не было,",
+        "lineCount": 3,
+        "font": "nikulinaSans",
+        "fontSize": 57,
+        "weight": 600,
+        "safeWidth": 840,
+        "safeBounds": {
+          "left": 120,
+          "right": 960,
+          "top": 220,
+          "bottom": 1620
+        },
+        "fixedFinalLayout": true,
+        "horizontalReflow": false,
+        "verticalReflow": false,
+        "lines": [
+          {
+            "text": "дать ему опыт,",
+            "lineIndex": 0,
+            "width": 409,
+            "x": 0,
+            "y": 482.5,
+            "bounds": {
+              "left": 335.5,
+              "right": 744.5,
+              "top": 1410.01,
+              "bottom": 1474.99
+            },
+            "wordFinalPositions": [
+              {
+                "text": "дать",
+                "x": 394.93,
+                "y": 1442.5,
+                "left": 335.5,
+                "right": 454.37
+              },
+              {
+                "text": "ему",
+                "x": 526.9,
+                "y": 1442.5,
+                "left": 476.69,
+                "right": 577.12
+              },
+              {
+                "text": "опыт,",
+                "x": 671.97,
+                "y": 1442.5,
+                "left": 599.43,
+                "right": 744.5
+              }
+            ]
+          },
+          {
+            "text": "которого у него никогда",
+            "lineIndex": 1,
+            "width": 685,
+            "x": 0,
+            "y": 547.5,
+            "bounds": {
+              "left": 197.5,
+              "right": 882.5,
+              "top": 1475.01,
+              "bottom": 1539.99
+            },
+            "wordFinalPositions": [
+              {
+                "text": "которого",
+                "x": 322.82,
+                "y": 1507.5,
+                "left": 197.5,
+                "right": 448.15
+              },
+              {
+                "text": "у",
+                "x": 486.01,
+                "y": 1507.5,
+                "left": 470.62,
+                "right": 501.4
+              },
+              {
+                "text": "него",
+                "x": 583.24,
+                "y": 1507.5,
+                "left": 523.88,
+                "right": 642.6
+              },
+              {
+                "text": "никогда",
+                "x": 773.79,
+                "y": 1507.5,
+                "left": 665.08,
+                "right": 882.5
+              }
+            ]
+          },
+          {
+            "text": "раньше не было,",
+            "lineIndex": 2,
+            "width": 467,
+            "x": 0,
+            "y": 612.5,
+            "bounds": {
+              "left": 306.5,
+              "right": 773.5,
+              "top": 1540.01,
+              "bottom": 1604.99
+            },
+            "wordFinalPositions": [
+              {
+                "text": "раньше",
+                "x": 410.31,
+                "y": 1572.5,
+                "left": 306.5,
+                "right": 514.11
+              },
+              {
+                "text": "не",
+                "x": 567.62,
+                "y": 1572.5,
+                "left": 536.79,
+                "right": 598.44
+              },
+              {
+                "text": "было,",
+                "x": 697.31,
+                "y": 1572.5,
+                "left": 621.12,
+                "right": 773.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "context:c-g3:page:1",
+        "authorityGroupId": "context:c-g3",
+        "pageIndex": 0,
+        "pageCount": 2,
+        "tokenStart": 0,
+        "tokenEnd": 9,
+        "displayText": "потому что это не обязательно должен быть невероятный опыт,",
+        "lineCount": 3,
+        "font": "nikulinaSans",
+        "fontSize": 52,
+        "weight": 600,
+        "safeWidth": 840,
+        "safeBounds": {
+          "left": 120,
+          "right": 960,
+          "top": 220,
+          "bottom": 1620
+        },
+        "fixedFinalLayout": true,
+        "horizontalReflow": false,
+        "verticalReflow": false,
+        "lines": [
+          {
+            "text": "потому что это не",
+            "lineIndex": 0,
+            "width": 455,
+            "x": 0,
+            "y": 470,
+            "bounds": {
+              "left": 312.5,
+              "right": 767.5,
+              "top": 1400.36,
+              "bottom": 1459.64
+            },
+            "wordFinalPositions": [
+              {
+                "text": "потому",
+                "x": 402.17,
+                "y": 1430,
+                "left": 312.5,
+                "right": 491.85
+              },
+              {
+                "text": "что",
+                "x": 551.06,
+                "y": 1430,
+                "left": 510.52,
+                "right": 591.59
+              },
+              {
+                "text": "это",
+                "x": 650.8,
+                "y": 1430,
+                "left": 610.26,
+                "right": 691.34
+              },
+              {
+                "text": "не",
+                "x": 738.76,
+                "y": 1430,
+                "left": 710.01,
+                "right": 767.5
+              }
+            ]
+          },
+          {
+            "text": "обязательно должен",
+            "lineIndex": 1,
+            "width": 530,
+            "x": 0,
+            "y": 530,
+            "bounds": {
+              "left": 275,
+              "right": 805,
+              "top": 1460.36,
+              "bottom": 1519.64
+            },
+            "wordFinalPositions": [
+              {
+                "text": "обязательно",
+                "x": 432.86,
+                "y": 1490,
+                "left": 275,
+                "right": 590.71
+              },
+              {
+                "text": "должен",
+                "x": 707.3,
+                "y": 1490,
+                "left": 609.61,
+                "right": 805
+              }
+            ]
+          },
+          {
+            "text": "быть невероятный опыт,",
+            "lineIndex": 2,
+            "width": 629,
+            "x": 0,
+            "y": 590,
+            "bounds": {
+              "left": 225.5,
+              "right": 854.5,
+              "top": 1520.36,
+              "bottom": 1579.64
+            },
+            "wordFinalPositions": [
+              {
+                "text": "быть",
+                "x": 285.42,
+                "y": 1550,
+                "left": 225.5,
+                "right": 345.33
+              },
+              {
+                "text": "невероятный",
+                "x": 532.04,
+                "y": 1550,
+                "left": 364.23,
+                "right": 699.86
+              },
+              {
+                "text": "опыт,",
+                "x": 786.63,
+                "y": 1550,
+                "left": 718.76,
+                "right": 854.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "context:c-g3:page:2",
+        "authorityGroupId": "context:c-g3",
+        "pageIndex": 1,
+        "pageCount": 2,
+        "tokenStart": 9,
+        "tokenEnd": 23,
+        "displayText": "который можешь дать только ты, но ты и этот один человек вместе, совершенно уникальны.",
+        "lineCount": 3,
+        "font": "nikulinaSans",
+        "fontSize": 52,
+        "weight": 600,
+        "safeWidth": 840,
+        "safeBounds": {
+          "left": 120,
+          "right": 960,
+          "top": 220,
+          "bottom": 1620
+        },
+        "fixedFinalLayout": true,
+        "horizontalReflow": false,
+        "verticalReflow": false,
+        "lines": [
+          {
+            "text": "который можешь дать только",
+            "lineIndex": 0,
+            "width": 765,
+            "x": 0,
+            "y": 470,
+            "bounds": {
+              "left": 157.5,
+              "right": 922.5,
+              "top": 1400.36,
+              "bottom": 1459.64
+            },
+            "wordFinalPositions": [
+              {
+                "text": "который",
+                "x": 265.2,
+                "y": 1430,
+                "left": 157.5,
+                "right": 372.9
+              },
+              {
+                "text": "можешь",
+                "x": 497.36,
+                "y": 1430,
+                "left": 391.63,
+                "right": 603.09
+              },
+              {
+                "text": "дать",
+                "x": 676.78,
+                "y": 1430,
+                "left": 621.82,
+                "right": 731.74
+              },
+              {
+                "text": "только",
+                "x": 836.49,
+                "y": 1430,
+                "left": 750.47,
+                "right": 922.5
+              }
+            ]
+          },
+          {
+            "text": "ты, но ты и этот один человек",
+            "lineIndex": 1,
+            "width": 761,
+            "x": 0,
+            "y": 530,
+            "bounds": {
+              "left": 159.5,
+              "right": 920.5,
+              "top": 1460.36,
+              "bottom": 1519.64
+            },
+            "wordFinalPositions": [
+              {
+                "text": "ты,",
+                "x": 195.96,
+                "y": 1490,
+                "left": 159.5,
+                "right": 232.42
+              },
+              {
+                "text": "но",
+                "x": 280.62,
+                "y": 1490,
+                "left": 251.02,
+                "right": 310.23
+              },
+              {
+                "text": "ты",
+                "x": 358.44,
+                "y": 1490,
+                "left": 328.83,
+                "right": 388.04
+              },
+              {
+                "text": "и",
+                "x": 420.59,
+                "y": 1490,
+                "left": 406.64,
+                "right": 434.54
+              },
+              {
+                "text": "этот",
+                "x": 505.74,
+                "y": 1490,
+                "left": 453.13,
+                "right": 558.35
+              },
+              {
+                "text": "один",
+                "x": 637.88,
+                "y": 1490,
+                "left": 576.95,
+                "right": 698.81
+              },
+              {
+                "text": "человек",
+                "x": 818.95,
+                "y": 1490,
+                "left": 717.4,
+                "right": 920.5
+              }
+            ]
+          },
+          {
+            "text": "вместе, совершенно уникальны.",
+            "lineIndex": 2,
+            "width": 826,
+            "x": 0,
+            "y": 590,
+            "bounds": {
+              "left": 127,
+              "right": 953,
+              "top": 1520.36,
+              "bottom": 1579.64
+            },
+            "wordFinalPositions": [
+              {
+                "text": "вместе,",
+                "x": 219.91,
+                "y": 1550,
+                "left": 127,
+                "right": 312.81
+              },
+              {
+                "text": "совершенно",
+                "x": 489.46,
+                "y": 1550,
+                "left": 331.64,
+                "right": 647.28
+              },
+              {
+                "text": "уникальны.",
+                "x": 809.55,
+                "y": 1550,
+                "left": 666.1,
+                "right": 953
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "payoff:p-g1:page:1",
+        "authorityGroupId": "payoff:p-g1",
+        "pageIndex": 0,
+        "pageCount": 1,
+        "tokenStart": 0,
+        "tokenEnd": 10,
+        "displayText": "Иди устанавливай связи с людьми, иди переживай мимолётные моменты удовольствия.",
+        "lineCount": 4,
+        "font": "nikulinaSans",
+        "fontSize": 54,
+        "weight": 600,
+        "safeWidth": 840,
+        "safeBounds": {
+          "left": 120,
+          "right": 960,
+          "top": 220,
+          "bottom": 1620
+        },
+        "fixedFinalLayout": true,
+        "horizontalReflow": false,
+        "verticalReflow": false,
+        "lines": [
+          {
+            "text": "Иди устанавливай",
+            "lineIndex": 0,
+            "width": 481,
+            "x": 0,
+            "y": 434.22,
+            "bounds": {
+              "left": 299.5,
+              "right": 780.5,
+              "top": 1363.44,
+              "bottom": 1425
+            },
+            "wordFinalPositions": [
+              {
+                "text": "Иди",
+                "x": 350.93,
+                "y": 1394.22,
+                "left": 299.5,
+                "right": 402.36
+              },
+              {
+                "text": "устанавливай",
+                "x": 601.86,
+                "y": 1394.22,
+                "left": 423.23,
+                "right": 780.5
+              }
+            ]
+          },
+          {
+            "text": "связи с людьми, иди",
+            "lineIndex": 1,
+            "width": 537,
+            "x": 0,
+            "y": 499.22,
+            "bounds": {
+              "left": 271.5,
+              "right": 808.5,
+              "top": 1428.44,
+              "bottom": 1490
+            },
+            "wordFinalPositions": [
+              {
+                "text": "связи",
+                "x": 341.07,
+                "y": 1459.22,
+                "left": 271.5,
+                "right": 410.63
+              },
+              {
+                "text": "с",
+                "x": 444.07,
+                "y": 1459.22,
+                "left": 431.14,
+                "right": 457.01
+              },
+              {
+                "text": "людьми,",
+                "x": 586.13,
+                "y": 1459.22,
+                "left": 477.51,
+                "right": 694.75
+              },
+              {
+                "text": "иди",
+                "x": 761.88,
+                "y": 1459.22,
+                "left": 715.26,
+                "right": 808.5
+              }
+            ]
+          },
+          {
+            "text": "переживай мимолётные",
+            "lineIndex": 2,
+            "width": 652,
+            "x": 0,
+            "y": 564.22,
+            "bounds": {
+              "left": 214,
+              "right": 866,
+              "top": 1493.44,
+              "bottom": 1555
+            },
+            "wordFinalPositions": [
+              {
+                "text": "переживай",
+                "x": 363.98,
+                "y": 1524.22,
+                "left": 214,
+                "right": 513.96
+              },
+              {
+                "text": "мимолётные",
+                "x": 700.5,
+                "y": 1524.22,
+                "left": 534.99,
+                "right": 866
+              }
+            ]
+          },
+          {
+            "text": "моменты удовольствия.",
+            "lineIndex": 3,
+            "width": 629,
+            "x": 0,
+            "y": 629.22,
+            "bounds": {
+              "left": 225.5,
+              "right": 854.5,
+              "top": 1558.44,
+              "bottom": 1620
+            },
+            "wordFinalPositions": [
+              {
+                "text": "моменты",
+                "x": 342.19,
+                "y": 1589.22,
+                "left": 225.5,
+                "right": 458.89
+              },
+              {
+                "text": "удовольствия.",
+                "x": 667.14,
+                "y": 1589.22,
+                "left": 479.79,
+                "right": 854.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "payoff:p-g2:page:1",
+        "authorityGroupId": "payoff:p-g2",
+        "pageIndex": 0,
+        "pageCount": 2,
+        "tokenStart": 0,
+        "tokenEnd": 16,
+        "displayText": "Не чувствуй давления или ожиданий, пока у тебя добрые намерения и ты не собираешься кому-то навредить,",
+        "lineCount": 4,
+        "font": "nikulinaSans",
+        "fontSize": 50,
+        "weight": 600,
+        "safeWidth": 840,
+        "safeBounds": {
+          "left": 120,
+          "right": 960,
+          "top": 220,
+          "bottom": 1620
+        },
+        "fixedFinalLayout": true,
+        "horizontalReflow": false,
+        "verticalReflow": false,
+        "lines": [
+          {
+            "text": "Не чувствуй давления",
+            "lineIndex": 0,
+            "width": 538,
+            "x": 0,
+            "y": 430,
+            "bounds": {
+              "left": 271,
+              "right": 809,
+              "top": 1361.5,
+              "bottom": 1418.5
+            },
+            "wordFinalPositions": [
+              {
+                "text": "Не",
+                "x": 301.99,
+                "y": 1390,
+                "left": 271,
+                "right": 332.98
+              },
+              {
+                "text": "чувствуй",
+                "x": 456.7,
+                "y": 1390,
+                "left": 350.83,
+                "right": 562.56
+              },
+              {
+                "text": "давления",
+                "x": 694.71,
+                "y": 1390,
+                "left": 580.41,
+                "right": 809
+              }
+            ]
+          },
+          {
+            "text": "или ожиданий, пока у тебя",
+            "lineIndex": 1,
+            "width": 662,
+            "x": 0,
+            "y": 490,
+            "bounds": {
+              "left": 209,
+              "right": 871,
+              "top": 1421.5,
+              "bottom": 1478.5
+            },
+            "wordFinalPositions": [
+              {
+                "text": "или",
+                "x": 251.45,
+                "y": 1450,
+                "left": 209,
+                "right": 293.9
+              },
+              {
+                "text": "ожиданий,",
+                "x": 442.83,
+                "y": 1450,
+                "left": 311.56,
+                "right": 574.11
+              },
+              {
+                "text": "пока",
+                "x": 646.98,
+                "y": 1450,
+                "left": 591.77,
+                "right": 702.19
+              },
+              {
+                "text": "у",
+                "x": 733.35,
+                "y": 1450,
+                "left": 719.85,
+                "right": 746.84
+              },
+              {
+                "text": "тебя",
+                "x": 817.76,
+                "y": 1450,
+                "left": 764.51,
+                "right": 871
+              }
+            ]
+          },
+          {
+            "text": "добрые намерения и ты не",
+            "lineIndex": 2,
+            "width": 667,
+            "x": 0,
+            "y": 550,
+            "bounds": {
+              "left": 206.5,
+              "right": 873.5,
+              "top": 1481.5,
+              "bottom": 1538.5
+            },
+            "wordFinalPositions": [
+              {
+                "text": "добрые",
+                "x": 300.83,
+                "y": 1510,
+                "left": 206.5,
+                "right": 395.16
+              },
+              {
+                "text": "намерения",
+                "x": 546.44,
+                "y": 1510,
+                "left": 412.99,
+                "right": 679.89
+              },
+              {
+                "text": "и",
+                "x": 711.33,
+                "y": 1510,
+                "left": 697.71,
+                "right": 724.95
+              },
+              {
+                "text": "ты",
+                "x": 771.74,
+                "y": 1510,
+                "left": 742.77,
+                "right": 800.71
+              },
+              {
+                "text": "не",
+                "x": 846.02,
+                "y": 1510,
+                "left": 818.54,
+                "right": 873.5
+              }
+            ]
+          },
+          {
+            "text": "собираешься кому-то навредить,",
+            "lineIndex": 3,
+            "width": 818,
+            "x": 0,
+            "y": 610,
+            "bounds": {
+              "left": 131,
+              "right": 949,
+              "top": 1541.5,
+              "bottom": 1598.5
+            },
+            "wordFinalPositions": [
+              {
+                "text": "собираешься",
+                "x": 293.95,
+                "y": 1570,
+                "left": 131,
+                "right": 456.9
+              },
+              {
+                "text": "кому-то",
+                "x": 568.95,
+                "y": 1570,
+                "left": 474.87,
+                "right": 663.02
+              },
+              {
+                "text": "навредить,",
+                "x": 815,
+                "y": 1570,
+                "left": 680.99,
+                "right": 949
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "payoff:p-g2:page:2",
+        "authorityGroupId": "payoff:p-g2",
+        "pageIndex": 1,
+        "pageCount": 2,
+        "tokenStart": 16,
+        "tokenEnd": 34,
+        "displayText": "если только это не их кинк, и у тебя есть их согласие, и это то, чего они хотят.",
+        "lineCount": 3,
+        "font": "nikulinaSans",
+        "fontSize": 50,
+        "weight": 600,
+        "safeWidth": 840,
+        "safeBounds": {
+          "left": 120,
+          "right": 960,
+          "top": 220,
+          "bottom": 1620
+        },
+        "fixedFinalLayout": true,
+        "horizontalReflow": false,
+        "verticalReflow": false,
+        "lines": [
+          {
+            "text": "если только это не их кинк,",
+            "lineIndex": 0,
+            "width": 676,
+            "x": 0,
+            "y": 460,
+            "bounds": {
+              "left": 202,
+              "right": 878,
+              "top": 1391.5,
+              "bottom": 1448.5
+            },
+            "wordFinalPositions": [
+              {
+                "text": "если",
+                "x": 256.29,
+                "y": 1420,
+                "left": 202,
+                "right": 310.57
+              },
+              {
+                "text": "только",
+                "x": 410.55,
+                "y": 1420,
+                "left": 328.26,
+                "right": 492.84
+              },
+              {
+                "text": "это",
+                "x": 549.58,
+                "y": 1420,
+                "left": 510.52,
+                "right": 588.64
+              },
+              {
+                "text": "не",
+                "x": 633.59,
+                "y": 1420,
+                "left": 606.32,
+                "right": 660.85
+              },
+              {
+                "text": "их",
+                "x": 706.3,
+                "y": 1420,
+                "left": 678.54,
+                "right": 734.06
+              },
+              {
+                "text": "кинк,",
+                "x": 814.87,
+                "y": 1420,
+                "left": 751.74,
+                "right": 878
+              }
+            ]
+          },
+          {
+            "text": "и у тебя есть их согласие,",
+            "lineIndex": 1,
+            "width": 624,
+            "x": 0,
+            "y": 520,
+            "bounds": {
+              "left": 228,
+              "right": 852,
+              "top": 1451.5,
+              "bottom": 1508.5
+            },
+            "wordFinalPositions": [
+              {
+                "text": "и",
+                "x": 241.39,
+                "y": 1480,
+                "left": 228,
+                "right": 254.77
+              },
+              {
+                "text": "у",
+                "x": 285.68,
+                "y": 1480,
+                "left": 272.29,
+                "right": 299.06
+              },
+              {
+                "text": "тебя",
+                "x": 369.4,
+                "y": 1480,
+                "left": 316.59,
+                "right": 422.21
+              },
+              {
+                "text": "есть",
+                "x": 489.62,
+                "y": 1480,
+                "left": 439.73,
+                "right": 539.51
+              },
+              {
+                "text": "их",
+                "x": 584.54,
+                "y": 1480,
+                "left": 557.04,
+                "right": 612.04
+              },
+              {
+                "text": "согласие,",
+                "x": 740.78,
+                "y": 1480,
+                "left": 629.56,
+                "right": 852
+              }
+            ]
+          },
+          {
+            "text": "и это то, чего они хотят.",
+            "lineIndex": 2,
+            "width": 587,
+            "x": 0,
+            "y": 580,
+            "bounds": {
+              "left": 246.5,
+              "right": 833.5,
+              "top": 1511.5,
+              "bottom": 1568.5
+            },
+            "wordFinalPositions": [
+              {
+                "text": "и",
+                "x": 259.91,
+                "y": 1540,
+                "left": 246.5,
+                "right": 273.31
+              },
+              {
+                "text": "это",
+                "x": 329.63,
+                "y": 1540,
+                "left": 290.87,
+                "right": 368.39
+              },
+              {
+                "text": "то,",
+                "x": 418.36,
+                "y": 1540,
+                "left": 385.94,
+                "right": 450.78
+              },
+              {
+                "text": "чего",
+                "x": 520.25,
+                "y": 1540,
+                "left": 468.33,
+                "right": 572.18
+              },
+              {
+                "text": "они",
+                "x": 633.36,
+                "y": 1540,
+                "left": 589.73,
+                "right": 677
+              },
+              {
+                "text": "хотят.",
+                "x": 764.03,
+                "y": 1540,
+                "left": 694.55,
+                "right": 833.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "payoff:p-g3:page:1",
+        "authorityGroupId": "payoff:p-g3",
+        "pageIndex": 0,
+        "pageCount": 1,
+        "tokenStart": 0,
+        "tokenEnd": 13,
+        "displayText": "Тогда у тебя добрые намерения, ты входишь во что-то лёгкое без всяких ожиданий.",
+        "lineCount": 4,
+        "font": "nikulinaSans",
+        "fontSize": 54,
+        "weight": 600,
+        "safeWidth": 840,
+        "safeBounds": {
+          "left": 120,
+          "right": 960,
+          "top": 220,
+          "bottom": 1620
+        },
+        "fixedFinalLayout": true,
+        "horizontalReflow": false,
+        "verticalReflow": false,
+        "lines": [
+          {
+            "text": "Тогда у тебя добрые",
+            "lineIndex": 0,
+            "width": 545,
+            "x": 0,
+            "y": 434.22,
+            "bounds": {
+              "left": 267.5,
+              "right": 812.5,
+              "top": 1363.44,
+              "bottom": 1425
+            },
+            "wordFinalPositions": [
+              {
+                "text": "Тогда",
+                "x": 338.89,
+                "y": 1394.22,
+                "left": 267.5,
+                "right": 410.28
+              },
+              {
+                "text": "у",
+                "x": 444.89,
+                "y": 1394.22,
+                "left": 430.61,
+                "right": 459.17
+              },
+              {
+                "text": "тебя",
+                "x": 536.37,
+                "y": 1394.22,
+                "left": 479.5,
+                "right": 593.24
+              },
+              {
+                "text": "добрые",
+                "x": 713.04,
+                "y": 1394.22,
+                "left": 613.57,
+                "right": 812.5
+              }
+            ]
+          },
+          {
+            "text": "намерения, ты входишь",
+            "lineIndex": 1,
+            "width": 633,
+            "x": 0,
+            "y": 499.22,
+            "bounds": {
+              "left": 223.5,
+              "right": 856.5,
+              "top": 1428.44,
+              "bottom": 1490
+            },
+            "wordFinalPositions": [
+              {
+                "text": "намерения,",
+                "x": 373.97,
+                "y": 1459.22,
+                "left": 223.5,
+                "right": 524.43
+              },
+              {
+                "text": "ты",
+                "x": 576.07,
+                "y": 1459.22,
+                "left": 545.19,
+                "right": 606.96
+              },
+              {
+                "text": "входишь",
+                "x": 742.11,
+                "y": 1459.22,
+                "left": 627.71,
+                "right": 856.5
+              }
+            ]
+          },
+          {
+            "text": "во что-то лёгкое",
+            "lineIndex": 2,
+            "width": 432,
+            "x": 0,
+            "y": 564.22,
+            "bounds": {
+              "left": 324,
+              "right": 756,
+              "top": 1493.44,
+              "bottom": 1555
+            },
+            "wordFinalPositions": [
+              {
+                "text": "во",
+                "x": 353.18,
+                "y": 1524.22,
+                "left": 324,
+                "right": 382.35
+              },
+              {
+                "text": "что-то",
+                "x": 482.14,
+                "y": 1524.22,
+                "left": 402.95,
+                "right": 561.33
+              },
+              {
+                "text": "лёгкое",
+                "x": 668.96,
+                "y": 1524.22,
+                "left": 581.93,
+                "right": 756
+              }
+            ]
+          },
+          {
+            "text": "без всяких ожиданий.",
+            "lineIndex": 3,
+            "width": 590,
+            "x": 0,
+            "y": 629.22,
+            "bounds": {
+              "left": 245,
+              "right": 835,
+              "top": 1558.44,
+              "bottom": 1620
+            },
+            "wordFinalPositions": [
+              {
+                "text": "без",
+                "x": 288.27,
+                "y": 1589.22,
+                "left": 245,
+                "right": 331.55
+              },
+              {
+                "text": "всяких",
+                "x": 440.1,
+                "y": 1589.22,
+                "left": 352.32,
+                "right": 527.88
+              },
+              {
+                "text": "ожиданий.",
+                "x": 691.83,
+                "y": 1589.22,
+                "left": 548.65,
+                "right": 835
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "id": "video",
+      "kind": "video",
+      "clips": [
+        {
+          "id": "question",
+          "kind": "video",
+          "src": "clips/001_question.mp4",
+          "start": 0,
+          "end": 695,
+          "startFrom": 0,
+          "fit": "cover",
+          "backColor": "#080808",
+          "volume": 1,
+          "muted": false,
+          "speechRegions": [
+            {
+              "startFrame": 0,
+              "endFrame": 281
+            },
+            {
+              "startFrame": 306,
+              "endFrame": 695
+            }
+          ],
+          "backgroundBlur": 32,
+          "backgroundBrightness": 0.6,
+          "backgroundSaturation": 0.72,
+          "backgroundScale": 1.08
+        },
+        {
+          "id": "context",
+          "kind": "video",
+          "src": "clips/002_context.mp4",
+          "start": 695,
+          "end": 1319,
+          "startFrom": 0,
+          "fit": "cover",
+          "backColor": "#080808",
+          "volume": 1,
+          "muted": false,
+          "speechRegions": [
+            {
+              "startFrame": 695,
+              "endFrame": 915
+            },
+            {
+              "startFrame": 928,
+              "endFrame": 1022
+            },
+            {
+              "startFrame": 1035,
+              "endFrame": 1309
+            }
+          ],
+          "backgroundBlur": 32,
+          "backgroundBrightness": 0.6,
+          "backgroundSaturation": 0.72,
+          "backgroundScale": 1.08
+        },
+        {
+          "id": "payoff",
+          "kind": "video",
+          "src": "clips/003_payoff.mp4",
+          "start": 1319,
+          "end": 1984,
+          "startFrom": 0,
+          "fit": "cover",
+          "backColor": "#080808",
+          "volume": 1,
+          "muted": false,
+          "speechRegions": [
+            {
+              "startFrame": 1319,
+              "endFrame": 1779
+            },
+            {
+              "startFrame": 1798,
+              "endFrame": 1963
+            }
+          ],
+          "backgroundBlur": 32,
+          "backgroundBrightness": 0.6,
+          "backgroundSaturation": 0.72,
+          "backgroundScale": 1.08
+        }
+      ]
+    },
+    {
+      "id": "source-window",
+      "kind": "image",
+      "clips": [
+        {
+          "id": "question-source-window",
+          "kind": "image",
+          "src": "clips/001_question.mp4",
+          "start": 0,
+          "end": 695,
+          "startFrom": 0,
+          "x": 0,
+          "y": 34,
+          "width": 1080,
+          "height": 608,
+          "fit": "cover",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        {
+          "id": "context-source-window",
+          "kind": "image",
+          "src": "clips/002_context.mp4",
+          "start": 695,
+          "end": 1319,
+          "startFrom": 0,
+          "x": 0,
+          "y": 34,
+          "width": 1080,
+          "height": 608,
+          "fit": "cover",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        {
+          "id": "payoff-source-window",
+          "kind": "image",
+          "src": "clips/003_payoff.mp4",
+          "start": 1319,
+          "end": 1984,
+          "startFrom": 0,
+          "x": 0,
+          "y": 34,
+          "width": 1080,
+          "height": 608,
+          "fit": "cover",
+          "borderRadius": 0,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": "broll-1",
+      "kind": "image",
+      "clips": [
+        {
+          "id": "r02-br020-unique-laughter",
+          "kind": "image",
+          "src": "broll/series/br020_unique_laughter.mp4",
+          "start": 830,
+          "end": 881,
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "fit": "cover",
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": "broll-2",
+      "kind": "image",
+      "clips": [
+        {
+          "id": "r02-br012-light-walk",
+          "kind": "image",
+          "src": "broll/series/br012_light_walk.mp4",
+          "start": 1886,
+          "end": 1934,
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "fit": "cover",
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": "shape",
+      "kind": "shape",
+      "shapes": [
+        {
+          "id": "question-bottom-scrim",
+          "shape": "rect",
+          "start": 0,
+          "end": 695,
+          "x": 0,
+          "y": 649,
+          "width": 1080,
+          "height": 622,
+          "color": "#080808",
+          "borderRadius": 0,
+          "opacity": 0.3
+        },
+        {
+          "id": "context-bottom-scrim",
+          "shape": "rect",
+          "start": 695,
+          "end": 1319,
+          "x": 0,
+          "y": 649,
+          "width": 1080,
+          "height": 622,
+          "color": "#080808",
+          "borderRadius": 0,
+          "opacity": 0.3
+        },
+        {
+          "id": "payoff-bottom-scrim",
+          "shape": "rect",
+          "start": 1319,
+          "end": 1984,
+          "x": 0,
+          "y": 649,
+          "width": 1080,
+          "height": 622,
+          "color": "#080808",
+          "borderRadius": 0,
+          "opacity": 0.3
+        },
+        {
+          "id": "hook-dark-zone",
+          "shape": "rect",
+          "start": 0,
+          "end": 255,
+          "x": 0,
+          "y": -615,
+          "width": 1080,
+          "height": 690,
+          "color": "#080808",
+          "borderRadius": 0,
+          "opacity": 0.68,
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 9,
+                "value": 0.68,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 248,
+                "value": 0.68
+              },
+              {
+                "frame": 255,
+                "value": 0,
+                "easing": "easeIn"
+              }
+            ]
+          }
+        },
+        {
+          "id": "hook-wine-plate",
+          "shape": "rect",
+          "start": 5,
+          "end": 255,
+          "x": 0,
+          "y": -500,
+          "width": 928,
+          "height": 104,
+          "color": "#7A1F32",
+          "borderRadius": 2,
+          "opacity": 1,
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 10,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 243,
+                "value": 1
+              },
+              {
+                "frame": 250,
+                "value": 0,
+                "easing": "easeIn"
+              }
+            ],
+            "position": [
+              {
+                "frame": 0,
+                "value": {
+                  "x": 0,
+                  "y": -488
+                }
+              },
+              {
+                "frame": 10,
+                "value": {
+                  "x": 0,
+                  "y": -500
+                },
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "id": "final-dark-zone",
+          "shape": "rect",
+          "start": 1883,
+          "end": 1984,
+          "x": 0,
+          "y": -615,
+          "width": 1080,
+          "height": 690,
+          "color": "#080808",
+          "borderRadius": 0,
+          "opacity": 0.68,
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 9,
+                "value": 0.68,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "text",
+      "kind": "text",
+      "words": [
+        {
+          "text": "МОЖЕТ ЛИ СВЯЗЬ",
+          "start": 2,
+          "end": 255,
+          "x": -90,
+          "y": -620,
+          "font": "nikulinaCondensed",
+          "size": 82,
+          "weight": 700,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "editorial",
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 10,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 246,
+                "value": 1
+              },
+              {
+                "frame": 253,
+                "value": 0,
+                "easing": "easeIn"
+              }
+            ],
+            "position": [
+              {
+                "frame": 0,
+                "value": {
+                  "x": -90,
+                  "y": -608
+                }
+              },
+              {
+                "frame": 10,
+                "value": {
+                  "x": -90,
+                  "y": -620
+                },
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "БЫТЬ ЦЕННОЙ",
+          "start": 5,
+          "end": 255,
+          "x": -15,
+          "y": -498,
+          "font": "nikulinaCondensed",
+          "size": 92,
+          "weight": 700,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "editorial",
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 10,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 243,
+                "value": 1
+              },
+              {
+                "frame": 250,
+                "value": 0,
+                "easing": "easeIn"
+              }
+            ],
+            "position": [
+              {
+                "frame": 0,
+                "value": {
+                  "x": -15,
+                  "y": -486
+                }
+              },
+              {
+                "frame": 10,
+                "value": {
+                  "x": -15,
+                  "y": -498
+                },
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "БЕЗ БУДУЩЕГО?",
+          "start": 9,
+          "end": 255,
+          "x": 45,
+          "y": -378,
+          "font": "nikulinaCondensed",
+          "size": 88,
+          "weight": 700,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "editorial",
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 10,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 239,
+                "value": 1
+              },
+              {
+                "frame": 246,
+                "value": 0,
+                "easing": "easeIn"
+              }
+            ],
+            "position": [
+              {
+                "frame": 0,
+                "value": {
+                  "x": 45,
+                  "y": -366
+                }
+              },
+              {
+                "frame": 10,
+                "value": {
+                  "x": 45,
+                  "y": -378
+                },
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Ты когда-нибудь",
+          "start": 0,
+          "end": 84,
+          "x": 0,
+          "y": 480,
+          "font": "nikulinaSans",
+          "size": 45,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "Ты",
+              "revealFrame": 0
+            },
+            {
+              "text": "когда-нибудь",
+              "revealFrame": 14
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "question:q-g1:page:1",
+          "layoutLineIndex": 0,
+          "layoutLineCount": 2,
+          "layoutBounds": {
+            "left": 354.5,
+            "right": 725.5,
+            "top": 1414.35,
+            "bottom": 1465.65
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "Ты",
+              "x": 383.41,
+              "y": 1440,
+              "left": 354.5,
+              "right": 412.31
+            },
+            {
+              "text": "когда-нибудь",
+              "x": 577.45,
+              "y": 1440,
+              "left": 429.4,
+              "right": 725.5
+            }
+          ]
+        },
+        {
+          "text": "ловила себя на том,",
+          "start": 0,
+          "end": 84,
+          "x": 0,
+          "y": 540,
+          "font": "nikulinaSans",
+          "size": 45,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "ловила",
+              "revealFrame": 28
+            },
+            {
+              "text": "себя",
+              "revealFrame": 42
+            },
+            {
+              "text": "на",
+              "revealFrame": 56
+            },
+            {
+              "text": "том,",
+              "revealFrame": 70
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "question:q-g1:page:1",
+          "layoutLineIndex": 1,
+          "layoutLineCount": 2,
+          "layoutBounds": {
+            "left": 322,
+            "right": 758,
+            "top": 1474.35,
+            "bottom": 1525.65
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "ловила",
+              "x": 398.03,
+              "y": 1500,
+              "left": 322,
+              "right": 474.06
+            },
+            {
+              "text": "себя",
+              "x": 538.77,
+              "y": 1500,
+              "left": 490.79,
+              "right": 586.75
+            },
+            {
+              "text": "на",
+              "x": 626.86,
+              "y": 1500,
+              "left": 603.48,
+              "right": 650.23
+            },
+            {
+              "text": "том,",
+              "x": 712.48,
+              "y": 1500,
+              "left": 666.96,
+              "right": 758
+            }
+          ]
+        },
+        {
+          "text": "что воспринимаешь каждую",
+          "start": 84,
+          "end": 294,
+          "x": 0,
+          "y": 420,
+          "font": "nikulinaSans",
+          "size": 45,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "что",
+              "revealFrame": 84
+            },
+            {
+              "text": "воспринимаешь",
+              "revealFrame": 98
+            },
+            {
+              "text": "каждую",
+              "revealFrame": 112
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "question:q-g1:page:2",
+          "layoutLineIndex": 0,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 221.5,
+            "right": 858.5,
+            "top": 1354.35,
+            "bottom": 1405.65
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "что",
+              "x": 257.11,
+              "y": 1380,
+              "left": 221.5,
+              "right": 292.72
+            },
+            {
+              "text": "воспринимаешь",
+              "x": 488.7,
+              "y": 1380,
+              "left": 309.65,
+              "right": 667.75
+            },
+            {
+              "text": "каждую",
+              "x": 771.59,
+              "y": 1380,
+              "left": 684.68,
+              "right": 858.5
+            }
+          ]
+        },
+        {
+          "text": "романтическую связь слишком",
+          "start": 84,
+          "end": 294,
+          "x": 0,
+          "y": 480,
+          "font": "nikulinaSans",
+          "size": 45,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "романтическую",
+              "revealFrame": 126
+            },
+            {
+              "text": "связь",
+              "revealFrame": 140
+            },
+            {
+              "text": "слишком",
+              "revealFrame": 154
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "question:q-g1:page:2",
+          "layoutLineIndex": 1,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 194.5,
+            "right": 885.5,
+            "top": 1414.35,
+            "bottom": 1465.65
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "романтическую",
+              "x": 367.87,
+              "y": 1440,
+              "left": 194.5,
+              "right": 541.24
+            },
+            {
+              "text": "связь",
+              "x": 615.9,
+              "y": 1440,
+              "left": 558.11,
+              "right": 673.69
+            },
+            {
+              "text": "слишком",
+              "x": 788.03,
+              "y": 1440,
+              "left": 690.55,
+              "right": 885.5
+            }
+          ]
+        },
+        {
+          "text": "серьёзно и берёшь на себя слишком",
+          "start": 84,
+          "end": 294,
+          "x": 0,
+          "y": 540,
+          "font": "nikulinaSans",
+          "size": 45,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "серьёзно",
+              "revealFrame": 168
+            },
+            {
+              "text": "и",
+              "revealFrame": 182
+            },
+            {
+              "text": "берёшь",
+              "revealFrame": 196
+            },
+            {
+              "text": "на",
+              "revealFrame": 210
+            },
+            {
+              "text": "себя",
+              "revealFrame": 224
+            },
+            {
+              "text": "слишком",
+              "revealFrame": 238
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "question:q-g1:page:2",
+          "layoutLineIndex": 2,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 133.5,
+            "right": 946.5,
+            "top": 1474.35,
+            "bottom": 1525.65
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "серьёзно",
+              "x": 233.52,
+              "y": 1500,
+              "left": 133.5,
+              "right": 333.54
+            },
+            {
+              "text": "и",
+              "x": 362.43,
+              "y": 1500,
+              "left": 350.33,
+              "right": 374.54
+            },
+            {
+              "text": "берёшь",
+              "x": 475.05,
+              "y": 1500,
+              "left": 391.33,
+              "right": 558.77
+            },
+            {
+              "text": "на",
+              "x": 599.02,
+              "y": 1500,
+              "left": 575.56,
+              "right": 622.49
+            },
+            {
+              "text": "себя",
+              "x": 687.44,
+              "y": 1500,
+              "left": 639.28,
+              "right": 735.59
+            },
+            {
+              "text": "слишком",
+              "x": 849.44,
+              "y": 1500,
+              "left": 752.39,
+              "right": 946.5
+            }
+          ]
+        },
+        {
+          "text": "много ответственности, настолько,",
+          "start": 84,
+          "end": 294,
+          "x": 0,
+          "y": 600,
+          "font": "nikulinaSans",
+          "size": 45,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "много",
+              "revealFrame": 252
+            },
+            {
+              "text": "ответственности,",
+              "revealFrame": 266
+            },
+            {
+              "text": "настолько,",
+              "revealFrame": 280
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "question:q-g1:page:2",
+          "layoutLineIndex": 3,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 153.5,
+            "right": 926.5,
+            "top": 1534.35,
+            "bottom": 1585.65
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "много",
+              "x": 218.37,
+              "y": 1560,
+              "left": 153.5,
+              "right": 283.24
+            },
+            {
+              "text": "ответственности,",
+              "x": 488.8,
+              "y": 1560,
+              "left": 300.15,
+              "right": 677.45
+            },
+            {
+              "text": "настолько,",
+              "x": 810.43,
+              "y": 1560,
+              "left": 694.35,
+              "right": 926.5
+            }
+          ]
+        },
+        {
+          "text": "что не можешь просто встречаться",
+          "start": 294,
+          "end": 553,
+          "x": 0,
+          "y": 420,
+          "font": "nikulinaSans",
+          "size": 45,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "что",
+              "revealFrame": 294
+            },
+            {
+              "text": "не",
+              "revealFrame": 308
+            },
+            {
+              "text": "можешь",
+              "revealFrame": 322
+            },
+            {
+              "text": "просто",
+              "revealFrame": 336
+            },
+            {
+              "text": "встречаться",
+              "revealFrame": 350
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "question:q-g1:page:3",
+          "layoutLineIndex": 0,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 149.5,
+            "right": 930.5,
+            "top": 1354.35,
+            "bottom": 1405.65
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "что",
+              "x": 184.87,
+              "y": 1380,
+              "left": 149.5,
+              "right": 220.23
+            },
+            {
+              "text": "не",
+              "x": 262.03,
+              "y": 1380,
+              "left": 237.05,
+              "right": 287
+            },
+            {
+              "text": "можешь",
+              "x": 395.57,
+              "y": 1380,
+              "left": 303.82,
+              "right": 487.32
+            },
+            {
+              "text": "просто",
+              "x": 579.07,
+              "y": 1380,
+              "left": 504.14,
+              "right": 654.01
+            },
+            {
+              "text": "встречаться",
+              "x": 800.66,
+              "y": 1380,
+              "left": 670.83,
+              "right": 930.5
+            }
+          ]
+        },
+        {
+          "text": "с кем-то, ходить на свидания",
+          "start": 294,
+          "end": 553,
+          "x": 0,
+          "y": 480,
+          "font": "nikulinaSans",
+          "size": 45,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "с",
+              "revealFrame": 364
+            },
+            {
+              "text": "кем-то,",
+              "revealFrame": 378
+            },
+            {
+              "text": "ходить",
+              "revealFrame": 392
+            },
+            {
+              "text": "на",
+              "revealFrame": 406
+            },
+            {
+              "text": "свидания",
+              "revealFrame": 420
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "question:q-g1:page:3",
+          "layoutLineIndex": 1,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 220.5,
+            "right": 859.5,
+            "top": 1414.35,
+            "bottom": 1465.65
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "с",
+              "x": 231.06,
+              "y": 1440,
+              "left": 220.5,
+              "right": 241.62
+            },
+            {
+              "text": "кем-то,",
+              "x": 334.69,
+              "y": 1440,
+              "left": 258.32,
+              "right": 411.07
+            },
+            {
+              "text": "ходить",
+              "x": 502.67,
+              "y": 1440,
+              "left": 427.77,
+              "right": 577.57
+            },
+            {
+              "text": "на",
+              "x": 617.6,
+              "y": 1440,
+              "left": 594.27,
+              "right": 640.93
+            },
+            {
+              "text": "свидания",
+              "x": 758.57,
+              "y": 1440,
+              "left": 657.63,
+              "right": 859.5
+            }
+          ]
+        },
+        {
+          "text": "или заниматься любовью без чувства",
+          "start": 294,
+          "end": 553,
+          "x": 0,
+          "y": 540,
+          "font": "nikulinaSans",
+          "size": 45,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "или",
+              "revealFrame": 434
+            },
+            {
+              "text": "заниматься",
+              "revealFrame": 448
+            },
+            {
+              "text": "любовью",
+              "revealFrame": 462
+            },
+            {
+              "text": "без",
+              "revealFrame": 476
+            },
+            {
+              "text": "чувства",
+              "revealFrame": 490
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "question:q-g1:page:3",
+          "layoutLineIndex": 2,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 127,
+            "right": 953,
+            "top": 1474.35,
+            "bottom": 1525.65
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "или",
+              "x": 165.22,
+              "y": 1500,
+              "left": 127,
+              "right": 203.44
+            },
+            {
+              "text": "заниматься",
+              "x": 343.24,
+              "y": 1500,
+              "left": 220.2,
+              "right": 466.28
+            },
+            {
+              "text": "любовью",
+              "x": 583.89,
+              "y": 1500,
+              "left": 483.04,
+              "right": 684.73
+            },
+            {
+              "text": "без",
+              "x": 737.75,
+              "y": 1500,
+              "left": 701.5,
+              "right": 773.99
+            },
+            {
+              "text": "чувства",
+              "x": 871.88,
+              "y": 1500,
+              "left": 790.76,
+              "right": 953
+            }
+          ]
+        },
+        {
+          "text": "вины и груза ответственности,",
+          "start": 294,
+          "end": 553,
+          "x": 0,
+          "y": 600,
+          "font": "nikulinaSans",
+          "size": 45,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "вины",
+              "revealFrame": 504
+            },
+            {
+              "text": "и",
+              "revealFrame": 518
+            },
+            {
+              "text": "груза",
+              "revealFrame": 532
+            },
+            {
+              "text": "ответственности,",
+              "revealFrame": 546
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "question:q-g1:page:3",
+          "layoutLineIndex": 3,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 202,
+            "right": 878,
+            "top": 1534.35,
+            "bottom": 1585.65
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "вины",
+              "x": 257.01,
+              "y": 1560,
+              "left": 202,
+              "right": 312.01
+            },
+            {
+              "text": "и",
+              "x": 341.13,
+              "y": 1560,
+              "left": 328.94,
+              "right": 353.33
+            },
+            {
+              "text": "груза",
+              "x": 426.75,
+              "y": 1560,
+              "left": 370.25,
+              "right": 483.25
+            },
+            {
+              "text": "ответственности,",
+              "x": 689.09,
+              "y": 1560,
+              "left": 500.18,
+              "right": 878
+            }
+          ]
+        },
+        {
+          "text": "особенно когда с самого",
+          "start": 560,
+          "end": 695,
+          "x": 0,
+          "y": 477.5,
+          "font": "nikulinaSans",
+          "size": 56,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "особенно",
+              "revealFrame": 560
+            },
+            {
+              "text": "когда",
+              "revealFrame": 574
+            },
+            {
+              "text": "с",
+              "revealFrame": 588
+            },
+            {
+              "text": "самого",
+              "revealFrame": 603
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "question:q-g2:page:1",
+          "layoutLineIndex": 0,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 198,
+            "right": 882,
+            "top": 1405.58,
+            "bottom": 1469.42
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "особенно",
+              "x": 327.97,
+              "y": 1437.5,
+              "left": 198,
+              "right": 457.94
+            },
+            {
+              "text": "когда",
+              "x": 552.53,
+              "y": 1437.5,
+              "left": 479.56,
+              "right": 625.5
+            },
+            {
+              "text": "с",
+              "x": 660.63,
+              "y": 1437.5,
+              "left": 647.12,
+              "right": 674.15
+            },
+            {
+              "text": "самого",
+              "x": 788.88,
+              "y": 1437.5,
+              "left": 695.77,
+              "right": 882
+            }
+          ]
+        },
+        {
+          "text": "начала понимаешь,",
+          "start": 560,
+          "end": 695,
+          "x": 0,
+          "y": 542.5,
+          "font": "nikulinaSans",
+          "size": 56,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "начала",
+              "revealFrame": 617
+            },
+            {
+              "text": "понимаешь,",
+              "revealFrame": 631
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "question:q-g2:page:1",
+          "layoutLineIndex": 1,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 273,
+            "right": 807,
+            "top": 1470.58,
+            "bottom": 1534.42
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "начала",
+              "x": 364.42,
+              "y": 1502.5,
+              "left": 273,
+              "right": 455.84
+            },
+            {
+              "text": "понимаешь,",
+              "x": 642.44,
+              "y": 1502.5,
+              "left": 477.88,
+              "right": 807
+            }
+          ]
+        },
+        {
+          "text": "что общего будущего нет?",
+          "start": 560,
+          "end": 695,
+          "x": 0,
+          "y": 607.5,
+          "font": "nikulinaSans",
+          "size": 56,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "что",
+              "revealFrame": 645
+            },
+            {
+              "text": "общего",
+              "revealFrame": 660
+            },
+            {
+              "text": "будущего",
+              "revealFrame": 674
+            },
+            {
+              "text": "нет?",
+              "revealFrame": 688
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "question:q-g2:page:1",
+          "layoutLineIndex": 2,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 175.5,
+            "right": 904.5,
+            "top": 1535.58,
+            "bottom": 1599.42
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "что",
+              "x": 219.64,
+              "y": 1567.5,
+              "left": 175.5,
+              "right": 263.79
+            },
+            {
+              "text": "общего",
+              "x": 386.36,
+              "y": 1567.5,
+              "left": 285.49,
+              "right": 487.22
+            },
+            {
+              "text": "будущего",
+              "x": 637.91,
+              "y": 1567.5,
+              "left": 508.93,
+              "right": 766.89
+            },
+            {
+              "text": "нет?",
+              "x": 846.54,
+              "y": 1567.5,
+              "left": 788.59,
+              "right": 904.5
+            }
+          ]
+        },
+        {
+          "text": "Это очень... на самом деле",
+          "start": 695,
+          "end": 807,
+          "x": 0,
+          "y": 465,
+          "font": "nikulinaSans",
+          "size": 52,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "Это",
+              "revealFrame": 695
+            },
+            {
+              "text": "очень...",
+              "revealFrame": 706
+            },
+            {
+              "text": "на",
+              "revealFrame": 717
+            },
+            {
+              "text": "самом",
+              "revealFrame": 729
+            },
+            {
+              "text": "деле",
+              "revealFrame": 740
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "context:c-g1:page:1",
+          "layoutLineIndex": 0,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 200,
+            "right": 880,
+            "top": 1395.36,
+            "bottom": 1454.64
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "Это",
+              "x": 244.99,
+              "y": 1425,
+              "left": 200,
+              "right": 289.98
+            },
+            {
+              "text": "очень...",
+              "x": 401.84,
+              "y": 1425,
+              "left": 308.66,
+              "right": 495.01
+            },
+            {
+              "text": "на",
+              "x": 540.98,
+              "y": 1425,
+              "left": 513.69,
+              "right": 568.27
+            },
+            {
+              "text": "самом",
+              "x": 664.89,
+              "y": 1425,
+              "left": 586.96,
+              "right": 742.82
+            },
+            {
+              "text": "деле",
+              "x": 820.75,
+              "y": 1425,
+              "left": 761.5,
+              "right": 880
+            }
+          ]
+        },
+        {
+          "text": "потакание тому удовольствию:",
+          "start": 695,
+          "end": 807,
+          "x": 0,
+          "y": 525,
+          "font": "nikulinaSans",
+          "size": 52,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "потакание",
+              "revealFrame": 751
+            },
+            {
+              "text": "тому",
+              "revealFrame": 762
+            },
+            {
+              "text": "удовольствию:",
+              "revealFrame": 773
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "context:c-g1:page:1",
+          "layoutLineIndex": 1,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 142,
+            "right": 938,
+            "top": 1455.36,
+            "bottom": 1514.64
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "потакание",
+              "x": 273.18,
+              "y": 1485,
+              "left": 142,
+              "right": 404.37
+            },
+            {
+              "text": "тому",
+              "x": 483.67,
+              "y": 1485,
+              "left": 423.14,
+              "right": 544.2
+            },
+            {
+              "text": "удовольствию:",
+              "x": 750.49,
+              "y": 1485,
+              "left": 562.98,
+              "right": 938
+            }
+          ]
+        },
+        {
+          "text": "встретить кого-то,",
+          "start": 695,
+          "end": 807,
+          "x": 0,
+          "y": 585,
+          "font": "nikulinaSans",
+          "size": 52,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "встретить",
+              "revealFrame": 785
+            },
+            {
+              "text": "кого-то,",
+              "revealFrame": 796
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "context:c-g1:page:1",
+          "layoutLineIndex": 2,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 307,
+            "right": 773,
+            "top": 1515.36,
+            "bottom": 1574.64
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "встретить",
+              "x": 431.48,
+              "y": 1545,
+              "left": 307,
+              "right": 555.97
+            },
+            {
+              "text": "кого-то,",
+              "x": 673.96,
+              "y": 1545,
+              "left": 574.93,
+              "right": 773
+            }
+          ]
+        },
+        {
+          "text": "сделать его день лучше,",
+          "start": 807,
+          "end": 915,
+          "x": 0,
+          "y": 465,
+          "font": "nikulinaSans",
+          "size": 52,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "сделать",
+              "revealFrame": 807
+            },
+            {
+              "text": "его",
+              "revealFrame": 818
+            },
+            {
+              "text": "день",
+              "revealFrame": 830
+            },
+            {
+              "text": "лучше,",
+              "revealFrame": 841
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "context:c-g1:page:2",
+          "layoutLineIndex": 0,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 233,
+            "right": 847,
+            "top": 1395.36,
+            "bottom": 1454.64
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "сделать",
+              "x": 328.39,
+              "y": 1425,
+              "left": 233,
+              "right": 423.77
+            },
+            {
+              "text": "его",
+              "x": 482.38,
+              "y": 1425,
+              "left": 442.41,
+              "right": 522.35
+            },
+            {
+              "text": "день",
+              "x": 600.57,
+              "y": 1425,
+              "left": 540.98,
+              "right": 660.15
+            },
+            {
+              "text": "лучше,",
+              "x": 762.89,
+              "y": 1425,
+              "left": 678.79,
+              "right": 847
+            }
+          ]
+        },
+        {
+          "text": "его неделю лучше,",
+          "start": 807,
+          "end": 915,
+          "x": 0,
+          "y": 525,
+          "font": "nikulinaSans",
+          "size": 52,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "его",
+              "revealFrame": 852
+            },
+            {
+              "text": "неделю",
+              "revealFrame": 863
+            },
+            {
+              "text": "лучше,",
+              "revealFrame": 874
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "context:c-g1:page:2",
+          "layoutLineIndex": 1,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 300.5,
+            "right": 779.5,
+            "top": 1455.36,
+            "bottom": 1514.64
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "его",
+              "x": 340.87,
+              "y": 1485,
+              "left": 300.5,
+              "right": 381.24
+            },
+            {
+              "text": "неделю",
+              "x": 495.42,
+              "y": 1485,
+              "left": 400.06,
+              "right": 590.77
+            },
+            {
+              "text": "лучше,",
+              "x": 694.55,
+              "y": 1485,
+              "left": 609.6,
+              "right": 779.5
+            }
+          ]
+        },
+        {
+          "text": "его месяц лучше,",
+          "start": 807,
+          "end": 915,
+          "x": 0,
+          "y": 585,
+          "font": "nikulinaSans",
+          "size": 52,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "его",
+              "revealFrame": 886
+            },
+            {
+              "text": "месяц",
+              "revealFrame": 897
+            },
+            {
+              "text": "лучше,",
+              "revealFrame": 908
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "context:c-g1:page:2",
+          "layoutLineIndex": 2,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 321.5,
+            "right": 758.5,
+            "top": 1515.36,
+            "bottom": 1574.64
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "его",
+              "x": 361.74,
+              "y": 1545,
+              "left": 321.5,
+              "right": 401.99
+            },
+            {
+              "text": "месяц",
+              "x": 495.56,
+              "y": 1545,
+              "left": 420.75,
+              "right": 570.37
+            },
+            {
+              "text": "лучше,",
+              "x": 673.82,
+              "y": 1545,
+              "left": 589.13,
+              "right": 758.5
+            }
+          ]
+        },
+        {
+          "text": "дать ему опыт,",
+          "start": 928,
+          "end": 1022,
+          "x": 0,
+          "y": 482.5,
+          "font": "nikulinaSans",
+          "size": 57,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "дать",
+              "revealFrame": 928
+            },
+            {
+              "text": "ему",
+              "revealFrame": 938
+            },
+            {
+              "text": "опыт,",
+              "revealFrame": 947
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "context:c-g2:page:1",
+          "layoutLineIndex": 0,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 335.5,
+            "right": 744.5,
+            "top": 1410.01,
+            "bottom": 1474.99
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "дать",
+              "x": 394.93,
+              "y": 1442.5,
+              "left": 335.5,
+              "right": 454.37
+            },
+            {
+              "text": "ему",
+              "x": 526.9,
+              "y": 1442.5,
+              "left": 476.69,
+              "right": 577.12
+            },
+            {
+              "text": "опыт,",
+              "x": 671.97,
+              "y": 1442.5,
+              "left": 599.43,
+              "right": 744.5
+            }
+          ]
+        },
+        {
+          "text": "которого у него никогда",
+          "start": 928,
+          "end": 1022,
+          "x": 0,
+          "y": 547.5,
+          "font": "nikulinaSans",
+          "size": 57,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "которого",
+              "revealFrame": 957
+            },
+            {
+              "text": "у",
+              "revealFrame": 967
+            },
+            {
+              "text": "него",
+              "revealFrame": 976
+            },
+            {
+              "text": "никогда",
+              "revealFrame": 986
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "context:c-g2:page:1",
+          "layoutLineIndex": 1,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 197.5,
+            "right": 882.5,
+            "top": 1475.01,
+            "bottom": 1539.99
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "которого",
+              "x": 322.82,
+              "y": 1507.5,
+              "left": 197.5,
+              "right": 448.15
+            },
+            {
+              "text": "у",
+              "x": 486.01,
+              "y": 1507.5,
+              "left": 470.62,
+              "right": 501.4
+            },
+            {
+              "text": "него",
+              "x": 583.24,
+              "y": 1507.5,
+              "left": 523.88,
+              "right": 642.6
+            },
+            {
+              "text": "никогда",
+              "x": 773.79,
+              "y": 1507.5,
+              "left": 665.08,
+              "right": 882.5
+            }
+          ]
+        },
+        {
+          "text": "раньше не было,",
+          "start": 928,
+          "end": 1022,
+          "x": 0,
+          "y": 612.5,
+          "font": "nikulinaSans",
+          "size": 57,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "раньше",
+              "revealFrame": 996
+            },
+            {
+              "text": "не",
+              "revealFrame": 1005
+            },
+            {
+              "text": "было,",
+              "revealFrame": 1015
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "context:c-g2:page:1",
+          "layoutLineIndex": 2,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 306.5,
+            "right": 773.5,
+            "top": 1540.01,
+            "bottom": 1604.99
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "раньше",
+              "x": 410.31,
+              "y": 1572.5,
+              "left": 306.5,
+              "right": 514.11
+            },
+            {
+              "text": "не",
+              "x": 567.62,
+              "y": 1572.5,
+              "left": 536.79,
+              "right": 598.44
+            },
+            {
+              "text": "было,",
+              "x": 697.31,
+              "y": 1572.5,
+              "left": 621.12,
+              "right": 773.5
+            }
+          ]
+        },
+        {
+          "text": "потому что это не",
+          "start": 1035,
+          "end": 1144,
+          "x": 0,
+          "y": 470,
+          "font": "nikulinaSans",
+          "size": 52,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "потому",
+              "revealFrame": 1035
+            },
+            {
+              "text": "что",
+              "revealFrame": 1047
+            },
+            {
+              "text": "это",
+              "revealFrame": 1059
+            },
+            {
+              "text": "не",
+              "revealFrame": 1071
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "context:c-g3:page:1",
+          "layoutLineIndex": 0,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 312.5,
+            "right": 767.5,
+            "top": 1400.36,
+            "bottom": 1459.64
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "потому",
+              "x": 402.17,
+              "y": 1430,
+              "left": 312.5,
+              "right": 491.85
+            },
+            {
+              "text": "что",
+              "x": 551.06,
+              "y": 1430,
+              "left": 510.52,
+              "right": 591.59
+            },
+            {
+              "text": "это",
+              "x": 650.8,
+              "y": 1430,
+              "left": 610.26,
+              "right": 691.34
+            },
+            {
+              "text": "не",
+              "x": 738.76,
+              "y": 1430,
+              "left": 710.01,
+              "right": 767.5
+            }
+          ]
+        },
+        {
+          "text": "обязательно должен",
+          "start": 1035,
+          "end": 1144,
+          "x": 0,
+          "y": 530,
+          "font": "nikulinaSans",
+          "size": 52,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "обязательно",
+              "revealFrame": 1084
+            },
+            {
+              "text": "должен",
+              "revealFrame": 1096
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "context:c-g3:page:1",
+          "layoutLineIndex": 1,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 275,
+            "right": 805,
+            "top": 1460.36,
+            "bottom": 1519.64
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "обязательно",
+              "x": 432.86,
+              "y": 1490,
+              "left": 275,
+              "right": 590.71
+            },
+            {
+              "text": "должен",
+              "x": 707.3,
+              "y": 1490,
+              "left": 609.61,
+              "right": 805
+            }
+          ]
+        },
+        {
+          "text": "быть невероятный опыт,",
+          "start": 1035,
+          "end": 1144,
+          "x": 0,
+          "y": 590,
+          "font": "nikulinaSans",
+          "size": 52,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "быть",
+              "revealFrame": 1108
+            },
+            {
+              "text": "невероятный",
+              "revealFrame": 1120
+            },
+            {
+              "text": "опыт,",
+              "revealFrame": 1132
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "context:c-g3:page:1",
+          "layoutLineIndex": 2,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 225.5,
+            "right": 854.5,
+            "top": 1520.36,
+            "bottom": 1579.64
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "быть",
+              "x": 285.42,
+              "y": 1550,
+              "left": 225.5,
+              "right": 345.33
+            },
+            {
+              "text": "невероятный",
+              "x": 532.04,
+              "y": 1550,
+              "left": 364.23,
+              "right": 699.86
+            },
+            {
+              "text": "опыт,",
+              "x": 786.63,
+              "y": 1550,
+              "left": 718.76,
+              "right": 854.5
+            }
+          ]
+        },
+        {
+          "text": "который можешь дать только",
+          "start": 1144,
+          "end": 1309,
+          "x": 0,
+          "y": 470,
+          "font": "nikulinaSans",
+          "size": 52,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "который",
+              "revealFrame": 1144
+            },
+            {
+              "text": "можешь",
+              "revealFrame": 1156
+            },
+            {
+              "text": "дать",
+              "revealFrame": 1169
+            },
+            {
+              "text": "только",
+              "revealFrame": 1181
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "context:c-g3:page:2",
+          "layoutLineIndex": 0,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 157.5,
+            "right": 922.5,
+            "top": 1400.36,
+            "bottom": 1459.64
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "который",
+              "x": 265.2,
+              "y": 1430,
+              "left": 157.5,
+              "right": 372.9
+            },
+            {
+              "text": "можешь",
+              "x": 497.36,
+              "y": 1430,
+              "left": 391.63,
+              "right": 603.09
+            },
+            {
+              "text": "дать",
+              "x": 676.78,
+              "y": 1430,
+              "left": 621.82,
+              "right": 731.74
+            },
+            {
+              "text": "только",
+              "x": 836.49,
+              "y": 1430,
+              "left": 750.47,
+              "right": 922.5
+            }
+          ]
+        },
+        {
+          "text": "ты, но ты и этот один человек",
+          "start": 1144,
+          "end": 1309,
+          "x": 0,
+          "y": 530,
+          "font": "nikulinaSans",
+          "size": 52,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "ты,",
+              "revealFrame": 1193
+            },
+            {
+              "text": "но",
+              "revealFrame": 1205
+            },
+            {
+              "text": "ты",
+              "revealFrame": 1217
+            },
+            {
+              "text": "и",
+              "revealFrame": 1229
+            },
+            {
+              "text": "этот",
+              "revealFrame": 1241
+            },
+            {
+              "text": "один",
+              "revealFrame": 1253
+            },
+            {
+              "text": "человек",
+              "revealFrame": 1266
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "context:c-g3:page:2",
+          "layoutLineIndex": 1,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 159.5,
+            "right": 920.5,
+            "top": 1460.36,
+            "bottom": 1519.64
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "ты,",
+              "x": 195.96,
+              "y": 1490,
+              "left": 159.5,
+              "right": 232.42
+            },
+            {
+              "text": "но",
+              "x": 280.62,
+              "y": 1490,
+              "left": 251.02,
+              "right": 310.23
+            },
+            {
+              "text": "ты",
+              "x": 358.44,
+              "y": 1490,
+              "left": 328.83,
+              "right": 388.04
+            },
+            {
+              "text": "и",
+              "x": 420.59,
+              "y": 1490,
+              "left": 406.64,
+              "right": 434.54
+            },
+            {
+              "text": "этот",
+              "x": 505.74,
+              "y": 1490,
+              "left": 453.13,
+              "right": 558.35
+            },
+            {
+              "text": "один",
+              "x": 637.88,
+              "y": 1490,
+              "left": 576.95,
+              "right": 698.81
+            },
+            {
+              "text": "человек",
+              "x": 818.95,
+              "y": 1490,
+              "left": 717.4,
+              "right": 920.5
+            }
+          ]
+        },
+        {
+          "text": "вместе, совершенно уникальны.",
+          "start": 1144,
+          "end": 1309,
+          "x": 0,
+          "y": 590,
+          "font": "nikulinaSans",
+          "size": 52,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "вместе,",
+              "revealFrame": 1278
+            },
+            {
+              "text": "совершенно",
+              "revealFrame": 1290
+            },
+            {
+              "text": "уникальны.",
+              "revealFrame": 1302
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "context:c-g3:page:2",
+          "layoutLineIndex": 2,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 127,
+            "right": 953,
+            "top": 1520.36,
+            "bottom": 1579.64
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "вместе,",
+              "x": 219.91,
+              "y": 1550,
+              "left": 127,
+              "right": 312.81
+            },
+            {
+              "text": "совершенно",
+              "x": 489.46,
+              "y": 1550,
+              "left": 331.64,
+              "right": 647.28
+            },
+            {
+              "text": "уникальны.",
+              "x": 809.55,
+              "y": 1550,
+              "left": 666.1,
+              "right": 953
+            }
+          ]
+        },
+        {
+          "text": "Иди устанавливай",
+          "start": 1319,
+          "end": 1425,
+          "x": 0,
+          "y": 434.22,
+          "font": "nikulinaSans",
+          "size": 54,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "Иди",
+              "revealFrame": 1319
+            },
+            {
+              "text": "устанавливай",
+              "revealFrame": 1330
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "payoff:p-g1:page:1",
+          "layoutLineIndex": 0,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 299.5,
+            "right": 780.5,
+            "top": 1363.44,
+            "bottom": 1425
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "Иди",
+              "x": 350.93,
+              "y": 1394.22,
+              "left": 299.5,
+              "right": 402.36
+            },
+            {
+              "text": "устанавливай",
+              "x": 601.86,
+              "y": 1394.22,
+              "left": 423.23,
+              "right": 780.5
+            }
+          ]
+        },
+        {
+          "text": "связи с людьми, иди",
+          "start": 1319,
+          "end": 1425,
+          "x": 0,
+          "y": 499.22,
+          "font": "nikulinaSans",
+          "size": 54,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "связи",
+              "revealFrame": 1341
+            },
+            {
+              "text": "с",
+              "revealFrame": 1352
+            },
+            {
+              "text": "людьми,",
+              "revealFrame": 1363
+            },
+            {
+              "text": "иди",
+              "revealFrame": 1374
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "payoff:p-g1:page:1",
+          "layoutLineIndex": 1,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 271.5,
+            "right": 808.5,
+            "top": 1428.44,
+            "bottom": 1490
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "связи",
+              "x": 341.07,
+              "y": 1459.22,
+              "left": 271.5,
+              "right": 410.63
+            },
+            {
+              "text": "с",
+              "x": 444.07,
+              "y": 1459.22,
+              "left": 431.14,
+              "right": 457.01
+            },
+            {
+              "text": "людьми,",
+              "x": 586.13,
+              "y": 1459.22,
+              "left": 477.51,
+              "right": 694.75
+            },
+            {
+              "text": "иди",
+              "x": 761.88,
+              "y": 1459.22,
+              "left": 715.26,
+              "right": 808.5
+            }
+          ]
+        },
+        {
+          "text": "переживай мимолётные",
+          "start": 1319,
+          "end": 1425,
+          "x": 0,
+          "y": 564.22,
+          "font": "nikulinaSans",
+          "size": 54,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "переживай",
+              "revealFrame": 1385
+            },
+            {
+              "text": "мимолётные",
+              "revealFrame": 1396
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "payoff:p-g1:page:1",
+          "layoutLineIndex": 2,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 214,
+            "right": 866,
+            "top": 1493.44,
+            "bottom": 1555
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "переживай",
+              "x": 363.98,
+              "y": 1524.22,
+              "left": 214,
+              "right": 513.96
+            },
+            {
+              "text": "мимолётные",
+              "x": 700.5,
+              "y": 1524.22,
+              "left": 534.99,
+              "right": 866
+            }
+          ]
+        },
+        {
+          "text": "моменты удовольствия.",
+          "start": 1319,
+          "end": 1425,
+          "x": 0,
+          "y": 629.22,
+          "font": "nikulinaSans",
+          "size": 54,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "моменты",
+              "revealFrame": 1407
+            },
+            {
+              "text": "удовольствия.",
+              "revealFrame": 1418
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "payoff:p-g1:page:1",
+          "layoutLineIndex": 3,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 225.5,
+            "right": 854.5,
+            "top": 1558.44,
+            "bottom": 1620
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "моменты",
+              "x": 342.19,
+              "y": 1589.22,
+              "left": 225.5,
+              "right": 458.89
+            },
+            {
+              "text": "удовольствия.",
+              "x": 667.14,
+              "y": 1589.22,
+              "left": 479.79,
+              "right": 854.5
+            }
+          ]
+        },
+        {
+          "text": "Не чувствуй давления",
+          "start": 1425,
+          "end": 1593,
+          "x": 0,
+          "y": 430,
+          "font": "nikulinaSans",
+          "size": 50,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "Не",
+              "revealFrame": 1425
+            },
+            {
+              "text": "чувствуй",
+              "revealFrame": 1436
+            },
+            {
+              "text": "давления",
+              "revealFrame": 1446
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "payoff:p-g2:page:1",
+          "layoutLineIndex": 0,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 271,
+            "right": 809,
+            "top": 1361.5,
+            "bottom": 1418.5
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "Не",
+              "x": 301.99,
+              "y": 1390,
+              "left": 271,
+              "right": 332.98
+            },
+            {
+              "text": "чувствуй",
+              "x": 456.7,
+              "y": 1390,
+              "left": 350.83,
+              "right": 562.56
+            },
+            {
+              "text": "давления",
+              "x": 694.71,
+              "y": 1390,
+              "left": 580.41,
+              "right": 809
+            }
+          ]
+        },
+        {
+          "text": "или ожиданий, пока у тебя",
+          "start": 1425,
+          "end": 1593,
+          "x": 0,
+          "y": 490,
+          "font": "nikulinaSans",
+          "size": 50,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "или",
+              "revealFrame": 1457
+            },
+            {
+              "text": "ожиданий,",
+              "revealFrame": 1467
+            },
+            {
+              "text": "пока",
+              "revealFrame": 1478
+            },
+            {
+              "text": "у",
+              "revealFrame": 1488
+            },
+            {
+              "text": "тебя",
+              "revealFrame": 1499
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "payoff:p-g2:page:1",
+          "layoutLineIndex": 1,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 209,
+            "right": 871,
+            "top": 1421.5,
+            "bottom": 1478.5
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "или",
+              "x": 251.45,
+              "y": 1450,
+              "left": 209,
+              "right": 293.9
+            },
+            {
+              "text": "ожиданий,",
+              "x": 442.83,
+              "y": 1450,
+              "left": 311.56,
+              "right": 574.11
+            },
+            {
+              "text": "пока",
+              "x": 646.98,
+              "y": 1450,
+              "left": 591.77,
+              "right": 702.19
+            },
+            {
+              "text": "у",
+              "x": 733.35,
+              "y": 1450,
+              "left": 719.85,
+              "right": 746.84
+            },
+            {
+              "text": "тебя",
+              "x": 817.76,
+              "y": 1450,
+              "left": 764.51,
+              "right": 871
+            }
+          ]
+        },
+        {
+          "text": "добрые намерения и ты не",
+          "start": 1425,
+          "end": 1593,
+          "x": 0,
+          "y": 550,
+          "font": "nikulinaSans",
+          "size": 50,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "добрые",
+              "revealFrame": 1509
+            },
+            {
+              "text": "намерения",
+              "revealFrame": 1520
+            },
+            {
+              "text": "и",
+              "revealFrame": 1530
+            },
+            {
+              "text": "ты",
+              "revealFrame": 1541
+            },
+            {
+              "text": "не",
+              "revealFrame": 1551
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "payoff:p-g2:page:1",
+          "layoutLineIndex": 2,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 206.5,
+            "right": 873.5,
+            "top": 1481.5,
+            "bottom": 1538.5
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "добрые",
+              "x": 300.83,
+              "y": 1510,
+              "left": 206.5,
+              "right": 395.16
+            },
+            {
+              "text": "намерения",
+              "x": 546.44,
+              "y": 1510,
+              "left": 412.99,
+              "right": 679.89
+            },
+            {
+              "text": "и",
+              "x": 711.33,
+              "y": 1510,
+              "left": 697.71,
+              "right": 724.95
+            },
+            {
+              "text": "ты",
+              "x": 771.74,
+              "y": 1510,
+              "left": 742.77,
+              "right": 800.71
+            },
+            {
+              "text": "не",
+              "x": 846.02,
+              "y": 1510,
+              "left": 818.54,
+              "right": 873.5
+            }
+          ]
+        },
+        {
+          "text": "собираешься кому-то навредить,",
+          "start": 1425,
+          "end": 1593,
+          "x": 0,
+          "y": 610,
+          "font": "nikulinaSans",
+          "size": 50,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "собираешься",
+              "revealFrame": 1562
+            },
+            {
+              "text": "кому-то",
+              "revealFrame": 1572
+            },
+            {
+              "text": "навредить,",
+              "revealFrame": 1583
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "payoff:p-g2:page:1",
+          "layoutLineIndex": 3,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 131,
+            "right": 949,
+            "top": 1541.5,
+            "bottom": 1598.5
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "собираешься",
+              "x": 293.95,
+              "y": 1570,
+              "left": 131,
+              "right": 456.9
+            },
+            {
+              "text": "кому-то",
+              "x": 568.95,
+              "y": 1570,
+              "left": 474.87,
+              "right": 663.02
+            },
+            {
+              "text": "навредить,",
+              "x": 815,
+              "y": 1570,
+              "left": 680.99,
+              "right": 949
+            }
+          ]
+        },
+        {
+          "text": "если только это не их кинк,",
+          "start": 1593,
+          "end": 1779,
+          "x": 0,
+          "y": 460,
+          "font": "nikulinaSans",
+          "size": 50,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "если",
+              "revealFrame": 1593
+            },
+            {
+              "text": "только",
+              "revealFrame": 1604
+            },
+            {
+              "text": "это",
+              "revealFrame": 1614
+            },
+            {
+              "text": "не",
+              "revealFrame": 1625
+            },
+            {
+              "text": "их",
+              "revealFrame": 1635
+            },
+            {
+              "text": "кинк,",
+              "revealFrame": 1646
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "payoff:p-g2:page:2",
+          "layoutLineIndex": 0,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 202,
+            "right": 878,
+            "top": 1391.5,
+            "bottom": 1448.5
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "если",
+              "x": 256.29,
+              "y": 1420,
+              "left": 202,
+              "right": 310.57
+            },
+            {
+              "text": "только",
+              "x": 410.55,
+              "y": 1420,
+              "left": 328.26,
+              "right": 492.84
+            },
+            {
+              "text": "это",
+              "x": 549.58,
+              "y": 1420,
+              "left": 510.52,
+              "right": 588.64
+            },
+            {
+              "text": "не",
+              "x": 633.59,
+              "y": 1420,
+              "left": 606.32,
+              "right": 660.85
+            },
+            {
+              "text": "их",
+              "x": 706.3,
+              "y": 1420,
+              "left": 678.54,
+              "right": 734.06
+            },
+            {
+              "text": "кинк,",
+              "x": 814.87,
+              "y": 1420,
+              "left": 751.74,
+              "right": 878
+            }
+          ]
+        },
+        {
+          "text": "и у тебя есть их согласие,",
+          "start": 1593,
+          "end": 1779,
+          "x": 0,
+          "y": 520,
+          "font": "nikulinaSans",
+          "size": 50,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "и",
+              "revealFrame": 1656
+            },
+            {
+              "text": "у",
+              "revealFrame": 1667
+            },
+            {
+              "text": "тебя",
+              "revealFrame": 1677
+            },
+            {
+              "text": "есть",
+              "revealFrame": 1688
+            },
+            {
+              "text": "их",
+              "revealFrame": 1698
+            },
+            {
+              "text": "согласие,",
+              "revealFrame": 1709
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "payoff:p-g2:page:2",
+          "layoutLineIndex": 1,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 228,
+            "right": 852,
+            "top": 1451.5,
+            "bottom": 1508.5
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "и",
+              "x": 241.39,
+              "y": 1480,
+              "left": 228,
+              "right": 254.77
+            },
+            {
+              "text": "у",
+              "x": 285.68,
+              "y": 1480,
+              "left": 272.29,
+              "right": 299.06
+            },
+            {
+              "text": "тебя",
+              "x": 369.4,
+              "y": 1480,
+              "left": 316.59,
+              "right": 422.21
+            },
+            {
+              "text": "есть",
+              "x": 489.62,
+              "y": 1480,
+              "left": 439.73,
+              "right": 539.51
+            },
+            {
+              "text": "их",
+              "x": 584.54,
+              "y": 1480,
+              "left": 557.04,
+              "right": 612.04
+            },
+            {
+              "text": "согласие,",
+              "x": 740.78,
+              "y": 1480,
+              "left": 629.56,
+              "right": 852
+            }
+          ]
+        },
+        {
+          "text": "и это то, чего они хотят.",
+          "start": 1593,
+          "end": 1779,
+          "x": 0,
+          "y": 580,
+          "font": "nikulinaSans",
+          "size": 50,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "и",
+              "revealFrame": 1719
+            },
+            {
+              "text": "это",
+              "revealFrame": 1730
+            },
+            {
+              "text": "то,",
+              "revealFrame": 1740
+            },
+            {
+              "text": "чего",
+              "revealFrame": 1751
+            },
+            {
+              "text": "они",
+              "revealFrame": 1761
+            },
+            {
+              "text": "хотят.",
+              "revealFrame": 1772
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "payoff:p-g2:page:2",
+          "layoutLineIndex": 2,
+          "layoutLineCount": 3,
+          "layoutBounds": {
+            "left": 246.5,
+            "right": 833.5,
+            "top": 1511.5,
+            "bottom": 1568.5
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "и",
+              "x": 259.91,
+              "y": 1540,
+              "left": 246.5,
+              "right": 273.31
+            },
+            {
+              "text": "это",
+              "x": 329.63,
+              "y": 1540,
+              "left": 290.87,
+              "right": 368.39
+            },
+            {
+              "text": "то,",
+              "x": 418.36,
+              "y": 1540,
+              "left": 385.94,
+              "right": 450.78
+            },
+            {
+              "text": "чего",
+              "x": 520.25,
+              "y": 1540,
+              "left": 468.33,
+              "right": 572.18
+            },
+            {
+              "text": "они",
+              "x": 633.36,
+              "y": 1540,
+              "left": 589.73,
+              "right": 677
+            },
+            {
+              "text": "хотят.",
+              "x": 764.03,
+              "y": 1540,
+              "left": 694.55,
+              "right": 833.5
+            }
+          ]
+        },
+        {
+          "text": "Тогда у тебя добрые",
+          "start": 1798,
+          "end": 1984,
+          "x": 0,
+          "y": 434.22,
+          "font": "nikulinaSans",
+          "size": 54,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "Тогда",
+              "revealFrame": 1798
+            },
+            {
+              "text": "у",
+              "revealFrame": 1813
+            },
+            {
+              "text": "тебя",
+              "revealFrame": 1828
+            },
+            {
+              "text": "добрые",
+              "revealFrame": 1843
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "payoff:p-g3:page:1",
+          "layoutLineIndex": 0,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 267.5,
+            "right": 812.5,
+            "top": 1363.44,
+            "bottom": 1425
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "Тогда",
+              "x": 338.89,
+              "y": 1394.22,
+              "left": 267.5,
+              "right": 410.28
+            },
+            {
+              "text": "у",
+              "x": 444.89,
+              "y": 1394.22,
+              "left": 430.61,
+              "right": 459.17
+            },
+            {
+              "text": "тебя",
+              "x": 536.37,
+              "y": 1394.22,
+              "left": 479.5,
+              "right": 593.24
+            },
+            {
+              "text": "добрые",
+              "x": 713.04,
+              "y": 1394.22,
+              "left": 613.57,
+              "right": 812.5
+            }
+          ]
+        },
+        {
+          "text": "намерения, ты входишь",
+          "start": 1798,
+          "end": 1984,
+          "x": 0,
+          "y": 499.22,
+          "font": "nikulinaSans",
+          "size": 54,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "намерения,",
+              "revealFrame": 1858
+            },
+            {
+              "text": "ты",
+              "revealFrame": 1873
+            },
+            {
+              "text": "входишь",
+              "revealFrame": 1888
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "payoff:p-g3:page:1",
+          "layoutLineIndex": 1,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 223.5,
+            "right": 856.5,
+            "top": 1428.44,
+            "bottom": 1490
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "намерения,",
+              "x": 373.97,
+              "y": 1459.22,
+              "left": 223.5,
+              "right": 524.43
+            },
+            {
+              "text": "ты",
+              "x": 576.07,
+              "y": 1459.22,
+              "left": 545.19,
+              "right": 606.96
+            },
+            {
+              "text": "входишь",
+              "x": 742.11,
+              "y": 1459.22,
+              "left": 627.71,
+              "right": 856.5
+            }
+          ]
+        },
+        {
+          "text": "во что-то лёгкое",
+          "start": 1798,
+          "end": 1984,
+          "x": 0,
+          "y": 564.22,
+          "font": "nikulinaSans",
+          "size": 54,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "во",
+              "revealFrame": 1902
+            },
+            {
+              "text": "что-то",
+              "revealFrame": 1917
+            },
+            {
+              "text": "лёгкое",
+              "revealFrame": 1932
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "payoff:p-g3:page:1",
+          "layoutLineIndex": 2,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 324,
+            "right": 756,
+            "top": 1493.44,
+            "bottom": 1555
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "во",
+              "x": 353.18,
+              "y": 1524.22,
+              "left": 324,
+              "right": 382.35
+            },
+            {
+              "text": "что-то",
+              "x": 482.14,
+              "y": 1524.22,
+              "left": 402.95,
+              "right": 561.33
+            },
+            {
+              "text": "лёгкое",
+              "x": 668.96,
+              "y": 1524.22,
+              "left": 581.93,
+              "right": 756
+            }
+          ]
+        },
+        {
+          "text": "без всяких ожиданий.",
+          "start": 1798,
+          "end": 1984,
+          "x": 0,
+          "y": 629.22,
+          "font": "nikulinaSans",
+          "size": 54,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "без",
+              "revealFrame": 1947
+            },
+            {
+              "text": "всяких",
+              "revealFrame": 1962
+            },
+            {
+              "text": "ожиданий.",
+              "revealFrame": 1977
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true,
+          "layoutSystem": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+          "layoutGroupId": "payoff:p-g3:page:1",
+          "layoutLineIndex": 3,
+          "layoutLineCount": 4,
+          "layoutBounds": {
+            "left": 245,
+            "right": 835,
+            "top": 1558.44,
+            "bottom": 1620
+          },
+          "layoutSafeBounds": {
+            "left": 120,
+            "right": 960,
+            "top": 220,
+            "bottom": 1620
+          },
+          "fixedFinalLayout": true,
+          "horizontalReflow": false,
+          "verticalReflow": false,
+          "finalWordPositions": [
+            {
+              "text": "без",
+              "x": 288.27,
+              "y": 1589.22,
+              "left": 245,
+              "right": 331.55
+            },
+            {
+              "text": "всяких",
+              "x": 440.1,
+              "y": 1589.22,
+              "left": 352.32,
+              "right": 527.88
+            },
+            {
+              "text": "ожиданий.",
+              "x": 691.83,
+              "y": 1589.22,
+              "left": 548.65,
+              "right": 835
+            }
+          ]
+        },
+        {
+          "text": "ЛЕГКО. ЧЕСТНО.",
+          "start": 1883,
+          "end": 1984,
+          "x": -105,
+          "y": -545,
+          "font": "nikulinaCondensed",
+          "size": 76,
+          "weight": 700,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "editorial",
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 9,
+                "value": 1,
+                "easing": "easeOut"
+              }
+            ],
+            "position": [
+              {
+                "frame": 0,
+                "value": {
+                  "x": -105,
+                  "y": -535
+                }
+              },
+              {
+                "frame": 9,
+                "value": {
+                  "x": -105,
+                  "y": -545
+                },
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "БЕЗ ЛОЖНЫХ ОБЕЩАНИЙ.",
+          "start": 1889,
+          "end": 1984,
+          "x": 0,
+          "y": -430,
+          "font": "nikulinaCondensed",
+          "size": 64,
+          "weight": 700,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "editorial",
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 9,
+                "value": 1,
+                "easing": "easeOut"
+              }
+            ],
+            "position": [
+              {
+                "frame": 0,
+                "value": {
+                  "x": 0,
+                  "y": -420
+                }
+              },
+              {
+                "frame": 9,
+                "value": {
+                  "x": 0,
+                  "y": -430
+                },
+                "easing": "easeOut"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "kind": "audio",
+      "clips": [
+        {
+          "id": "music",
+          "src": "media/connection_wayne_jones.mp3",
+          "start": 0,
+          "end": 1984,
+          "startFrom": 0,
+          "volume": 0.11,
+          "fadeInFrames": 15,
+          "fadeOutFrames": 30,
+          "ducking": {
+            "enabled": true,
+            "duckedVolume": 0.05,
+            "attackFrames": 6,
+            "releaseFrames": 8
+          }
+        }
+      ]
+    }
+  ]
+}

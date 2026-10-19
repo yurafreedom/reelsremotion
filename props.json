@@ -1,0 +1,100 @@
+{
+  "showGrid": false,
+  "timeline": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "durationInFrames": 1563,
+    "tracks": [
+      {
+        "id": "video",
+        "kind": "video",
+        "clips": [
+          {
+            "id": "vid",
+            "kind": "video",
+            "src": "media/reels-video-1.mp4",
+            "start": 0,
+            "end": 218,
+            "startFrom": 0,
+            "fit": "cover"
+          },
+          {
+            "id": "vid-b-b",
+            "kind": "video",
+            "src": "media/reels-video-1.mp4",
+            "start": 295,
+            "end": 395,
+            "startFrom": 305,
+            "fit": "cover"
+          },
+          {
+            "id": "vid-b-b-b",
+            "kind": "video",
+            "src": "media/reels-video-1.mp4",
+            "start": 218,
+            "end": 295,
+            "startFrom": 400,
+            "fit": "cover"
+          },
+          {
+            "id": "vid-b-b-b-b-b",
+            "kind": "video",
+            "src": "media/reels-video-1.mp4",
+            "start": 395,
+            "end": 526,
+            "startFrom": 560,
+            "fit": "cover"
+          },
+          {
+            "id": "vid-b-b-b-b-b-b",
+            "kind": "video",
+            "src": "media/reels-video-1.mp4",
+            "start": 526,
+            "end": 1040,
+            "startFrom": 691,
+            "fit": "cover"
+          },
+          {
+            "id": "vid-b-b-b-b-b-b-b",
+            "kind": "video",
+            "src": "media/reels-video-1.mp4",
+            "start": 1040,
+            "end": 1431,
+            "startFrom": 1205,
+            "fit": "cover"
+          },
+          {
+            "id": "vid-b-b-b-b-b-b-b-b",
+            "kind": "video",
+            "src": "media/reels-video-1.mp4",
+            "start": 1431,
+            "end": 1563,
+            "startFrom": 1596,
+            "fit": "cover"
+          }
+        ]
+      },
+      {
+        "id": "image",
+        "kind": "image",
+        "clips": []
+      },
+      {
+        "id": "shape",
+        "kind": "shape",
+        "shapes": []
+      },
+      {
+        "id": "text",
+        "kind": "text",
+        "words": []
+      },
+      {
+        "id": "audio",
+        "kind": "audio",
+        "clips": []
+      }
+    ]
+  }
+}

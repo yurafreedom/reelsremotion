@@ -1,0 +1,987 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "R08",
+  "slug": "r08-where-do-you-fall-apart",
+  "title": "Where Do You Fall Apart?",
+  "stage": "series-production-candidate",
+  "approval_status": "HUMAN_SOURCE_APPROVED; SERIES_PRODUCTION_CANDIDATE_AUTHORIZED",
+  "final_human_gate": {
+    "join_01": "APPROVED",
+    "c11": "ACCEPTED_EGO_PERSONALITIES",
+    "c12": "ACCEPTED_AND_RETAINED",
+    "c12_text": "на много эго-личностей",
+    "join_02_current": "REJECTED_PSYCHIKA_ONLY_IS_INCOMPLETE_THOUGHT",
+    "join_02_b1": {
+      "status": "REJECTED",
+      "block_3_end": 9550.12,
+      "block_4_start": 9553.68,
+      "preview": "scratch_check/final_human_gate/r08/r08_join_02_B1.mp4"
+    },
+    "join_02_b2": "ABANDONED_WITH_PSYCHIKA_ONLY_APPROACH",
+    "join_02_b3": "ABANDONED_WITH_PSYCHIKA_ONLY_APPROACH",
+    "join_02_option_a": {
+      "status": "APPROVED",
+      "block_3_end": 9551.8,
+      "block_3_complete_phrase_end": 9551.58,
+      "block_4_start": 9553.64,
+      "preview": "scratch_check/final_human_gate/r08/r08_join_02_option_A_complete_sentence.mp4"
+    },
+    "selected_join": "COMPLETE_SENTENCE_OPTION_A",
+    "final_timeline_authorized": false
+  },
+  "source_authority": {
+    "source_video": "video1219377731.mp4",
+    "native_asr_word_timing": "transcripts/video1219377731/asr_video1219377731.json",
+    "native_srt": "transcripts/video1219377731/subtitles_native.srt",
+    "english_translation_srt": "transcripts/video1219377731/subtitles_en.srt",
+    "contextual_english_to_russian": "transcripts/video1219377731/en_spans_ru.json",
+    "prose_transcripts": "semantic search only; never timing authority"
+  },
+  "source_media": {
+    "duration_seconds": 13974.421333,
+    "video": "h264 1280x720 25fps yuv420p",
+    "audio": "aac stereo 48000Hz",
+    "source_untouched": true
+  },
+  "clips": [
+    {
+      "id": "r08-observe-parts",
+      "role": "hook-context",
+      "source_video": "video1219377731.mp4",
+      "source_start": 9443.82,
+      "source_end": 9474.48,
+      "source_start_tc": "02:37:23.820",
+      "source_end_tc": "02:37:54.480",
+      "extracted_duration_expected": 30.66,
+      "output_path": "reel-input/r08-where-do-you-fall-apart/public/clips/001_hook-context.mp4",
+      "extraction_mode": "exact-reencode",
+      "languages": [
+        "ru"
+      ],
+      "speaker": "Russian-speaking host, likely Evgeniia",
+      "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+      "source_quote": "Первым этапом изучите свои галичности. Потом вы сможете понять, в какой части себя вы рассыпаетесь. Например, когда мы нашли там вот, что мой ребенок подавлен в какой-то сфере, и эта сфера задевает моё родительство, когда мы это исправили, я нашла способ контактировать лучше с детьми. Вы изучаете себя, как вы разговариваете с людьми. Вам нужно уйти в глубокую саморефлексию.",
+      "source_subtitles": [
+        {
+          "id": 1572,
+          "start": 9443.82,
+          "end": 9446.5,
+          "start_tc": "02:37:23.820",
+          "end_tc": "02:37:26.500",
+          "language": "ru",
+          "text": "Первым этапом изучите свои галичности.",
+          "words": [
+            {
+              "word": "Первым",
+              "start": 9443.82,
+              "end": 9444.48
+            },
+            {
+              "word": "этапом",
+              "start": 9444.48,
+              "end": 9444.96
+            },
+            {
+              "word": "изучите",
+              "start": 9444.96,
+              "end": 9445.52
+            },
+            {
+              "word": "свои",
+              "start": 9445.52,
+              "end": 9445.78
+            },
+            {
+              "word": "галичности.",
+              "start": 9445.78,
+              "end": 9446.5
+            }
+          ]
+        },
+        {
+          "id": 1573,
+          "start": 9446.66,
+          "end": 9450.8,
+          "start_tc": "02:37:26.660",
+          "end_tc": "02:37:30.800",
+          "language": "ru",
+          "text": "Потом вы сможете понять, в какой части себя вы рассыпаетесь.",
+          "words": [
+            {
+              "word": "Потом",
+              "start": 9446.66,
+              "end": 9446.9
+            },
+            {
+              "word": "вы",
+              "start": 9446.9,
+              "end": 9447.36
+            },
+            {
+              "word": "сможете",
+              "start": 9447.36,
+              "end": 9448.14
+            },
+            {
+              "word": "понять,",
+              "start": 9448.14,
+              "end": 9448.46
+            },
+            {
+              "word": "в",
+              "start": 9448.84,
+              "end": 9448.84
+            },
+            {
+              "word": "какой",
+              "start": 9448.84,
+              "end": 9449.06
+            },
+            {
+              "word": "части",
+              "start": 9449.06,
+              "end": 9449.46
+            },
+            {
+              "word": "себя",
+              "start": 9449.46,
+              "end": 9449.78
+            },
+            {
+              "word": "вы",
+              "start": 9449.78,
+              "end": 9449.94
+            },
+            {
+              "word": "рассыпаетесь.",
+              "start": 9449.94,
+              "end": 9450.8
+            }
+          ]
+        },
+        {
+          "id": 1574,
+          "start": 9451.18,
+          "end": 9453.02,
+          "start_tc": "02:37:31.180",
+          "end_tc": "02:37:33.020",
+          "language": "ru",
+          "text": "Например, когда мы нашли там вот,",
+          "words": [
+            {
+              "word": "Например,",
+              "start": 9451.18,
+              "end": 9451.46
+            },
+            {
+              "word": "когда",
+              "start": 9451.62,
+              "end": 9451.76
+            },
+            {
+              "word": "мы",
+              "start": 9451.76,
+              "end": 9451.96
+            },
+            {
+              "word": "нашли",
+              "start": 9451.96,
+              "end": 9452.32
+            },
+            {
+              "word": "там",
+              "start": 9452.32,
+              "end": 9452.52
+            },
+            {
+              "word": "вот,",
+              "start": 9452.52,
+              "end": 9453.02
+            }
+          ]
+        },
+        {
+          "id": 1575,
+          "start": 9454.48,
+          "end": 9458.6,
+          "start_tc": "02:37:34.480",
+          "end_tc": "02:37:38.600",
+          "language": "ru",
+          "text": "что мой ребенок подавлен в какой-то сфере,",
+          "words": [
+            {
+              "word": "что",
+              "start": 9454.48,
+              "end": 9455.14
+            },
+            {
+              "word": "мой",
+              "start": 9455.14,
+              "end": 9455.42
+            },
+            {
+              "word": "ребенок",
+              "start": 9455.42,
+              "end": 9456.08
+            },
+            {
+              "word": "подавлен",
+              "start": 9456.08,
+              "end": 9457.58
+            },
+            {
+              "word": "в",
+              "start": 9457.58,
+              "end": 9457.8
+            },
+            {
+              "word": "какой",
+              "start": 9457.8,
+              "end": 9457.98
+            },
+            {
+              "word": "-то",
+              "start": 9457.98,
+              "end": 9458.16
+            },
+            {
+              "word": "сфере,",
+              "start": 9458.16,
+              "end": 9458.6
+            }
+          ]
+        },
+        {
+          "id": 1576,
+          "start": 9458.82,
+          "end": 9461.22,
+          "start_tc": "02:37:38.820",
+          "end_tc": "02:37:41.220",
+          "language": "ru",
+          "text": "и эта сфера задевает моё родительство,",
+          "words": [
+            {
+              "word": "и",
+              "start": 9458.82,
+              "end": 9459.14
+            },
+            {
+              "word": "эта",
+              "start": 9459.14,
+              "end": 9459.34
+            },
+            {
+              "word": "сфера",
+              "start": 9459.34,
+              "end": 9459.68
+            },
+            {
+              "word": "задевает",
+              "start": 9459.68,
+              "end": 9460.3
+            },
+            {
+              "word": "моё",
+              "start": 9460.3,
+              "end": 9460.58
+            },
+            {
+              "word": "родительство,",
+              "start": 9460.58,
+              "end": 9461.22
+            }
+          ]
+        },
+        {
+          "id": 1577,
+          "start": 9461.46,
+          "end": 9462.46,
+          "start_tc": "02:37:41.460",
+          "end_tc": "02:37:42.460",
+          "language": "ru",
+          "text": "когда мы это исправили,",
+          "words": [
+            {
+              "word": "когда",
+              "start": 9461.46,
+              "end": 9461.48
+            },
+            {
+              "word": "мы",
+              "start": 9461.48,
+              "end": 9461.72
+            },
+            {
+              "word": "это",
+              "start": 9461.72,
+              "end": 9461.92
+            },
+            {
+              "word": "исправили,",
+              "start": 9461.92,
+              "end": 9462.46
+            }
+          ]
+        },
+        {
+          "id": 1578,
+          "start": 9462.74,
+          "end": 9465.86,
+          "start_tc": "02:37:42.740",
+          "end_tc": "02:37:45.860",
+          "language": "ru",
+          "text": "я нашла способ контактировать лучше с детьми.",
+          "words": [
+            {
+              "word": "я",
+              "start": 9462.74,
+              "end": 9463.34
+            },
+            {
+              "word": "нашла",
+              "start": 9463.34,
+              "end": 9464
+            },
+            {
+              "word": "способ",
+              "start": 9464,
+              "end": 9464.4
+            },
+            {
+              "word": "контактировать",
+              "start": 9464.4,
+              "end": 9465.16
+            },
+            {
+              "word": "лучше",
+              "start": 9465.16,
+              "end": 9465.34
+            },
+            {
+              "word": "с",
+              "start": 9465.34,
+              "end": 9465.56
+            },
+            {
+              "word": "детьми.",
+              "start": 9465.56,
+              "end": 9465.86
+            }
+          ]
+        },
+        {
+          "id": 1579,
+          "start": 9467.3,
+          "end": 9468.94,
+          "start_tc": "02:37:47.300",
+          "end_tc": "02:37:48.940",
+          "language": "ru",
+          "text": "Вы изучаете себя,",
+          "words": [
+            {
+              "word": "Вы",
+              "start": 9467.3,
+              "end": 9467.96
+            },
+            {
+              "word": "изучаете",
+              "start": 9467.96,
+              "end": 9468.62
+            },
+            {
+              "word": "себя,",
+              "start": 9468.62,
+              "end": 9468.94
+            }
+          ]
+        },
+        {
+          "id": 1580,
+          "start": 9469.58,
+          "end": 9471.86,
+          "start_tc": "02:37:49.580",
+          "end_tc": "02:37:51.860",
+          "language": "ru",
+          "text": "как вы разговариваете с людьми.",
+          "words": [
+            {
+              "word": "как",
+              "start": 9469.58,
+              "end": 9470.06
+            },
+            {
+              "word": "вы",
+              "start": 9470.06,
+              "end": 9470.28
+            },
+            {
+              "word": "разговариваете",
+              "start": 9470.28,
+              "end": 9471
+            },
+            {
+              "word": "с",
+              "start": 9471,
+              "end": 9471.18
+            },
+            {
+              "word": "людьми.",
+              "start": 9471.18,
+              "end": 9471.86
+            }
+          ]
+        },
+        {
+          "id": 1581,
+          "start": 9472.12,
+          "end": 9474.48,
+          "start_tc": "02:37:52.120",
+          "end_tc": "02:37:54.480",
+          "language": "ru",
+          "text": "Вам нужно уйти в глубокую саморефлексию.",
+          "words": [
+            {
+              "word": "Вам",
+              "start": 9472.12,
+              "end": 9472.6
+            },
+            {
+              "word": "нужно",
+              "start": 9472.6,
+              "end": 9472.88
+            },
+            {
+              "word": "уйти",
+              "start": 9472.88,
+              "end": 9473.1
+            },
+            {
+              "word": "в",
+              "start": 9473.1,
+              "end": 9473.18
+            },
+            {
+              "word": "глубокую",
+              "start": 9473.18,
+              "end": 9473.56
+            },
+            {
+              "word": "саморефлексию.",
+              "start": 9473.56,
+              "end": 9474.48
+            }
+          ]
+        }
+      ],
+      "boundary_flags": {
+        "start_inside_subtitle": false,
+        "end_inside_subtitle": false
+      },
+      "linguistic_boundary_note": "complete instruction block but contains a likely ASR lexical error.",
+      "include_reason": "Asks the listener to study internal states, notice where they fall apart, and enter deep self-reflection.",
+      "removable_filler": "The parenting example may be shortened only as a full example; native ASR term 'галичности' requires audio correction before display.",
+      "visual_qc": "REVIEW_REQUIRED_AT_EXACT_EDGES",
+      "display_ru": {
+        "kind": "native-source-proposal",
+        "alignment": "native ASR word timing available; verify ASR errors by ear",
+        "provenance": "transcripts/video1219377731/asr_video1219377731.json",
+        "text": "Первым этапом изучите свои эго-личности. Потом вы сможете понять, в какой части себя вы рассыпаетесь. Например, когда мы нашли там вот, что мой ребенок подавлен в какой-то сфере, и эта сфера задевает моё родительство, когда мы это исправили, я нашла способ контактировать лучше с детьми. Вы изучаете себя, как вы разговариваете с людьми. Вам нужно уйти в глубокую саморефлексию."
+      },
+      "translation_groups": [],
+      "human_review": {
+        "corrections": [
+          {
+            "id": "C11",
+            "decision": "ACCEPT",
+            "approved_source_text": "Первым этапом изучите свои эго-личности.",
+            "approved_display_text": "Первым этапом изучите свои эго-личности."
+          }
+        ]
+      }
+    },
+    {
+      "id": "r08-protective-parts",
+      "role": "payoff",
+      "source_video": "video1219377731.mp4",
+      "source_start": 9534.24,
+      "source_end": 9563.8,
+      "source_start_tc": "02:38:54.240",
+      "source_end_tc": "02:39:23.800",
+      "extracted_duration_expected": 29.56,
+      "output_path": "reel-input/r08-where-do-you-fall-apart/public/clips/002_payoff.mp4",
+      "extraction_mode": "exact-reencode",
+      "languages": [
+        "ru"
+      ],
+      "speaker": "Russian-speaking host, likely Evgeniia",
+      "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+      "source_quote": "То есть эти защитные формы защищают обычно ребенка травмированного. Вот они происходят в расщеплении психики, в ранней травме детства. То есть когда происходит какая-то невыносимая история в детстве для ребенка, у него начинает расщепляться психика намного оеголичности. Вот смотри, 12 архетипов лучше не привязываться. Мы взяли и изучили себя отдельно от всех архетипов, мы назвали себя своими именами.",
+      "source_subtitles": [
+        {
+          "id": 1602,
+          "start": 9534.24,
+          "end": 9536.36,
+          "start_tc": "02:38:54.240",
+          "end_tc": "02:38:56.360",
+          "language": "ru",
+          "text": "То есть эти защитные формы",
+          "words": [
+            {
+              "word": "То",
+              "start": 9534.24,
+              "end": 9535.04
+            },
+            {
+              "word": "есть",
+              "start": 9535.04,
+              "end": 9535.24
+            },
+            {
+              "word": "эти",
+              "start": 9535.24,
+              "end": 9535.62
+            },
+            {
+              "word": "защитные",
+              "start": 9535.62,
+              "end": 9536
+            },
+            {
+              "word": "формы",
+              "start": 9536,
+              "end": 9536.36
+            }
+          ]
+        },
+        {
+          "id": 1603,
+          "start": 9536.36,
+          "end": 9538.76,
+          "start_tc": "02:38:56.360",
+          "end_tc": "02:38:58.760",
+          "language": "ru",
+          "text": "защищают обычно ребенка травмированного.",
+          "words": [
+            {
+              "word": "защищают",
+              "start": 9536.36,
+              "end": 9536.92
+            },
+            {
+              "word": "обычно",
+              "start": 9536.92,
+              "end": 9537.16
+            },
+            {
+              "word": "ребенка",
+              "start": 9537.16,
+              "end": 9537.82
+            },
+            {
+              "word": "травмированного.",
+              "start": 9537.82,
+              "end": 9538.76
+            }
+          ]
+        },
+        {
+          "id": 1604,
+          "start": 9539.18,
+          "end": 9541.78,
+          "start_tc": "02:38:59.180",
+          "end_tc": "02:39:01.780",
+          "language": "ru",
+          "text": "Вот они происходят в расщеплении психики,",
+          "words": [
+            {
+              "word": "Вот",
+              "start": 9539.18,
+              "end": 9539.18
+            },
+            {
+              "word": "они",
+              "start": 9539.18,
+              "end": 9539.8
+            },
+            {
+              "word": "происходят",
+              "start": 9539.8,
+              "end": 9540.34
+            },
+            {
+              "word": "в",
+              "start": 9540.34,
+              "end": 9540.62
+            },
+            {
+              "word": "расщеплении",
+              "start": 9540.62,
+              "end": 9541.16
+            },
+            {
+              "word": "психики,",
+              "start": 9541.16,
+              "end": 9541.78
+            }
+          ]
+        },
+        {
+          "id": 1605,
+          "start": 9542.16,
+          "end": 9544.04,
+          "start_tc": "02:39:02.160",
+          "end_tc": "02:39:04.040",
+          "language": "ru",
+          "text": "в ранней травме детства.",
+          "words": [
+            {
+              "word": "в",
+              "start": 9542.16,
+              "end": 9542.7
+            },
+            {
+              "word": "ранней",
+              "start": 9542.7,
+              "end": 9543.26
+            },
+            {
+              "word": "травме",
+              "start": 9543.26,
+              "end": 9543.58
+            },
+            {
+              "word": "детства.",
+              "start": 9543.58,
+              "end": 9544.04
+            }
+          ]
+        },
+        {
+          "id": 1606,
+          "start": 9544.5,
+          "end": 9545.42,
+          "start_tc": "02:39:04.500",
+          "end_tc": "02:39:05.420",
+          "language": "ru",
+          "text": "То есть когда происходит",
+          "words": [
+            {
+              "word": "То",
+              "start": 9544.5,
+              "end": 9544.64
+            },
+            {
+              "word": "есть",
+              "start": 9544.64,
+              "end": 9544.74
+            },
+            {
+              "word": "когда",
+              "start": 9544.74,
+              "end": 9545.02
+            },
+            {
+              "word": "происходит",
+              "start": 9545.02,
+              "end": 9545.42
+            }
+          ]
+        },
+        {
+          "id": 1607,
+          "start": 9546.24,
+          "end": 9548.58,
+          "start_tc": "02:39:06.240",
+          "end_tc": "02:39:08.580",
+          "language": "ru",
+          "text": "какая-то невыносимая история в детстве для ребенка,",
+          "words": [
+            {
+              "word": "какая",
+              "start": 9546.24,
+              "end": 9546.44
+            },
+            {
+              "word": "-то",
+              "start": 9546.44,
+              "end": 9546.58
+            },
+            {
+              "word": "невыносимая",
+              "start": 9546.58,
+              "end": 9547.14
+            },
+            {
+              "word": "история",
+              "start": 9547.14,
+              "end": 9547.44
+            },
+            {
+              "word": "в",
+              "start": 9547.44,
+              "end": 9547.58
+            },
+            {
+              "word": "детстве",
+              "start": 9547.58,
+              "end": 9547.92
+            },
+            {
+              "word": "для",
+              "start": 9547.92,
+              "end": 9548.14
+            },
+            {
+              "word": "ребенка,",
+              "start": 9548.14,
+              "end": 9548.58
+            }
+          ]
+        },
+        {
+          "id": 1608,
+          "start": 9548.68,
+          "end": 9550.12,
+          "start_tc": "02:39:08.680",
+          "end_tc": "02:39:10.120",
+          "language": "ru",
+          "text": "у него начинает расщепляться психика",
+          "words": [
+            {
+              "word": "у",
+              "start": 9548.68,
+              "end": 9548.7
+            },
+            {
+              "word": "него",
+              "start": 9548.7,
+              "end": 9548.78
+            },
+            {
+              "word": "начинает",
+              "start": 9548.78,
+              "end": 9549.12
+            },
+            {
+              "word": "расщепляться",
+              "start": 9549.12,
+              "end": 9549.64
+            },
+            {
+              "word": "психика",
+              "start": 9549.64,
+              "end": 9550.12
+            }
+          ]
+        },
+        {
+          "id": 1609,
+          "start": 9550.12,
+          "end": 9551.58,
+          "start_tc": "02:39:10.120",
+          "end_tc": "02:39:11.580",
+          "language": "ru",
+          "text": "намного оеголичности.",
+          "words": [
+            {
+              "word": "намного",
+              "start": 9550.12,
+              "end": 9550.66
+            },
+            {
+              "word": "оеголичности.",
+              "start": 9550.66,
+              "end": 9551.58
+            }
+          ]
+        },
+        {
+          "id": 1610,
+          "start": 9553.76,
+          "end": 9557.14,
+          "start_tc": "02:39:13.760",
+          "end_tc": "02:39:17.140",
+          "language": "ru",
+          "text": "Вот смотри, 12 архетипов лучше не привязываться.",
+          "words": [
+            {
+              "word": "Вот",
+              "start": 9553.76,
+              "end": 9554.14
+            },
+            {
+              "word": "смотри,",
+              "start": 9554.14,
+              "end": 9554.52
+            },
+            {
+              "word": "12",
+              "start": 9554.66,
+              "end": 9555.04
+            },
+            {
+              "word": "архетипов",
+              "start": 9555.04,
+              "end": 9555.86
+            },
+            {
+              "word": "лучше",
+              "start": 9555.86,
+              "end": 9556.34
+            },
+            {
+              "word": "не",
+              "start": 9556.34,
+              "end": 9556.58
+            },
+            {
+              "word": "привязываться.",
+              "start": 9556.58,
+              "end": 9557.14
+            }
+          ]
+        },
+        {
+          "id": 1611,
+          "start": 9557.48,
+          "end": 9560.36,
+          "start_tc": "02:39:17.480",
+          "end_tc": "02:39:20.360",
+          "language": "ru",
+          "text": "Мы взяли и изучили себя отдельно",
+          "words": [
+            {
+              "word": "Мы",
+              "start": 9557.48,
+              "end": 9557.6
+            },
+            {
+              "word": "взяли",
+              "start": 9557.6,
+              "end": 9557.96
+            },
+            {
+              "word": "и",
+              "start": 9557.96,
+              "end": 9558.42
+            },
+            {
+              "word": "изучили",
+              "start": 9558.42,
+              "end": 9559.16
+            },
+            {
+              "word": "себя",
+              "start": 9559.16,
+              "end": 9559.44
+            },
+            {
+              "word": "отдельно",
+              "start": 9559.44,
+              "end": 9560.36
+            }
+          ]
+        },
+        {
+          "id": 1612,
+          "start": 9560.36,
+          "end": 9561.42,
+          "start_tc": "02:39:20.360",
+          "end_tc": "02:39:21.420",
+          "language": "ru",
+          "text": "от всех архетипов,",
+          "words": [
+            {
+              "word": "от",
+              "start": 9560.36,
+              "end": 9560.5
+            },
+            {
+              "word": "всех",
+              "start": 9560.5,
+              "end": 9560.7
+            },
+            {
+              "word": "архетипов,",
+              "start": 9560.7,
+              "end": 9561.42
+            }
+          ]
+        },
+        {
+          "id": 1613,
+          "start": 9561.48,
+          "end": 9563.8,
+          "start_tc": "02:39:21.480",
+          "end_tc": "02:39:23.800",
+          "language": "ru",
+          "text": "мы назвали себя своими именами.",
+          "words": [
+            {
+              "word": "мы",
+              "start": 9561.48,
+              "end": 9561.56
+            },
+            {
+              "word": "назвали",
+              "start": 9561.56,
+              "end": 9561.94
+            },
+            {
+              "word": "себя",
+              "start": 9561.94,
+              "end": 9562.22
+            },
+            {
+              "word": "своими",
+              "start": 9562.22,
+              "end": 9563.32
+            },
+            {
+              "word": "именами.",
+              "start": 9563.32,
+              "end": 9563.8
+            }
+          ]
+        }
+      ],
+      "boundary_flags": {
+        "start_inside_subtitle": false,
+        "end_inside_subtitle": false
+      },
+      "linguistic_boundary_note": "starts after the specific Lilith/Kali example and ends before the Scotsman example; native ASR contains lexical errors.",
+      "include_reason": "Frames protective forms as defending a hurt child and advises studying oneself separately from fixed archetypes and naming one's own parts.",
+      "removable_filler": "Childhood-trauma explanation is a strong psychological claim; retain as attributed source speech or shorten before it, never upgrade it to narrator fact.",
+      "visual_qc": "REVIEW_REQUIRED_AT_EXACT_EDGES",
+      "display_ru": {
+        "kind": "native-source-proposal",
+        "alignment": "native ASR word timing available; verify ASR errors by ear",
+        "provenance": "transcripts/video1219377731/asr_video1219377731.json",
+        "text": "То есть эти защитные формы защищают обычно ребенка травмированного. Вот они происходят в расщеплении психики, в ранней травме детства. То есть когда происходит какая-то невыносимая история в детстве для ребенка, у него начинает расщепляться психика на много эго-личностей. Вот смотри, 12 архетипов лучше не привязываться. Мы взяли и изучили себя отдельно от всех архетипов, мы назвали себя своими именами."
+      },
+      "translation_groups": [],
+      "human_review": {
+        "corrections": [
+          {
+            "id": "C12",
+            "decision": "ACCEPT",
+            "approved_source_text": "на много эго-личностей",
+            "resolved": true,
+            "retain_in_recommended_edit": true,
+            "supersedes_previous_exclusion": true
+          }
+        ]
+      }
+    }
+  ],
+  "human_decision_batch": {
+    "applied_at": "2026-08-21",
+    "artifact": "reel-input/HUMAN_EDITORIAL_DECISIONS.md",
+    "canonical_episode_asr_modified": false
+  },
+  "series_production": {
+    "width_aware_layout": true,
+    "canonical_episode_asr_modified": false,
+    "master_source_modified": false
+  }
+}

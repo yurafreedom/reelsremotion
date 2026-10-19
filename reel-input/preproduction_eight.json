@@ -1,0 +1,412 @@
+{
+  "schema_version": "1.0",
+  "source_video": "video1219377731.mp4",
+  "native_asr": "transcripts/video1219377731/asr_video1219377731.json",
+  "native_srt": "transcripts/video1219377731/subtitles_native.srt",
+  "english_srt": "transcripts/video1219377731/subtitles_en.srt",
+  "english_ru_translations": "transcripts/video1219377731/en_spans_ru.json",
+  "source_media": {
+    "duration_seconds": 13974.421333,
+    "video": "h264 1280x720 25fps yuv420p",
+    "audio": "aac stereo 48000Hz",
+    "source_untouched": true
+  },
+  "reels": [
+    {
+      "id": "R01",
+      "slug": "r01-fear-of-losing-yourself",
+      "title": "Fear of Losing Yourself",
+      "core": "Fear of losing someone can trigger self-adaptation until the person loses their own direction; explicit structure, consent and standing on one's own ground restore clarity.",
+      "objective": "Open on the recognizable fear response, then move from loss of self to a concrete stabilizing practice without turning the piece into a club advertisement.",
+      "target_structure": "Editorial target 55–70 seconds: quote-led hook, consequence, short clarity card, solution, grounded payoff.",
+      "clips": [
+        {
+          "id": "r01-hook-loss",
+          "role": "hook",
+          "start_segment_id": 259,
+          "end_segment_id": 261,
+          "speaker": "Russian-speaking host, likely Evgeniia",
+          "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+          "include_reason": "Contains the complete fear → adapting → losing yourself causal chain.",
+          "removable_filler": "Segment 260's audience aside may be removed only after an audio-safe jump-cut review.",
+          "linguistic_boundary_note": "starts on 'когда' and ends mid-thought before the proposed solution; intended as a deliberate problem block."
+        },
+        {
+          "id": "r01-clarity-ground",
+          "role": "payoff",
+          "start_segment_id": 262,
+          "end_segment_id": 267,
+          "speaker": "Russian-speaking host, likely Evgeniia",
+          "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+          "include_reason": "Names contract/consent/direction as structure and closes on standing on one's own ground and remaining centered.",
+          "removable_filler": "The club-specific sentence beginning in segment 264 may be shortened only if the grammatical bridge is repaired transparently.",
+          "linguistic_boundary_note": "continues directly from the preceding problem block and ends at a complete stated payoff."
+        }
+      ],
+      "cards": [
+        "СТРАХ ПОТЕРЯТЬ ДРУГОГО МОЖЕТ ПРИВЕСТИ К ПОТЕРЕ СЕБЯ",
+        "СТРУКТУРА ВОЗВРАЩАЕТ ТЕБЯ НА СВОЮ ЗЕМЛЮ"
+      ],
+      "exclusions": "Do not add claims about attachment styles or therapy; those words are not in the selected source.",
+      "edit_plan": [
+        {"window": "00:00–00:01.3", "type": "HOOK CARD", "content": "Editorial card; clearly not presented as a quote."},
+        {"window": "00:01.3–00:24.8", "type": "SOURCE", "content": "r01-hook-loss; stable subtitles, one emphasis on «теряешь себя»."},
+        {"window": "00:24.8–00:26.0", "type": "PUNCH CARD", "content": "Short clarity reset."},
+        {"window": "00:26.0–~01:05.7", "type": "SOURCE", "content": "r01-clarity-ground; trim club-specific material only after review."}
+      ],
+      "broll_default": "Use at most one short visual metaphor; the gallery/talking-head delivery remains primary.",
+      "broll": [
+        {"function": "VISUAL METAPHOR", "asset": "public/media/broll_reel1_03.mp4", "source_range": "full 2.10 s pretrimmed asset", "insert_at": "over the adaptation/loss-of-self beat", "duration": "1.5–2.1 s", "reason": "Existing portrait shot of a woman from behind at night can suggest disconnection without inventing narrative facts.", "status": "OPTIONAL—REVIEW CONTACT FRAME"}
+      ]
+    },
+    {
+      "id": "R02",
+      "slug": "r02-connection-without-future",
+      "title": "A Connection Does Not Need a Future to Have Value",
+      "core": "Over-responsibility can crush a connection; an honest short-term encounter can still create value when intentions and consent are clear.",
+      "objective": "Preserve the English guest's actual wording while supplying a separate contextual Russian translation and avoiding a fake Russian word-for-word acoustic map.",
+      "target_structure": "Current selects total about 89 seconds and intentionally need editorial reduction to 60–75 seconds before timeline generation.",
+      "clips": [
+        {
+          "id": "r02-question",
+          "role": "question",
+          "start_segment_id": 808,
+          "end_segment_id": 812,
+          "speaker": "Undiarized English speaker",
+          "speaker_confidence": "UNKNOWN—VERIFY_EXACT_SPEAKER_ON_VIDEO",
+          "translation_span_id": 32,
+          "include_reason": "Defines the over-responsibility problem and no-future premise in the original English.",
+          "removable_filler": "The final long-values sentence may be shortened only as a complete phrase group.",
+          "linguistic_boundary_note": "complete contiguous English question block.",
+          "translation_groups": [
+            {"start_segment_id": 808, "end_segment_id": 809, "display_ru": "Ловил ли ты когда-нибудь себя на том, что относишься к каждой романтической связи с любой девушкой или женщиной слишком серьёзно, слишком с ответственностью — до такой степени, что не можешь просто позволить себе с кем-то встречаться, просто заниматься любовью, не чувствуя вины или груза ответственности,"},
+            {"start_segment_id": 810, "end_segment_id": 810, "display_ru": "особенно когда ты уже с самого начала чувствуешь, что совместного будущего нет."},
+            {"start_segment_id": 811, "end_segment_id": 812, "display_ru": "Всё время просчитывая наперёд, чтобы не ранить себя или другого человека, стараясь оставаться честным с собой и верным своим долгосрочным ценностям, вместо того чтобы гнаться за чувствами, за моментами удовольствия."}
+          ]
+        },
+        {
+          "id": "r02-unique-value",
+          "role": "context",
+          "start_segment_id": 826,
+          "end_segment_id": 829,
+          "speaker": "English-speaking guest, likely Andrew",
+          "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+          "translation_span_id": 33,
+          "include_reason": "States that two people together are unique and can improve a day, week or month.",
+          "removable_filler": "Opening mixed-language ASR token sequence needs ear-checking; do not silently clean it.",
+          "linguistic_boundary_note": "complete English span but native ASR begins with mixed/corrupt tokens.",
+          "translation_groups": [
+            {"start_segment_id": 826, "end_segment_id": 826, "display_ru": "Это очень... на самом деле потакание тому удовольствию — встретить кого-то, сделать его день лучше, его неделю лучше, его месяц лучше,"},
+            {"start_segment_id": 827, "end_segment_id": 827, "display_ru": "дать ему опыт, которого у него никогда раньше не было,"},
+            {"start_segment_id": 828, "end_segment_id": 829, "display_ru": "потому что это не обязательно должен быть невероятный опыт, который можешь дать только ты, но ты и этот один человек вместе — совершенно уникальны."}
+          ]
+        },
+        {
+          "id": "r02-permission-payoff",
+          "role": "payoff",
+          "start_segment_id": 837,
+          "end_segment_id": 842,
+          "speaker": "English-speaking guest, likely Andrew",
+          "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+          "translation_span_id": 34,
+          "display_ru": "Иди устанавливай связи с людьми, иди переживай мимолётные моменты удовольствия. Не чувствуй давления или ожиданий, пока у тебя добрые намерения и ты не собираешься кому-то навредить — если только это не их кинк, и у тебя есть их согласие, и это то, чего они хотят. Тогда у тебя добрые намерения, ты входишь во что-то лёгкое без всяких ожиданий. Ты можешь очень быстро обнаружить, что встречаешь одних из лучших людей, которых только мог ожидать встретить, и что твои долгосрочные ценности на самом деле идеально встают на свои места.",
+          "include_reason": "Provides the consent/intent guardrail and the positive conclusion that long-term values can fall into place.",
+          "removable_filler": "The kink aside is source speech and may be retained, omitted as a whole phrase, or explicitly approved—not rewritten invisibly.",
+          "linguistic_boundary_note": "selected phrase-group subset of contextual translation span 34; Russian timing must be phrase mapped.",
+          "translation_groups": [
+            {"start_segment_id": 837, "end_segment_id": 837, "display_ru": "Иди устанавливай связи с людьми, иди переживай мимолётные моменты удовольствия."},
+            {"start_segment_id": 838, "end_segment_id": 839, "display_ru": "Не чувствуй давления или ожиданий, пока у тебя добрые намерения и ты не собираешься кому-то навредить — если только это не их кинк, и у тебя есть их согласие, и это то, чего они хотят."},
+            {"start_segment_id": 840, "end_segment_id": 840, "display_ru": "Тогда у тебя добрые намерения, ты входишь во что-то лёгкое без всяких ожиданий."},
+            {"start_segment_id": 841, "end_segment_id": 842, "display_ru": "Ты можешь очень быстро обнаружить, что встречаешь одних из лучших людей, которых только мог ожидать встретить, и что твои долгосрочные ценности на самом деле идеально встают на свои места."}
+          ]
+        }
+      ],
+      "cards": [
+        "СВЯЗИ НЕ ОБЯЗАТЕЛЬНО ИМЕТЬ БУДУЩЕЕ, ЧТОБЫ ИМЕТЬ ЦЕННОСТЬ",
+        "ДОБРЫЕ НАМЕРЕНИЯ. СОГЛАСИЕ. БЕЗ ЛОЖНЫХ ОБЕЩАНИЙ."
+      ],
+      "exclusions": "Do not characterize the speaker as endorsing deception, commitment avoidance, or harm; the selected payoff explicitly includes intentions and consent.",
+      "edit_plan": [
+        {"window": "00:00–00:01.5", "type": "HOOK CARD", "content": "Editorial thesis card."},
+        {"window": "00:01.5–00:25", "type": "SOURCE EXCERPT", "content": "Condense r02-question by approved phrase groups."},
+        {"window": "00:25–00:43", "type": "SOURCE", "content": "r02-unique-value; retain exact English source."},
+        {"window": "00:43–~01:10", "type": "SOURCE PAYOFF", "content": "Condense r02-permission-payoff without deleting consent context."}
+      ],
+      "broll_default": "One short relationship-chemistry insert is enough; do not cover the speaker throughout the English answer.",
+      "broll": [
+        {"function": "RELATIONSHIP CHEMISTRY", "asset": "public/media/broll_reel1_02.mp4", "source_range": "full 2.60 s pretrimmed asset", "insert_at": "during 'make their day/week/month better'", "duration": "1.5–2.6 s", "reason": "Existing intimate restaurant shot supports connection/value while the original audio continues.", "status": "OPTIONAL—REVIEW CONTACT FRAME"}
+      ]
+    },
+    {
+      "id": "R03",
+      "slug": "r03-dominance-is-not-control",
+      "title": "Dominance Is Not Control",
+      "core": "The valuable dominant function described here is not absorption or decision-making for another person, but self-regulated stabilization when that person falls apart.",
+      "objective": "Use the concrete calming/structuring example and end on the speaker's own definition; avoid sensational imagery.",
+      "target_structure": "About 50 seconds including cards, using one contiguous source select.",
+      "clips": [
+        {
+          "id": "r03-stabilization",
+          "role": "body-payoff",
+          "start_segment_id": 388,
+          "end_segment_id": 393,
+          "speaker": "Russian-speaking host, likely Evgeniia",
+          "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+          "include_reason": "Moves from observable calm/structure to the explicit 'not absorbs/decides for you' stabilization definition.",
+          "removable_filler": "The list of calm/ordered/planning qualities may be tightened only at phrase boundaries; keep the definition intact.",
+          "linguistic_boundary_note": "starts at a new example clause and closes the definition before a topic return."
+        }
+      ],
+      "cards": ["ДОМИНИРОВАНИЕ — НЕ КОНТРОЛЬ", "ФУНКЦИЯ — СТАБИЛИЗИРОВАТЬ, А НЕ ПОГЛОЩАТЬ"],
+      "exclusions": "Do not equate dominance with coercion, control, diagnosis or treatment; none is supported by the selected quote.",
+      "edit_plan": [
+        {"window": "00:00–00:01.2", "type": "HOOK CARD", "content": "Dominance is not control."},
+        {"window": "00:01.2–00:31", "type": "SOURCE", "content": "Calm/structure example; stable body subtitles."},
+        {"window": "00:31–00:32", "type": "PACE RESET", "content": "Minimal wine-red card, no B-roll required."},
+        {"window": "00:32–~00:48", "type": "SOURCE PAYOFF", "content": "Keep the source definition visible and unbroken."}
+      ],
+      "broll_default": "No B-roll by default. Facial expression and relational context are editorially essential.",
+      "broll": []
+    },
+    {
+      "id": "R04",
+      "slug": "r04-compromise-vs-consensus",
+      "title": "Compromise vs Consensus",
+      "core": "Compromise can leave one side betraying something important; the proposed alternative is to hold the difference until a third solution appears.",
+      "objective": "Pair the abstract principle with the later practical relationship example while clearly marking the discontinuous source jump.",
+      "target_structure": "Current selects total about 80 seconds; editorial review should tighten malformed/filler phrases before final timeline generation.",
+      "clips": [
+        {
+          "id": "r04-principle",
+          "role": "principle",
+          "start_segment_id": 402,
+          "end_segment_id": 407,
+          "speaker": "Russian-speaking host, likely Evgeniia",
+          "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+          "include_reason": "Contains compromise as destructive/self-betrayal and consensus as a third solution.",
+          "removable_filler": "Tantra/conjunctio aside can be removed only after native audio correction and a grammatical join.",
+          "linguistic_boundary_note": "native ASR contains corrupt mixed tokens in segments 403–405; audio verification is mandatory before display approval."
+        },
+        {
+          "id": "r04-example",
+          "role": "example-payoff",
+          "start_segment_id": 454,
+          "end_segment_id": 456,
+          "speaker": "Undiarized Russian speaker/interpretation",
+          "speaker_confidence": "UNKNOWN—VERIFY_EXACT_SPEAKER_ON_VIDEO",
+          "include_reason": "Supplies the later concrete example: scheduling compromises failed, then a third idea worked very well.",
+          "removable_filler": "Segment 455 is long and ASR-awkward; select only complete clauses after listening.",
+          "linguistic_boundary_note": "starts after a mixed-language setup and ends on a complete payoff."
+        }
+      ],
+      "cards": ["КОМПРОМИСС ИЛИ КОНСЕНСУС?", "НЕ УСТУПИТЬ ПОПОЛАМ — НАЙТИ ТРЕТЬЕ РЕШЕНИЕ"],
+      "exclusions": "Do not claim all compromise is universally harmful; the source describes this couple's stated pattern.",
+      "edit_plan": [
+        {"window": "00:00–00:01.3", "type": "HOOK CARD", "content": "Compromise vs consensus."},
+        {"window": "00:01.3–00:34", "type": "SOURCE PRINCIPLE", "content": "r04-principle after transcript corruption is reviewed."},
+        {"window": "00:34–00:35.2", "type": "TIMECODE-JUMP CARD", "content": "Signal a new practical example."},
+        {"window": "00:35.2–~01:10", "type": "SOURCE EXAMPLE", "content": "r04-example, tightened by complete clauses."}
+      ],
+      "broll_default": "Optional one-shot chemistry insert at the discontinuous jump; do not hide the payoff reaction.",
+      "broll": [
+        {"function": "TRANSITION MASK", "asset": "public/media/broll_reel2_04.mp4", "source_range": "full 3.00 s pretrimmed asset", "insert_at": "over the jump from principle to practical example", "duration": "1.0–2.0 s", "reason": "Existing restaurant embrace can mask the source time jump while preserving the original audio on each side.", "status": "OPTIONAL—REVIEW CONTACT FRAME"}
+      ]
+    },
+    {
+      "id": "R05",
+      "slug": "r05-adult-love-is-conditional",
+      "title": "Adult Love Is Conditional",
+      "core": "The speaker frames acceptance of conditions and boundaries in adult love as a moment of maturation and healthy structure.",
+      "objective": "Keep the provocative thesis in context: conditions and boundaries are described as developmental rather than as withdrawal of care.",
+      "target_structure": "Approximately 50 seconds with no source jump.",
+      "clips": [
+        {
+          "id": "r05-conditions-boundaries",
+          "role": "full-argument",
+          "start_segment_id": 2235,
+          "end_segment_id": 2246,
+          "speaker": "Russian-speaking host, likely Evgeniia",
+          "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+          "include_reason": "Contains unconditional acceptance, adult love being conditional, maturation, and the conditions/boundaries payoff.",
+          "removable_filler": "The final anatomical metaphor/profanity can be retained verbatim or omitted as a complete ending; do not sanitize it silently.",
+          "linguistic_boundary_note": "starts with a subordinate clause connected to prior context; hook card should supply context, or include preceding segment after review."
+        }
+      ],
+      "cards": ["ВЗРОСЛАЯ ЛЮБОВЬ ВСЁ РАВНО УСЛОВНА", "УСЛОВИЯ И ГРАНИЦЫ МОГУТ БЫТЬ ЗДОРОВЫМИ"],
+      "exclusions": "Do not present the quote as permission for manipulation, punishment or arbitrary demands.",
+      "edit_plan": [
+        {"window": "00:00–00:01.4", "type": "HOOK CARD", "content": "Adult love is conditional—clearly editorial text."},
+        {"window": "00:01.4–00:17", "type": "SOURCE", "content": "Acceptance and thesis."},
+        {"window": "00:17–00:18", "type": "PUNCH CARD", "content": "The maturation turn."},
+        {"window": "00:18–~00:49", "type": "SOURCE PAYOFF", "content": "Conditions/boundaries and structure; explicit language review required."}
+      ],
+      "broll_default": "No B-roll by default; keep the couple/talking-head reaction and provocative line visible.",
+      "broll": []
+    },
+    {
+      "id": "R06",
+      "slug": "r06-what-is-actually-true",
+      "title": "What Do You Actually Know Is True?",
+      "core": "Separate evidence from anxiety and expectation: what is actually true, what did the person actually do, and how much evidence is enough to believe them?",
+      "objective": "Build a compact question-led Reel that preserves the original English and uses phrase-level Russian translations without fake word alignment.",
+      "target_structure": "About 40 seconds; bilingual source with separate native and translation layers.",
+      "clips": [
+        {
+          "id": "r06-self-question",
+          "role": "hook",
+          "start_segment_id": 1420,
+          "end_segment_id": 1420,
+          "speaker": "Russian-speaking host/interpreter",
+          "speaker_confidence": "INFERRED_FROM_LANGUAGE; UNDIARIZED",
+          "include_reason": "States the opening self-question in Russian.",
+          "removable_filler": "None.",
+          "linguistic_boundary_note": "complete short question."
+        },
+        {
+          "id": "r06-evidence-question",
+          "role": "second-question",
+          "start_segment_id": 1421,
+          "end_segment_id": 1421,
+          "speaker": "English-speaking guest, likely Andrew",
+          "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+          "translation_span_id": 57,
+          "include_reason": "Asks exactly how much evidence is enough to believe the other person.",
+          "removable_filler": "None; keep as one phrase group.",
+          "linguistic_boundary_note": "complete English sentence.",
+          "translation_groups": [
+            {"start_segment_id": 1421, "end_segment_id": 1421, "display_ru": "А вопрос, который другой человек должен задать тебе, — это: сколько доказательств тебе достаточно, чтобы мне поверить."}
+          ]
+        },
+        {
+          "id": "r06-facts",
+          "role": "payoff",
+          "start_segment_id": 1423,
+          "end_segment_id": 1424,
+          "speaker": "English-speaking guest, likely Andrew",
+          "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+          "translation_span_id": 58,
+          "include_reason": "Returns to evidence: what is true and what the person actually did.",
+          "removable_filler": "The conversational 'really all about like' may only be removed as an explicitly logged readability edit.",
+          "linguistic_boundary_note": "complete two-question English span.",
+          "translation_groups": [
+            {"start_segment_id": 1423, "end_segment_id": 1423, "display_ru": "Первый вопрос к тебе на самом деле весь про то, что ты знаешь как правду?"},
+            {"start_segment_id": 1424, "end_segment_id": 1424, "display_ru": "Что этот человек на самом деле сделал?"}
+          ]
+        },
+        {
+          "id": "r06-reality",
+          "role": "context",
+          "start_segment_id": 1425,
+          "end_segment_id": 1425,
+          "speaker": "Russian-speaking host/interpreter",
+          "speaker_confidence": "INFERRED_FROM_LANGUAGE; UNDIARIZED",
+          "include_reason": "Expands the factual test into what actually happened in reality.",
+          "removable_filler": "Repeated clauses can be visually de-emphasized but not silently rewritten.",
+          "linguistic_boundary_note": "complete interpretive sentence."
+        }
+      ],
+      "cards": ["ЧТО ТЫ ТОЧНО ЗНАЕШЬ КАК ПРАВДУ?", "СКОЛЬКО ДОКАЗАТЕЛЬСТВ ТЕБЕ ДОСТАТОЧНО?"],
+      "exclusions": "Do not add diagnostic labels such as paranoia, attachment anxiety or trauma unless separately sourced.",
+      "edit_plan": [
+        {"window": "00:00–00:01.2", "type": "HOOK CARD", "content": "Question card."},
+        {"window": "00:01.2–00:05.6", "type": "SOURCE RU", "content": "r06-self-question."},
+        {"window": "00:05.6–00:15", "type": "SOURCE EN", "content": "r06-evidence-question with one Russian phrase-group subtitle."},
+        {"window": "00:15–00:26.7", "type": "SOURCE EN", "content": "r06-facts with two deliberate Russian phrase groups."},
+        {"window": "00:26.7–~00:37.3", "type": "SOURCE RU", "content": "r06-reality payoff."}
+      ],
+      "broll_default": "No B-roll. Direct questions and faces are the visual engine.",
+      "broll": []
+    },
+    {
+      "id": "R07",
+      "slug": "r07-kneeling-return-to-body",
+      "title": "Kneeling / Returning to the Body",
+      "core": "Kneeling is framed not merely as submission to another person, but as slowing down, grounding and returning attention to bodily experience.",
+      "objective": "Lead with the host's reframing, then add the guest's literal English experience as supporting evidence with contextual Russian translation.",
+      "target_structure": "Current selects total about 72 seconds; likely final 55–70 after review.",
+      "clips": [
+        {
+          "id": "r07-reframe",
+          "role": "definition",
+          "start_segment_id": 224,
+          "end_segment_id": 243,
+          "speaker": "Russian-speaking host, likely Evgeniia",
+          "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+          "include_reason": "Explicitly reframes kneeling as calming, grounding, returning to the body and reducing cognitive overload/anxiety.",
+          "removable_filler": "The 'we are very smart/best' aside and endorphin sentence may be tightened at complete phrase boundaries.",
+          "linguistic_boundary_note": "starts with a complete framing clause and ends on the anxiety consequence."
+        },
+        {
+          "id": "r07-lived-experience",
+          "role": "guest-proof",
+          "start_segment_id": 244,
+          "end_segment_id": 246,
+          "speaker": "English-speaking guest, likely Andrew",
+          "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+          "translation_span_id": 5,
+          "include_reason": "Adds a literal English description of discomfort making thoughts physically felt/lived.",
+          "removable_filler": "None; keep translation phrase-grouped rather than karaoke-mapped word by word.",
+          "linguistic_boundary_note": "complete English span after a 20-second source pause; edit plan must signal the jump.",
+          "translation_groups": [
+            {"start_segment_id": 244, "end_segment_id": 244, "display_ru": "Для меня самое полезное наступало после первых 10 минут стояния на коленях,"},
+            {"start_segment_id": 245, "end_segment_id": 246, "display_ru": "потому что начинает болеть и становится некомфортно, и это заставляет тебя почувствовать то, о чём ты думаешь, — то есть ты действительно это проживаешь."}
+          ]
+        }
+      ],
+      "cards": ["СТАТЬ НА КОЛЕНИ — НЕ ОБЯЗАТЕЛЬНО ПЕРЕД ЧЕЛОВЕКОМ", "ЗАМЕДЛИТЬСЯ. ЗАЗЕМЛИТЬСЯ. ВЕРНУТЬСЯ В ТЕЛО."],
+      "exclusions": "Do not universalize physical practices or frame discomfort as inherently therapeutic/safe; preserve this as the speakers' described experience.",
+      "edit_plan": [
+        {"window": "00:00–00:01.3", "type": "HOOK CARD", "content": "Reframing card."},
+        {"window": "00:01.3–00:42", "type": "SOURCE RU", "content": "r07-reframe, tightened only by approved complete clauses."},
+        {"window": "00:42–00:43.2", "type": "PACE RESET", "content": "Signal change to guest's experience."},
+        {"window": "00:43.2–~01:06.3", "type": "SOURCE EN", "content": "r07-lived-experience with contextual Russian phrase groups."}
+      ],
+      "broll_default": "One brief grounding/feet insert is possible; do not cover the entire physical explanation.",
+      "broll": [
+        {"function": "GROUNDING / PACE RESET", "asset": "public/media/broll_reel2_06.mp4", "source_range": "full 2.50 s pretrimmed asset", "insert_at": "between host reframing and guest experience", "duration": "1.0–2.0 s", "reason": "Existing downward/feet-like moving shot can function as an abstract grounding transition rather than a literal demonstration.", "status": "OPTIONAL—VISUAL CONTENT MUST BE RECONFIRMED"}
+      ]
+    },
+    {
+      "id": "R08",
+      "slug": "r08-where-do-you-fall-apart",
+      "title": "Where Do You Fall Apart?",
+      "core": "Study internal personality states to recognize which part takes over or falls apart under pressure, then use deep self-reflection rather than forcing a generic archetype system.",
+      "objective": "Use the self-observation instruction and the protective-parts explanation without overstating the psychological model as clinical fact.",
+      "target_structure": "About 62 seconds with one deliberate source jump.",
+      "clips": [
+        {
+          "id": "r08-observe-parts",
+          "role": "hook-context",
+          "start_segment_id": 1572,
+          "end_segment_id": 1581,
+          "speaker": "Russian-speaking host, likely Evgeniia",
+          "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+          "include_reason": "Asks the listener to study internal states, notice where they fall apart, and enter deep self-reflection.",
+          "removable_filler": "The parenting example may be shortened only as a full example; native ASR term 'галичности' requires audio correction before display.",
+          "linguistic_boundary_note": "complete instruction block but contains a likely ASR lexical error."
+        },
+        {
+          "id": "r08-protective-parts",
+          "role": "payoff",
+          "start_segment_id": 1602,
+          "end_segment_id": 1613,
+          "speaker": "Russian-speaking host, likely Evgeniia",
+          "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+          "include_reason": "Frames protective forms as defending a hurt child and advises studying oneself separately from fixed archetypes and naming one's own parts.",
+          "removable_filler": "Childhood-trauma explanation is a strong psychological claim; retain as attributed source speech or shorten before it, never upgrade it to narrator fact.",
+          "linguistic_boundary_note": "starts after the specific Lilith/Kali example and ends before the Scotsman example; native ASR contains lexical errors."
+        }
+      ],
+      "cards": ["В КАКОЙ ЧАСТИ СЕБЯ ТЫ РАССЫПАЕШЬСЯ?", "НЕ ПОДГОНЯЙ СЕБЯ ПОД АРХЕТИП — НАЗОВИ СВОИ ЧАСТИ СВОИМИ ИМЕНАМИ"],
+      "exclusions": "Do not present the speakers' parts/archetype account as diagnosis, established neuroscience or clinical treatment.",
+      "edit_plan": [
+        {"window": "00:00–00:01.3", "type": "HOOK CARD", "content": "Where do you fall apart?"},
+        {"window": "00:01.3–00:32", "type": "SOURCE", "content": "r08-observe-parts after audio correction of ASR terms."},
+        {"window": "00:32–00:33.2", "type": "PUNCH CARD", "content": "Protective parts / self-naming transition."},
+        {"window": "00:33.2–~01:02.8", "type": "SOURCE PAYOFF", "content": "r08-protective-parts; attribution and wording review required."}
+      ],
+      "broll_default": "No B-roll by default. The conceptual density needs stable faces and readable subtitles.",
+      "broll": []
+    }
+  ]
+}

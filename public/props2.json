@@ -1,0 +1,97 @@
+{
+  "showGrid": false,
+  "timeline": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "background": "#1a1a1a",
+    "audio": null,
+    "scenes": [
+      {
+        "id": "s1",
+        "durationInFrames": 60,
+        "video": {
+          "src": "placeholder",
+          "x": 0,
+          "y": -120,
+          "width": 880,
+          "height": 500,
+          "borderRadius": 20,
+          "startFrom": 0
+        },
+        "words": [
+          {
+            "text": "СЦЕНА",
+            "start": 4,
+            "end": 60,
+            "x": -120,
+            "y": 320,
+            "font": "condensedHeavy",
+            "size": 90,
+            "weight": 800,
+            "color": "#ffffff",
+            "enterFrom": "left",
+            "case": "upper"
+          },
+          {
+            "text": "один",
+            "start": 14,
+            "end": 60,
+            "x": 120,
+            "y": 420,
+            "font": "cleanSans",
+            "size": 54,
+            "weight": 400,
+            "color": "#c0182a",
+            "enterFrom": "right"
+          }
+        ],
+        "transitionToNext": {
+          "type": "fade",
+          "durationInFrames": 20,
+          "timing": "linear"
+        }
+      },
+      {
+        "id": "s2",
+        "durationInFrames": 60,
+        "video": {
+          "src": "placeholder",
+          "x": 0,
+          "y": 120,
+          "width": 700,
+          "height": 700,
+          "borderRadius": 40,
+          "startFrom": 0
+        },
+        "words": [
+          {
+            "text": "СЦЕНА",
+            "start": 4,
+            "end": 60,
+            "x": 120,
+            "y": -380,
+            "font": "condensedHeavy",
+            "size": 90,
+            "weight": 800,
+            "color": "#ffffff",
+            "enterFrom": "right",
+            "case": "upper"
+          },
+          {
+            "text": "два",
+            "start": 14,
+            "end": 60,
+            "x": -150,
+            "y": -280,
+            "font": "cleanSans",
+            "size": 54,
+            "weight": 400,
+            "color": "#c0182a",
+            "enterFrom": "left"
+          }
+        ]
+      }
+    ]
+  }
+}

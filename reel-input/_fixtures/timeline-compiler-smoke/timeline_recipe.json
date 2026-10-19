@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "approval_status": "APPROVED",
+  "style_tokens": "reel-input/_templates/nikulina_style_tokens.json",
+  "sequence": [
+    {
+      "id": "smoke-card",
+      "kind": "card",
+      "duration_seconds": 1,
+      "color": "#8B1E2D",
+      "transitionToNext": {
+        "type": "fade",
+        "durationInFrames": 6,
+        "timing": "linear"
+      }
+    },
+    {
+      "id": "smoke-source",
+      "kind": "video",
+      "clip_id": "smoke-video",
+      "duration_seconds": 1,
+      "fit": "cover",
+      "volume": 1
+    }
+  ],
+  "captions": [
+    {
+      "sequence_id": "smoke-card",
+      "start_seconds": 0,
+      "end_seconds": 1,
+      "text": "PIPELINE SMOKE",
+      "style": "hook"
+    },
+    {
+      "sequence_id": "smoke-source",
+      "start_seconds": 0,
+      "end_seconds": 1,
+      "text": "VIDEO BRANCH",
+      "style": "subtitle"
+    }
+  ],
+  "broll": [],
+  "music": null
+}

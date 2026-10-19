@@ -1,0 +1,872 @@
+{
+  "authority": "transcripts/video1219377731/asr_video1219377731.json",
+  "timing_semantics": "source seconds are absolute master time; clip seconds are relative to extracted clip start",
+  "clips": [
+    {
+      "id": "r08-observe-parts",
+      "source_start": 9443.82,
+      "source_end": 9474.48,
+      "language": [
+        "ru"
+      ],
+      "words": [
+        {
+          "source": "Первым",
+          "source_start": 9443.82,
+          "source_end": 9444.48,
+          "clip_start": 0,
+          "clip_end": 0.66
+        },
+        {
+          "source": "этапом",
+          "source_start": 9444.48,
+          "source_end": 9444.96,
+          "clip_start": 0.66,
+          "clip_end": 1.14
+        },
+        {
+          "source": "изучите",
+          "source_start": 9444.96,
+          "source_end": 9445.52,
+          "clip_start": 1.14,
+          "clip_end": 1.7
+        },
+        {
+          "source": "свои",
+          "source_start": 9445.52,
+          "source_end": 9445.78,
+          "clip_start": 1.7,
+          "clip_end": 1.96
+        },
+        {
+          "source": "галичности.",
+          "source_start": 9445.78,
+          "source_end": 9446.5,
+          "clip_start": 1.96,
+          "clip_end": 2.68,
+          "display": "эго-личности."
+        },
+        {
+          "source": "Потом",
+          "source_start": 9446.66,
+          "source_end": 9446.9,
+          "clip_start": 2.84,
+          "clip_end": 3.08
+        },
+        {
+          "source": "вы",
+          "source_start": 9446.9,
+          "source_end": 9447.36,
+          "clip_start": 3.08,
+          "clip_end": 3.54
+        },
+        {
+          "source": "сможете",
+          "source_start": 9447.36,
+          "source_end": 9448.14,
+          "clip_start": 3.54,
+          "clip_end": 4.32
+        },
+        {
+          "source": "понять,",
+          "source_start": 9448.14,
+          "source_end": 9448.46,
+          "clip_start": 4.32,
+          "clip_end": 4.64
+        },
+        {
+          "source": "в",
+          "source_start": 9448.84,
+          "source_end": 9448.84,
+          "clip_start": 5.02,
+          "clip_end": 5.02
+        },
+        {
+          "source": "какой",
+          "source_start": 9448.84,
+          "source_end": 9449.06,
+          "clip_start": 5.02,
+          "clip_end": 5.24
+        },
+        {
+          "source": "части",
+          "source_start": 9449.06,
+          "source_end": 9449.46,
+          "clip_start": 5.24,
+          "clip_end": 5.64
+        },
+        {
+          "source": "себя",
+          "source_start": 9449.46,
+          "source_end": 9449.78,
+          "clip_start": 5.64,
+          "clip_end": 5.96
+        },
+        {
+          "source": "вы",
+          "source_start": 9449.78,
+          "source_end": 9449.94,
+          "clip_start": 5.96,
+          "clip_end": 6.12
+        },
+        {
+          "source": "рассыпаетесь.",
+          "source_start": 9449.94,
+          "source_end": 9450.8,
+          "clip_start": 6.12,
+          "clip_end": 6.98
+        },
+        {
+          "source": "Например,",
+          "source_start": 9451.18,
+          "source_end": 9451.46,
+          "clip_start": 7.36,
+          "clip_end": 7.64
+        },
+        {
+          "source": "когда",
+          "source_start": 9451.62,
+          "source_end": 9451.76,
+          "clip_start": 7.8,
+          "clip_end": 7.94
+        },
+        {
+          "source": "мы",
+          "source_start": 9451.76,
+          "source_end": 9451.96,
+          "clip_start": 7.94,
+          "clip_end": 8.14
+        },
+        {
+          "source": "нашли",
+          "source_start": 9451.96,
+          "source_end": 9452.32,
+          "clip_start": 8.14,
+          "clip_end": 8.5
+        },
+        {
+          "source": "там",
+          "source_start": 9452.32,
+          "source_end": 9452.52,
+          "clip_start": 8.5,
+          "clip_end": 8.7
+        },
+        {
+          "source": "вот,",
+          "source_start": 9452.52,
+          "source_end": 9453.02,
+          "clip_start": 8.7,
+          "clip_end": 9.2
+        },
+        {
+          "source": "что",
+          "source_start": 9454.48,
+          "source_end": 9455.14,
+          "clip_start": 10.66,
+          "clip_end": 11.32
+        },
+        {
+          "source": "мой",
+          "source_start": 9455.14,
+          "source_end": 9455.42,
+          "clip_start": 11.32,
+          "clip_end": 11.6
+        },
+        {
+          "source": "ребенок",
+          "source_start": 9455.42,
+          "source_end": 9456.08,
+          "clip_start": 11.6,
+          "clip_end": 12.26
+        },
+        {
+          "source": "подавлен",
+          "source_start": 9456.08,
+          "source_end": 9457.58,
+          "clip_start": 12.26,
+          "clip_end": 13.76
+        },
+        {
+          "source": "в",
+          "source_start": 9457.58,
+          "source_end": 9457.8,
+          "clip_start": 13.76,
+          "clip_end": 13.98
+        },
+        {
+          "source": "какой",
+          "source_start": 9457.8,
+          "source_end": 9457.98,
+          "clip_start": 13.98,
+          "clip_end": 14.16,
+          "display": "какой-то"
+        },
+        {
+          "source": "-то",
+          "source_start": 9457.98,
+          "source_end": 9458.16,
+          "clip_start": 14.16,
+          "clip_end": 14.34,
+          "display": ""
+        },
+        {
+          "source": "сфере,",
+          "source_start": 9458.16,
+          "source_end": 9458.6,
+          "clip_start": 14.34,
+          "clip_end": 14.78
+        },
+        {
+          "source": "и",
+          "source_start": 9458.82,
+          "source_end": 9459.14,
+          "clip_start": 15,
+          "clip_end": 15.32
+        },
+        {
+          "source": "эта",
+          "source_start": 9459.14,
+          "source_end": 9459.34,
+          "clip_start": 15.32,
+          "clip_end": 15.52
+        },
+        {
+          "source": "сфера",
+          "source_start": 9459.34,
+          "source_end": 9459.68,
+          "clip_start": 15.52,
+          "clip_end": 15.86
+        },
+        {
+          "source": "задевает",
+          "source_start": 9459.68,
+          "source_end": 9460.3,
+          "clip_start": 15.86,
+          "clip_end": 16.48
+        },
+        {
+          "source": "моё",
+          "source_start": 9460.3,
+          "source_end": 9460.58,
+          "clip_start": 16.48,
+          "clip_end": 16.76
+        },
+        {
+          "source": "родительство,",
+          "source_start": 9460.58,
+          "source_end": 9461.22,
+          "clip_start": 16.76,
+          "clip_end": 17.4
+        },
+        {
+          "source": "когда",
+          "source_start": 9461.46,
+          "source_end": 9461.48,
+          "clip_start": 17.64,
+          "clip_end": 17.66
+        },
+        {
+          "source": "мы",
+          "source_start": 9461.48,
+          "source_end": 9461.72,
+          "clip_start": 17.66,
+          "clip_end": 17.9
+        },
+        {
+          "source": "это",
+          "source_start": 9461.72,
+          "source_end": 9461.92,
+          "clip_start": 17.9,
+          "clip_end": 18.1
+        },
+        {
+          "source": "исправили,",
+          "source_start": 9461.92,
+          "source_end": 9462.46,
+          "clip_start": 18.1,
+          "clip_end": 18.64
+        },
+        {
+          "source": "я",
+          "source_start": 9462.74,
+          "source_end": 9463.34,
+          "clip_start": 18.92,
+          "clip_end": 19.52
+        },
+        {
+          "source": "нашла",
+          "source_start": 9463.34,
+          "source_end": 9464,
+          "clip_start": 19.52,
+          "clip_end": 20.18
+        },
+        {
+          "source": "способ",
+          "source_start": 9464,
+          "source_end": 9464.4,
+          "clip_start": 20.18,
+          "clip_end": 20.58
+        },
+        {
+          "source": "контактировать",
+          "source_start": 9464.4,
+          "source_end": 9465.16,
+          "clip_start": 20.58,
+          "clip_end": 21.34
+        },
+        {
+          "source": "лучше",
+          "source_start": 9465.16,
+          "source_end": 9465.34,
+          "clip_start": 21.34,
+          "clip_end": 21.52
+        },
+        {
+          "source": "с",
+          "source_start": 9465.34,
+          "source_end": 9465.56,
+          "clip_start": 21.52,
+          "clip_end": 21.74
+        },
+        {
+          "source": "детьми.",
+          "source_start": 9465.56,
+          "source_end": 9465.86,
+          "clip_start": 21.74,
+          "clip_end": 22.04
+        },
+        {
+          "source": "Вы",
+          "source_start": 9467.3,
+          "source_end": 9467.96,
+          "clip_start": 23.48,
+          "clip_end": 24.14,
+          "display": "Вы наблю... вы"
+        },
+        {
+          "source": "изучаете",
+          "source_start": 9467.96,
+          "source_end": 9468.62,
+          "clip_start": 24.14,
+          "clip_end": 24.8
+        },
+        {
+          "source": "себя,",
+          "source_start": 9468.62,
+          "source_end": 9468.94,
+          "clip_start": 24.8,
+          "clip_end": 25.12
+        },
+        {
+          "source": "как",
+          "source_start": 9469.58,
+          "source_end": 9470.06,
+          "clip_start": 25.76,
+          "clip_end": 26.24
+        },
+        {
+          "source": "вы",
+          "source_start": 9470.06,
+          "source_end": 9470.28,
+          "clip_start": 26.24,
+          "clip_end": 26.46
+        },
+        {
+          "source": "разговариваете",
+          "source_start": 9470.28,
+          "source_end": 9471,
+          "clip_start": 26.46,
+          "clip_end": 27.18
+        },
+        {
+          "source": "с",
+          "source_start": 9471,
+          "source_end": 9471.18,
+          "clip_start": 27.18,
+          "clip_end": 27.36
+        },
+        {
+          "source": "людьми.",
+          "source_start": 9471.18,
+          "source_end": 9471.86,
+          "clip_start": 27.36,
+          "clip_end": 28.04
+        },
+        {
+          "source": "Вам",
+          "source_start": 9472.12,
+          "source_end": 9472.6,
+          "clip_start": 28.3,
+          "clip_end": 28.78
+        },
+        {
+          "source": "нужно",
+          "source_start": 9472.6,
+          "source_end": 9472.88,
+          "clip_start": 28.78,
+          "clip_end": 29.06
+        },
+        {
+          "source": "уйти",
+          "source_start": 9472.88,
+          "source_end": 9473.1,
+          "clip_start": 29.06,
+          "clip_end": 29.28
+        },
+        {
+          "source": "в",
+          "source_start": 9473.1,
+          "source_end": 9473.18,
+          "clip_start": 29.28,
+          "clip_end": 29.36
+        },
+        {
+          "source": "глубокую",
+          "source_start": 9473.18,
+          "source_end": 9473.56,
+          "clip_start": 29.36,
+          "clip_end": 29.74
+        },
+        {
+          "source": "саморефлексию.",
+          "source_start": 9473.56,
+          "source_end": 9474.48,
+          "clip_start": 29.74,
+          "clip_end": 30.66
+        }
+      ]
+    },
+    {
+      "id": "r08-protective-parts",
+      "source_start": 9534.24,
+      "source_end": 9563.8,
+      "language": [
+        "ru"
+      ],
+      "words": [
+        {
+          "source": "То",
+          "source_start": 9534.24,
+          "source_end": 9535.04,
+          "clip_start": 0,
+          "clip_end": 0.8
+        },
+        {
+          "source": "есть",
+          "source_start": 9535.04,
+          "source_end": 9535.24,
+          "clip_start": 0.8,
+          "clip_end": 1
+        },
+        {
+          "source": "эти",
+          "source_start": 9535.24,
+          "source_end": 9535.62,
+          "clip_start": 1,
+          "clip_end": 1.38
+        },
+        {
+          "source": "защитные",
+          "source_start": 9535.62,
+          "source_end": 9536,
+          "clip_start": 1.38,
+          "clip_end": 1.76
+        },
+        {
+          "source": "формы",
+          "source_start": 9536,
+          "source_end": 9536.36,
+          "clip_start": 1.76,
+          "clip_end": 2.12
+        },
+        {
+          "source": "защищают",
+          "source_start": 9536.36,
+          "source_end": 9536.92,
+          "clip_start": 2.12,
+          "clip_end": 2.68
+        },
+        {
+          "source": "обычно",
+          "source_start": 9536.92,
+          "source_end": 9537.16,
+          "clip_start": 2.68,
+          "clip_end": 2.92
+        },
+        {
+          "source": "ребенка",
+          "source_start": 9537.16,
+          "source_end": 9537.82,
+          "clip_start": 2.92,
+          "clip_end": 3.58
+        },
+        {
+          "source": "травмированного.",
+          "source_start": 9537.82,
+          "source_end": 9538.76,
+          "clip_start": 3.58,
+          "clip_end": 4.52
+        },
+        {
+          "source": "Вот",
+          "source_start": 9539.18,
+          "source_end": 9539.18,
+          "clip_start": 4.94,
+          "clip_end": 4.94
+        },
+        {
+          "source": "они",
+          "source_start": 9539.18,
+          "source_end": 9539.8,
+          "clip_start": 4.94,
+          "clip_end": 5.56
+        },
+        {
+          "source": "происходят",
+          "source_start": 9539.8,
+          "source_end": 9540.34,
+          "clip_start": 5.56,
+          "clip_end": 6.1
+        },
+        {
+          "source": "в",
+          "source_start": 9540.34,
+          "source_end": 9540.62,
+          "clip_start": 6.1,
+          "clip_end": 6.38
+        },
+        {
+          "source": "расщеплении",
+          "source_start": 9540.62,
+          "source_end": 9541.16,
+          "clip_start": 6.38,
+          "clip_end": 6.92
+        },
+        {
+          "source": "психики,",
+          "source_start": 9541.16,
+          "source_end": 9541.78,
+          "clip_start": 6.92,
+          "clip_end": 7.54
+        },
+        {
+          "source": "в",
+          "source_start": 9542.16,
+          "source_end": 9542.7,
+          "clip_start": 7.92,
+          "clip_end": 8.46
+        },
+        {
+          "source": "ранней",
+          "source_start": 9542.7,
+          "source_end": 9543.26,
+          "clip_start": 8.46,
+          "clip_end": 9.02
+        },
+        {
+          "source": "травме",
+          "source_start": 9543.26,
+          "source_end": 9543.58,
+          "clip_start": 9.02,
+          "clip_end": 9.34
+        },
+        {
+          "source": "детства.",
+          "source_start": 9543.58,
+          "source_end": 9544.04,
+          "clip_start": 9.34,
+          "clip_end": 9.8
+        },
+        {
+          "source": "То",
+          "source_start": 9544.5,
+          "source_end": 9544.64,
+          "clip_start": 10.26,
+          "clip_end": 10.4
+        },
+        {
+          "source": "есть",
+          "source_start": 9544.64,
+          "source_end": 9544.74,
+          "clip_start": 10.4,
+          "clip_end": 10.5
+        },
+        {
+          "source": "когда",
+          "source_start": 9544.74,
+          "source_end": 9545.02,
+          "clip_start": 10.5,
+          "clip_end": 10.78
+        },
+        {
+          "source": "происходит",
+          "source_start": 9545.02,
+          "source_end": 9545.42,
+          "clip_start": 10.78,
+          "clip_end": 11.18
+        },
+        {
+          "source": "какая",
+          "source_start": 9546.24,
+          "source_end": 9546.44,
+          "clip_start": 12,
+          "clip_end": 12.2,
+          "display": "какая-то"
+        },
+        {
+          "source": "-то",
+          "source_start": 9546.44,
+          "source_end": 9546.58,
+          "clip_start": 12.2,
+          "clip_end": 12.34,
+          "display": ""
+        },
+        {
+          "source": "невыносимая",
+          "source_start": 9546.58,
+          "source_end": 9547.14,
+          "clip_start": 12.34,
+          "clip_end": 12.9
+        },
+        {
+          "source": "история",
+          "source_start": 9547.14,
+          "source_end": 9547.44,
+          "clip_start": 12.9,
+          "clip_end": 13.2
+        },
+        {
+          "source": "в",
+          "source_start": 9547.44,
+          "source_end": 9547.58,
+          "clip_start": 13.2,
+          "clip_end": 13.34
+        },
+        {
+          "source": "детстве",
+          "source_start": 9547.58,
+          "source_end": 9547.92,
+          "clip_start": 13.34,
+          "clip_end": 13.68
+        },
+        {
+          "source": "для",
+          "source_start": 9547.92,
+          "source_end": 9548.14,
+          "clip_start": 13.68,
+          "clip_end": 13.9
+        },
+        {
+          "source": "ребенка,",
+          "source_start": 9548.14,
+          "source_end": 9548.58,
+          "clip_start": 13.9,
+          "clip_end": 14.34
+        },
+        {
+          "source": "у",
+          "source_start": 9548.68,
+          "source_end": 9548.7,
+          "clip_start": 14.44,
+          "clip_end": 14.46
+        },
+        {
+          "source": "него",
+          "source_start": 9548.7,
+          "source_end": 9548.78,
+          "clip_start": 14.46,
+          "clip_end": 14.54
+        },
+        {
+          "source": "начинает",
+          "source_start": 9548.78,
+          "source_end": 9549.12,
+          "clip_start": 14.54,
+          "clip_end": 14.88
+        },
+        {
+          "source": "расщепляться",
+          "source_start": 9549.12,
+          "source_end": 9549.64,
+          "clip_start": 14.88,
+          "clip_end": 15.4
+        },
+        {
+          "source": "психика",
+          "source_start": 9549.64,
+          "source_end": 9550.12,
+          "clip_start": 15.4,
+          "clip_end": 15.88
+        },
+        {
+          "source": "намного",
+          "source_start": 9550.12,
+          "source_end": 9550.66,
+          "clip_start": 15.88,
+          "clip_end": 16.42,
+          "display": "на много"
+        },
+        {
+          "source": "оеголичности.",
+          "source_start": 9550.66,
+          "source_end": 9551.58,
+          "clip_start": 16.42,
+          "clip_end": 17.34,
+          "display": "эго-личностей."
+        },
+        {
+          "source": "Вот",
+          "source_start": 9553.76,
+          "source_end": 9554.14,
+          "clip_start": 19.52,
+          "clip_end": 19.9
+        },
+        {
+          "source": "смотри,",
+          "source_start": 9554.14,
+          "source_end": 9554.52,
+          "clip_start": 19.9,
+          "clip_end": 20.28
+        },
+        {
+          "source": "12",
+          "source_start": 9554.66,
+          "source_end": 9555.04,
+          "clip_start": 20.42,
+          "clip_end": 20.8
+        },
+        {
+          "source": "архетипов",
+          "source_start": 9555.04,
+          "source_end": 9555.86,
+          "clip_start": 20.8,
+          "clip_end": 21.62
+        },
+        {
+          "source": "лучше",
+          "source_start": 9555.86,
+          "source_end": 9556.34,
+          "clip_start": 21.62,
+          "clip_end": 22.1
+        },
+        {
+          "source": "не",
+          "source_start": 9556.34,
+          "source_end": 9556.58,
+          "clip_start": 22.1,
+          "clip_end": 22.34
+        },
+        {
+          "source": "привязываться.",
+          "source_start": 9556.58,
+          "source_end": 9557.14,
+          "clip_start": 22.34,
+          "clip_end": 22.9
+        },
+        {
+          "source": "Мы",
+          "source_start": 9557.48,
+          "source_end": 9557.6,
+          "clip_start": 23.24,
+          "clip_end": 23.36
+        },
+        {
+          "source": "взяли",
+          "source_start": 9557.6,
+          "source_end": 9557.96,
+          "clip_start": 23.36,
+          "clip_end": 23.72
+        },
+        {
+          "source": "и",
+          "source_start": 9557.96,
+          "source_end": 9558.42,
+          "clip_start": 23.72,
+          "clip_end": 24.18
+        },
+        {
+          "source": "изучили",
+          "source_start": 9558.42,
+          "source_end": 9559.16,
+          "clip_start": 24.18,
+          "clip_end": 24.92
+        },
+        {
+          "source": "себя",
+          "source_start": 9559.16,
+          "source_end": 9559.44,
+          "clip_start": 24.92,
+          "clip_end": 25.2
+        },
+        {
+          "source": "отдельно",
+          "source_start": 9559.44,
+          "source_end": 9560.36,
+          "clip_start": 25.2,
+          "clip_end": 26.12
+        },
+        {
+          "source": "от",
+          "source_start": 9560.36,
+          "source_end": 9560.5,
+          "clip_start": 26.12,
+          "clip_end": 26.26
+        },
+        {
+          "source": "всех",
+          "source_start": 9560.5,
+          "source_end": 9560.7,
+          "clip_start": 26.26,
+          "clip_end": 26.46
+        },
+        {
+          "source": "архетипов,",
+          "source_start": 9560.7,
+          "source_end": 9561.42,
+          "clip_start": 26.46,
+          "clip_end": 27.18
+        },
+        {
+          "source": "мы",
+          "source_start": 9561.48,
+          "source_end": 9561.56,
+          "clip_start": 27.24,
+          "clip_end": 27.32
+        },
+        {
+          "source": "назвали",
+          "source_start": 9561.56,
+          "source_end": 9561.94,
+          "clip_start": 27.32,
+          "clip_end": 27.7
+        },
+        {
+          "source": "себя",
+          "source_start": 9561.94,
+          "source_end": 9562.22,
+          "clip_start": 27.7,
+          "clip_end": 27.98
+        },
+        {
+          "source": "своими",
+          "source_start": 9562.22,
+          "source_end": 9563.32,
+          "clip_start": 27.98,
+          "clip_end": 29.08
+        },
+        {
+          "source": "именами.",
+          "source_start": 9563.32,
+          "source_end": 9563.8,
+          "clip_start": 29.08,
+          "clip_end": 29.56
+        }
+      ]
+    }
+  ],
+  "human_display_overrides": {
+    "artifact": "reel-input/HUMAN_EDITORIAL_DECISIONS.md",
+    "canonical_episode_asr_modified": false,
+    "semantics": "source retains canonical ASR token; optional display is the approved mutable subtitle token"
+  }
+}

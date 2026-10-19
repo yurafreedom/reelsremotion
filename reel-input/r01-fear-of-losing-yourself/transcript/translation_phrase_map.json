@@ -1,0 +1,4 @@
+{
+  "rule": "DISPLAY RU for English speech is phrase-group mapping only. Never treat Russian display words as acoustically aligned to English source words.",
+  "clips": []
+}

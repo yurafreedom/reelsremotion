@@ -1,0 +1,41 @@
+{
+  "rule": "DISPLAY RU for English speech is phrase-group mapping only. Never treat Russian display words as acoustically aligned to English source words.",
+  "human_decision_artifact": "reel-input/HUMAN_EDITORIAL_DECISIONS.md",
+  "clips": [
+    {
+      "id": "r07-lived-experience",
+      "source_start": 938.18,
+      "source_end": 961.32,
+      "source_language": [
+        "en"
+      ],
+      "canonical_source_text": "For me it was most beneficial after the first 10 minutes of being on my knees, because it starts to hurt and get uncomfortable and that makes you feel what you're thinking about, like actually you live it.",
+      "human_approved_source_text": "For me it was most beneficial after the first 10 minutes of being on my knees, because it starts to hurt and get uncomfortable and that makes you feel what you're thinking about, feel what you're saying, like actually you live it.",
+      "display_ru": "Для меня самое полезное наступало после первых 10 минут стояния на коленях, потому что начинает болеть и становится некомфортно, и это заставляет тебя почувствовать, о чём ты думаешь, почувствовать, что ты говоришь, — то есть ты действительно это проживаешь.",
+      "translation_provenance": "transcripts/video1219377731/en_spans_ru.json[5]",
+      "mapping_status": "C10_HUMAN_APPROVED; PHRASE_GROUP_ALIGNMENT_ONLY",
+      "groups": [
+        {
+          "id": "r07-lived-experience-g1",
+          "source_start": 938.18,
+          "source_end": 948.36,
+          "clip_start": 0,
+          "clip_end": 10.18,
+          "source_text": "For me it was most beneficial after the first 10 minutes of being on my knees,",
+          "display_ru": "Для меня самое полезное наступало после первых 10 минут стояния на коленях,"
+        },
+        {
+          "id": "r07-lived-experience-g2",
+          "source_start": 949.08,
+          "source_end": 961.32,
+          "clip_start": 10.9,
+          "clip_end": 23.14,
+          "source_text": "because it starts to hurt and get uncomfortable and that makes you feel what you're thinking about, feel what you're saying, like actually you live it.",
+          "display_ru": "потому что начинает болеть и становится некомфортно, и это заставляет тебя почувствовать, о чём ты думаешь, почувствовать, что ты говоришь, — то есть ты действительно это проживаешь.",
+          "canonical_source_text": "because it starts to hurt and get uncomfortable and that makes you feel what you're thinking about, like actually you live it.",
+          "source_text_status": "HUMAN_CORRECTED_MUTABLE_LAYER_C10"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+# Human editorial decisions — cumulative through 2026-08-22
+
+STATUS=HUMAN_EAR_GATE_CLOSED; VISUAL_GATE_CLOSED_APPROVED; R06_SEMANTIC_REPAIR_CANDIDATE_CREATED; HUMAN_SEMANTIC_REVIEW_PENDING  
+HUMAN_EAR_GATE=CLOSED  
+VISUAL_GATE=CLOSED  
+PRESET_1_MAIN_HOOK=LOCKED  
+PRESET_2_SECONDARY_PUNCH=LOCKED  
+PRESET_3_LOWER_THIRD=LOCKED  
+SCREEN_2_STATUS=NOT_BASE  
+R06_MOTION_GATE=APPROVED  
+R06_PRODUCTION_CANDIDATE=SEMANTIC_REPAIR_CREATED  
+R06_HUMAN_FINAL_REVIEW=SEMANTIC_REPAIR_PENDING  
+SERIES_PRODUCTION_AUTHORIZED=NO  
+R01_HUMAN_AUDIO_STATUS=APPROVED  
+R02_HUMAN_AUDIO_STATUS=APPROVED  
+R03_HUMAN_AUDIO_STATUS=APPROVED  
+R04_HUMAN_AUDIO_STATUS=APPROVED  
+R05_HUMAN_AUDIO_STATUS=APPROVED  
+R06_HUMAN_AUDIO_STATUS=APPROVED  
+R07_HUMAN_AUDIO_STATUS=APPROVED  
+R08_HUMAN_AUDIO_STATUS=APPROVED  
+HUMAN_DECISIONS_APPLIED=C01_C12_R07_ALWAYS_R06_AUDIO_AND_ALL_EXPLICITLY_APPROVED_EDGE_AUDIO_SPEAKER_ACTIONS  
+CANONICAL_EPISODE_ASR_MODIFIED=NO  
+R06_FINAL_CANDIDATE_TIMELINE_GENERATED=YES  
+OTHER_REELS_TIMELINES_GENERATED=NO  
+FINAL_REELS_RENDERED=NO  
+C10_C12_STATUS=ACCEPTED_APPLIED  
+
+This is the mutable human-decision layer. The immutable machine provenance remains
+`transcripts/video1219377731/asr_video1219377731.json`; its text and word timings
+were not rewritten. Package manifests may retain the canonical machine text while
+recording human-approved overrides in `human_review` and DISPLAY fields.
+
+## R01
+
+R01_AUDIO_REVIEW=APPROVED  
+001_HOOK_START_EDGE=APPROVED  
+001_HOOK_END_EDGE=APPROVED  
+001_HOOK_END_HEARD_TEXT=`с момента`  
+002_PAYOFF_START_EDGE=APPROVED  
+002_PAYOFF_END_EDGE=APPROVED  
+
+### C01
+
+DECISION=ACCEPT  
+APPROVED_SOURCE_TEXT=`теряешь`  
+HUMAN_HEARD_CONTEXT=`ты просто теряешь себя, теряешь [pause] путь, куда вы движетесь`  
+
+### C02
+
+DECISION=ACCEPT  
+APPROVED_SOURCE_TEXT=`консента`  
+APPROVED_DISPLAY_TEXT=`консента`  
+NOTE=Intentional Russian inflected borrowing from English “consent”.  
+
+## R02
+
+R02_AUDIO_REVIEW=PARTIAL  
+
+### C03
+
+DECISION=ACCEPT  
+SPEAKER=Evgeniia Nikulina  
+APPROVED_SOURCE_MEANING=`couldn't just let yourself see someone, just date, just make love...`  
+HUMAN_CONFIRMED_COULDNT=YES  
+HUMAN_CONFIRMED_JUST_DATE=YES  
+
+### 001_question retained edge
+
+CURRENT_END_BEFORE_BATCH=`01:16:34.860`  
+APPROVED_END=`01:16:21.600`  
+END_AFTER=`there is no future together`  
+APPLICATION_STATUS=APPLIED_TO_MANIFEST_AND_REVIEW_CLIP  
+
+### C04
+
+DECISION=PARTIALLY_APPROVED  
+HUMAN_CONFIRMED_START=`to actually indulge in that pleasure, to meet someone...`  
+REMAINDER_STATUS=PENDING_OPTIONAL_REVIEW  
+
+### 002_context edge location
+
+CURRENT_END_BEFORE_BATCH=`01:19:12.000`  
+CURRENT_END_HUMAN_DECISION=REJECTED  
+CANONICAL_WORD_END=`01:19:12.000` — found acoustically short  
+INDEPENDENT_EXTENDED_ASR_WORD_END=`01:19:12.240`  
+FOLLOWING_TECHNICAL_SILENCE_START=`01:19:12.320`  
+PROPOSED_END_REPORTED_BEFORE_APPLICATION=`01:19:12.320`  
+APPLICATION_STATUS=APPLIED_TO_MANIFEST_AND_REVIEW_CLIP; HUMAN_RECHECK_REQUIRED  
+NOTE=The 320 ms extension preserves the complete `unique` and ends at the start of the following silence, before unrelated speech.  
+
+### 003_payoff retained edge
+
+CURRENT_END_BEFORE_BATCH=`01:21:15.820`  
+APPROVED_END=`01:21:05.360`  
+END_AFTER=`without expectations`  
+NATURAL_PAUSE_CONFIRMED=YES  
+APPLICATION_STATUS=APPLIED_TO_MANIFEST_AND_REVIEW_CLIP  
+
+## R03
+
+R03_AUDIO_REVIEW=APPROVED  
+CURRENT_END_BEFORE_BATCH=`00:37:29.260`  
+APPROVED_END=`00:37:21.980`  
+END_AFTER=`когда ты рассыпаешься`  
+RETURN_TO_QUESTION_TAIL=EXCLUDED  
+APPLICATION_STATUS=APPLIED_TO_MANIFEST_AND_REVIEW_CLIP  
+
+## R04
+
+R04_TEXT_REVIEW=C05_C07_APPROVED  
+R04_START_EDGE=HUMAN_APPROVED_AT_00:39:13.240  
+R04_COMPACT_CANDIDATE_A=APPROVED  
+R04_RECOMMENDED_EDIT=COMPACT_CANDIDATE_A  
+R04_FINAL_TIMELINE_AUTHORIZED=NO  
+
+### C05
+
+DECISION=ACCEPT  
+APPROVED_SOURCE_TEXT=`И так интересно, то есть мы можем прийти к консенсусу — только к консенсусу, мы не можем прийти к компромиссу...`  
+
+### C06
+
+DECISION=ACCEPT  
+APPROVED_SOURCE_TEXT=`То есть компромисс — это всегда у нас разрушающая история. Вот, я понимаю, что я себя предаю, если я иду на компромисс, или он себя предаёт, если мы идём на компромисс, и только консенсус — как третье...`  
+PITCH_CHANGE_AT_ONLY_CONSENSUS=NOT_A_SEMANTIC_CUT  
+
+### C07
+
+DECISION=ACCEPT_WITH_DISPLAY_NORMALIZATION  
+APPROVED_SOURCE_PRONUNCIATION=`approximately коньюнктио`  
+APPROVED_DISPLAY_TEXT=`coniunctio`  
+NOTE=No more exact Russian phonetic spelling is claimed.  
+
+### 001_principle start-edge proposal
+
+CURRENT_START=`00:39:06.500`  
+PRECEDING_FRAGMENT=UNREQUIRED_AND_UNCLEAR  
+SEPARATING_SILENCE=`00:39:12.403 --> 00:39:13.243`  
+RUSSIAN_WORD_ONSET=`00:39:13.240`  
+PROPOSED_START=`00:39:13.240`  
+APPLICATION_STATUS=HUMAN_APPROVED_FOR_RECOMMENDED_COMPACT_EDIT; FINAL_TIMELINE_NOT_CREATED  
+
+The current manifest and `001_principle.mp4` deliberately retain the old start
+until the compact candidate splice is approved. The final-gate candidate uses
+the approved clean start at `00:39:13.240`.
+
+### 001_principle end observation
+
+HUMAN_OBSERVATION=The current clip ends after the phrase about two opposites enduring intensity and giving birth to something third.  
+END_APPLICATION_STATUS=UNCHANGED  
+
+### 002_example-payoff / C08
+
+SPEAKER=Denis  
+ROLE=Club participant / Russian interpreter for Andrew in the Zoom session  
+APPROVED_RETAINED_INTERVAL=`00:47:16.370 --> 00:47:25.490`  
+END_AFTER=`и это не работало`  
+C08_DECISION=EXCLUDED_FROM_FINAL_EDIT  
+C08_REMEDIATION_REQUIRED=NO  
+APPLICATION_STATUS=APPLIED_TO_MANIFEST_AND_REVIEW_CLIP  
+
+## R05
+
+R05_AUDIO_REVIEW=APPROVED  
+
+### C09
+
+DECISION=ACCEPT  
+APPROVED_SOURCE_TEXT=`красивый`  
+APPROVED_DISPLAY_TEXT=`красивый`  
+APPROVED_CONTEXT=`Люби меня за то, что я просто такой красивый есть`  
+COLLOQUIAL_SYNTAX=PRESERVE  
+
+### Earlier start and end
+
+CURRENT_START_BEFORE_BATCH=`03:22:21.470`  
+APPROVED_START=`03:22:13.070`  
+HESITATION_SPLICE=ACCEPTED  
+END_EDGE=APPROVED  
+FINAL_HEARD_TEXT=`и это прям круто`  
+APPLICATION_STATUS=APPLIED_TO_MANIFEST_AND_REVIEW_CLIP  
+
+## R06
+
+R06_HUMAN_AUDIO_REVIEW=APPROVED  
+R06_ALL_CLIP_EDGES=APPROVED  
+R06_EDITORIAL_CONTENT=APPROVED  
+R06_READY_FOR_DESIGN_PILOT=YES  
+DESIGN_PILOT_STARTED_IN_THIS_BATCH=NO  
+
+## R07 final corrections
+
+R07_JOIN_01=APPROVED  
+R07_ALWAYS_DECISION=ACCEPT  
+APPROVED_SOURCE_TEXT=`Динамика всегда высвобождает`  
+APPROVED_DISPLAY_TEXT=`Динамика всегда высвобождает`  
+CANONICAL_ASR_MODIFIED=NO  
+
+R07_GUEST_PROOF_HUMAN_AUDIO_REVIEW=APPROVED  
+R07_GUEST_PROOF_START_EDGE=APPROVED  
+R07_GUEST_PROOF_END_EDGE=APPROVED  
+FINAL_COMPLETE_PHRASE=`like actually you live it.`  
+FINAL_WORD=`it`  
+R07_RETAINED_BLOCK_1=`00:14:28.890 --> 00:14:43.550`  
+R07_RETAINED_BLOCK_2=`00:15:00.000 --> 00:15:17.520`; MUST_REMAIN_COMPLETE=YES  
+R07_RETAINED_BLOCK_3=`00:15:38.180 --> 00:16:01.320`  
+R07_FULL_SEQUENCE_PREVIEW=`scratch_check/final_human_gate/r07/r07_full_retained_sequence_preview.mp4`  
+R07_CONTENT_STATUS=APPROVED  
+R07_FULL_SEQUENCE_CONTENT=APPROVED  
+R07_JOIN_02_AUDIO_STATUS=APPROVED_20MS_OPTION_A  
+R07_JOIN_02_AUDIO_OPTION_A=`scratch_check/final_human_gate/r07/r07_join_02_audio_A_20ms.mp4`  
+R07_JOIN_02_AUDIO_OPTION_B=`scratch_check/final_human_gate/r07/r07_join_02_audio_B_50ms.mp4`  
+R07_JOIN_02_AUDIO_OPTION_B_STATUS=REJECTED_NOT_SELECTED  
+R07_SELECTED_AUDIO_JOIN=20MS_OPTION_A  
+R07_RETAINED_BLOCKS_CHANGED=NO  
+
+## C10–C12
+
+### C10
+
+C10_STATUS=ACCEPTED_APPLIED  
+APPROVED_SOURCE_TEXT=`that makes you feel what you're thinking about, feel what you're saying`  
+APPROVED_DISPLAY_RU=`и это заставляет тебя почувствовать, о чём ты думаешь, почувствовать, что ты говоришь, — то есть ты действительно это проживаешь.`  
+ALIGNMENT=`phrase-group-only; no Russian acoustic word timestamps`  
+
+### C11
+
+C11_STATUS=ACCEPTED_APPLIED  
+APPROVED_SOURCE_TEXT=`Первым этапом изучите свои эго-личности.`  
+APPROVED_DISPLAY_TEXT=`Первым этапом изучите свои эго-личности.`  
+
+### C12
+
+C12_STATUS=ACCEPTED_APPLIED  
+APPROVED_SOURCE_TEXT=`на много эго-личностей`  
+C12_RESOLVED=YES  
+C12_RETAIN_IN_RECOMMENDED_EDIT=YES  
+C12_PREVIOUS_EXCLUSION_SUPERSEDED=YES  
+
+## R08 final joins
+
+R08_JOIN_01=APPROVED  
+R08_JOIN_01_HESITATION_SELF_CORRECTION=PRESERVE_NATIVE_SPEECH  
+R08_JOIN_02_CURRENT=REJECTED_PSYCHIKA_ONLY_IS_INCOMPLETE_THOUGHT  
+R08_OLD_PSYCHIKA_ONLY_BOUNDARY=REJECTED  
+R08_JOIN_02_B1=REJECTED  
+R08_JOIN_02_B1_BOUNDARIES=`BLOCK_3_END=02:39:10.120; BLOCK_4_START=02:39:13.680`  
+R08_JOIN_02_B2=ABANDONED_WITH_PSYCHIKA_ONLY_APPROACH  
+R08_JOIN_02_B3=ABANDONED_WITH_PSYCHIKA_ONLY_APPROACH  
+R08_JOIN_02_OPTION_A_STATUS=APPROVED  
+R08_JOIN_02_OPTION_A=`scratch_check/final_human_gate/r08/r08_join_02_option_A_complete_sentence.mp4`  
+R08_JOIN_02_OPTION_A_BLOCK_3_END=`02:39:11.800`; COMPLETE_C12_PHRASE_END=`02:39:11.580`  
+R08_JOIN_02_OPTION_A_BLOCK_4_START=`02:39:13.640`  
+R08_C11=EGO_PERSONALITIES  
+R08_C12=ACCEPTED_AND_RETAINED  
+R08_SELECTED_JOIN=COMPLETE_SENTENCE_OPTION_A  
+
+## B-roll
+
+CATALOG_STATUS=ACCEPTED_AS_CURRENT_CANONICAL_REVIEW_CATALOG  
+SOURCE_FILES_DISCOVERED=14  
+USEFUL_RANGES=55  
+MAPPING_STATUS=PROPOSED_PENDING_HUMAN_VISUAL_REVIEW  
+FINAL_BROLL_EXTRACTED_TO_REEL_PACKAGES=NO  
+
+## Scope still requiring approval
+
+- Human recheck of the extended R02 `002_context` endpoint.
+- Human audio/editorial gate is closed for R01–R08.
+- Visual design/typography gate is closed with three locked presets; the short R06 motion proof now awaits human motion review.
+- The motion proof does not authorize a full R06 Reel, final timeline, or series render.
+- Final cuts, cards, B-roll choices, timelines, and renders.
+
+## Verification
+
+CANONICAL_ASR_SHA256=`952a370ce412b15e7b2dfd4c909cae59e42e473a3797fc67a4644c95ed8869ec`  
+PREPRODUCTION_PACKAGES_VALIDATED=8/8  
+FINAL_HUMAN_GATE_PREVIEWS_CREATED=5  
+FINAL_HUMAN_GATE_PREVIEWS_FFPROBE_PASS=5/5  
+FINAL_HUMAN_GATE_PREVIEWS_AUDIO_PRESENT=5/5  
+R04_COMPACT_CANDIDATE_TARGETED_ASR=`Мы пытались как-то договориться... Но всегда это был компромисс и это не работало. Итак, интересно...`  
+NPM_TEST=PASS  
+R03_VALIDATION_NOTE=Human-approved word-level end lies inside a longer immutable canonical subtitle segment; validator records a warning and accepts the exact approved word boundary.  
+FINAL_TIMELINES_PRESENT_IN_REEL_PACKAGES=0  
+FINAL_REELS_RENDERED_IN_THIS_BATCH=0  
+MASTER_VIDEO_MODIFIED=NO  
+MASTER_COPIED_INTO_PUBLIC=NO  
+BROLL_COPIED_INTO_REEL_PACKAGES=NO  

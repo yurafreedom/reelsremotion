@@ -1,0 +1,576 @@
+{
+  "authority": "transcripts/video1219377731/asr_video1219377731.json",
+  "timing_semantics": "source seconds are absolute master time; clip seconds are relative to extracted clip start",
+  "immutable_canonical_asr": true,
+  "human_decision_artifact": "reel-input/HUMAN_EDITORIAL_DECISIONS.md",
+  "clips": [
+    {
+      "id": "r03-stabilization",
+      "source_start": 2202.04,
+      "source_end": 2241.98,
+      "language": [
+        "ru"
+      ],
+      "words": [
+        {
+          "source": "и",
+          "source_start": 2202.04,
+          "source_end": 2202.76,
+          "clip_start": 0,
+          "clip_end": 0.72
+        },
+        {
+          "source": "когда",
+          "source_start": 2202.76,
+          "source_end": 2202.96,
+          "clip_start": 0.72,
+          "clip_end": 0.92
+        },
+        {
+          "source": "я",
+          "source_start": 2202.96,
+          "source_end": 2203.12,
+          "clip_start": 0.92,
+          "clip_end": 1.08
+        },
+        {
+          "source": "вижу",
+          "source_start": 2203.12,
+          "source_end": 2203.36,
+          "clip_start": 1.08,
+          "clip_end": 1.32
+        },
+        {
+          "source": "его",
+          "source_start": 2203.36,
+          "source_end": 2203.74,
+          "clip_start": 1.32,
+          "clip_end": 1.7
+        },
+        {
+          "source": "такого",
+          "source_start": 2203.74,
+          "source_end": 2204.1,
+          "clip_start": 1.7,
+          "clip_end": 2.06
+        },
+        {
+          "source": "спокойного,",
+          "source_start": 2204.1,
+          "source_end": 2204.92,
+          "clip_start": 2.06,
+          "clip_end": 2.88
+        },
+        {
+          "source": "порядочного,",
+          "source_start": 2205.02,
+          "source_end": 2205.98,
+          "clip_start": 2.98,
+          "clip_end": 3.94
+        },
+        {
+          "source": "упорядоченного,",
+          "source_start": 2206.04,
+          "source_end": 2207.34,
+          "clip_start": 4,
+          "clip_end": 5.3
+        },
+        {
+          "source": "наводящего",
+          "source_start": 2207.44,
+          "source_end": 2208.84,
+          "clip_start": 5.4,
+          "clip_end": 6.8
+        },
+        {
+          "source": "структуру,",
+          "source_start": 2208.84,
+          "source_end": 2211.22,
+          "clip_start": 6.8,
+          "clip_end": 9.18
+        },
+        {
+          "source": "последовательного,",
+          "source_start": 2211.24,
+          "source_end": 2212.14,
+          "clip_start": 9.2,
+          "clip_end": 10.1
+        },
+        {
+          "source": "составляющего",
+          "source_start": 2212.18,
+          "source_end": 2212.86,
+          "clip_start": 10.14,
+          "clip_end": 10.82
+        },
+        {
+          "source": "графики,",
+          "source_start": 2212.86,
+          "source_end": 2213.56,
+          "clip_start": 10.82,
+          "clip_end": 11.52
+        },
+        {
+          "source": "знающего,",
+          "source_start": 2214.04,
+          "source_end": 2214.94,
+          "clip_start": 12,
+          "clip_end": 12.9
+        },
+        {
+          "source": "что",
+          "source_start": 2215.04,
+          "source_end": 2215.14,
+          "clip_start": 13,
+          "clip_end": 13.1
+        },
+        {
+          "source": "мы",
+          "source_start": 2215.14,
+          "source_end": 2215.28,
+          "clip_start": 13.1,
+          "clip_end": 13.24
+        },
+        {
+          "source": "будем",
+          "source_start": 2215.28,
+          "source_end": 2215.48,
+          "clip_start": 13.24,
+          "clip_end": 13.44
+        },
+        {
+          "source": "делать,",
+          "source_start": 2215.48,
+          "source_end": 2215.88,
+          "clip_start": 13.44,
+          "clip_end": 13.84
+        },
+        {
+          "source": "планирующего,",
+          "source_start": 2216.1,
+          "source_end": 2216.82,
+          "clip_start": 14.06,
+          "clip_end": 14.78
+        },
+        {
+          "source": "мне",
+          "source_start": 2217.18,
+          "source_end": 2217.52,
+          "clip_start": 15.14,
+          "clip_end": 15.48
+        },
+        {
+          "source": "становится",
+          "source_start": 2217.52,
+          "source_end": 2217.98,
+          "clip_start": 15.48,
+          "clip_end": 15.94
+        },
+        {
+          "source": "спокойней,",
+          "source_start": 2217.98,
+          "source_end": 2218.78,
+          "clip_start": 15.94,
+          "clip_end": 16.74
+        },
+        {
+          "source": "потому",
+          "source_start": 2220.44,
+          "source_end": 2221.16,
+          "clip_start": 18.4,
+          "clip_end": 19.12
+        },
+        {
+          "source": "что",
+          "source_start": 2221.16,
+          "source_end": 2221.56,
+          "clip_start": 19.12,
+          "clip_end": 19.52
+        },
+        {
+          "source": "есть",
+          "source_start": 2221.56,
+          "source_end": 2222.18,
+          "clip_start": 19.52,
+          "clip_end": 20.14
+        },
+        {
+          "source": "более",
+          "source_start": 2222.18,
+          "source_end": 2222.48,
+          "clip_start": 20.14,
+          "clip_end": 20.44
+        },
+        {
+          "source": "сильная",
+          "source_start": 2222.48,
+          "source_end": 2222.98,
+          "clip_start": 20.44,
+          "clip_end": 20.94
+        },
+        {
+          "source": "нервная",
+          "source_start": 2222.98,
+          "source_end": 2223.36,
+          "clip_start": 20.94,
+          "clip_end": 21.32
+        },
+        {
+          "source": "система,",
+          "source_start": 2223.36,
+          "source_end": 2223.68,
+          "clip_start": 21.32,
+          "clip_end": 21.64
+        },
+        {
+          "source": "которая",
+          "source_start": 2223.8,
+          "source_end": 2224.1,
+          "clip_start": 21.76,
+          "clip_end": 22.06
+        },
+        {
+          "source": "регулирует",
+          "source_start": 2224.1,
+          "source_end": 2224.72,
+          "clip_start": 22.06,
+          "clip_end": 22.68
+        },
+        {
+          "source": "себя",
+          "source_start": 2224.72,
+          "source_end": 2224.94,
+          "clip_start": 22.68,
+          "clip_end": 22.9
+        },
+        {
+          "source": "лучше",
+          "source_start": 2224.94,
+          "source_end": 2225.22,
+          "clip_start": 22.9,
+          "clip_end": 23.18
+        },
+        {
+          "source": "рядом",
+          "source_start": 2225.22,
+          "source_end": 2225.52,
+          "clip_start": 23.18,
+          "clip_end": 23.48
+        },
+        {
+          "source": "со",
+          "source_start": 2225.52,
+          "source_end": 2225.8,
+          "clip_start": 23.48,
+          "clip_end": 23.76
+        },
+        {
+          "source": "мной,",
+          "source_start": 2225.8,
+          "source_end": 2226,
+          "clip_start": 23.76,
+          "clip_end": 23.96
+        },
+        {
+          "source": "чем",
+          "source_start": 2226,
+          "source_end": 2226.28,
+          "clip_start": 23.96,
+          "clip_end": 24.24
+        },
+        {
+          "source": "я",
+          "source_start": 2226.28,
+          "source_end": 2226.52,
+          "clip_start": 24.24,
+          "clip_end": 24.48
+        },
+        {
+          "source": "в",
+          "source_start": 2226.52,
+          "source_end": 2226.84,
+          "clip_start": 24.48,
+          "clip_end": 24.8
+        },
+        {
+          "source": "этот",
+          "source_start": 2226.84,
+          "source_end": 2227.02,
+          "clip_start": 24.8,
+          "clip_end": 24.98
+        },
+        {
+          "source": "момент",
+          "source_start": 2227.02,
+          "source_end": 2227.3,
+          "clip_start": 24.98,
+          "clip_end": 25.26
+        },
+        {
+          "source": "сама",
+          "source_start": 2227.3,
+          "source_end": 2227.66,
+          "clip_start": 25.26,
+          "clip_end": 25.62
+        },
+        {
+          "source": "себя",
+          "source_start": 2227.66,
+          "source_end": 2227.86,
+          "clip_start": 25.62,
+          "clip_end": 25.82
+        },
+        {
+          "source": "могу",
+          "source_start": 2227.86,
+          "source_end": 2228.1,
+          "clip_start": 25.82,
+          "clip_end": 26.06
+        },
+        {
+          "source": "регулировать,",
+          "source_start": 2228.1,
+          "source_end": 2228.84,
+          "clip_start": 26.06,
+          "clip_end": 26.8
+        },
+        {
+          "source": "то",
+          "source_start": 2229.52,
+          "source_end": 2229.56,
+          "clip_start": 27.48,
+          "clip_end": 27.52
+        },
+        {
+          "source": "есть",
+          "source_start": 2229.56,
+          "source_end": 2229.76,
+          "clip_start": 27.52,
+          "clip_end": 27.72
+        },
+        {
+          "source": "начинаем",
+          "source_start": 2229.76,
+          "source_end": 2230.9,
+          "clip_start": 27.72,
+          "clip_end": 28.86
+        },
+        {
+          "source": "вкатываться,",
+          "source_start": 2230.9,
+          "source_end": 2231.56,
+          "clip_start": 28.86,
+          "clip_end": 29.52
+        },
+        {
+          "source": "да,",
+          "source_start": 2231.68,
+          "source_end": 2231.78,
+          "clip_start": 29.64,
+          "clip_end": 29.74
+        },
+        {
+          "source": "в",
+          "source_start": 2231.92,
+          "source_end": 2232.08,
+          "clip_start": 29.88,
+          "clip_end": 30.04
+        },
+        {
+          "source": "динамику,",
+          "source_start": 2232.08,
+          "source_end": 2232.78,
+          "clip_start": 30.04,
+          "clip_end": 30.74
+        },
+        {
+          "source": "что",
+          "source_start": 2232.78,
+          "source_end": 2233.04,
+          "clip_start": 30.74,
+          "clip_end": 31
+        },
+        {
+          "source": "такое,",
+          "source_start": 2233.04,
+          "source_end": 2233.38,
+          "clip_start": 31,
+          "clip_end": 31.34
+        },
+        {
+          "source": "то",
+          "source_start": 2233.96,
+          "source_end": 2234.02,
+          "clip_start": 31.92,
+          "clip_end": 31.98
+        },
+        {
+          "source": "есть",
+          "source_start": 2234.02,
+          "source_end": 2234.2,
+          "clip_start": 31.98,
+          "clip_end": 32.16
+        },
+        {
+          "source": "Dominant",
+          "source_start": 2234.2,
+          "source_end": 2234.88,
+          "clip_start": 32.16,
+          "clip_end": 32.84
+        },
+        {
+          "source": "это",
+          "source_start": 2234.88,
+          "source_end": 2235.08,
+          "clip_start": 32.84,
+          "clip_end": 33.04
+        },
+        {
+          "source": "не",
+          "source_start": 2235.08,
+          "source_end": 2235.24,
+          "clip_start": 33.04,
+          "clip_end": 33.2
+        },
+        {
+          "source": "тот,",
+          "source_start": 2235.24,
+          "source_end": 2235.44,
+          "clip_start": 33.2,
+          "clip_end": 33.4
+        },
+        {
+          "source": "кто",
+          "source_start": 2235.52,
+          "source_end": 2235.68,
+          "clip_start": 33.48,
+          "clip_end": 33.64
+        },
+        {
+          "source": "тебя",
+          "source_start": 2235.68,
+          "source_end": 2235.86,
+          "clip_start": 33.64,
+          "clip_end": 33.82
+        },
+        {
+          "source": "поглощает",
+          "source_start": 2235.86,
+          "source_end": 2236.46,
+          "clip_start": 33.82,
+          "clip_end": 34.42
+        },
+        {
+          "source": "и",
+          "source_start": 2236.46,
+          "source_end": 2236.58,
+          "clip_start": 34.42,
+          "clip_end": 34.54
+        },
+        {
+          "source": "за",
+          "source_start": 2236.58,
+          "source_end": 2236.66,
+          "clip_start": 34.54,
+          "clip_end": 34.62
+        },
+        {
+          "source": "тебя",
+          "source_start": 2236.66,
+          "source_end": 2236.84,
+          "clip_start": 34.62,
+          "clip_end": 34.8
+        },
+        {
+          "source": "принимает",
+          "source_start": 2236.84,
+          "source_end": 2237.34,
+          "clip_start": 34.8,
+          "clip_end": 35.3
+        },
+        {
+          "source": "решение,",
+          "source_start": 2237.34,
+          "source_end": 2237.86,
+          "clip_start": 35.3,
+          "clip_end": 35.82
+        },
+        {
+          "source": "это",
+          "source_start": 2238.04,
+          "source_end": 2238.54,
+          "clip_start": 36,
+          "clip_end": 36.5
+        },
+        {
+          "source": "тот,",
+          "source_start": 2238.54,
+          "source_end": 2238.78,
+          "clip_start": 36.5,
+          "clip_end": 36.74
+        },
+        {
+          "source": "кто",
+          "source_start": 2238.88,
+          "source_end": 2239.08,
+          "clip_start": 36.84,
+          "clip_end": 37.04
+        },
+        {
+          "source": "стабилизирует",
+          "source_start": 2239.08,
+          "source_end": 2239.96,
+          "clip_start": 37.04,
+          "clip_end": 37.92
+        },
+        {
+          "source": "тебя",
+          "source_start": 2239.96,
+          "source_end": 2240.14,
+          "clip_start": 37.92,
+          "clip_end": 38.1
+        },
+        {
+          "source": "в",
+          "source_start": 2240.14,
+          "source_end": 2240.28,
+          "clip_start": 38.1,
+          "clip_end": 38.24
+        },
+        {
+          "source": "момент,",
+          "source_start": 2240.28,
+          "source_end": 2240.48,
+          "clip_start": 38.24,
+          "clip_end": 38.44
+        },
+        {
+          "source": "когда",
+          "source_start": 2240.58,
+          "source_end": 2240.8,
+          "clip_start": 38.54,
+          "clip_end": 38.76
+        },
+        {
+          "source": "ты",
+          "source_start": 2240.8,
+          "source_end": 2240.94,
+          "clip_start": 38.76,
+          "clip_end": 38.9
+        },
+        {
+          "source": "рассыпаешься,",
+          "source_start": 2240.94,
+          "source_end": 2241.98,
+          "clip_start": 38.9,
+          "clip_end": 39.94
+        }
+      ]
+    }
+  ],
+  "human_display_overrides": {
+    "artifact": "reel-input/HUMAN_EDITORIAL_DECISIONS.md",
+    "canonical_episode_asr_modified": false,
+    "semantics": "source retains canonical ASR token; optional display is the approved mutable subtitle token"
+  }
+}

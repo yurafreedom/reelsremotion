@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "approval_status": "DRAFT",
+  "style_tokens": "reel-input/_templates/nikulina_style_tokens.json",
+  "sequence": [
+    {
+      "id": "hook-card",
+      "kind": "card",
+      "duration_seconds": 1.2,
+      "color": "#8B1E2D"
+    },
+    {
+      "id": "source-1",
+      "kind": "video",
+      "clip_id": "replace-with-source-manifest-clip-id",
+      "fit": "contain",
+      "backColor": "#000000",
+      "volume": 1
+    }
+  ],
+  "captions": [
+    {
+      "sequence_id": "hook-card",
+      "start_seconds": 0,
+      "end_seconds": 1.2,
+      "text": "EDITORIAL HOOK — NOT A SOURCE QUOTE",
+      "style": "hook"
+    },
+    {
+      "sequence_id": "source-1",
+      "start_seconds": 0,
+      "end_seconds": 2.5,
+      "text": "Approved source/display phrase",
+      "style": "subtitle"
+    }
+  ],
+  "broll": [],
+  "music": null
+}

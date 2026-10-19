@@ -1,0 +1,22 @@
+[18:33:35] loading model small int8 cpu ... (16 chunks)
+[18:33:35] model loaded in 0.9s. starting chunked transcribe ...
+[18:36:12] chunk 1/16 done in 157.0s (+240 segs) | overall  6.4% rate=5.73x eta= 38.0min
+[18:38:47] chunk 2/16 done in 154.1s (+102 segs) | overall 12.9% rate=5.79x eta= 35.1min
+[18:42:27] chunk 3/16 done in 220.4s (+102 segs) | overall 19.3% rate=5.08x eta= 37.0min
+[18:46:19] chunk 4/16 done in 232.0s (+234 segs) | overall 25.8% rate=4.71x eta= 36.7min
+[18:50:41] chunk 5/16 done in 261.6s (+123 segs) | overall 32.2% rate=4.39x eta= 36.0min
+[18:55:18] chunk 6/16 done in 277.8s (+134 segs) | overall 38.6% rate=4.14x eta= 34.5min
+[19:00:44] chunk 7/16 done in 325.7s (+279 segs) | overall 45.1% rate=3.87x eta= 33.1min
+[19:03:50] chunk 8/16 done in 186.2s (+52 segs) | overall 51.5% rate=3.97x eta= 28.5min
+[19:07:58] chunk 9/16 done in 247.5s (+139 segs) | overall 58.0% rate=3.93x eta= 24.9min
+[19:12:03] chunk 10/16 done in 245.2s (+109 segs) | overall 64.4% rate=3.90x eta= 21.3min
+[19:15:29] chunk 11/16 done in 206.2s (+239 segs) | overall 70.8% rate=3.94x eta= 17.2min
+[19:18:41] chunk 12/16 done in 192.2s (+171 segs) | overall 77.3% rate=3.99x eta= 13.3min
+[19:22:03] chunk 13/16 done in 201.8s (+240 segs) | overall 83.7% rate=4.02x eta=  9.4min
+[19:25:33] chunk 14/16 done in 210.3s (+242 segs) | overall 90.2% rate=4.04x eta=  5.7min
+[19:28:00] chunk 15/16 done in 146.2s (+178 segs) | overall 96.6% rate=4.14x eta=  1.9min
+[19:29:27] chunk 16/16 done in 87.4s (+62 segs) | overall 100.0% rate=4.17x eta=  0.0min
+[19:29:27] DONE. 2646 segments, 23271 words in 55.9 min (rate 4.17x)
+[19:29:27]   script=ru: 2026 segs, 7214.5s (120.2 min)
+[19:29:27]   script=en: 620 segs, 2593.3s (43.2 min)
+[19:29:27] EXIT_OK

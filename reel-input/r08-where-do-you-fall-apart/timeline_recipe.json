@@ -1,0 +1,489 @@
+{
+  "schema_version": "2.0",
+  "approval_status": "APPROVED",
+  "production_status": "R08_SERIES_PRODUCTION_CANDIDATE_AUTHORIZED",
+  "style_tokens": "reel-input/_templates/nikulina_style_tokens.json",
+  "sequence": [
+    {
+      "id": "observe-a",
+      "kind": "video",
+      "clip_id": "r08-observe-parts",
+      "duration_seconds": 6.98,
+      "source_timing_rate": 1,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": {
+        "x": 0,
+        "y": 34,
+        "width": 1080,
+        "height": 608,
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "observe-b",
+      "kind": "video",
+      "clip_id": "r08-observe-parts",
+      "duration_seconds": 7.18,
+      "trim_start_seconds": 23.48,
+      "source_timing_rate": 1,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": {
+        "x": 0,
+        "y": 34,
+        "width": 1080,
+        "height": 608,
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "protective-a",
+      "kind": "video",
+      "clip_id": "r08-protective-parts",
+      "duration_seconds": 17.56,
+      "source_timing_rate": 1,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": {
+        "x": 0,
+        "y": 34,
+        "width": 1080,
+        "height": 608,
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "protective-b",
+      "kind": "video",
+      "clip_id": "r08-protective-parts",
+      "duration_seconds": 10.16,
+      "trim_start_seconds": 19.4,
+      "source_timing_rate": 1,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": {
+        "x": 0,
+        "y": 34,
+        "width": 1080,
+        "height": 608,
+        "fit": "cover"
+      }
+    }
+  ],
+  "graphics": [
+    {
+      "id": "observe-a-bottom-scrim",
+      "sequence_id": "observe-a",
+      "start_seconds": 0,
+      "end_seconds": 6.98,
+      "shape": "rect",
+      "x": 0,
+      "y": 649,
+      "width": 1080,
+      "height": 622,
+      "color": "#080808",
+      "opacity": 0.3
+    },
+    {
+      "id": "observe-b-bottom-scrim",
+      "sequence_id": "observe-b",
+      "start_seconds": 0,
+      "end_seconds": 7.18,
+      "shape": "rect",
+      "x": 0,
+      "y": 649,
+      "width": 1080,
+      "height": 622,
+      "color": "#080808",
+      "opacity": 0.3
+    },
+    {
+      "id": "protective-a-bottom-scrim",
+      "sequence_id": "protective-a",
+      "start_seconds": 0,
+      "end_seconds": 17.56,
+      "shape": "rect",
+      "x": 0,
+      "y": 649,
+      "width": 1080,
+      "height": 622,
+      "color": "#080808",
+      "opacity": 0.3
+    },
+    {
+      "id": "protective-b-bottom-scrim",
+      "sequence_id": "protective-b",
+      "start_seconds": 0,
+      "end_seconds": 10.16,
+      "shape": "rect",
+      "x": 0,
+      "y": 649,
+      "width": 1080,
+      "height": 622,
+      "color": "#080808",
+      "opacity": 0.3
+    },
+    {
+      "id": "observe-a-hook-zone",
+      "sequence_id": "observe-a",
+      "start_seconds": 0,
+      "end_seconds": 6.98,
+      "shape": "rect",
+      "x": 0,
+      "y": -615,
+      "width": 1080,
+      "height": 690,
+      "color": "#080808",
+      "opacity": 0.68,
+      "animation": "fade",
+      "animation_duration_frames": 9,
+      "fade_out_frames": 7
+    },
+    {
+      "id": "observe-a-hook-plate",
+      "sequence_id": "observe-a",
+      "start_seconds": 0.18,
+      "end_seconds": 6.98,
+      "shape": "rect",
+      "x": 0,
+      "y": -500,
+      "width": 910,
+      "height": 104,
+      "color": "#7A1F32",
+      "borderRadius": 2,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "id": "protective-b-final-zone",
+      "sequence_id": "protective-b",
+      "start_seconds": 6.36,
+      "end_seconds": 10.16,
+      "shape": "rect",
+      "x": 0,
+      "y": -615,
+      "width": 1080,
+      "height": 690,
+      "color": "#080808",
+      "opacity": 0.68,
+      "animation": "fade",
+      "animation_duration_frames": 9
+    }
+  ],
+  "captions": [
+    {
+      "sequence_id": "observe-a",
+      "role": "editorial",
+      "start_seconds": 0.05,
+      "end_seconds": 6.98,
+      "text": "В КАКОЙ ЧАСТИ СЕБЯ",
+      "font": "nikulinaCondensed",
+      "size": 68,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 0,
+      "y": -620,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "sequence_id": "observe-a",
+      "role": "editorial",
+      "start_seconds": 0.18,
+      "end_seconds": 6.98,
+      "text": "ТЫ РАССЫПАЕШЬСЯ?",
+      "font": "nikulinaCondensed",
+      "size": 76,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 0,
+      "y": -498,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "sequence_id": "observe-a",
+      "role": "speech",
+      "phrase_id": "observe-a-g1",
+      "start_seconds": 0,
+      "end_seconds": 2.68,
+      "text": "Первым этапом изучите свои эго-личности.",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "observe-a",
+      "role": "speech",
+      "phrase_id": "observe-a-g2",
+      "start_seconds": 2.84,
+      "end_seconds": 6.98,
+      "text": "Потом вы сможете понять, в какой части себя вы рассыпаетесь.",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "observe-b",
+      "role": "speech",
+      "phrase_id": "observe-b-g1",
+      "start_seconds": 0,
+      "end_seconds": 4.56,
+      "text": "Вы наблю... вы изучаете себя, как вы разговариваете с людьми.",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "observe-b",
+      "role": "speech",
+      "phrase_id": "observe-b-g2",
+      "start_seconds": 4.82,
+      "end_seconds": 7.18,
+      "text": "Вам нужно уйти в глубокую саморефлексию.",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "protective-a",
+      "role": "speech",
+      "phrase_id": "protective-a-g1",
+      "start_seconds": 0,
+      "end_seconds": 4.52,
+      "text": "То есть эти защитные формы защищают обычно ребенка травмированного.",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "protective-a",
+      "role": "speech",
+      "phrase_id": "protective-a-g2",
+      "start_seconds": 4.94,
+      "end_seconds": 9.8,
+      "text": "Вот они происходят в расщеплении психики, в ранней травме детства.",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "protective-a",
+      "role": "speech",
+      "phrase_id": "protective-a-g3",
+      "start_seconds": 10.26,
+      "end_seconds": 16.42,
+      "text": "То есть когда происходит какая-то невыносимая история в детстве для ребенка, у него начинает расщепляться психика на много",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "protective-a",
+      "role": "speech",
+      "phrase_id": "protective-a-g4",
+      "start_seconds": 16.42,
+      "end_seconds": 17.34,
+      "text": "эго-личностей.",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "protective-b",
+      "role": "speech",
+      "phrase_id": "protective-b-g1",
+      "start_seconds": 0.12,
+      "end_seconds": 3.5,
+      "text": "Вот смотри, 12 архетипов лучше не привязываться.",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "protective-b",
+      "role": "speech",
+      "phrase_id": "protective-b-g2",
+      "start_seconds": 3.84,
+      "end_seconds": 10.16,
+      "text": "Мы взяли и изучили себя отдельно от всех архетипов, мы назвали себя своими именами.",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "protective-b",
+      "role": "editorial",
+      "start_seconds": 6.36,
+      "end_seconds": 10.16,
+      "text": "НАЗОВИ СВОИ ЧАСТИ",
+      "font": "nikulinaCondensed",
+      "size": 66,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 0,
+      "y": -500,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    }
+  ],
+  "broll": [
+    {
+      "id": "r08-br034-reflection",
+      "sequence_id": "observe-b",
+      "src": "broll/series/br034_reflection.mp4",
+      "start_seconds": 2.8,
+      "end_seconds": 4.8,
+      "fit": "cover"
+    },
+    {
+      "id": "r08-br006-complex-space",
+      "sequence_id": "protective-b",
+      "src": "broll/series/br006_complex_space.mp4",
+      "start_seconds": 0.2,
+      "end_seconds": 1.4,
+      "fit": "cover"
+    }
+  ],
+  "music": {
+    "src": "media/series_music.mp3",
+    "start_seconds": 0,
+    "volume": 0.13,
+    "fadeInFrames": 18,
+    "fadeOutFrames": 36,
+    "ducking": {
+      "enabled": true,
+      "duckedVolume": 0.052,
+      "attackFrames": 8,
+      "releaseFrames": 12
+    }
+  }
+}

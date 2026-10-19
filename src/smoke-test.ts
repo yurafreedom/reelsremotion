@@ -1,0 +1,80 @@
+// One-shot smoke-test fixture (NOT real content). Modeled on a reference frame to
+// be realistic; thrown away once the engine is verified. Video is "placeholder",
+// so no clip file is needed. Phase 2 replaces this with a real timeline.json.
+
+import type { Timeline } from "./types";
+
+export const SMOKE_TEST: Timeline = {
+  fps: 30,
+  width: 1080,
+  height: 1920,
+  audio: null,
+  scenes: [
+    {
+      id: "s1",
+      durationInFrames: 90,
+      background: {
+        type: "box",
+        src: "placeholder",
+        x: 0,
+        y: 30,
+        width: 880,
+        height: 500,
+        borderRadius: 20,
+        backColor: "#1a1a1a",
+      },
+      words: [
+        {
+          text: "ОНА",
+          start: 6,
+          end: 90,
+          x: -150,
+          y: -360,
+          font: "condensedHeavy",
+          size: 70,
+          weight: 800,
+          color: "#ffffff",
+          enterFrom: "left",
+          case: "upper",
+        },
+        {
+          text: "не требует",
+          start: 18,
+          end: 90,
+          x: 30,
+          y: -300,
+          font: "cleanSans",
+          size: 40,
+          weight: 400,
+          color: "#ffffff",
+          enterFrom: "right",
+        },
+        {
+          text: "СВЕРХ",
+          start: 40,
+          end: 90,
+          x: -120,
+          y: 340,
+          font: "condensedHeavy",
+          size: 62,
+          weight: 800,
+          color: "#c0182a",
+          enterFrom: "left",
+          case: "upper",
+        },
+        {
+          text: "меры",
+          start: 52,
+          end: 90,
+          x: 40,
+          y: 400,
+          font: "cleanSans",
+          size: 40,
+          weight: 400,
+          color: "#ffffff",
+          enterFrom: "right",
+        },
+      ],
+    },
+  ],
+};

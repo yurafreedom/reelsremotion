@@ -1,0 +1,82 @@
+{
+  "showGrid": false,
+  "timeline": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "background": "#101014",
+    "audio": null,
+    "scenes": [
+      {
+        "id": "kf",
+        "durationInFrames": 60,
+        "video": null,
+        "words": [
+          {
+            "text": "Поток",
+            "start": 0,
+            "end": 60,
+            "x": 0,
+            "y": 0,
+            "font": "condensedHeavy",
+            "size": 90,
+            "weight": 700,
+            "color": "#ffffff",
+            "enterFrom": "none",
+            "case": "upper",
+            "keyframes": {
+              "position": [
+                { "frame": 0, "value": { "x": -320, "y": 240 }, "spatialOut": { "x": 240, "y": -360 } },
+                { "frame": 50, "value": { "x": 320, "y": 240 }, "easing": "easeInOut", "spatialIn": { "x": -240, "y": -360 } }
+              ],
+              "size": [
+                { "frame": 0, "value": 30 },
+                { "frame": 50, "value": 120, "easing": "easeOut" }
+              ],
+              "weight": [
+                { "frame": 0, "value": 200 },
+                { "frame": 50, "value": 700, "easing": "linear" }
+              ],
+              "fontFamily": [
+                { "frame": 0, "value": "cleanSans" },
+                { "frame": 25, "value": "condensedHeavy" }
+              ],
+              "letterSpacing": [
+                { "frame": 0, "value": 0 },
+                { "frame": 50, "value": 22, "easing": "easeInOut" }
+              ],
+              "color": [
+                { "frame": 0, "value": "#ffffff" },
+                { "frame": 50, "value": "#c0182a", "easing": "linear" }
+              ],
+              "opacity": [
+                { "frame": 0, "value": 0 },
+                { "frame": 12, "value": 1, "easing": "easeOut" }
+              ],
+              "rotation": [
+                { "frame": 0, "value": 0 },
+                { "frame": 50, "value": 720, "easing": "easeInOut" }
+              ],
+              "blur": [
+                { "frame": 0, "value": 24 },
+                { "frame": 14, "value": 0, "easing": "easeOut" }
+              ]
+            }
+          },
+          {
+            "text": "статичный",
+            "start": 0,
+            "end": 60,
+            "x": 0,
+            "y": -560,
+            "font": "cleanSans",
+            "size": 46,
+            "weight": 400,
+            "color": "#8a8a92",
+            "enterFrom": "none"
+          }
+        ]
+      }
+    ]
+  }
+}

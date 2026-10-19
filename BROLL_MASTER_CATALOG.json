@@ -1,0 +1,1378 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-19",
+  "source_directory": "video_ref_nikulina",
+  "expected_source_files_from_request": 15,
+  "discovered_source_files": 14,
+  "source_count_discrepancy": "Request said 15; only 14 MOV/MP4 originals exist in the specified directory. No public/ or reference/ substitute was added.",
+  "total_duration_seconds": 308.831766,
+  "useful_ranges_found": 55,
+  "review_directory": "scratch_check/broll_master_review",
+  "review_material": {
+    "representative_contact_sheets": 14,
+    "one_fps_detail_sheets": 14,
+    "total_sheets": 28,
+    "cell_timing_note": "Contact sheets: 12 row-major samples at approximately n*duration/12. Detail sheets: row-major cell n is approximately second n, starting at 0."
+  },
+  "originals_modified": false,
+  "sources": [
+    {
+      "filename": "IMG_0195.MOV",
+      "source_file": "video_ref_nikulina/IMG_0195.MOV",
+      "duration_seconds": 18.433333,
+      "coded_resolution": "1080x1920",
+      "display_resolution": "1080x1920",
+      "orientation": "PORTRAIT",
+      "rotation_degrees": 0,
+      "fps": 30,
+      "fps_fraction": "30/1",
+      "nominal_rate_fraction": "30/1",
+      "video_codec": "hevc",
+      "audio_presence": true,
+      "audio_streams": [
+        {
+          "index": 1,
+          "codec": "aac",
+          "codec_tag": "mp4a",
+          "sample_rate_hz": 48000,
+          "channels": 2
+        }
+      ],
+      "size_bytes": 16205030,
+      "contact_sheet": "scratch_check/broll_master_review/contact_sheets/IMG_0195.jpg",
+      "detail_sheet_1fps": "scratch_check/broll_master_review/detail_sheets/IMG_0195_1fps.jpg",
+      "useful_ranges": [
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_0195.MOV",
+          "RANGE_ID": "BR001",
+          "START": 0.2,
+          "END": 2.8,
+          "OBSERVED_CONTENT": "A woman offers/holds a bouquet while a man faces her; both smile in a modern kitchen.",
+          "PEOPLE_VISIBLE": "Two adults; woman and man",
+          "ACTION": "Bouquet exchange and warm conversation",
+          "SETTING": "Modern home kitchen",
+          "MOOD": "Warm, playful, domestic",
+          "EDITORIAL_FUNCTION": [
+            "INTIMACY",
+            "RELATIONSHIP_CHEMISTRY",
+            "PLEASURE"
+          ],
+          "QUALITY_NOTES": "Stable portrait wide shot; faces readable but subjects occupy lower half of frame."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_0195.MOV",
+          "RANGE_ID": "BR002",
+          "START": 3,
+          "END": 5.8,
+          "OBSERVED_CONTENT": "The couple leans closer while talking beside the kitchen counter.",
+          "PEOPLE_VISIBLE": "Two adults",
+          "ACTION": "Close conversation and affectionate lean-in",
+          "SETTING": "Modern home kitchen",
+          "MOOD": "Tender, anticipatory",
+          "EDITORIAL_FUNCTION": [
+            "INTIMACY",
+            "RELATIONSHIP_CHEMISTRY"
+          ],
+          "QUALITY_NOTES": "Continuous static framing; good short reaction insert."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_0195.MOV",
+          "RANGE_ID": "BR003",
+          "START": 6.2,
+          "END": 9.1,
+          "OBSERVED_CONTENT": "The man lifts/holds the woman in a full-body embrace beside the counter.",
+          "PEOPLE_VISIBLE": "Two adults",
+          "ACTION": "Lift and embrace",
+          "SETTING": "Modern home kitchen",
+          "MOOD": "Joyful, physically affectionate",
+          "EDITORIAL_FUNCTION": [
+            "INTIMACY",
+            "RELATIONSHIP_CHEMISTRY",
+            "PLEASURE"
+          ],
+          "QUALITY_NOTES": "Clear action silhouette; man's back briefly dominates frame."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_0195.MOV",
+          "RANGE_ID": "BR004",
+          "START": 9.3,
+          "END": 13.7,
+          "OBSERVED_CONTENT": "The woman sits on the counter with a wine glass while the man prepares food nearby.",
+          "PEOPLE_VISIBLE": "Two adults",
+          "ACTION": "Cooking, sitting together, casual drinking",
+          "SETTING": "Modern home kitchen",
+          "MOOD": "Relaxed, domestic, adult",
+          "EDITORIAL_FUNCTION": [
+            "INTIMACY",
+            "PACE_RESET",
+            "RELATIONSHIP_CHEMISTRY"
+          ],
+          "QUALITY_NOTES": "Low-key natural action; useful as mature everyday-life texture."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_0195.MOV",
+          "RANGE_ID": "BR005",
+          "START": 14,
+          "END": 18.2,
+          "OBSERVED_CONTENT": "The couple raises wine glasses, moves face-to-face, and approaches a kiss.",
+          "PEOPLE_VISIBLE": "Two adults",
+          "ACTION": "Toast and near-kiss",
+          "SETTING": "Modern home kitchen",
+          "MOOD": "Celebratory, intimate",
+          "EDITORIAL_FUNCTION": [
+            "PLEASURE",
+            "INTIMACY",
+            "RELATIONSHIP_CHEMISTRY"
+          ],
+          "QUALITY_NOTES": "Strong ending action; leave a few frames before source end when extracting."
+        }
+      ]
+    },
+    {
+      "filename": "IMG_0398.MOV",
+      "source_file": "video_ref_nikulina/IMG_0398.MOV",
+      "duration_seconds": 14.7717,
+      "coded_resolution": "1920x1080",
+      "display_resolution": "1080x1920",
+      "orientation": "PORTRAIT",
+      "rotation_degrees": -90,
+      "fps": 29.986,
+      "fps_fraction": "33225/1108",
+      "nominal_rate_fraction": "30000/1001",
+      "video_codec": "h264",
+      "audio_presence": true,
+      "audio_streams": [
+        {
+          "index": 1,
+          "codec": "aac",
+          "codec_tag": "mp4a",
+          "sample_rate_hz": 48000,
+          "channels": 2
+        },
+        {
+          "index": 2,
+          "codec": "unknown",
+          "codec_tag": "apac",
+          "sample_rate_hz": 48000,
+          "channels": 4
+        }
+      ],
+      "size_bytes": 29860296,
+      "contact_sheet": "scratch_check/broll_master_review/contact_sheets/IMG_0398.jpg",
+      "detail_sheet_1fps": "scratch_check/broll_master_review/detail_sheets/IMG_0398_1fps.jpg",
+      "useful_ranges": [
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_0398.MOV",
+          "RANGE_ID": "BR006",
+          "START": 0,
+          "END": 1.8,
+          "OBSERVED_CONTENT": "Camera reveals an ornate painted ceiling, chandeliers, red walls, and dark wood.",
+          "PEOPLE_VISIBLE": "Visitors only at frame edge",
+          "ACTION": "Upward architectural reveal",
+          "SETTING": "Historic gallery or ceremonial interior",
+          "MOOD": "Awe, grandeur, contemplation",
+          "EDITORIAL_FUNCTION": [
+            "REFLECTION",
+            "AUTHORITY",
+            "VISUAL_METAPHOR"
+          ],
+          "QUALITY_NOTES": "Handheld tilt with some blur; strongest as a sub-1.5-second establishing shot."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_0398.MOV",
+          "RANGE_ID": "BR007",
+          "START": 2,
+          "END": 9.8,
+          "OBSERVED_CONTENT": "A dressed-up couple stands close together and looks upward around the ornate room.",
+          "PEOPLE_VISIBLE": "Two principal adults plus background visitors",
+          "ACTION": "Shared looking and quiet reaction",
+          "SETTING": "Historic gallery or ceremonial interior",
+          "MOOD": "Curious, reflective, cultured",
+          "EDITORIAL_FUNCTION": [
+            "RELATIONSHIP_CHEMISTRY",
+            "REFLECTION",
+            "CLUB_BRAND"
+          ],
+          "QUALITY_NOTES": "Dutch angle and wide phone lens; background foot traffic is visible."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_0398.MOV",
+          "RANGE_ID": "BR008",
+          "START": 10,
+          "END": 14.6,
+          "OBSERVED_CONTENT": "Camera leaves the couple and sweeps back to the ceiling and full red-walled room.",
+          "PEOPLE_VISIBLE": "Background visitors",
+          "ACTION": "Room and ceiling reveal",
+          "SETTING": "Historic gallery or ceremonial interior",
+          "MOOD": "Expansive, reflective",
+          "EDITORIAL_FUNCTION": [
+            "REFLECTION",
+            "PACE_RESET",
+            "TRANSITION_MASK"
+          ],
+          "QUALITY_NOTES": "Motion blur at the start of the tilt; settle on later ceiling frames."
+        }
+      ]
+    },
+    {
+      "filename": "IMG_0409.MOV",
+      "source_file": "video_ref_nikulina/IMG_0409.MOV",
+      "duration_seconds": 17.94,
+      "coded_resolution": "1920x1080",
+      "display_resolution": "1080x1920",
+      "orientation": "PORTRAIT",
+      "rotation_degrees": -90,
+      "fps": 29.989,
+      "fps_fraction": "26900/897",
+      "nominal_rate_fraction": "30000/1001",
+      "video_codec": "h264",
+      "audio_presence": true,
+      "audio_streams": [
+        {
+          "index": 1,
+          "codec": "aac",
+          "codec_tag": "mp4a",
+          "sample_rate_hz": 48000,
+          "channels": 2
+        },
+        {
+          "index": 2,
+          "codec": "unknown",
+          "codec_tag": "apac",
+          "sample_rate_hz": 48000,
+          "channels": 4
+        }
+      ],
+      "size_bytes": 36139129,
+      "contact_sheet": "scratch_check/broll_master_review/contact_sheets/IMG_0409.jpg",
+      "detail_sheet_1fps": "scratch_check/broll_master_review/detail_sheets/IMG_0409_1fps.jpg",
+      "useful_ranges": [
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_0409.MOV",
+          "RANGE_ID": "BR009",
+          "START": 0.3,
+          "END": 5.4,
+          "OBSERVED_CONTENT": "Downward view of two people's legs and shoes walking together on wet paving.",
+          "PEOPLE_VISIBLE": "Two adults visible from the knees down",
+          "ACTION": "Walking in step",
+          "SETTING": "Rainy city pavement",
+          "MOOD": "Grounded, kinetic, intimate",
+          "EDITORIAL_FUNCTION": [
+            "GROUNDING",
+            "MOVEMENT",
+            "RELATIONSHIP_CHEMISTRY"
+          ],
+          "QUALITY_NOTES": "Handheld and intentionally rough; strongest 1-2-second portions have both sets of feet visible."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_0409.MOV",
+          "RANGE_ID": "BR010",
+          "START": 6,
+          "END": 10.8,
+          "OBSERVED_CONTENT": "Smiling couple walks under a black umbrella in a moving selfie composition.",
+          "PEOPLE_VISIBLE": "Two adults",
+          "ACTION": "Walking, laughing, sharing umbrella",
+          "SETTING": "Rainy city street",
+          "MOOD": "Light, playful, connected",
+          "EDITORIAL_FUNCTION": [
+            "RELATIONSHIP_CHEMISTRY",
+            "MOVEMENT",
+            "PLEASURE"
+          ],
+          "QUALITY_NOTES": "Wide-angle phone motion and tilted horizon; faces remain readable."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_0409.MOV",
+          "RANGE_ID": "BR011",
+          "START": 11,
+          "END": 14.2,
+          "OBSERVED_CONTENT": "The couple leans into one another under the umbrella, moving into a nuzzle/near-kiss.",
+          "PEOPLE_VISIBLE": "Two adults",
+          "ACTION": "Affectionate lean-in",
+          "SETTING": "Rainy city street",
+          "MOOD": "Tender, spontaneous",
+          "EDITORIAL_FUNCTION": [
+            "INTIMACY",
+            "RELATIONSHIP_CHEMISTRY"
+          ],
+          "QUALITY_NOTES": "Close selfie framing; umbrella dominates upper frame."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_0409.MOV",
+          "RANGE_ID": "BR012",
+          "START": 14.3,
+          "END": 16.5,
+          "OBSERVED_CONTENT": "They pull back smiling and continue moving together.",
+          "PEOPLE_VISIBLE": "Two adults",
+          "ACTION": "Shared smile while walking",
+          "SETTING": "Rainy city street",
+          "MOOD": "Joyful, easy",
+          "EDITORIAL_FUNCTION": [
+            "PLEASURE",
+            "MOVEMENT",
+            "PACE_RESET"
+          ],
+          "QUALITY_NOTES": "Good reaction beat; avoid the whip to pavement after 16.5 s."
+        }
+      ]
+    },
+    {
+      "filename": "IMG_1769.MOV",
+      "source_file": "video_ref_nikulina/IMG_1769.MOV",
+      "duration_seconds": 16.4317,
+      "coded_resolution": "1080x1920",
+      "display_resolution": "1080x1920",
+      "orientation": "PORTRAIT",
+      "rotation_degrees": 0,
+      "fps": 24.949,
+      "fps_fraction": "12300/493",
+      "nominal_rate_fraction": "120/1",
+      "video_codec": "h264",
+      "audio_presence": true,
+      "audio_streams": [
+        {
+          "index": 1,
+          "codec": "aac",
+          "codec_tag": "mp4a",
+          "sample_rate_hz": 48000,
+          "channels": 2
+        },
+        {
+          "index": 2,
+          "codec": "unknown",
+          "codec_tag": "apac",
+          "sample_rate_hz": 48000,
+          "channels": 4
+        }
+      ],
+      "size_bytes": 32969292,
+      "contact_sheet": "scratch_check/broll_master_review/contact_sheets/IMG_1769.jpg",
+      "detail_sheet_1fps": "scratch_check/broll_master_review/detail_sheets/IMG_1769_1fps.jpg",
+      "useful_ranges": [
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1769.MOV",
+          "RANGE_ID": "BR013",
+          "START": 0.3,
+          "END": 4.8,
+          "OBSERVED_CONTENT": "A woman in a black evening dress and gloves faces camera at a restaurant table, adjusting her hair.",
+          "PEOPLE_VISIBLE": "One adult woman",
+          "ACTION": "Direct gaze and composed hair adjustment",
+          "SETTING": "Dark mirrored restaurant",
+          "MOOD": "Controlled, elegant, self-possessed",
+          "EDITORIAL_FUNCTION": [
+            "AUTHORITY",
+            "CLUB_BRAND",
+            "REFLECTION"
+          ],
+          "QUALITY_NOTES": "Slow-motion feel; warm low light, sharp face, tableware at bottom edge."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1769.MOV",
+          "RANGE_ID": "BR014",
+          "START": 5,
+          "END": 10.8,
+          "OBSERVED_CONTENT": "The woman relaxes into expressive conversation, resting her chin near a gloved hand.",
+          "PEOPLE_VISIBLE": "One adult woman",
+          "ACTION": "Talking and gesturing",
+          "SETTING": "Dark mirrored restaurant",
+          "MOOD": "Intimate, candid, confident",
+          "EDITORIAL_FUNCTION": [
+            "VULNERABILITY",
+            "AUTHORITY",
+            "CLUB_BRAND"
+          ],
+          "QUALITY_NOTES": "Strong facial micro-expression; visually resembles a premium portrait interview."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1769.MOV",
+          "RANGE_ID": "BR015",
+          "START": 11,
+          "END": 16.1,
+          "OBSERVED_CONTENT": "Her expression opens into a broad smile and laughter toward the camera/operator.",
+          "PEOPLE_VISIBLE": "One adult woman",
+          "ACTION": "Smiling and laughing",
+          "SETTING": "Dark mirrored restaurant",
+          "MOOD": "Warm, joyful, inviting",
+          "EDITORIAL_FUNCTION": [
+            "PLEASURE",
+            "CLUB_BRAND",
+            "PACE_RESET"
+          ],
+          "QUALITY_NOTES": "Cleanest emotional payoff in the file; slight hand movement near end."
+        }
+      ]
+    },
+    {
+      "filename": "IMG_1770.MOV",
+      "source_file": "video_ref_nikulina/IMG_1770.MOV",
+      "duration_seconds": 48.3717,
+      "coded_resolution": "1080x1920",
+      "display_resolution": "1080x1920",
+      "orientation": "PORTRAIT",
+      "rotation_degrees": 0,
+      "fps": 24.001,
+      "fps_fraction": "87075/3628",
+      "nominal_rate_fraction": "24/1",
+      "video_codec": "h264",
+      "audio_presence": true,
+      "audio_streams": [
+        {
+          "index": 1,
+          "codec": "aac",
+          "codec_tag": "mp4a",
+          "sample_rate_hz": 48000,
+          "channels": 2
+        },
+        {
+          "index": 2,
+          "codec": "unknown",
+          "codec_tag": "apac",
+          "sample_rate_hz": 48000,
+          "channels": 4
+        }
+      ],
+      "size_bytes": 97218702,
+      "contact_sheet": "scratch_check/broll_master_review/contact_sheets/IMG_1770.jpg",
+      "detail_sheet_1fps": "scratch_check/broll_master_review/detail_sheets/IMG_1770_1fps.jpg",
+      "useful_ranges": [
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1770.MOV",
+          "RANGE_ID": "BR016",
+          "START": 0.3,
+          "END": 3.2,
+          "OBSERVED_CONTENT": "A seated couple settles into frame shoulder-to-shoulder at a set restaurant table.",
+          "PEOPLE_VISIBLE": "Two adults",
+          "ACTION": "Settling and posing together",
+          "SETTING": "Dark mirrored restaurant",
+          "MOOD": "Warm, composed",
+          "EDITORIAL_FUNCTION": [
+            "RELATIONSHIP_CHEMISTRY",
+            "CLUB_BRAND"
+          ],
+          "QUALITY_NOTES": "Stable close portrait; plates and cutlery visible."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1770.MOV",
+          "RANGE_ID": "BR017",
+          "START": 3.3,
+          "END": 8.2,
+          "OBSERVED_CONTENT": "The woman wraps an arm around the man; they exchange close looks and smiles.",
+          "PEOPLE_VISIBLE": "Two adults",
+          "ACTION": "Embrace, eye contact, smiling",
+          "SETTING": "Dark mirrored restaurant",
+          "MOOD": "Affectionate, playful",
+          "EDITORIAL_FUNCTION": [
+            "INTIMACY",
+            "RELATIONSHIP_CHEMISTRY"
+          ],
+          "QUALITY_NOTES": "Strong two-face framing and genuine reactions."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1770.MOV",
+          "RANGE_ID": "BR018",
+          "START": 8.3,
+          "END": 12.2,
+          "OBSERVED_CONTENT": "The couple moves into a playful nuzzle/near-kiss and laughs.",
+          "PEOPLE_VISIBLE": "Two adults",
+          "ACTION": "Near-kiss and laughter",
+          "SETTING": "Dark mirrored restaurant",
+          "MOOD": "Flirtatious, pleasurable",
+          "EDITORIAL_FUNCTION": [
+            "INTIMACY",
+            "PLEASURE",
+            "RELATIONSHIP_CHEMISTRY"
+          ],
+          "QUALITY_NOTES": "Highly readable action; avoid implying consent claims with this image alone."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1770.MOV",
+          "RANGE_ID": "BR019",
+          "START": 12.3,
+          "END": 20.5,
+          "OBSERVED_CONTENT": "They hold sustained eye contact and converse at very close distance.",
+          "PEOPLE_VISIBLE": "Two adults",
+          "ACTION": "Quiet conversation and mutual gaze",
+          "SETTING": "Dark mirrored restaurant",
+          "MOOD": "Attentive, intimate, thoughtful",
+          "EDITORIAL_FUNCTION": [
+            "RELATIONSHIP_CHEMISTRY",
+            "REFLECTION",
+            "INTIMACY"
+          ],
+          "QUALITY_NOTES": "Low movement but strong faces; suited to short overlays."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1770.MOV",
+          "RANGE_ID": "BR020",
+          "START": 21,
+          "END": 27.8,
+          "OBSERVED_CONTENT": "Animated touch and conversation build into shared laughter.",
+          "PEOPLE_VISIBLE": "Two adults",
+          "ACTION": "Gesturing, touching shoulder, laughing",
+          "SETTING": "Dark mirrored restaurant",
+          "MOOD": "Alive, mutual, joyful",
+          "EDITORIAL_FUNCTION": [
+            "RELATIONSHIP_CHEMISTRY",
+            "PLEASURE"
+          ],
+          "QUALITY_NOTES": "One of the strongest non-kiss chemistry ranges; both reactions visible."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1770.MOV",
+          "RANGE_ID": "BR021",
+          "START": 28,
+          "END": 38.8,
+          "OBSERVED_CONTENT": "The woman rests against the man; the couple cuddles and alternates between camera and each other.",
+          "PEOPLE_VISIBLE": "Two adults",
+          "ACTION": "Cuddling and leaning on shoulder",
+          "SETTING": "Dark mirrored restaurant",
+          "MOOD": "Secure, tender, calm",
+          "EDITORIAL_FUNCTION": [
+            "INTIMACY",
+            "RELATIONSHIP_CHEMISTRY",
+            "VULNERABILITY"
+          ],
+          "QUALITY_NOTES": "Sustained usable action with minimal camera movement."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1770.MOV",
+          "RANGE_ID": "BR022",
+          "START": 39,
+          "END": 48.1,
+          "OBSERVED_CONTENT": "They turn back toward each other and end in another playful, laughing exchange.",
+          "PEOPLE_VISIBLE": "Two adults",
+          "ACTION": "Conversation, affectionate looks, laughter",
+          "SETTING": "Dark mirrored restaurant",
+          "MOOD": "Warm, spontaneous",
+          "EDITORIAL_FUNCTION": [
+            "RELATIONSHIP_CHEMISTRY",
+            "PLEASURE",
+            "PACE_RESET"
+          ],
+          "QUALITY_NOTES": "Good natural ending; preserve headroom before file end."
+        }
+      ]
+    },
+    {
+      "filename": "IMG_1779.MP4",
+      "source_file": "video_ref_nikulina/IMG_1779.MP4",
+      "duration_seconds": 14.88,
+      "coded_resolution": "1920x1080",
+      "display_resolution": "1080x1920",
+      "orientation": "PORTRAIT",
+      "rotation_degrees": 90,
+      "fps": 50,
+      "fps_fraction": "50/1",
+      "nominal_rate_fraction": "50/1",
+      "video_codec": "h264",
+      "audio_presence": true,
+      "audio_streams": [
+        {
+          "index": 1,
+          "codec": "pcm_s16be",
+          "codec_tag": "twos",
+          "sample_rate_hz": 48000,
+          "channels": 2
+        }
+      ],
+      "size_bytes": 104869032,
+      "contact_sheet": "scratch_check/broll_master_review/contact_sheets/IMG_1779.jpg",
+      "detail_sheet_1fps": "scratch_check/broll_master_review/detail_sheets/IMG_1779_1fps.jpg",
+      "useful_ranges": [
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1779.MP4",
+          "RANGE_ID": "BR023",
+          "START": 0.2,
+          "END": 5.4,
+          "OBSERVED_CONTENT": "Mirrored telephoto view of the couple in a close embrace; the woman cups the man's face.",
+          "PEOPLE_VISIBLE": "Two adults plus mirror reflections",
+          "ACTION": "Face touch and embrace",
+          "SETTING": "Golden mirrored bar/restaurant",
+          "MOOD": "Sensual, intimate",
+          "EDITORIAL_FUNCTION": [
+            "INTIMACY",
+            "RELATIONSHIP_CHEMISTRY"
+          ],
+          "QUALITY_NOTES": "Warm but heavily yellow; decorative vertical edge partly occludes frame."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1779.MP4",
+          "RANGE_ID": "BR024",
+          "START": 5.5,
+          "END": 10.4,
+          "OBSERVED_CONTENT": "The man lowers his head into the woman's chest/neck area while they remain embraced.",
+          "PEOPLE_VISIBLE": "Two adults plus reflections",
+          "ACTION": "Deep sensual embrace",
+          "SETTING": "Golden mirrored bar/restaurant",
+          "MOOD": "Erotic, private, vulnerable",
+          "EDITORIAL_FUNCTION": [
+            "INTIMACY",
+            "VULNERABILITY"
+          ],
+          "QUALITY_NOTES": "Potentially too sexually explicit for broad use; crop and platform context require approval."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1779.MP4",
+          "RANGE_ID": "BR025",
+          "START": 10.5,
+          "END": 14.6,
+          "OBSERVED_CONTENT": "They lift their faces back toward one another, hands still at cheek and waist.",
+          "PEOPLE_VISIBLE": "Two adults plus reflections",
+          "ACTION": "Near-kiss and face touch",
+          "SETTING": "Golden mirrored bar/restaurant",
+          "MOOD": "Tender, charged",
+          "EDITORIAL_FUNCTION": [
+            "INTIMACY",
+            "RELATIONSHIP_CHEMISTRY"
+          ],
+          "QUALITY_NOTES": "Strong close silhouette; mirrored duplicates may read as busy under subtitles."
+        }
+      ]
+    },
+    {
+      "filename": "IMG_1784.MP4",
+      "source_file": "video_ref_nikulina/IMG_1784.MP4",
+      "duration_seconds": 9.6,
+      "coded_resolution": "1920x1080",
+      "display_resolution": "1080x1920",
+      "orientation": "PORTRAIT",
+      "rotation_degrees": 90,
+      "fps": 50,
+      "fps_fraction": "50/1",
+      "nominal_rate_fraction": "50/1",
+      "video_codec": "h264",
+      "audio_presence": true,
+      "audio_streams": [
+        {
+          "index": 1,
+          "codec": "pcm_s16be",
+          "codec_tag": "twos",
+          "sample_rate_hz": 48000,
+          "channels": 2
+        }
+      ],
+      "size_bytes": 67117718,
+      "contact_sheet": "scratch_check/broll_master_review/contact_sheets/IMG_1784.jpg",
+      "detail_sheet_1fps": "scratch_check/broll_master_review/detail_sheets/IMG_1784_1fps.jpg",
+      "useful_ranges": [
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1784.MP4",
+          "RANGE_ID": "BR026",
+          "START": 0.2,
+          "END": 8.7,
+          "OBSERVED_CONTENT": "A sustained full-body embrace is seen through mirrored vertical rails, mostly from behind the man.",
+          "PEOPLE_VISIBLE": "Two adults",
+          "ACTION": "Holding a long embrace",
+          "SETTING": "Golden mirrored corridor/bar",
+          "MOOD": "Secure, intimate, contained",
+          "EDITORIAL_FUNCTION": [
+            "INTIMACY",
+            "RELATIONSHIP_CHEMISTRY",
+            "TRANSITION_MASK"
+          ],
+          "QUALITY_NOTES": "Stable and highly usable as a 1-second splice mask; becomes occluded near the end."
+        }
+      ]
+    },
+    {
+      "filename": "IMG_1785.MP4",
+      "source_file": "video_ref_nikulina/IMG_1785.MP4",
+      "duration_seconds": 32.64,
+      "coded_resolution": "1920x1080",
+      "display_resolution": "1080x1920",
+      "orientation": "PORTRAIT",
+      "rotation_degrees": 90,
+      "fps": 50,
+      "fps_fraction": "50/1",
+      "nominal_rate_fraction": "50/1",
+      "video_codec": "h264",
+      "audio_presence": true,
+      "audio_streams": [
+        {
+          "index": 1,
+          "codec": "pcm_s16be",
+          "codec_tag": "twos",
+          "sample_rate_hz": 48000,
+          "channels": 2
+        }
+      ],
+      "size_bytes": 226512924,
+      "contact_sheet": "scratch_check/broll_master_review/contact_sheets/IMG_1785.jpg",
+      "detail_sheet_1fps": "scratch_check/broll_master_review/detail_sheets/IMG_1785_1fps.jpg",
+      "useful_ranges": [
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1785.MP4",
+          "RANGE_ID": "BR027",
+          "START": 0,
+          "END": 4.8,
+          "OBSERVED_CONTENT": "Mirrored corridor establishes as staff/background figures pass and the principal woman enters deeper in frame.",
+          "PEOPLE_VISIBLE": "Principal woman distant; background staff/visitors",
+          "ACTION": "Entrance and corridor reveal",
+          "SETTING": "Warm mirrored corridor",
+          "MOOD": "Anticipatory, luxurious",
+          "EDITORIAL_FUNCTION": [
+            "CLUB_BRAND",
+            "TRANSITION_MASK",
+            "PACE_RESET"
+          ],
+          "QUALITY_NOTES": "Early foreground traffic and soft focus; use only a settled subsection."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1785.MP4",
+          "RANGE_ID": "BR028",
+          "START": 5,
+          "END": 10.5,
+          "OBSERVED_CONTENT": "Woman in a backless black dress turns toward camera holding a martini and makes direct eye contact.",
+          "PEOPLE_VISIBLE": "One adult woman",
+          "ACTION": "Turn, pose, direct gaze",
+          "SETTING": "Warm mirrored corridor",
+          "MOOD": "Confident, magnetic, self-possessed",
+          "EDITORIAL_FUNCTION": [
+            "AUTHORITY",
+            "CLUB_BRAND",
+            "PLEASURE"
+          ],
+          "QUALITY_NOTES": "Cinematic shallow depth; strong portrait composition."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1785.MP4",
+          "RANGE_ID": "BR029",
+          "START": 10.6,
+          "END": 18.5,
+          "OBSERVED_CONTENT": "She rotates into profile/back view, raises the martini, and holds a poised stance.",
+          "PEOPLE_VISIBLE": "One adult woman",
+          "ACTION": "Slow turn and drink pose",
+          "SETTING": "Warm mirrored corridor",
+          "MOOD": "Elegant, reflective, sensual",
+          "EDITORIAL_FUNCTION": [
+            "REFLECTION",
+            "PLEASURE",
+            "CLUB_BRAND"
+          ],
+          "QUALITY_NOTES": "Very polished but fashion-coded; avoid over abstract psychological claims."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1785.MP4",
+          "RANGE_ID": "BR030",
+          "START": 18.6,
+          "END": 26.5,
+          "OBSERVED_CONTENT": "The woman touches her hair, tips her head, and turns back with a small smile.",
+          "PEOPLE_VISIBLE": "One adult woman",
+          "ACTION": "Hair touch, head turn, smile",
+          "SETTING": "Warm mirrored corridor",
+          "MOOD": "Playful, self-aware",
+          "EDITORIAL_FUNCTION": [
+            "PLEASURE",
+            "AUTHORITY",
+            "PACE_RESET"
+          ],
+          "QUALITY_NOTES": "Excellent micro-actions; background bokeh supports subtitles."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1785.MP4",
+          "RANGE_ID": "BR031",
+          "START": 27,
+          "END": 30.5,
+          "OBSERVED_CONTENT": "Camera whips away into corridor lights and reflective abstract blur.",
+          "PEOPLE_VISIBLE": "No clearly readable person",
+          "ACTION": "Fast pan/defocus",
+          "SETTING": "Mirrored corridor",
+          "MOOD": "Disorienting, transitional",
+          "EDITORIAL_FUNCTION": [
+            "TRANSITION_MASK",
+            "VISUAL_METAPHOR"
+          ],
+          "QUALITY_NOTES": "Intentionally blurred; use only as a very short transition, never as representational footage."
+        }
+      ]
+    },
+    {
+      "filename": "IMG_1786.MP4",
+      "source_file": "video_ref_nikulina/IMG_1786.MP4",
+      "duration_seconds": 36.48,
+      "coded_resolution": "1920x1080",
+      "display_resolution": "1080x1920",
+      "orientation": "PORTRAIT",
+      "rotation_degrees": 90,
+      "fps": 50,
+      "fps_fraction": "50/1",
+      "nominal_rate_fraction": "50/1",
+      "video_codec": "h264",
+      "audio_presence": true,
+      "audio_streams": [
+        {
+          "index": 1,
+          "codec": "pcm_s16be",
+          "codec_tag": "twos",
+          "sample_rate_hz": 48000,
+          "channels": 2
+        }
+      ],
+      "size_bytes": 247486120,
+      "contact_sheet": "scratch_check/broll_master_review/contact_sheets/IMG_1786.jpg",
+      "detail_sheet_1fps": "scratch_check/broll_master_review/detail_sheets/IMG_1786_1fps.jpg",
+      "useful_ranges": [
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1786.MP4",
+          "RANGE_ID": "BR032",
+          "START": 0.2,
+          "END": 5,
+          "OBSERVED_CONTENT": "Woman turns into a closer portrait with martini and direct gaze.",
+          "PEOPLE_VISIBLE": "One adult woman",
+          "ACTION": "Turn toward camera and pose",
+          "SETTING": "Warm mirrored corridor/bar",
+          "MOOD": "Confident, controlled",
+          "EDITORIAL_FUNCTION": [
+            "AUTHORITY",
+            "CLUB_BRAND",
+            "PLEASURE"
+          ],
+          "QUALITY_NOTES": "Closer than IMG_1785; clean face and glass highlights."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1786.MP4",
+          "RANGE_ID": "BR033",
+          "START": 5.1,
+          "END": 14.5,
+          "OBSERVED_CONTENT": "She presents profile and back while slowly lifting the martini.",
+          "PEOPLE_VISIBLE": "One adult woman",
+          "ACTION": "Slow profile turn and sip setup",
+          "SETTING": "Warm mirrored corridor/bar",
+          "MOOD": "Elegant, sensual, reflective",
+          "EDITORIAL_FUNCTION": [
+            "REFLECTION",
+            "PLEASURE",
+            "CLUB_BRAND"
+          ],
+          "QUALITY_NOTES": "Sustained slow action; backless styling is prominent."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1786.MP4",
+          "RANGE_ID": "BR034",
+          "START": 14.6,
+          "END": 23.5,
+          "OBSERVED_CONTENT": "The woman holds the glass near her face, looks down, and shifts posture gradually.",
+          "PEOPLE_VISIBLE": "One adult woman",
+          "ACTION": "Contemplative drink pose",
+          "SETTING": "Warm mirrored corridor/bar",
+          "MOOD": "Introspective, poised",
+          "EDITORIAL_FUNCTION": [
+            "REFLECTION",
+            "SOLITUDE",
+            "PACE_RESET"
+          ],
+          "QUALITY_NOTES": "Low motion makes a clean thought beat; fashion/editorial tone remains strong."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1786.MP4",
+          "RANGE_ID": "BR035",
+          "START": 23.6,
+          "END": 32.5,
+          "OBSERVED_CONTENT": "She rotates back toward camera and settles into a direct, subtle smile.",
+          "PEOPLE_VISIBLE": "One adult woman",
+          "ACTION": "Turn, eye contact, smile",
+          "SETTING": "Warm mirrored corridor/bar",
+          "MOOD": "Assured, inviting",
+          "EDITORIAL_FUNCTION": [
+            "AUTHORITY",
+            "PLEASURE",
+            "CLUB_BRAND"
+          ],
+          "QUALITY_NOTES": "Strong final portrait with stable warm bokeh."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1786.MP4",
+          "RANGE_ID": "BR036",
+          "START": 32.6,
+          "END": 35.5,
+          "OBSERVED_CONTENT": "She approaches/passes near the lens, leaving a partial close crop and open corridor.",
+          "PEOPLE_VISIBLE": "One adult woman, partially cropped",
+          "ACTION": "Move past camera",
+          "SETTING": "Warm mirrored corridor/bar",
+          "MOOD": "Transitional, immediate",
+          "EDITORIAL_FUNCTION": [
+            "MOVEMENT",
+            "TRANSITION_MASK"
+          ],
+          "QUALITY_NOTES": "Partial body crop; useful only for a short wipe-like exit."
+        }
+      ]
+    },
+    {
+      "filename": "IMG_1787.MOV",
+      "source_file": "video_ref_nikulina/IMG_1787.MOV",
+      "duration_seconds": 25.9,
+      "coded_resolution": "1920x1080",
+      "display_resolution": "1080x1920",
+      "orientation": "PORTRAIT",
+      "rotation_degrees": -90,
+      "fps": 30,
+      "fps_fraction": "30/1",
+      "nominal_rate_fraction": "30/1",
+      "video_codec": "h264",
+      "audio_presence": true,
+      "audio_streams": [
+        {
+          "index": 1,
+          "codec": "aac",
+          "codec_tag": "mp4a",
+          "sample_rate_hz": 48000,
+          "channels": 2
+        },
+        {
+          "index": 2,
+          "codec": "unknown",
+          "codec_tag": "apac",
+          "sample_rate_hz": 48000,
+          "channels": 4
+        }
+      ],
+      "size_bytes": 51605979,
+      "contact_sheet": "scratch_check/broll_master_review/contact_sheets/IMG_1787.jpg",
+      "detail_sheet_1fps": "scratch_check/broll_master_review/detail_sheets/IMG_1787_1fps.jpg",
+      "useful_ranges": [
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1787.MOV",
+          "RANGE_ID": "BR037",
+          "START": 0.2,
+          "END": 8,
+          "OBSERVED_CONTENT": "Two people hold hands in a dark car while rain and pedestrians are visible through the side window.",
+          "PEOPLE_VISIBLE": "Two adults represented mainly by clasped hands",
+          "ACTION": "Holding hands during travel",
+          "SETTING": "Back seat of car, rainy city",
+          "MOOD": "Tender, uncertain, vulnerable",
+          "EDITORIAL_FUNCTION": [
+            "VULNERABILITY",
+            "INTIMACY",
+            "RELATIONSHIP_CHEMISTRY"
+          ],
+          "QUALITY_NOTES": "Very dark lower frame; rain texture and hands remain legible."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1787.MOV",
+          "RANGE_ID": "BR038",
+          "START": 8.1,
+          "END": 17,
+          "OBSERVED_CONTENT": "Clasped hands remain in foreground as graffiti, brake lights, and city movement slide past outside.",
+          "PEOPLE_VISIBLE": "Two adults represented by hands",
+          "ACTION": "Sustained handhold during moving journey",
+          "SETTING": "Back seat of car, rainy city",
+          "MOOD": "Reflective, connected, in transit",
+          "EDITORIAL_FUNCTION": [
+            "REFLECTION",
+            "MOVEMENT",
+            "INTIMACY",
+            "VISUAL_METAPHOR"
+          ],
+          "QUALITY_NOTES": "Strong moving background; hands intermittently sink into shadow."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1787.MOV",
+          "RANGE_ID": "BR039",
+          "START": 17.1,
+          "END": 25.5,
+          "OBSERVED_CONTENT": "Rain-streaked window and moving night lights dominate as the joined hands sit lower and darker.",
+          "PEOPLE_VISIBLE": "Hands partially visible; pedestrians outside",
+          "ACTION": "Continuing ride through rain",
+          "SETTING": "Back seat of car, rainy city",
+          "MOOD": "Melancholic, contemplative",
+          "EDITORIAL_FUNCTION": [
+            "REFLECTION",
+            "PACE_RESET",
+            "TRANSITION_MASK"
+          ],
+          "QUALITY_NOTES": "Low exposure; best for a brief atmospheric insert, not detail-dependent storytelling."
+        }
+      ]
+    },
+    {
+      "filename": "IMG_1790.MP4",
+      "source_file": "video_ref_nikulina/IMG_1790.MP4",
+      "duration_seconds": 21.12,
+      "coded_resolution": "1920x1080",
+      "display_resolution": "1080x1920",
+      "orientation": "PORTRAIT",
+      "rotation_degrees": 90,
+      "fps": 50,
+      "fps_fraction": "50/1",
+      "nominal_rate_fraction": "50/1",
+      "video_codec": "h264",
+      "audio_presence": true,
+      "audio_streams": [
+        {
+          "index": 1,
+          "codec": "pcm_s16be",
+          "codec_tag": "twos",
+          "sample_rate_hz": 48000,
+          "channels": 2
+        }
+      ],
+      "size_bytes": 142620897,
+      "contact_sheet": "scratch_check/broll_master_review/contact_sheets/IMG_1790.jpg",
+      "detail_sheet_1fps": "scratch_check/broll_master_review/detail_sheets/IMG_1790_1fps.jpg",
+      "useful_ranges": [
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1790.MP4",
+          "RANGE_ID": "BR040",
+          "START": 0,
+          "END": 2.5,
+          "OBSERVED_CONTENT": "Empty mirrored corridor with a brief foreground/lens occlusion.",
+          "PEOPLE_VISIBLE": "No principal person clearly visible",
+          "ACTION": "Corridor establishment",
+          "SETTING": "Warm mirrored corridor",
+          "MOOD": "Mysterious, anticipatory",
+          "EDITORIAL_FUNCTION": [
+            "TRANSITION_MASK",
+            "CLUB_BRAND"
+          ],
+          "QUALITY_NOTES": "Occlusion at about 2 s; choose a clean sub-second if used."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1790.MP4",
+          "RANGE_ID": "BR041",
+          "START": 2.8,
+          "END": 13.8,
+          "OBSERVED_CONTENT": "Woman in a long black backless dress walks away from camera down a symmetrical corridor.",
+          "PEOPLE_VISIBLE": "One adult woman, seen from behind",
+          "ACTION": "Walking away",
+          "SETTING": "Warm mirrored corridor",
+          "MOOD": "Independent, solitary, enigmatic",
+          "EDITORIAL_FUNCTION": [
+            "SOLITUDE",
+            "MOVEMENT",
+            "VISUAL_METAPHOR",
+            "CLUB_BRAND"
+          ],
+          "QUALITY_NOTES": "Strong centered geometry; backless fashion styling is prominent."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1790.MP4",
+          "RANGE_ID": "BR042",
+          "START": 14,
+          "END": 18.7,
+          "OBSERVED_CONTENT": "At the far end she slows, turns sideways, and looks back toward camera.",
+          "PEOPLE_VISIBLE": "One adult woman",
+          "ACTION": "Stop and look back",
+          "SETTING": "Warm mirrored corridor",
+          "MOOD": "Reflective, self-possessed",
+          "EDITORIAL_FUNCTION": [
+            "REFLECTION",
+            "AUTHORITY",
+            "VISUAL_METAPHOR"
+          ],
+          "QUALITY_NOTES": "Subject is small but silhouette and turn read clearly."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1790.MP4",
+          "RANGE_ID": "BR043",
+          "START": 18.8,
+          "END": 20.8,
+          "OBSERVED_CONTENT": "The woman exits frame, leaving the mirrored corridor empty.",
+          "PEOPLE_VISIBLE": "No principal person",
+          "ACTION": "Exit and hold on empty space",
+          "SETTING": "Warm mirrored corridor",
+          "MOOD": "Afterthought, closure",
+          "EDITORIAL_FUNCTION": [
+            "PACE_RESET",
+            "TRANSITION_MASK",
+            "SOLITUDE"
+          ],
+          "QUALITY_NOTES": "Dark and low-action; useful only as a short tail or card background."
+        }
+      ]
+    },
+    {
+      "filename": "IMG_1791.MP4",
+      "source_file": "video_ref_nikulina/IMG_1791.MP4",
+      "duration_seconds": 9.12,
+      "coded_resolution": "1920x1080",
+      "display_resolution": "1080x1920",
+      "orientation": "PORTRAIT",
+      "rotation_degrees": 90,
+      "fps": 50,
+      "fps_fraction": "50/1",
+      "nominal_rate_fraction": "50/1",
+      "video_codec": "h264",
+      "audio_presence": true,
+      "audio_streams": [
+        {
+          "index": 1,
+          "codec": "pcm_s16be",
+          "codec_tag": "twos",
+          "sample_rate_hz": 48000,
+          "channels": 2
+        }
+      ],
+      "size_bytes": 67117475,
+      "contact_sheet": "scratch_check/broll_master_review/contact_sheets/IMG_1791.jpg",
+      "detail_sheet_1fps": "scratch_check/broll_master_review/detail_sheets/IMG_1791_1fps.jpg",
+      "useful_ranges": [
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1791.MP4",
+          "RANGE_ID": "BR044",
+          "START": 0.1,
+          "END": 4.4,
+          "OBSERVED_CONTENT": "Woman walks toward camera from the far end of the mirrored corridor, gesturing as she approaches.",
+          "PEOPLE_VISIBLE": "One adult woman",
+          "ACTION": "Approach and expressive hand gesture",
+          "SETTING": "Warm mirrored corridor",
+          "MOOD": "Assertive, playful",
+          "EDITORIAL_FUNCTION": [
+            "AUTHORITY",
+            "MOVEMENT",
+            "CLUB_BRAND"
+          ],
+          "QUALITY_NOTES": "Full-body symmetry and clean approach; dark exposure."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1791.MP4",
+          "RANGE_ID": "BR045",
+          "START": 4.5,
+          "END": 8.9,
+          "OBSERVED_CONTENT": "She reaches medium/close framing with direct gaze and a broad smile.",
+          "PEOPLE_VISIBLE": "One adult woman",
+          "ACTION": "Approach, eye contact, smile",
+          "SETTING": "Warm mirrored corridor",
+          "MOOD": "Warm, charismatic, confident",
+          "EDITORIAL_FUNCTION": [
+            "AUTHORITY",
+            "PLEASURE",
+            "CLUB_BRAND"
+          ],
+          "QUALITY_NOTES": "Strong face but final frame becomes very close; leave an extraction handle."
+        }
+      ]
+    },
+    {
+      "filename": "IMG_1792.MP4",
+      "source_file": "video_ref_nikulina/IMG_1792.MP4",
+      "duration_seconds": 14,
+      "coded_resolution": "1440x2560",
+      "display_resolution": "1440x2560",
+      "orientation": "PORTRAIT",
+      "rotation_degrees": 0,
+      "fps": 60,
+      "fps_fraction": "60/1",
+      "nominal_rate_fraction": "60/1",
+      "video_codec": "hevc",
+      "audio_presence": true,
+      "audio_streams": [
+        {
+          "index": 1,
+          "codec": "aac",
+          "codec_tag": "mp4a",
+          "sample_rate_hz": 44100,
+          "channels": 2
+        }
+      ],
+      "size_bytes": 43467845,
+      "contact_sheet": "scratch_check/broll_master_review/contact_sheets/IMG_1792.jpg",
+      "detail_sheet_1fps": "scratch_check/broll_master_review/detail_sheets/IMG_1792_1fps.jpg",
+      "useful_ranges": [
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1792.MP4",
+          "RANGE_ID": "BR046",
+          "START": 0,
+          "END": 0.75,
+          "OBSERVED_CONTENT": "Very brief rear view of woman walking down the mirrored corridor.",
+          "PEOPLE_VISIBLE": "One adult woman",
+          "ACTION": "Walking away",
+          "SETTING": "Warm mirrored corridor",
+          "MOOD": "Stylized, transitional",
+          "EDITORIAL_FUNCTION": [
+            "MOVEMENT",
+            "TRANSITION_MASK"
+          ],
+          "QUALITY_NOTES": "Already edited into a sub-second montage shot; no extraction flexibility."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1792.MP4",
+          "RANGE_ID": "BR047",
+          "START": 0.75,
+          "END": 2.7,
+          "OBSERVED_CONTENT": "Close detail of a suited man's hand, watch, and martini at the bar.",
+          "PEOPLE_VISIBLE": "One adult man, torso/hands only",
+          "ACTION": "Holding martini at bar",
+          "SETTING": "Warm luxury bar",
+          "MOOD": "Composed, adult, polished",
+          "EDITORIAL_FUNCTION": [
+            "PLEASURE",
+            "CLUB_BRAND",
+            "PACE_RESET"
+          ],
+          "QUALITY_NOTES": "Clean insert detail; face is mostly absent."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1792.MP4",
+          "RANGE_ID": "BR048",
+          "START": 2.7,
+          "END": 6.9,
+          "OBSERVED_CONTENT": "Mirrored close embrace between the dressed-up couple.",
+          "PEOPLE_VISIBLE": "Two adults",
+          "ACTION": "Embrace and face touch",
+          "SETTING": "Golden mirrored bar",
+          "MOOD": "Sensual, intimate",
+          "EDITORIAL_FUNCTION": [
+            "INTIMACY",
+            "RELATIONSHIP_CHEMISTRY",
+            "TRANSITION_MASK"
+          ],
+          "QUALITY_NOTES": "Derived montage segment with hard cuts at both ends; overlaps imagery in IMG_1779."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1792.MP4",
+          "RANGE_ID": "BR049",
+          "START": 6.9,
+          "END": 8.8,
+          "OBSERVED_CONTENT": "Woman seen from back/profile holding a martini in the mirrored corridor.",
+          "PEOPLE_VISIBLE": "One adult woman",
+          "ACTION": "Drink pose",
+          "SETTING": "Warm mirrored corridor/bar",
+          "MOOD": "Elegant, reflective",
+          "EDITORIAL_FUNCTION": [
+            "REFLECTION",
+            "PLEASURE",
+            "CLUB_BRAND"
+          ],
+          "QUALITY_NOTES": "Short pre-edited segment; overlaps imagery in IMG_1785/1786."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1792.MP4",
+          "RANGE_ID": "BR050",
+          "START": 8.8,
+          "END": 10.5,
+          "OBSERVED_CONTENT": "Woman appears at distance in the mirrored corridor.",
+          "PEOPLE_VISIBLE": "One adult woman",
+          "ACTION": "Corridor movement/pose",
+          "SETTING": "Warm mirrored corridor",
+          "MOOD": "Enigmatic, transitional",
+          "EDITORIAL_FUNCTION": [
+            "SOLITUDE",
+            "TRANSITION_MASK"
+          ],
+          "QUALITY_NOTES": "Short, dark montage beat."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_1792.MP4",
+          "RANGE_ID": "BR051",
+          "START": 10.5,
+          "END": 14,
+          "OBSERVED_CONTENT": "Return to the man's martini and suited torso at the bar.",
+          "PEOPLE_VISIBLE": "One adult man, torso/hands only",
+          "ACTION": "Holding and lightly moving martini",
+          "SETTING": "Warm luxury bar",
+          "MOOD": "Measured, polished",
+          "EDITORIAL_FUNCTION": [
+            "PLEASURE",
+            "CLUB_BRAND",
+            "PACE_RESET"
+          ],
+          "QUALITY_NOTES": "Stable detail; repeated visual from BR047."
+        }
+      ]
+    },
+    {
+      "filename": "IMG_8706.MOV",
+      "source_file": "video_ref_nikulina/IMG_8706.MOV",
+      "duration_seconds": 29.143333,
+      "coded_resolution": "3840x2160",
+      "display_resolution": "2160x3840",
+      "orientation": "PORTRAIT",
+      "rotation_degrees": -90,
+      "fps": 59.942,
+      "fps_fraction": "349400/5829",
+      "nominal_rate_fraction": "60000/1001",
+      "video_codec": "hevc",
+      "audio_presence": true,
+      "audio_streams": [
+        {
+          "index": 1,
+          "codec": "aac",
+          "codec_tag": "mp4a",
+          "sample_rate_hz": 48000,
+          "channels": 2
+        },
+        {
+          "index": 2,
+          "codec": "unknown",
+          "codec_tag": "apac",
+          "sample_rate_hz": 48000,
+          "channels": 4
+        }
+      ],
+      "size_bytes": 175532253,
+      "contact_sheet": "scratch_check/broll_master_review/contact_sheets/IMG_8706.jpg",
+      "detail_sheet_1fps": "scratch_check/broll_master_review/detail_sheets/IMG_8706_1fps.jpg",
+      "useful_ranges": [
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_8706.MOV",
+          "RANGE_ID": "BR052",
+          "START": 0.2,
+          "END": 2,
+          "OBSERVED_CONTENT": "Downward ultra-wide view of two people's shoes walking side by side on city pavement.",
+          "PEOPLE_VISIBLE": "Two adults visible from legs down",
+          "ACTION": "Walking in step",
+          "SETTING": "Daytime city street",
+          "MOOD": "Grounded, purposeful",
+          "EDITORIAL_FUNCTION": [
+            "GROUNDING",
+            "MOVEMENT",
+            "RELATIONSHIP_CHEMISTRY"
+          ],
+          "QUALITY_NOTES": "4K/60 source but strong fisheye; brief and shaky."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_8706.MOV",
+          "RANGE_ID": "BR053",
+          "START": 2.1,
+          "END": 10.8,
+          "OBSERVED_CONTENT": "Well-dressed couple walks arm-in-arm in a daytime city selfie, talking as buildings rise behind them.",
+          "PEOPLE_VISIBLE": "Two adults plus pedestrians",
+          "ACTION": "Walking and talking arm-in-arm",
+          "SETTING": "Daytime central-city street",
+          "MOOD": "Connected, energetic, aspirational",
+          "EDITORIAL_FUNCTION": [
+            "MOVEMENT",
+            "RELATIONSHIP_CHEMISTRY",
+            "CLUB_BRAND"
+          ],
+          "QUALITY_NOTES": "Highest resolution source; ultra-wide distortion and tilted horizon are pronounced."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_8706.MOV",
+          "RANGE_ID": "BR054",
+          "START": 11,
+          "END": 20.5,
+          "OBSERVED_CONTENT": "Their conversation breaks into laughter and eye contact while they continue walking.",
+          "PEOPLE_VISIBLE": "Two adults plus pedestrians",
+          "ACTION": "Laughing and looking at each other",
+          "SETTING": "Daytime central-city street",
+          "MOOD": "Joyful, mutual, alive",
+          "EDITORIAL_FUNCTION": [
+            "PLEASURE",
+            "RELATIONSHIP_CHEMISTRY",
+            "MOVEMENT"
+          ],
+          "QUALITY_NOTES": "Strong authentic interaction; camera bob from walking."
+        },
+        {
+          "SOURCE_FILE": "video_ref_nikulina/IMG_8706.MOV",
+          "RANGE_ID": "BR055",
+          "START": 20.6,
+          "END": 28.5,
+          "OBSERVED_CONTENT": "The pair keeps moving arm-in-arm, trading affectionate glances before camera drops toward pavement.",
+          "PEOPLE_VISIBLE": "Two adults plus pedestrians",
+          "ACTION": "Walking and exchanging glances",
+          "SETTING": "Daytime central-city street",
+          "MOOD": "Warm, companionable",
+          "EDITORIAL_FUNCTION": [
+            "RELATIONSHIP_CHEMISTRY",
+            "MOVEMENT",
+            "PACE_RESET"
+          ],
+          "QUALITY_NOTES": "Good mid-range frames; avoid final camera drop after 28.5 s."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "rule": "Human-approved R04 DISPLAY groups use phrase-level visual reveal; canonical ASR remains unchanged.",
+  "human_decision_artifact": "reel-input/HUMAN_EDITORIAL_DECISIONS.md",
+  "clips": [
+    {
+      "id": "r04-principle",
+      "groups": [
+        {
+          "id": "r04-approved-g1",
+          "clip_start": 6.74,
+          "clip_end": 13.68,
+          "display_ru": "И так интересно, то есть мы можем прийти к консенсусу, только к консенсусу, мы не можем прийти к компромиссу."
+        },
+        {
+          "id": "r04-approved-g2",
+          "clip_start": 13.68,
+          "clip_end": 17.8,
+          "display_ru": "То есть компромисс, это всегда у нас разрушающая история."
+        },
+        {
+          "id": "r04-approved-g3",
+          "clip_start": 17.8,
+          "clip_end": 26.62,
+          "display_ru": "Вот, я понимаю, что я себя предаю, если я иду на компромисс, или он себя предаёт, если мы идём на компромисс, и только консенсус, как третье."
+        },
+        {
+          "id": "r04-approved-g4",
+          "clip_start": 26.62,
+          "clip_end": 30.02,
+          "display_ru": "Да, вот помните, кто у меня в тантре coniunctio?"
+        },
+        {
+          "id": "r04-approved-g5",
+          "clip_start": 30.02,
+          "clip_end": 39.72,
+          "display_ru": "Вот эта история, когда встречаются две противоположности и, выдерживая интенсивность, они рождают что-то третье. И вот у нас всегда так."
+        }
+      ]
+    }
+  ]
+}

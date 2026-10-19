@@ -1,0 +1,21 @@
+{
+  "authority": "fixture",
+  "timing_semantics": "clip-relative smoke data",
+  "clips": [
+    {
+      "id": "smoke-video",
+      "source_start": 0,
+      "source_end": 1,
+      "language": ["fixture"],
+      "words": [
+        {
+          "source": "smoke",
+          "source_start": 0.1,
+          "source_end": 0.9,
+          "clip_start": 0.1,
+          "clip_end": 0.9
+        }
+      ]
+    }
+  ]
+}

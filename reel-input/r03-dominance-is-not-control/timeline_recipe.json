@@ -1,0 +1,304 @@
+{
+  "schema_version": "2.0",
+  "approval_status": "APPROVED",
+  "production_status": "R03_SERIES_PRODUCTION_CANDIDATE_AUTHORIZED",
+  "style_tokens": "reel-input/_templates/nikulina_style_tokens.json",
+  "sequence": [
+    {
+      "id": "stability",
+      "kind": "video",
+      "clip_id": "r03-stabilization",
+      "duration_seconds": 39.94,
+      "source_timing_rate": 1,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": {
+        "x": 0,
+        "y": 34,
+        "width": 1080,
+        "height": 608,
+        "fit": "cover"
+      }
+    }
+  ],
+  "graphics": [
+    {
+      "id": "stability-bottom-scrim",
+      "sequence_id": "stability",
+      "start_seconds": 0,
+      "end_seconds": 39.94,
+      "shape": "rect",
+      "x": 0,
+      "y": 649,
+      "width": 1080,
+      "height": 622,
+      "color": "#080808",
+      "opacity": 0.3
+    },
+    {
+      "id": "stability-hook-zone",
+      "sequence_id": "stability",
+      "start_seconds": 0,
+      "end_seconds": 7.4,
+      "shape": "rect",
+      "x": 0,
+      "y": -615,
+      "width": 1080,
+      "height": 690,
+      "color": "#080808",
+      "opacity": 0.68,
+      "animation": "fade",
+      "animation_duration_frames": 9,
+      "fade_out_frames": 7
+    },
+    {
+      "id": "stability-hook-plate",
+      "sequence_id": "stability",
+      "start_seconds": 0.18,
+      "end_seconds": 7.4,
+      "shape": "rect",
+      "x": 0,
+      "y": -500,
+      "width": 910,
+      "height": 104,
+      "color": "#7A1F32",
+      "borderRadius": 2,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "id": "stability-final-zone",
+      "sequence_id": "stability",
+      "start_seconds": 36.14,
+      "end_seconds": 39.94,
+      "shape": "rect",
+      "x": 0,
+      "y": -615,
+      "width": 1080,
+      "height": 690,
+      "color": "#080808",
+      "opacity": 0.68,
+      "animation": "fade",
+      "animation_duration_frames": 9
+    }
+  ],
+  "captions": [
+    {
+      "sequence_id": "stability",
+      "role": "editorial",
+      "start_seconds": 0.05,
+      "end_seconds": 7.4,
+      "text": "ДОМИНИРОВАНИЕ —",
+      "font": "nikulinaCondensed",
+      "size": 68,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 0,
+      "y": -620,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "sequence_id": "stability",
+      "role": "editorial",
+      "start_seconds": 0.18,
+      "end_seconds": 7.4,
+      "text": "НЕ КОНТРОЛЬ",
+      "font": "nikulinaCondensed",
+      "size": 76,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 0,
+      "y": -498,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "sequence_id": "stability",
+      "role": "speech",
+      "phrase_id": "stability-g1",
+      "start_seconds": 0,
+      "end_seconds": 9.18,
+      "text": "и когда я вижу его такого спокойного, порядочного, упорядоченного, наводящего структуру,",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "stability",
+      "role": "speech",
+      "phrase_id": "stability-g2",
+      "start_seconds": 9.2,
+      "end_seconds": 16.74,
+      "text": "последовательного, составляющего графики, знающего, что мы будем делать, планирующего, мне становится спокойней,",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "stability",
+      "role": "speech",
+      "phrase_id": "stability-g3",
+      "start_seconds": 18.4,
+      "end_seconds": 23.96,
+      "text": "потому что есть более сильная нервная система, которая регулирует себя лучше рядом со мной,",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "stability",
+      "role": "speech",
+      "phrase_id": "stability-g4",
+      "start_seconds": 23.96,
+      "end_seconds": 29.52,
+      "text": "чем я в этот момент сама себя могу регулировать, то есть начинаем вкатываться,",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "stability",
+      "role": "speech",
+      "phrase_id": "stability-g5",
+      "start_seconds": 29.64,
+      "end_seconds": 35.3,
+      "text": "да, в динамику, что такое, то есть Dominant это не тот, кто тебя поглощает и за тебя принимает",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "stability",
+      "role": "speech",
+      "phrase_id": "stability-g6",
+      "start_seconds": 35.3,
+      "end_seconds": 39.94,
+      "text": "решение, это тот, кто стабилизирует тебя в момент, когда ты рассыпаешься,",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "stability",
+      "role": "editorial",
+      "start_seconds": 36.14,
+      "end_seconds": 39.94,
+      "text": "СТАБИЛИЗИРОВАТЬ, А НЕ ПОГЛОЩАТЬ",
+      "font": "nikulinaCondensed",
+      "size": 58,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 0,
+      "y": -500,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    }
+  ],
+  "broll": [
+    {
+      "id": "r03-br037-support",
+      "sequence_id": "stability",
+      "src": "broll/series/br037_hands_support.mp4",
+      "start_seconds": 20.4,
+      "end_seconds": 22.2,
+      "fit": "cover"
+    },
+    {
+      "id": "r03-br013-self-possessed",
+      "sequence_id": "stability",
+      "src": "broll/series/br013_self_possessed.mp4",
+      "start_seconds": 5,
+      "end_seconds": 6.8,
+      "fit": "cover"
+    }
+  ],
+  "music": {
+    "src": "media/series_music.mp3",
+    "start_seconds": 0,
+    "volume": 0.065,
+    "fadeInFrames": 18,
+    "fadeOutFrames": 36,
+    "ducking": {
+      "enabled": true,
+      "duckedVolume": 0.025,
+      "attackFrames": 8,
+      "releaseFrames": 12
+    }
+  }
+}

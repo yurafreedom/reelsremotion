@@ -1,0 +1,20 @@
+[19:30:40] loading model small int8 cpu ... (16 chunks) task=translate
+[19:30:41] model loaded in 1.3s. starting translate pass ...
+[19:33:24] chunk 1/16 done in 163.3s (+422 segs) |  6.4% rate=5.51x eta= 39.5min
+[19:36:26] chunk 2/16 done in 182.2s (+178 segs) | 12.9% rate=5.21x eta= 38.9min
+[19:39:25] chunk 3/16 done in 178.9s (+102 segs) | 19.3% rate=5.15x eta= 36.5min
+[19:42:37] chunk 4/16 done in 191.3s (+100 segs) | 25.8% rate=5.03x eta= 34.4min
+[19:45:36] chunk 5/16 done in 178.9s (+350 segs) | 32.2% rate=5.03x eta= 31.4min
+[19:48:16] chunk 6/16 done in 160.3s (+62 segs) | 38.6% rate=5.12x eta= 27.9min
+[19:52:16] chunk 7/16 done in 240.1s (+165 segs) | 45.1% rate=4.86x eta= 26.3min
+[19:54:51] chunk 8/16 done in 154.9s (+43 segs) | 51.5% rate=4.97x eta= 22.7min
+[19:57:31] chunk 9/16 done in 159.7s (+94 segs) | 58.0% rate=5.03x eta= 19.5min
+[20:00:28] chunk 10/16 done in 177.5s (+160 segs) | 64.4% rate=5.04x eta= 16.5min
+[20:03:26] chunk 11/16 done in 177.9s (+138 segs) | 70.8% rate=5.04x eta= 13.5min
+[20:06:15] chunk 12/16 done in 169.3s (+303 segs) | 77.3% rate=5.06x eta= 10.5min
+[20:09:01] chunk 13/16 done in 165.6s (+114 segs) | 83.7% rate=5.09x eta=  7.5min
+[20:12:27] chunk 14/16 done in 206.1s (+179 segs) | 90.2% rate=5.03x eta=  4.6min
+[21:19:39] chunk 15/16 done in 4032.1s (+70 segs) | 96.6% rate=2.06x eta=  3.8min
+[21:20:47] chunk 16/16 done in 67.7s (+65 segs) | 100.0% rate=2.12x eta=  0.0min
+[21:20:47] DONE. 2545 segments, 26417 words in 110.1 min (rate 2.12x)
+[21:20:47] EXIT_OK

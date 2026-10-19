@@ -1,0 +1,1186 @@
+{
+  "authority": "transcripts/video1219377731/asr_video1219377731.json",
+  "timing_semantics": "source seconds are absolute master time; clip seconds are relative to extracted clip start",
+  "immutable_canonical_asr": true,
+  "human_decision_artifact": "reel-input/HUMAN_EDITORIAL_DECISIONS.md",
+  "clips": [
+    {
+      "id": "r02-question",
+      "source_start": 4558.42,
+      "source_end": 4581.6,
+      "language": [
+        "en"
+      ],
+      "words": [
+        {
+          "source": "Have",
+          "source_start": 4558.42,
+          "source_end": 4559.06,
+          "clip_start": 0,
+          "clip_end": 0.64
+        },
+        {
+          "source": "you",
+          "source_start": 4559.06,
+          "source_end": 4559.7,
+          "clip_start": 0.64,
+          "clip_end": 1.28
+        },
+        {
+          "source": "ever",
+          "source_start": 4559.7,
+          "source_end": 4559.9,
+          "clip_start": 1.28,
+          "clip_end": 1.48
+        },
+        {
+          "source": "found",
+          "source_start": 4559.9,
+          "source_end": 4560.14,
+          "clip_start": 1.48,
+          "clip_end": 1.72
+        },
+        {
+          "source": "yourself",
+          "source_start": 4560.14,
+          "source_end": 4560.54,
+          "clip_start": 1.72,
+          "clip_end": 2.12
+        },
+        {
+          "source": "taking",
+          "source_start": 4560.54,
+          "source_end": 4561.26,
+          "clip_start": 2.12,
+          "clip_end": 2.84
+        },
+        {
+          "source": "every",
+          "source_start": 4561.26,
+          "source_end": 4562.5,
+          "clip_start": 2.84,
+          "clip_end": 4.08
+        },
+        {
+          "source": "romantic",
+          "source_start": 4562.5,
+          "source_end": 4562.98,
+          "clip_start": 4.08,
+          "clip_end": 4.56
+        },
+        {
+          "source": "connection",
+          "source_start": 4562.98,
+          "source_end": 4563.6,
+          "clip_start": 4.56,
+          "clip_end": 5.18
+        },
+        {
+          "source": "with",
+          "source_start": 4563.6,
+          "source_end": 4563.86,
+          "clip_start": 5.18,
+          "clip_end": 5.44
+        },
+        {
+          "source": "any",
+          "source_start": 4563.86,
+          "source_end": 4564.12,
+          "clip_start": 5.44,
+          "clip_end": 5.7
+        },
+        {
+          "source": "girl",
+          "source_start": 4564.12,
+          "source_end": 4564.38,
+          "clip_start": 5.7,
+          "clip_end": 5.96
+        },
+        {
+          "source": "or",
+          "source_start": 4564.38,
+          "source_end": 4564.56,
+          "clip_start": 5.96,
+          "clip_end": 6.14
+        },
+        {
+          "source": "woman",
+          "source_start": 4564.56,
+          "source_end": 4564.86,
+          "clip_start": 6.14,
+          "clip_end": 6.44
+        },
+        {
+          "source": "way",
+          "source_start": 4564.86,
+          "source_end": 4565.62,
+          "clip_start": 6.44,
+          "clip_end": 7.2
+        },
+        {
+          "source": "too",
+          "source_start": 4565.62,
+          "source_end": 4565.9,
+          "clip_start": 7.2,
+          "clip_end": 7.48
+        },
+        {
+          "source": "serious,",
+          "source_start": 4565.9,
+          "source_end": 4566.46,
+          "clip_start": 7.48,
+          "clip_end": 8.04
+        },
+        {
+          "source": "too",
+          "source_start": 4566.6,
+          "source_end": 4566.76,
+          "clip_start": 8.18,
+          "clip_end": 8.34
+        },
+        {
+          "source": "responsibility",
+          "source_start": 4566.76,
+          "source_end": 4567.78,
+          "clip_start": 8.34,
+          "clip_end": 9.36
+        },
+        {
+          "source": "to",
+          "source_start": 4568.62,
+          "source_end": 4569.26,
+          "clip_start": 10.2,
+          "clip_end": 10.84
+        },
+        {
+          "source": "the",
+          "source_start": 4569.26,
+          "source_end": 4569.42,
+          "clip_start": 10.84,
+          "clip_end": 11
+        },
+        {
+          "source": "point",
+          "source_start": 4569.42,
+          "source_end": 4569.68,
+          "clip_start": 11,
+          "clip_end": 11.26
+        },
+        {
+          "source": "where",
+          "source_start": 4569.68,
+          "source_end": 4570,
+          "clip_start": 11.26,
+          "clip_end": 11.58
+        },
+        {
+          "source": "you",
+          "source_start": 4570,
+          "source_end": 4570.26,
+          "clip_start": 11.58,
+          "clip_end": 11.84
+        },
+        {
+          "source": "can",
+          "source_start": 4570.26,
+          "source_end": 4570.44,
+          "clip_start": 11.84,
+          "clip_end": 12.02
+        },
+        {
+          "source": "just",
+          "source_start": 4570.44,
+          "source_end": 4570.9,
+          "clip_start": 12.02,
+          "clip_end": 12.48
+        },
+        {
+          "source": "let",
+          "source_start": 4570.9,
+          "source_end": 4571.14,
+          "clip_start": 12.48,
+          "clip_end": 12.72
+        },
+        {
+          "source": "yourself",
+          "source_start": 4571.14,
+          "source_end": 4571.54,
+          "clip_start": 12.72,
+          "clip_end": 13.12
+        },
+        {
+          "source": "see",
+          "source_start": 4571.54,
+          "source_end": 4572.02,
+          "clip_start": 13.12,
+          "clip_end": 13.6
+        },
+        {
+          "source": "someone,",
+          "source_start": 4572.02,
+          "source_end": 4572.38,
+          "clip_start": 13.6,
+          "clip_end": 13.96
+        },
+        {
+          "source": "just",
+          "source_start": 4572.5,
+          "source_end": 4572.64,
+          "clip_start": 14.08,
+          "clip_end": 14.22
+        },
+        {
+          "source": "make",
+          "source_start": 4572.64,
+          "source_end": 4572.94,
+          "clip_start": 14.22,
+          "clip_end": 14.52
+        },
+        {
+          "source": "love",
+          "source_start": 4572.94,
+          "source_end": 4573.82,
+          "clip_start": 14.52,
+          "clip_end": 15.4
+        },
+        {
+          "source": "without",
+          "source_start": 4573.82,
+          "source_end": 4574.2,
+          "clip_start": 15.4,
+          "clip_end": 15.78
+        },
+        {
+          "source": "feeling",
+          "source_start": 4574.2,
+          "source_end": 4574.84,
+          "clip_start": 15.78,
+          "clip_end": 16.42
+        },
+        {
+          "source": "guilty",
+          "source_start": 4574.84,
+          "source_end": 4575.2,
+          "clip_start": 16.42,
+          "clip_end": 16.78
+        },
+        {
+          "source": "or",
+          "source_start": 4575.2,
+          "source_end": 4575.58,
+          "clip_start": 16.78,
+          "clip_end": 17.16
+        },
+        {
+          "source": "burdened",
+          "source_start": 4575.58,
+          "source_end": 4576.12,
+          "clip_start": 17.16,
+          "clip_end": 17.7
+        },
+        {
+          "source": "by",
+          "source_start": 4576.12,
+          "source_end": 4576.24,
+          "clip_start": 17.7,
+          "clip_end": 17.82
+        },
+        {
+          "source": "responsibility,",
+          "source_start": 4576.24,
+          "source_end": 4576.84,
+          "clip_start": 17.82,
+          "clip_end": 18.42
+        },
+        {
+          "source": "especially",
+          "source_start": 4577.08,
+          "source_end": 4577.34,
+          "clip_start": 18.66,
+          "clip_end": 18.92
+        },
+        {
+          "source": "when",
+          "source_start": 4577.34,
+          "source_end": 4577.64,
+          "clip_start": 18.92,
+          "clip_end": 19.22
+        },
+        {
+          "source": "you",
+          "source_start": 4577.64,
+          "source_end": 4577.86,
+          "clip_start": 19.22,
+          "clip_end": 19.44
+        },
+        {
+          "source": "already",
+          "source_start": 4577.86,
+          "source_end": 4578.32,
+          "clip_start": 19.44,
+          "clip_end": 19.9
+        },
+        {
+          "source": "sense",
+          "source_start": 4578.32,
+          "source_end": 4578.64,
+          "clip_start": 19.9,
+          "clip_end": 20.22
+        },
+        {
+          "source": "from",
+          "source_start": 4578.64,
+          "source_end": 4578.94,
+          "clip_start": 20.22,
+          "clip_end": 20.52
+        },
+        {
+          "source": "the",
+          "source_start": 4578.94,
+          "source_end": 4579.12,
+          "clip_start": 20.52,
+          "clip_end": 20.7
+        },
+        {
+          "source": "start",
+          "source_start": 4579.12,
+          "source_end": 4579.44,
+          "clip_start": 20.7,
+          "clip_end": 21.02
+        },
+        {
+          "source": "that",
+          "source_start": 4579.44,
+          "source_end": 4580.02,
+          "clip_start": 21.02,
+          "clip_end": 21.6
+        },
+        {
+          "source": "there",
+          "source_start": 4580.02,
+          "source_end": 4580.2,
+          "clip_start": 21.6,
+          "clip_end": 21.78
+        },
+        {
+          "source": "is",
+          "source_start": 4580.2,
+          "source_end": 4580.38,
+          "clip_start": 21.78,
+          "clip_end": 21.96
+        },
+        {
+          "source": "no",
+          "source_start": 4580.38,
+          "source_end": 4580.66,
+          "clip_start": 21.96,
+          "clip_end": 22.24
+        },
+        {
+          "source": "future",
+          "source_start": 4580.66,
+          "source_end": 4581.1,
+          "clip_start": 22.24,
+          "clip_end": 22.68
+        },
+        {
+          "source": "together.",
+          "source_start": 4581.1,
+          "source_end": 4581.6,
+          "clip_start": 22.68,
+          "clip_end": 23.18
+        }
+      ]
+    },
+    {
+      "id": "r02-unique-value",
+      "source_start": 4731.52,
+      "source_end": 4752.32,
+      "language": [
+        "en"
+      ],
+      "words": [
+        {
+          "source": "Это",
+          "source_start": 4731.52,
+          "source_end": 4732.16,
+          "clip_start": 0,
+          "clip_end": 0.64
+        },
+        {
+          "source": "очень",
+          "source_start": 4732.16,
+          "source_end": 4732.16,
+          "clip_start": 0.64,
+          "clip_end": 0.64
+        },
+        {
+          "source": "actionally",
+          "source_start": 4732.16,
+          "source_end": 4732.48,
+          "clip_start": 0.64,
+          "clip_end": 0.96
+        },
+        {
+          "source": "indulging",
+          "source_start": 4732.48,
+          "source_end": 4733.16,
+          "clip_start": 0.96,
+          "clip_end": 1.64
+        },
+        {
+          "source": "that",
+          "source_start": 4733.16,
+          "source_end": 4733.42,
+          "clip_start": 1.64,
+          "clip_end": 1.9
+        },
+        {
+          "source": "pleasure",
+          "source_start": 4733.42,
+          "source_end": 4733.8,
+          "clip_start": 1.9,
+          "clip_end": 2.28
+        },
+        {
+          "source": "to",
+          "source_start": 4733.8,
+          "source_end": 4734.1,
+          "clip_start": 2.28,
+          "clip_end": 2.58
+        },
+        {
+          "source": "meet",
+          "source_start": 4734.1,
+          "source_end": 4734.4,
+          "clip_start": 2.58,
+          "clip_end": 2.88
+        },
+        {
+          "source": "someone,",
+          "source_start": 4734.4,
+          "source_end": 4735.02,
+          "clip_start": 2.88,
+          "clip_end": 3.5
+        },
+        {
+          "source": "to",
+          "source_start": 4735.32,
+          "source_end": 4735.84,
+          "clip_start": 3.8,
+          "clip_end": 4.32
+        },
+        {
+          "source": "make",
+          "source_start": 4735.84,
+          "source_end": 4736.04,
+          "clip_start": 4.32,
+          "clip_end": 4.52
+        },
+        {
+          "source": "their",
+          "source_start": 4736.04,
+          "source_end": 4736.28,
+          "clip_start": 4.52,
+          "clip_end": 4.76
+        },
+        {
+          "source": "day",
+          "source_start": 4736.28,
+          "source_end": 4736.62,
+          "clip_start": 4.76,
+          "clip_end": 5.1
+        },
+        {
+          "source": "better,",
+          "source_start": 4736.62,
+          "source_end": 4736.9,
+          "clip_start": 5.1,
+          "clip_end": 5.38
+        },
+        {
+          "source": "their",
+          "source_start": 4737.06,
+          "source_end": 4737.16,
+          "clip_start": 5.54,
+          "clip_end": 5.64
+        },
+        {
+          "source": "week",
+          "source_start": 4737.16,
+          "source_end": 4737.48,
+          "clip_start": 5.64,
+          "clip_end": 5.96
+        },
+        {
+          "source": "better,",
+          "source_start": 4737.48,
+          "source_end": 4737.78,
+          "clip_start": 5.96,
+          "clip_end": 6.26
+        },
+        {
+          "source": "their",
+          "source_start": 4737.94,
+          "source_end": 4738.04,
+          "clip_start": 6.42,
+          "clip_end": 6.52
+        },
+        {
+          "source": "month",
+          "source_start": 4738.04,
+          "source_end": 4738.42,
+          "clip_start": 6.52,
+          "clip_end": 6.9
+        },
+        {
+          "source": "better,",
+          "source_start": 4738.42,
+          "source_end": 4738.84,
+          "clip_start": 6.9,
+          "clip_end": 7.32
+        },
+        {
+          "source": "to",
+          "source_start": 4739.28,
+          "source_end": 4739.82,
+          "clip_start": 7.76,
+          "clip_end": 8.3
+        },
+        {
+          "source": "give",
+          "source_start": 4739.82,
+          "source_end": 4740.42,
+          "clip_start": 8.3,
+          "clip_end": 8.9
+        },
+        {
+          "source": "them",
+          "source_start": 4740.42,
+          "source_end": 4740.6,
+          "clip_start": 8.9,
+          "clip_end": 9.08
+        },
+        {
+          "source": "an",
+          "source_start": 4740.6,
+          "source_end": 4740.7,
+          "clip_start": 9.08,
+          "clip_end": 9.18
+        },
+        {
+          "source": "experience",
+          "source_start": 4740.7,
+          "source_end": 4741.06,
+          "clip_start": 9.18,
+          "clip_end": 9.54
+        },
+        {
+          "source": "they've",
+          "source_start": 4741.06,
+          "source_end": 4741.46,
+          "clip_start": 9.54,
+          "clip_end": 9.94
+        },
+        {
+          "source": "never",
+          "source_start": 4741.46,
+          "source_end": 4741.66,
+          "clip_start": 9.94,
+          "clip_end": 10.14
+        },
+        {
+          "source": "had",
+          "source_start": 4741.66,
+          "source_end": 4742,
+          "clip_start": 10.14,
+          "clip_end": 10.48
+        },
+        {
+          "source": "before,",
+          "source_start": 4742,
+          "source_end": 4742.42,
+          "clip_start": 10.48,
+          "clip_end": 10.9
+        },
+        {
+          "source": "because",
+          "source_start": 4742.84,
+          "source_end": 4743.28,
+          "clip_start": 11.32,
+          "clip_end": 11.76
+        },
+        {
+          "source": "it",
+          "source_start": 4743.28,
+          "source_end": 4744.06,
+          "clip_start": 11.76,
+          "clip_end": 12.54
+        },
+        {
+          "source": "doesn't",
+          "source_start": 4744.06,
+          "source_end": 4744.28,
+          "clip_start": 12.54,
+          "clip_end": 12.76
+        },
+        {
+          "source": "have",
+          "source_start": 4744.28,
+          "source_end": 4744.44,
+          "clip_start": 12.76,
+          "clip_end": 12.92
+        },
+        {
+          "source": "to",
+          "source_start": 4744.44,
+          "source_end": 4744.56,
+          "clip_start": 12.92,
+          "clip_end": 13.04
+        },
+        {
+          "source": "be",
+          "source_start": 4744.56,
+          "source_end": 4744.84,
+          "clip_start": 13.04,
+          "clip_end": 13.32
+        },
+        {
+          "source": "an",
+          "source_start": 4744.84,
+          "source_end": 4745.82,
+          "clip_start": 13.32,
+          "clip_end": 14.3
+        },
+        {
+          "source": "incredible",
+          "source_start": 4745.82,
+          "source_end": 4746.48,
+          "clip_start": 14.3,
+          "clip_end": 14.96
+        },
+        {
+          "source": "experience,",
+          "source_start": 4746.48,
+          "source_end": 4747.26,
+          "clip_start": 14.96,
+          "clip_end": 15.74
+        },
+        {
+          "source": "only",
+          "source_start": 4747.4,
+          "source_end": 4747.56,
+          "clip_start": 15.88,
+          "clip_end": 16.04
+        },
+        {
+          "source": "you",
+          "source_start": 4747.56,
+          "source_end": 4747.74,
+          "clip_start": 16.04,
+          "clip_end": 16.22
+        },
+        {
+          "source": "can",
+          "source_start": 4747.74,
+          "source_end": 4747.9,
+          "clip_start": 16.22,
+          "clip_end": 16.38
+        },
+        {
+          "source": "provide,",
+          "source_start": 4747.9,
+          "source_end": 4748.22,
+          "clip_start": 16.38,
+          "clip_end": 16.7
+        },
+        {
+          "source": "but",
+          "source_start": 4748.4,
+          "source_end": 4748.48,
+          "clip_start": 16.88,
+          "clip_end": 16.96
+        },
+        {
+          "source": "you",
+          "source_start": 4748.48,
+          "source_end": 4748.88,
+          "clip_start": 16.96,
+          "clip_end": 17.36
+        },
+        {
+          "source": "and",
+          "source_start": 4748.88,
+          "source_end": 4749.56,
+          "clip_start": 17.36,
+          "clip_end": 18.04
+        },
+        {
+          "source": "that",
+          "source_start": 4749.56,
+          "source_end": 4749.76,
+          "clip_start": 18.04,
+          "clip_end": 18.24
+        },
+        {
+          "source": "one",
+          "source_start": 4749.76,
+          "source_end": 4749.94,
+          "clip_start": 18.24,
+          "clip_end": 18.42
+        },
+        {
+          "source": "person",
+          "source_start": 4749.94,
+          "source_end": 4750.28,
+          "clip_start": 18.42,
+          "clip_end": 18.76
+        },
+        {
+          "source": "together",
+          "source_start": 4750.28,
+          "source_end": 4750.68,
+          "clip_start": 18.76,
+          "clip_end": 19.16
+        },
+        {
+          "source": "are",
+          "source_start": 4750.68,
+          "source_end": 4750.92,
+          "clip_start": 19.16,
+          "clip_end": 19.4
+        },
+        {
+          "source": "completely",
+          "source_start": 4750.92,
+          "source_end": 4751.38,
+          "clip_start": 19.4,
+          "clip_end": 19.86
+        },
+        {
+          "source": "unique.",
+          "source_start": 4751.38,
+          "source_end": 4752,
+          "clip_start": 19.86,
+          "clip_end": 20.48
+        }
+      ]
+    },
+    {
+      "id": "r02-permission-payoff",
+      "source_start": 4843.9,
+      "source_end": 4865.36,
+      "language": [
+        "en"
+      ],
+      "words": [
+        {
+          "source": "Go",
+          "source_start": 4843.9,
+          "source_end": 4844.42,
+          "clip_start": 0,
+          "clip_end": 0.52
+        },
+        {
+          "source": "connect",
+          "source_start": 4844.42,
+          "source_end": 4844.78,
+          "clip_start": 0.52,
+          "clip_end": 0.88
+        },
+        {
+          "source": "with",
+          "source_start": 4844.78,
+          "source_end": 4845.08,
+          "clip_start": 0.88,
+          "clip_end": 1.18
+        },
+        {
+          "source": "people,",
+          "source_start": 4845.08,
+          "source_end": 4845.4,
+          "clip_start": 1.18,
+          "clip_end": 1.5
+        },
+        {
+          "source": "go",
+          "source_start": 4845.74,
+          "source_end": 4845.88,
+          "clip_start": 1.84,
+          "clip_end": 1.98
+        },
+        {
+          "source": "have",
+          "source_start": 4845.88,
+          "source_end": 4846.14,
+          "clip_start": 1.98,
+          "clip_end": 2.24
+        },
+        {
+          "source": "fleeting",
+          "source_start": 4846.14,
+          "source_end": 4846.52,
+          "clip_start": 2.24,
+          "clip_end": 2.62
+        },
+        {
+          "source": "moments",
+          "source_start": 4846.52,
+          "source_end": 4846.86,
+          "clip_start": 2.62,
+          "clip_end": 2.96
+        },
+        {
+          "source": "of",
+          "source_start": 4846.86,
+          "source_end": 4847.1,
+          "clip_start": 2.96,
+          "clip_end": 3.2
+        },
+        {
+          "source": "pleasure.",
+          "source_start": 4847.1,
+          "source_end": 4847.42,
+          "clip_start": 3.2,
+          "clip_end": 3.52
+        },
+        {
+          "source": "Do",
+          "source_start": 4847.42,
+          "source_end": 4848.2,
+          "clip_start": 3.52,
+          "clip_end": 4.3
+        },
+        {
+          "source": "not",
+          "source_start": 4848.2,
+          "source_end": 4848.46,
+          "clip_start": 4.3,
+          "clip_end": 4.56
+        },
+        {
+          "source": "feel",
+          "source_start": 4848.46,
+          "source_end": 4848.88,
+          "clip_start": 4.56,
+          "clip_end": 4.98
+        },
+        {
+          "source": "pressure",
+          "source_start": 4848.88,
+          "source_end": 4849.76,
+          "clip_start": 4.98,
+          "clip_end": 5.86
+        },
+        {
+          "source": "or",
+          "source_start": 4849.76,
+          "source_end": 4850.06,
+          "clip_start": 5.86,
+          "clip_end": 6.16
+        },
+        {
+          "source": "expectation",
+          "source_start": 4850.06,
+          "source_end": 4850.8,
+          "clip_start": 6.16,
+          "clip_end": 6.9
+        },
+        {
+          "source": "as",
+          "source_start": 4850.8,
+          "source_end": 4851.34,
+          "clip_start": 6.9,
+          "clip_end": 7.44
+        },
+        {
+          "source": "long",
+          "source_start": 4851.34,
+          "source_end": 4851.56,
+          "clip_start": 7.44,
+          "clip_end": 7.66
+        },
+        {
+          "source": "as",
+          "source_start": 4851.56,
+          "source_end": 4851.7,
+          "clip_start": 7.66,
+          "clip_end": 7.8
+        },
+        {
+          "source": "you",
+          "source_start": 4851.7,
+          "source_end": 4851.8,
+          "clip_start": 7.8,
+          "clip_end": 7.9
+        },
+        {
+          "source": "have",
+          "source_start": 4851.8,
+          "source_end": 4851.96,
+          "clip_start": 7.9,
+          "clip_end": 8.06
+        },
+        {
+          "source": "good",
+          "source_start": 4851.96,
+          "source_end": 4852.16,
+          "clip_start": 8.06,
+          "clip_end": 8.26
+        },
+        {
+          "source": "intentions",
+          "source_start": 4852.16,
+          "source_end": 4852.72,
+          "clip_start": 8.26,
+          "clip_end": 8.82
+        },
+        {
+          "source": "and",
+          "source_start": 4852.72,
+          "source_end": 4853.6,
+          "clip_start": 8.82,
+          "clip_end": 9.7
+        },
+        {
+          "source": "you",
+          "source_start": 4853.6,
+          "source_end": 4853.72,
+          "clip_start": 9.7,
+          "clip_end": 9.82
+        },
+        {
+          "source": "do",
+          "source_start": 4853.72,
+          "source_end": 4853.86,
+          "clip_start": 9.82,
+          "clip_end": 9.96
+        },
+        {
+          "source": "not",
+          "source_start": 4853.86,
+          "source_end": 4854.04,
+          "clip_start": 9.96,
+          "clip_end": 10.14
+        },
+        {
+          "source": "intend",
+          "source_start": 4854.04,
+          "source_end": 4854.36,
+          "clip_start": 10.14,
+          "clip_end": 10.46
+        },
+        {
+          "source": "to",
+          "source_start": 4854.36,
+          "source_end": 4854.56,
+          "clip_start": 10.46,
+          "clip_end": 10.66
+        },
+        {
+          "source": "hurt",
+          "source_start": 4854.56,
+          "source_end": 4854.86,
+          "clip_start": 10.66,
+          "clip_end": 10.96
+        },
+        {
+          "source": "anyone",
+          "source_start": 4854.86,
+          "source_end": 4855.32,
+          "clip_start": 10.96,
+          "clip_end": 11.42
+        },
+        {
+          "source": "unless",
+          "source_start": 4855.32,
+          "source_end": 4856.04,
+          "clip_start": 11.42,
+          "clip_end": 12.14
+        },
+        {
+          "source": "that's",
+          "source_start": 4856.04,
+          "source_end": 4856.48,
+          "clip_start": 12.14,
+          "clip_end": 12.58
+        },
+        {
+          "source": "their",
+          "source_start": 4856.48,
+          "source_end": 4856.62,
+          "clip_start": 12.58,
+          "clip_end": 12.72
+        },
+        {
+          "source": "kink",
+          "source_start": 4856.62,
+          "source_end": 4856.84,
+          "clip_start": 12.72,
+          "clip_end": 12.94
+        },
+        {
+          "source": "and",
+          "source_start": 4856.84,
+          "source_end": 4857.06,
+          "clip_start": 12.94,
+          "clip_end": 13.16
+        },
+        {
+          "source": "you",
+          "source_start": 4857.06,
+          "source_end": 4857.16,
+          "clip_start": 13.16,
+          "clip_end": 13.26
+        },
+        {
+          "source": "have",
+          "source_start": 4857.16,
+          "source_end": 4857.26,
+          "clip_start": 13.26,
+          "clip_end": 13.36
+        },
+        {
+          "source": "their",
+          "source_start": 4857.26,
+          "source_end": 4857.42,
+          "clip_start": 13.36,
+          "clip_end": 13.52
+        },
+        {
+          "source": "consent",
+          "source_start": 4857.42,
+          "source_end": 4857.82,
+          "clip_start": 13.52,
+          "clip_end": 13.92
+        },
+        {
+          "source": "and",
+          "source_start": 4857.82,
+          "source_end": 4858.3,
+          "clip_start": 13.92,
+          "clip_end": 14.4
+        },
+        {
+          "source": "that's",
+          "source_start": 4858.3,
+          "source_end": 4858.52,
+          "clip_start": 14.4,
+          "clip_end": 14.62
+        },
+        {
+          "source": "what",
+          "source_start": 4858.52,
+          "source_end": 4858.66,
+          "clip_start": 14.62,
+          "clip_end": 14.76
+        },
+        {
+          "source": "they",
+          "source_start": 4858.66,
+          "source_end": 4858.82,
+          "clip_start": 14.76,
+          "clip_end": 14.92
+        },
+        {
+          "source": "want.",
+          "source_start": 4858.82,
+          "source_end": 4859.22,
+          "clip_start": 14.92,
+          "clip_end": 15.32
+        },
+        {
+          "source": "Then",
+          "source_start": 4859.86,
+          "source_end": 4860.46,
+          "clip_start": 15.96,
+          "clip_end": 16.56
+        },
+        {
+          "source": "you",
+          "source_start": 4860.46,
+          "source_end": 4860.88,
+          "clip_start": 16.56,
+          "clip_end": 16.98
+        },
+        {
+          "source": "have",
+          "source_start": 4860.88,
+          "source_end": 4861.06,
+          "clip_start": 16.98,
+          "clip_end": 17.16
+        },
+        {
+          "source": "good",
+          "source_start": 4861.06,
+          "source_end": 4861.24,
+          "clip_start": 17.16,
+          "clip_end": 17.34
+        },
+        {
+          "source": "intentions,",
+          "source_start": 4861.24,
+          "source_end": 4861.7,
+          "clip_start": 17.34,
+          "clip_end": 17.8
+        },
+        {
+          "source": "you",
+          "source_start": 4861.78,
+          "source_end": 4861.96,
+          "clip_start": 17.88,
+          "clip_end": 18.06
+        },
+        {
+          "source": "enter",
+          "source_start": 4861.96,
+          "source_end": 4862.16,
+          "clip_start": 18.06,
+          "clip_end": 18.26
+        },
+        {
+          "source": "into",
+          "source_start": 4862.16,
+          "source_end": 4862.38,
+          "clip_start": 18.26,
+          "clip_end": 18.48
+        },
+        {
+          "source": "something",
+          "source_start": 4862.38,
+          "source_end": 4862.76,
+          "clip_start": 18.48,
+          "clip_end": 18.86
+        },
+        {
+          "source": "light",
+          "source_start": 4862.76,
+          "source_end": 4863.74,
+          "clip_start": 18.86,
+          "clip_end": 19.84
+        },
+        {
+          "source": "without",
+          "source_start": 4863.74,
+          "source_end": 4864.5,
+          "clip_start": 19.84,
+          "clip_end": 20.6
+        },
+        {
+          "source": "any",
+          "source_start": 4864.5,
+          "source_end": 4864.8,
+          "clip_start": 20.6,
+          "clip_end": 20.9
+        },
+        {
+          "source": "expectations.",
+          "source_start": 4864.8,
+          "source_end": 4865.36,
+          "clip_start": 20.9,
+          "clip_end": 21.46
+        }
+      ]
+    }
+  ]
+}

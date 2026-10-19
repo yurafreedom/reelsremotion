@@ -1,0 +1,1199 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "R02",
+  "slug": "r02-connection-without-future",
+  "title": "A Connection Does Not Need a Future to Have Value",
+  "stage": "preproduction",
+  "approval_status": "HUMAN_AUDIO_APPROVED; R02_A_C_ENDPOINTS_APPLIED; SERIES_PRODUCTION_AUTHORIZED",
+  "source_authority": {
+    "source_video": "video1219377731.mp4",
+    "native_asr_word_timing": "transcripts/video1219377731/asr_video1219377731.json",
+    "native_srt": "transcripts/video1219377731/subtitles_native.srt",
+    "english_translation_srt": "transcripts/video1219377731/subtitles_en.srt",
+    "contextual_english_to_russian": "transcripts/video1219377731/en_spans_ru.json",
+    "prose_transcripts": "semantic search only; never timing authority"
+  },
+  "source_media": {
+    "duration_seconds": 13974.421333,
+    "video": "h264 1280x720 25fps yuv420p",
+    "audio": "aac stereo 48000Hz",
+    "source_untouched": true
+  },
+  "clips": [
+    {
+      "id": "r02-question",
+      "role": "question",
+      "source_video": "video1219377731.mp4",
+      "source_start": 4558.42,
+      "source_end": 4581.6,
+      "source_start_tc": "01:15:58.420",
+      "source_end_tc": "01:16:21.600",
+      "extracted_duration_expected": 23.18,
+      "output_path": "reel-input/r02-connection-without-future/public/clips/001_question.mp4",
+      "extraction_mode": "exact-reencode",
+      "languages": [
+        "en"
+      ],
+      "speaker": "Undiarized English speaker",
+      "speaker_confidence": "UNKNOWN—VERIFY_EXACT_SPEAKER_ON_VIDEO",
+      "source_quote": "Have you ever found yourself taking every romantic connection with any girl or woman way too serious, too responsibility to the point where you can just let yourself see someone, just make love without feeling guilty or burdened by responsibility, especially when you already sense from the start that there is no future together.",
+      "source_subtitles": [
+        {
+          "id": 808,
+          "start": 4558.42,
+          "end": 4567.78,
+          "start_tc": "01:15:58.420",
+          "end_tc": "01:16:07.780",
+          "original_segment_start": 4558.42,
+          "original_segment_end": 4567.78,
+          "language": "en",
+          "text": "Have you ever found yourself taking every romantic connection with any girl or woman way too serious, too responsibility",
+          "words": [
+            {
+              "word": "Have",
+              "start": 4558.42,
+              "end": 4559.06
+            },
+            {
+              "word": "you",
+              "start": 4559.06,
+              "end": 4559.7
+            },
+            {
+              "word": "ever",
+              "start": 4559.7,
+              "end": 4559.9
+            },
+            {
+              "word": "found",
+              "start": 4559.9,
+              "end": 4560.14
+            },
+            {
+              "word": "yourself",
+              "start": 4560.14,
+              "end": 4560.54
+            },
+            {
+              "word": "taking",
+              "start": 4560.54,
+              "end": 4561.26
+            },
+            {
+              "word": "every",
+              "start": 4561.26,
+              "end": 4562.5
+            },
+            {
+              "word": "romantic",
+              "start": 4562.5,
+              "end": 4562.98
+            },
+            {
+              "word": "connection",
+              "start": 4562.98,
+              "end": 4563.6
+            },
+            {
+              "word": "with",
+              "start": 4563.6,
+              "end": 4563.86
+            },
+            {
+              "word": "any",
+              "start": 4563.86,
+              "end": 4564.12
+            },
+            {
+              "word": "girl",
+              "start": 4564.12,
+              "end": 4564.38
+            },
+            {
+              "word": "or",
+              "start": 4564.38,
+              "end": 4564.56
+            },
+            {
+              "word": "woman",
+              "start": 4564.56,
+              "end": 4564.86
+            },
+            {
+              "word": "way",
+              "start": 4564.86,
+              "end": 4565.62
+            },
+            {
+              "word": "too",
+              "start": 4565.62,
+              "end": 4565.9
+            },
+            {
+              "word": "serious,",
+              "start": 4565.9,
+              "end": 4566.46
+            },
+            {
+              "word": "too",
+              "start": 4566.6,
+              "end": 4566.76
+            },
+            {
+              "word": "responsibility",
+              "start": 4566.76,
+              "end": 4567.78
+            }
+          ]
+        },
+        {
+          "id": 809,
+          "start": 4568.62,
+          "end": 4576.84,
+          "start_tc": "01:16:08.620",
+          "end_tc": "01:16:16.840",
+          "original_segment_start": 4568.62,
+          "original_segment_end": 4576.84,
+          "language": "en",
+          "text": "to the point where you can just let yourself see someone, just make love without feeling guilty or burdened by responsibility,",
+          "words": [
+            {
+              "word": "to",
+              "start": 4568.62,
+              "end": 4569.26
+            },
+            {
+              "word": "the",
+              "start": 4569.26,
+              "end": 4569.42
+            },
+            {
+              "word": "point",
+              "start": 4569.42,
+              "end": 4569.68
+            },
+            {
+              "word": "where",
+              "start": 4569.68,
+              "end": 4570
+            },
+            {
+              "word": "you",
+              "start": 4570,
+              "end": 4570.26
+            },
+            {
+              "word": "can",
+              "start": 4570.26,
+              "end": 4570.44
+            },
+            {
+              "word": "just",
+              "start": 4570.44,
+              "end": 4570.9
+            },
+            {
+              "word": "let",
+              "start": 4570.9,
+              "end": 4571.14
+            },
+            {
+              "word": "yourself",
+              "start": 4571.14,
+              "end": 4571.54
+            },
+            {
+              "word": "see",
+              "start": 4571.54,
+              "end": 4572.02
+            },
+            {
+              "word": "someone,",
+              "start": 4572.02,
+              "end": 4572.38
+            },
+            {
+              "word": "just",
+              "start": 4572.5,
+              "end": 4572.64
+            },
+            {
+              "word": "make",
+              "start": 4572.64,
+              "end": 4572.94
+            },
+            {
+              "word": "love",
+              "start": 4572.94,
+              "end": 4573.82
+            },
+            {
+              "word": "without",
+              "start": 4573.82,
+              "end": 4574.2
+            },
+            {
+              "word": "feeling",
+              "start": 4574.2,
+              "end": 4574.84
+            },
+            {
+              "word": "guilty",
+              "start": 4574.84,
+              "end": 4575.2
+            },
+            {
+              "word": "or",
+              "start": 4575.2,
+              "end": 4575.58
+            },
+            {
+              "word": "burdened",
+              "start": 4575.58,
+              "end": 4576.12
+            },
+            {
+              "word": "by",
+              "start": 4576.12,
+              "end": 4576.24
+            },
+            {
+              "word": "responsibility,",
+              "start": 4576.24,
+              "end": 4576.84
+            }
+          ]
+        },
+        {
+          "id": 810,
+          "start": 4577.08,
+          "end": 4581.6,
+          "start_tc": "01:16:17.080",
+          "end_tc": "01:16:21.600",
+          "original_segment_start": 4577.08,
+          "original_segment_end": 4581.6,
+          "language": "en",
+          "text": "especially when you already sense from the start that there is no future together.",
+          "words": [
+            {
+              "word": "especially",
+              "start": 4577.08,
+              "end": 4577.34
+            },
+            {
+              "word": "when",
+              "start": 4577.34,
+              "end": 4577.64
+            },
+            {
+              "word": "you",
+              "start": 4577.64,
+              "end": 4577.86
+            },
+            {
+              "word": "already",
+              "start": 4577.86,
+              "end": 4578.32
+            },
+            {
+              "word": "sense",
+              "start": 4578.32,
+              "end": 4578.64
+            },
+            {
+              "word": "from",
+              "start": 4578.64,
+              "end": 4578.94
+            },
+            {
+              "word": "the",
+              "start": 4578.94,
+              "end": 4579.12
+            },
+            {
+              "word": "start",
+              "start": 4579.12,
+              "end": 4579.44
+            },
+            {
+              "word": "that",
+              "start": 4579.44,
+              "end": 4580.02
+            },
+            {
+              "word": "there",
+              "start": 4580.02,
+              "end": 4580.2
+            },
+            {
+              "word": "is",
+              "start": 4580.2,
+              "end": 4580.38
+            },
+            {
+              "word": "no",
+              "start": 4580.38,
+              "end": 4580.66
+            },
+            {
+              "word": "future",
+              "start": 4580.66,
+              "end": 4581.1
+            },
+            {
+              "word": "together.",
+              "start": 4581.1,
+              "end": 4581.6
+            }
+          ]
+        }
+      ],
+      "boundary_flags": {
+        "start_inside_subtitle": false,
+        "end_inside_subtitle": false
+      },
+      "linguistic_boundary_note": "complete contiguous English question block.",
+      "include_reason": "Defines the over-responsibility problem and no-future premise in the original English.",
+      "removable_filler": "The final long-values sentence may be shortened only as a complete phrase group.",
+      "visual_qc": "REVIEW_REQUIRED_AT_EXACT_EDGES",
+      "display_ru": {
+        "kind": "translation-layer",
+        "alignment": "phrase-group-only; no Russian acoustic word timestamps",
+        "provenance": "transcripts/video1219377731/en_spans_ru.json[32]",
+        "text": "Ты когда-нибудь ловила себя на том, что воспринимаешь каждую романтическую связь слишком серьёзно и берёшь на себя слишком много ответственности, настолько, что не можешь просто встречаться с кем-то, ходить на свидания или заниматься любовью без чувства вины и груза ответственности, особенно когда с самого начала понимаешь, что общего будущего нет?"
+      },
+      "translation_groups": [
+        {
+          "id": "r02-question-g1",
+          "source_start": 4558.42,
+          "source_end": 4576.84,
+          "clip_start": 0,
+          "clip_end": 18.42,
+          "source_text": "Have you ever found yourself taking every romantic connection with any girl or woman way too serious, too responsibility to the point where you can just let yourself see someone, just make love without feeling guilty or burdened by responsibility,",
+          "display_ru": "Ты когда-нибудь ловила себя на том, что воспринимаешь каждую романтическую связь слишком серьёзно и берёшь на себя слишком много ответственности, настолько, что не можешь просто встречаться с кем-то, ходить на свидания или заниматься любовью без чувства вины и груза ответственности,"
+        },
+        {
+          "id": "r02-question-g2",
+          "source_start": 4577.08,
+          "source_end": 4581.6,
+          "clip_start": 18.66,
+          "clip_end": 23.18,
+          "source_text": "especially when you already sense from the start that there is no future together.",
+          "display_ru": "особенно когда с самого начала понимаешь, что общего будущего нет?"
+        }
+      ],
+      "human_review": {
+        "audio_review": "PARTIAL_DECISION_APPLIED",
+        "end_edge": "HUMAN_APPROVED_AFTER there is no future together; APPLIED at 01:16:21.600",
+        "corrections": [
+          {
+            "id": "C03",
+            "decision": "ACCEPT",
+            "approved_source_meaning": "couldn't just let yourself see someone, just date, just make love..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "r02-unique-value",
+      "role": "context",
+      "source_video": "video1219377731.mp4",
+      "source_start": 4731.52,
+      "source_end": 4752.32,
+      "source_start_tc": "01:18:51.520",
+      "source_end_tc": "01:19:12.320",
+      "extracted_duration_expected": 20.8,
+      "output_path": "reel-input/r02-connection-without-future/public/clips/002_context.mp4",
+      "extraction_mode": "exact-reencode",
+      "languages": [
+        "en"
+      ],
+      "speaker": "English-speaking guest, likely Andrew",
+      "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+      "source_quote": "Это очень actionally indulging that pleasure to meet someone, to make their day better, their week better, their month better, to give them an experience they've never had before, because it doesn't have to be an incredible experience, only you can provide, but you and that one person together are completely unique.",
+      "source_subtitles": [
+        {
+          "id": 826,
+          "start": 4731.52,
+          "end": 4738.84,
+          "start_tc": "01:18:51.520",
+          "end_tc": "01:18:58.840",
+          "original_segment_start": 4731.52,
+          "original_segment_end": 4738.84,
+          "language": "en",
+          "text": "Это очень actionally indulging that pleasure to meet someone, to make their day better, their week better, their month better,",
+          "words": [
+            {
+              "word": "Это",
+              "start": 4731.52,
+              "end": 4732.16
+            },
+            {
+              "word": "очень",
+              "start": 4732.16,
+              "end": 4732.16
+            },
+            {
+              "word": "actionally",
+              "start": 4732.16,
+              "end": 4732.48
+            },
+            {
+              "word": "indulging",
+              "start": 4732.48,
+              "end": 4733.16
+            },
+            {
+              "word": "that",
+              "start": 4733.16,
+              "end": 4733.42
+            },
+            {
+              "word": "pleasure",
+              "start": 4733.42,
+              "end": 4733.8
+            },
+            {
+              "word": "to",
+              "start": 4733.8,
+              "end": 4734.1
+            },
+            {
+              "word": "meet",
+              "start": 4734.1,
+              "end": 4734.4
+            },
+            {
+              "word": "someone,",
+              "start": 4734.4,
+              "end": 4735.02
+            },
+            {
+              "word": "to",
+              "start": 4735.32,
+              "end": 4735.84
+            },
+            {
+              "word": "make",
+              "start": 4735.84,
+              "end": 4736.04
+            },
+            {
+              "word": "their",
+              "start": 4736.04,
+              "end": 4736.28
+            },
+            {
+              "word": "day",
+              "start": 4736.28,
+              "end": 4736.62
+            },
+            {
+              "word": "better,",
+              "start": 4736.62,
+              "end": 4736.9
+            },
+            {
+              "word": "their",
+              "start": 4737.06,
+              "end": 4737.16
+            },
+            {
+              "word": "week",
+              "start": 4737.16,
+              "end": 4737.48
+            },
+            {
+              "word": "better,",
+              "start": 4737.48,
+              "end": 4737.78
+            },
+            {
+              "word": "their",
+              "start": 4737.94,
+              "end": 4738.04
+            },
+            {
+              "word": "month",
+              "start": 4738.04,
+              "end": 4738.42
+            },
+            {
+              "word": "better,",
+              "start": 4738.42,
+              "end": 4738.84
+            }
+          ]
+        },
+        {
+          "id": 827,
+          "start": 4739.28,
+          "end": 4742.42,
+          "start_tc": "01:18:59.280",
+          "end_tc": "01:19:02.420",
+          "original_segment_start": 4739.28,
+          "original_segment_end": 4742.42,
+          "language": "en",
+          "text": "to give them an experience they've never had before,",
+          "words": [
+            {
+              "word": "to",
+              "start": 4739.28,
+              "end": 4739.82
+            },
+            {
+              "word": "give",
+              "start": 4739.82,
+              "end": 4740.42
+            },
+            {
+              "word": "them",
+              "start": 4740.42,
+              "end": 4740.6
+            },
+            {
+              "word": "an",
+              "start": 4740.6,
+              "end": 4740.7
+            },
+            {
+              "word": "experience",
+              "start": 4740.7,
+              "end": 4741.06
+            },
+            {
+              "word": "they've",
+              "start": 4741.06,
+              "end": 4741.46
+            },
+            {
+              "word": "never",
+              "start": 4741.46,
+              "end": 4741.66
+            },
+            {
+              "word": "had",
+              "start": 4741.66,
+              "end": 4742
+            },
+            {
+              "word": "before,",
+              "start": 4742,
+              "end": 4742.42
+            }
+          ]
+        },
+        {
+          "id": 828,
+          "start": 4742.84,
+          "end": 4747.26,
+          "start_tc": "01:19:02.840",
+          "end_tc": "01:19:07.260",
+          "original_segment_start": 4742.84,
+          "original_segment_end": 4747.26,
+          "language": "en",
+          "text": "because it doesn't have to be an incredible experience,",
+          "words": [
+            {
+              "word": "because",
+              "start": 4742.84,
+              "end": 4743.28
+            },
+            {
+              "word": "it",
+              "start": 4743.28,
+              "end": 4744.06
+            },
+            {
+              "word": "doesn't",
+              "start": 4744.06,
+              "end": 4744.28
+            },
+            {
+              "word": "have",
+              "start": 4744.28,
+              "end": 4744.44
+            },
+            {
+              "word": "to",
+              "start": 4744.44,
+              "end": 4744.56
+            },
+            {
+              "word": "be",
+              "start": 4744.56,
+              "end": 4744.84
+            },
+            {
+              "word": "an",
+              "start": 4744.84,
+              "end": 4745.82
+            },
+            {
+              "word": "incredible",
+              "start": 4745.82,
+              "end": 4746.48
+            },
+            {
+              "word": "experience,",
+              "start": 4746.48,
+              "end": 4747.26
+            }
+          ]
+        },
+        {
+          "id": 829,
+          "start": 4747.4,
+          "end": 4752,
+          "start_tc": "01:19:07.400",
+          "end_tc": "01:19:12.000",
+          "original_segment_start": 4747.4,
+          "original_segment_end": 4752,
+          "language": "en",
+          "text": "only you can provide, but you and that one person together are completely unique.",
+          "words": [
+            {
+              "word": "only",
+              "start": 4747.4,
+              "end": 4747.56
+            },
+            {
+              "word": "you",
+              "start": 4747.56,
+              "end": 4747.74
+            },
+            {
+              "word": "can",
+              "start": 4747.74,
+              "end": 4747.9
+            },
+            {
+              "word": "provide,",
+              "start": 4747.9,
+              "end": 4748.22
+            },
+            {
+              "word": "but",
+              "start": 4748.4,
+              "end": 4748.48
+            },
+            {
+              "word": "you",
+              "start": 4748.48,
+              "end": 4748.88
+            },
+            {
+              "word": "and",
+              "start": 4748.88,
+              "end": 4749.56
+            },
+            {
+              "word": "that",
+              "start": 4749.56,
+              "end": 4749.76
+            },
+            {
+              "word": "one",
+              "start": 4749.76,
+              "end": 4749.94
+            },
+            {
+              "word": "person",
+              "start": 4749.94,
+              "end": 4750.28
+            },
+            {
+              "word": "together",
+              "start": 4750.28,
+              "end": 4750.68
+            },
+            {
+              "word": "are",
+              "start": 4750.68,
+              "end": 4750.92
+            },
+            {
+              "word": "completely",
+              "start": 4750.92,
+              "end": 4751.38
+            },
+            {
+              "word": "unique.",
+              "start": 4751.38,
+              "end": 4752
+            }
+          ]
+        }
+      ],
+      "boundary_flags": {
+        "start_inside_subtitle": false,
+        "end_inside_subtitle": false
+      },
+      "linguistic_boundary_note": "complete English span but native ASR begins with mixed/corrupt tokens.",
+      "include_reason": "States that two people together are unique and can improve a day, week or month.",
+      "removable_filler": "Opening mixed-language ASR token sequence needs ear-checking; do not silently clean it.",
+      "visual_qc": "REVIEW_REQUIRED_AT_EXACT_EDGES",
+      "display_ru": {
+        "kind": "translation-layer",
+        "alignment": "phrase-group-only; no Russian acoustic word timestamps",
+        "provenance": "transcripts/video1219377731/en_spans_ru.json[33]",
+        "text": "Это очень... на самом деле потакание тому удовольствию: встретить кого-то, сделать его день лучше, его неделю лучше, его месяц лучше, дать ему опыт, которого у него никогда раньше не было, потому что это не обязательно должен быть невероятный опыт, который можешь дать только ты, но ты и этот один человек вместе, совершенно уникальны."
+      },
+      "translation_groups": [
+        {
+          "id": "r02-unique-value-g1",
+          "source_start": 4731.52,
+          "source_end": 4738.84,
+          "clip_start": 0,
+          "clip_end": 7.32,
+          "source_text": "Это очень actionally indulging that pleasure to meet someone, to make their day better, their week better, their month better,",
+          "display_ru": "Это очень... на самом деле потакание тому удовольствию: встретить кого-то, сделать его день лучше, его неделю лучше, его месяц лучше,"
+        },
+        {
+          "id": "r02-unique-value-g2",
+          "source_start": 4739.28,
+          "source_end": 4742.42,
+          "clip_start": 7.76,
+          "clip_end": 10.9,
+          "source_text": "to give them an experience they've never had before,",
+          "display_ru": "дать ему опыт, которого у него никогда раньше не было,"
+        },
+        {
+          "id": "r02-unique-value-g3",
+          "source_start": 4742.84,
+          "source_end": 4752,
+          "clip_start": 11.32,
+          "clip_end": 20.48,
+          "source_text": "because it doesn't have to be an incredible experience, only you can provide, but you and that one person together are completely unique.",
+          "display_ru": "потому что это не обязательно должен быть невероятный опыт, который можешь дать только ты, но ты и этот один человек вместе, совершенно уникальны."
+        }
+      ],
+      "human_review": {
+        "audio_review": "PARTIAL; EXTENDED EDGE REQUIRES HUMAN RECHECK",
+        "end_edge": "CURRENT 01:19:12.000 REJECTED; APPLIED 01:19:12.320 after locating complete unique and following silence",
+        "corrections": [
+          {
+            "id": "C04",
+            "decision": "PARTIALLY_APPROVED",
+            "approved_start": "to actually indulge in that pleasure, to meet someone...",
+            "remainder_status": "PENDING_OPTIONAL_REVIEW"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r02-permission-payoff",
+      "role": "payoff",
+      "source_video": "video1219377731.mp4",
+      "source_start": 4843.9,
+      "source_end": 4866.06,
+      "source_start_tc": "01:20:43.900",
+      "source_end_tc": "01:21:06.060",
+      "extracted_duration_expected": 22.16,
+      "output_path": "reel-input/r02-connection-without-future/public/clips/003_payoff.mp4",
+      "extraction_mode": "exact-reencode",
+      "languages": [
+        "en"
+      ],
+      "speaker": "English-speaking guest, likely Andrew",
+      "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+      "source_quote": "Go connect with people, go have fleeting moments of pleasure. Do not feel pressure or expectation as long as you have good intentions and you do not intend to hurt anyone unless that's their kink and you have their consent and that's what they want. Then you have good intentions, you enter into something light without any expectations.",
+      "source_subtitles": [
+        {
+          "id": 837,
+          "start": 4843.9,
+          "end": 4847.42,
+          "start_tc": "01:20:43.900",
+          "end_tc": "01:20:47.420",
+          "original_segment_start": 4843.9,
+          "original_segment_end": 4847.42,
+          "language": "en",
+          "text": "Go connect with people, go have fleeting moments of pleasure.",
+          "words": [
+            {
+              "word": "Go",
+              "start": 4843.9,
+              "end": 4844.42
+            },
+            {
+              "word": "connect",
+              "start": 4844.42,
+              "end": 4844.78
+            },
+            {
+              "word": "with",
+              "start": 4844.78,
+              "end": 4845.08
+            },
+            {
+              "word": "people,",
+              "start": 4845.08,
+              "end": 4845.4
+            },
+            {
+              "word": "go",
+              "start": 4845.74,
+              "end": 4845.88
+            },
+            {
+              "word": "have",
+              "start": 4845.88,
+              "end": 4846.14
+            },
+            {
+              "word": "fleeting",
+              "start": 4846.14,
+              "end": 4846.52
+            },
+            {
+              "word": "moments",
+              "start": 4846.52,
+              "end": 4846.86
+            },
+            {
+              "word": "of",
+              "start": 4846.86,
+              "end": 4847.1
+            },
+            {
+              "word": "pleasure.",
+              "start": 4847.1,
+              "end": 4847.42
+            }
+          ]
+        },
+        {
+          "id": 838,
+          "start": 4847.42,
+          "end": 4855.32,
+          "start_tc": "01:20:47.420",
+          "end_tc": "01:20:55.320",
+          "original_segment_start": 4847.42,
+          "original_segment_end": 4855.32,
+          "language": "en",
+          "text": "Do not feel pressure or expectation as long as you have good intentions and you do not intend to hurt anyone",
+          "words": [
+            {
+              "word": "Do",
+              "start": 4847.42,
+              "end": 4848.2
+            },
+            {
+              "word": "not",
+              "start": 4848.2,
+              "end": 4848.46
+            },
+            {
+              "word": "feel",
+              "start": 4848.46,
+              "end": 4848.88
+            },
+            {
+              "word": "pressure",
+              "start": 4848.88,
+              "end": 4849.76
+            },
+            {
+              "word": "or",
+              "start": 4849.76,
+              "end": 4850.06
+            },
+            {
+              "word": "expectation",
+              "start": 4850.06,
+              "end": 4850.8
+            },
+            {
+              "word": "as",
+              "start": 4850.8,
+              "end": 4851.34
+            },
+            {
+              "word": "long",
+              "start": 4851.34,
+              "end": 4851.56
+            },
+            {
+              "word": "as",
+              "start": 4851.56,
+              "end": 4851.7
+            },
+            {
+              "word": "you",
+              "start": 4851.7,
+              "end": 4851.8
+            },
+            {
+              "word": "have",
+              "start": 4851.8,
+              "end": 4851.96
+            },
+            {
+              "word": "good",
+              "start": 4851.96,
+              "end": 4852.16
+            },
+            {
+              "word": "intentions",
+              "start": 4852.16,
+              "end": 4852.72
+            },
+            {
+              "word": "and",
+              "start": 4852.72,
+              "end": 4853.6
+            },
+            {
+              "word": "you",
+              "start": 4853.6,
+              "end": 4853.72
+            },
+            {
+              "word": "do",
+              "start": 4853.72,
+              "end": 4853.86
+            },
+            {
+              "word": "not",
+              "start": 4853.86,
+              "end": 4854.04
+            },
+            {
+              "word": "intend",
+              "start": 4854.04,
+              "end": 4854.36
+            },
+            {
+              "word": "to",
+              "start": 4854.36,
+              "end": 4854.56
+            },
+            {
+              "word": "hurt",
+              "start": 4854.56,
+              "end": 4854.86
+            },
+            {
+              "word": "anyone",
+              "start": 4854.86,
+              "end": 4855.32
+            }
+          ]
+        },
+        {
+          "id": 839,
+          "start": 4855.32,
+          "end": 4859.22,
+          "start_tc": "01:20:55.320",
+          "end_tc": "01:20:59.220",
+          "original_segment_start": 4855.32,
+          "original_segment_end": 4859.22,
+          "language": "en",
+          "text": "unless that's their kink and you have their consent and that's what they want.",
+          "words": [
+            {
+              "word": "unless",
+              "start": 4855.32,
+              "end": 4856.04
+            },
+            {
+              "word": "that's",
+              "start": 4856.04,
+              "end": 4856.48
+            },
+            {
+              "word": "their",
+              "start": 4856.48,
+              "end": 4856.62
+            },
+            {
+              "word": "kink",
+              "start": 4856.62,
+              "end": 4856.84
+            },
+            {
+              "word": "and",
+              "start": 4856.84,
+              "end": 4857.06
+            },
+            {
+              "word": "you",
+              "start": 4857.06,
+              "end": 4857.16
+            },
+            {
+              "word": "have",
+              "start": 4857.16,
+              "end": 4857.26
+            },
+            {
+              "word": "their",
+              "start": 4857.26,
+              "end": 4857.42
+            },
+            {
+              "word": "consent",
+              "start": 4857.42,
+              "end": 4857.82
+            },
+            {
+              "word": "and",
+              "start": 4857.82,
+              "end": 4858.3
+            },
+            {
+              "word": "that's",
+              "start": 4858.3,
+              "end": 4858.52
+            },
+            {
+              "word": "what",
+              "start": 4858.52,
+              "end": 4858.66
+            },
+            {
+              "word": "they",
+              "start": 4858.66,
+              "end": 4858.82
+            },
+            {
+              "word": "want.",
+              "start": 4858.82,
+              "end": 4859.22
+            }
+          ]
+        },
+        {
+          "id": 840,
+          "start": 4859.86,
+          "end": 4865.36,
+          "start_tc": "01:20:59.860",
+          "end_tc": "01:21:05.360",
+          "original_segment_start": 4859.86,
+          "original_segment_end": 4865.36,
+          "language": "en",
+          "text": "Then you have good intentions, you enter into something light without any expectations.",
+          "words": [
+            {
+              "word": "Then",
+              "start": 4859.86,
+              "end": 4860.46
+            },
+            {
+              "word": "you",
+              "start": 4860.46,
+              "end": 4860.88
+            },
+            {
+              "word": "have",
+              "start": 4860.88,
+              "end": 4861.06
+            },
+            {
+              "word": "good",
+              "start": 4861.06,
+              "end": 4861.24
+            },
+            {
+              "word": "intentions,",
+              "start": 4861.24,
+              "end": 4861.7
+            },
+            {
+              "word": "you",
+              "start": 4861.78,
+              "end": 4861.96
+            },
+            {
+              "word": "enter",
+              "start": 4861.96,
+              "end": 4862.16
+            },
+            {
+              "word": "into",
+              "start": 4862.16,
+              "end": 4862.38
+            },
+            {
+              "word": "something",
+              "start": 4862.38,
+              "end": 4862.76
+            },
+            {
+              "word": "light",
+              "start": 4862.76,
+              "end": 4863.74
+            },
+            {
+              "word": "without",
+              "start": 4863.74,
+              "end": 4864.5
+            },
+            {
+              "word": "any",
+              "start": 4864.5,
+              "end": 4864.8
+            },
+            {
+              "word": "expectations.",
+              "start": 4864.8,
+              "end": 4865.36
+            }
+          ]
+        }
+      ],
+      "boundary_flags": {
+        "start_inside_subtitle": false,
+        "end_inside_subtitle": false
+      },
+      "linguistic_boundary_note": "selected phrase-group subset of contextual translation span 34; Russian timing must be phrase mapped.",
+      "include_reason": "Provides the consent/intent guardrail and the positive conclusion that long-term values can fall into place.",
+      "removable_filler": "The kink aside is source speech and may be retained, omitted as a whole phrase, or explicitly approved—not rewritten invisibly.",
+      "visual_qc": "REVIEW_REQUIRED_AT_EXACT_EDGES",
+      "display_ru": {
+        "kind": "translation-layer",
+        "alignment": "phrase-group-only; no Russian acoustic word timestamps",
+        "provenance": "transcripts/video1219377731/en_spans_ru.json[34]",
+        "text": "Иди устанавливай связи с людьми, иди переживай мимолётные моменты удовольствия. Не чувствуй давления или ожиданий, пока у тебя добрые намерения и ты не собираешься кому-то навредить, если только это не их кинк, и у тебя есть их согласие, и это то, чего они хотят. Тогда у тебя добрые намерения, ты входишь во что-то лёгкое без всяких ожиданий."
+      },
+      "translation_groups": [
+        {
+          "id": "r02-permission-payoff-g1",
+          "source_start": 4843.9,
+          "source_end": 4847.42,
+          "clip_start": 0,
+          "clip_end": 3.52,
+          "source_text": "Go connect with people, go have fleeting moments of pleasure.",
+          "display_ru": "Иди устанавливай связи с людьми, иди переживай мимолётные моменты удовольствия."
+        },
+        {
+          "id": "r02-permission-payoff-g2",
+          "source_start": 4847.42,
+          "source_end": 4859.22,
+          "clip_start": 3.52,
+          "clip_end": 15.32,
+          "source_text": "Do not feel pressure or expectation as long as you have good intentions and you do not intend to hurt anyone unless that's their kink and you have their consent and that's what they want.",
+          "display_ru": "Не чувствуй давления или ожиданий, пока у тебя добрые намерения и ты не собираешься кому-то навредить, если только это не их кинк, и у тебя есть их согласие, и это то, чего они хотят."
+        },
+        {
+          "id": "r02-permission-payoff-g3",
+          "source_start": 4859.86,
+          "source_end": 4866.06,
+          "clip_start": 15.96,
+          "clip_end": 22.16,
+          "source_text": "Then you have good intentions, you enter into something light without any expectations.",
+          "display_ru": "Тогда у тебя добрые намерения, ты входишь во что-то лёгкое без всяких ожиданий."
+        }
+      ],
+      "human_review": {
+        "audio_review": "HUMAN_FINAL_CANDIDATE_C_APPROVED",
+        "end_edge": "HUMAN_APPROVED Candidate C after complete without expectations; APPLIED at 01:21:06.060"
+      }
+    }
+  ],
+  "human_decision_batch": {
+    "applied_at": "2026-08-30",
+    "artifact": "current SERIES PRODUCTION BATCH human decision prompt",
+    "canonical_episode_asr_modified": false
+  }
+}

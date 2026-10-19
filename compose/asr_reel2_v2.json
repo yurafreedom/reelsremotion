@@ -1,0 +1,1928 @@
+{
+  "language": "en",
+  "language_probability": 0.995,
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 8.08,
+      "text": "what would be the proof, hypothetically, for the woman that you can trust her to reveal the truth.",
+      "lang": "en",
+      "script": "en",
+      "words": [
+        {
+          "word": "what",
+          "start": 0.0,
+          "end": 0.34
+        },
+        {
+          "word": "would",
+          "start": 0.34,
+          "end": 0.6
+        },
+        {
+          "word": "be",
+          "start": 0.6,
+          "end": 0.84
+        },
+        {
+          "word": "the",
+          "start": 0.84,
+          "end": 1.0
+        },
+        {
+          "word": "proof,",
+          "start": 1.0,
+          "end": 1.44
+        },
+        {
+          "word": "hypothetically,",
+          "start": 1.56,
+          "end": 2.52
+        },
+        {
+          "word": "for",
+          "start": 3.06,
+          "end": 3.84
+        },
+        {
+          "word": "the",
+          "start": 3.84,
+          "end": 4.7
+        },
+        {
+          "word": "woman",
+          "start": 4.7,
+          "end": 5.04
+        },
+        {
+          "word": "that",
+          "start": 5.04,
+          "end": 5.36
+        },
+        {
+          "word": "you",
+          "start": 5.36,
+          "end": 5.7
+        },
+        {
+          "word": "can",
+          "start": 5.7,
+          "end": 5.88
+        },
+        {
+          "word": "trust",
+          "start": 5.88,
+          "end": 6.22
+        },
+        {
+          "word": "her",
+          "start": 6.22,
+          "end": 6.54
+        },
+        {
+          "word": "to",
+          "start": 6.54,
+          "end": 7.3
+        },
+        {
+          "word": "reveal",
+          "start": 7.3,
+          "end": 7.66
+        },
+        {
+          "word": "the",
+          "start": 7.66,
+          "end": 7.9
+        },
+        {
+          "word": "truth.",
+          "start": 7.9,
+          "end": 8.08
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "start": 8.26,
+      "end": 17.66,
+      "text": "The man, which I think a very healthy, very mature man will test you first until he will reveal the",
+      "lang": "en",
+      "script": "en",
+      "words": [
+        {
+          "word": "The",
+          "start": 8.26,
+          "end": 8.44
+        },
+        {
+          "word": "man,",
+          "start": 8.44,
+          "end": 8.84
+        },
+        {
+          "word": "which",
+          "start": 9.0,
+          "end": 9.2
+        },
+        {
+          "word": "I",
+          "start": 9.2,
+          "end": 9.38
+        },
+        {
+          "word": "think",
+          "start": 9.38,
+          "end": 9.76
+        },
+        {
+          "word": "a",
+          "start": 9.76,
+          "end": 10.34
+        },
+        {
+          "word": "very",
+          "start": 10.34,
+          "end": 10.88
+        },
+        {
+          "word": "healthy,",
+          "start": 10.88,
+          "end": 11.36
+        },
+        {
+          "word": "very",
+          "start": 11.92,
+          "end": 12.2
+        },
+        {
+          "word": "mature",
+          "start": 12.2,
+          "end": 13.16
+        },
+        {
+          "word": "man",
+          "start": 13.16,
+          "end": 13.96
+        },
+        {
+          "word": "will",
+          "start": 13.96,
+          "end": 14.56
+        },
+        {
+          "word": "test",
+          "start": 14.56,
+          "end": 14.98
+        },
+        {
+          "word": "you",
+          "start": 14.98,
+          "end": 15.16
+        },
+        {
+          "word": "first",
+          "start": 15.16,
+          "end": 15.56
+        },
+        {
+          "word": "until",
+          "start": 15.56,
+          "end": 16.26
+        },
+        {
+          "word": "he",
+          "start": 16.26,
+          "end": 16.84
+        },
+        {
+          "word": "will",
+          "start": 16.84,
+          "end": 17.0
+        },
+        {
+          "word": "reveal",
+          "start": 17.0,
+          "end": 17.4
+        },
+        {
+          "word": "the",
+          "start": 17.4,
+          "end": 17.66
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 17.66,
+      "end": 22.1,
+      "text": "truth to you, right? I think the really interesting thing when I would meet someone who couldn't",
+      "lang": "en",
+      "script": "en",
+      "words": [
+        {
+          "word": "truth",
+          "start": 17.66,
+          "end": 17.94
+        },
+        {
+          "word": "to",
+          "start": 17.94,
+          "end": 18.28
+        },
+        {
+          "word": "you,",
+          "start": 18.28,
+          "end": 18.52
+        },
+        {
+          "word": "right?",
+          "start": 18.58,
+          "end": 18.8
+        },
+        {
+          "word": "I",
+          "start": 19.08,
+          "end": 19.08
+        },
+        {
+          "word": "think",
+          "start": 19.08,
+          "end": 19.22
+        },
+        {
+          "word": "the",
+          "start": 19.22,
+          "end": 19.34
+        },
+        {
+          "word": "really",
+          "start": 19.34,
+          "end": 19.58
+        },
+        {
+          "word": "interesting",
+          "start": 19.58,
+          "end": 19.98
+        },
+        {
+          "word": "thing",
+          "start": 19.98,
+          "end": 20.2
+        },
+        {
+          "word": "when",
+          "start": 20.2,
+          "end": 20.36
+        },
+        {
+          "word": "I",
+          "start": 20.36,
+          "end": 20.46
+        },
+        {
+          "word": "would",
+          "start": 20.46,
+          "end": 20.56
+        },
+        {
+          "word": "meet",
+          "start": 20.56,
+          "end": 20.76
+        },
+        {
+          "word": "someone",
+          "start": 20.76,
+          "end": 21.14
+        },
+        {
+          "word": "who",
+          "start": 21.14,
+          "end": 21.64
+        },
+        {
+          "word": "couldn't",
+          "start": 21.64,
+          "end": 22.1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 22.1,
+      "end": 28.8,
+      "text": "have open, raw, radically honest conversation to begin with, whether it's about their intellect,",
+      "lang": "en",
+      "script": "en",
+      "words": [
+        {
+          "word": "have",
+          "start": 22.1,
+          "end": 22.42
+        },
+        {
+          "word": "open,",
+          "start": 22.42,
+          "end": 22.96
+        },
+        {
+          "word": "raw,",
+          "start": 23.32,
+          "end": 23.96
+        },
+        {
+          "word": "radically",
+          "start": 24.22,
+          "end": 24.98
+        },
+        {
+          "word": "honest",
+          "start": 24.98,
+          "end": 25.62
+        },
+        {
+          "word": "conversation",
+          "start": 25.62,
+          "end": 26.5
+        },
+        {
+          "word": "to",
+          "start": 26.5,
+          "end": 26.88
+        },
+        {
+          "word": "begin",
+          "start": 26.88,
+          "end": 27.12
+        },
+        {
+          "word": "with,",
+          "start": 27.12,
+          "end": 27.46
+        },
+        {
+          "word": "whether",
+          "start": 27.5,
+          "end": 27.68
+        },
+        {
+          "word": "it's",
+          "start": 27.68,
+          "end": 27.96
+        },
+        {
+          "word": "about",
+          "start": 27.96,
+          "end": 28.2
+        },
+        {
+          "word": "their",
+          "start": 28.2,
+          "end": 28.34
+        },
+        {
+          "word": "intellect,",
+          "start": 28.34,
+          "end": 28.8
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 28.8,
+      "end": 34.02,
+      "text": "whether it's about subjects they're passionate about and especially conversations around sex,",
+      "lang": "en",
+      "script": "en",
+      "words": [
+        {
+          "word": "whether",
+          "start": 28.8,
+          "end": 29.2
+        },
+        {
+          "word": "it's",
+          "start": 29.2,
+          "end": 29.38
+        },
+        {
+          "word": "about",
+          "start": 29.38,
+          "end": 29.7
+        },
+        {
+          "word": "subjects",
+          "start": 29.7,
+          "end": 30.4
+        },
+        {
+          "word": "they're",
+          "start": 30.4,
+          "end": 30.74
+        },
+        {
+          "word": "passionate",
+          "start": 30.74,
+          "end": 31.1
+        },
+        {
+          "word": "about",
+          "start": 31.1,
+          "end": 31.6
+        },
+        {
+          "word": "and",
+          "start": 31.6,
+          "end": 31.86
+        },
+        {
+          "word": "especially",
+          "start": 31.86,
+          "end": 32.46
+        },
+        {
+          "word": "conversations",
+          "start": 32.46,
+          "end": 33.18
+        },
+        {
+          "word": "around",
+          "start": 33.18,
+          "end": 33.6
+        },
+        {
+          "word": "sex,",
+          "start": 33.6,
+          "end": 34.02
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 34.32,
+      "end": 39.22,
+      "text": "the really interesting thing for me is that those people who can't talk about it, that would usually",
+      "lang": "en",
+      "script": "en",
+      "words": [
+        {
+          "word": "the",
+          "start": 34.32,
+          "end": 34.5
+        },
+        {
+          "word": "really",
+          "start": 34.5,
+          "end": 34.78
+        },
+        {
+          "word": "interesting",
+          "start": 34.78,
+          "end": 35.24
+        },
+        {
+          "word": "thing",
+          "start": 35.24,
+          "end": 35.52
+        },
+        {
+          "word": "for",
+          "start": 35.52,
+          "end": 35.7
+        },
+        {
+          "word": "me",
+          "start": 35.7,
+          "end": 35.86
+        },
+        {
+          "word": "is",
+          "start": 35.86,
+          "end": 36.02
+        },
+        {
+          "word": "that",
+          "start": 36.02,
+          "end": 36.24
+        },
+        {
+          "word": "those",
+          "start": 36.24,
+          "end": 36.46
+        },
+        {
+          "word": "people",
+          "start": 36.46,
+          "end": 36.74
+        },
+        {
+          "word": "who",
+          "start": 36.74,
+          "end": 36.92
+        },
+        {
+          "word": "can't",
+          "start": 36.92,
+          "end": 37.48
+        },
+        {
+          "word": "talk",
+          "start": 37.48,
+          "end": 37.66
+        },
+        {
+          "word": "about",
+          "start": 37.66,
+          "end": 37.94
+        },
+        {
+          "word": "it,",
+          "start": 37.94,
+          "end": 38.16
+        },
+        {
+          "word": "that",
+          "start": 38.24,
+          "end": 38.58
+        },
+        {
+          "word": "would",
+          "start": 38.58,
+          "end": 38.76
+        },
+        {
+          "word": "usually",
+          "start": 38.76,
+          "end": 39.22
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 39.22,
+      "end": 44.48,
+      "text": "tell me their intentions are somewhere else and their intentions usually revolve around the",
+      "lang": "en",
+      "script": "en",
+      "words": [
+        {
+          "word": "tell",
+          "start": 39.22,
+          "end": 39.5
+        },
+        {
+          "word": "me",
+          "start": 39.5,
+          "end": 39.62
+        },
+        {
+          "word": "their",
+          "start": 39.62,
+          "end": 39.74
+        },
+        {
+          "word": "intentions",
+          "start": 39.74,
+          "end": 40.18
+        },
+        {
+          "word": "are",
+          "start": 40.18,
+          "end": 40.44
+        },
+        {
+          "word": "somewhere",
+          "start": 40.44,
+          "end": 40.7
+        },
+        {
+          "word": "else",
+          "start": 40.7,
+          "end": 41.08
+        },
+        {
+          "word": "and",
+          "start": 41.08,
+          "end": 41.72
+        },
+        {
+          "word": "their",
+          "start": 41.72,
+          "end": 42.18
+        },
+        {
+          "word": "intentions",
+          "start": 42.18,
+          "end": 42.62
+        },
+        {
+          "word": "usually",
+          "start": 42.62,
+          "end": 43.16
+        },
+        {
+          "word": "revolve",
+          "start": 43.16,
+          "end": 43.7
+        },
+        {
+          "word": "around",
+          "start": 43.7,
+          "end": 44.08
+        },
+        {
+          "word": "the",
+          "start": 44.08,
+          "end": 44.48
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 44.48,
+      "end": 50.22,
+      "text": "need for some kind of dependent style protection rather than actually wanting to be protected.",
+      "lang": "en",
+      "script": "en",
+      "words": [
+        {
+          "word": "need",
+          "start": 44.48,
+          "end": 44.7
+        },
+        {
+          "word": "for",
+          "start": 44.7,
+          "end": 44.96
+        },
+        {
+          "word": "some",
+          "start": 44.96,
+          "end": 45.2
+        },
+        {
+          "word": "kind",
+          "start": 45.2,
+          "end": 45.42
+        },
+        {
+          "word": "of",
+          "start": 45.42,
+          "end": 45.72
+        },
+        {
+          "word": "dependent",
+          "start": 45.72,
+          "end": 46.36
+        },
+        {
+          "word": "style",
+          "start": 46.36,
+          "end": 47.1
+        },
+        {
+          "word": "protection",
+          "start": 47.1,
+          "end": 47.76
+        },
+        {
+          "word": "rather",
+          "start": 47.76,
+          "end": 48.24
+        },
+        {
+          "word": "than",
+          "start": 48.24,
+          "end": 48.58
+        },
+        {
+          "word": "actually",
+          "start": 48.58,
+          "end": 49.0
+        },
+        {
+          "word": "wanting",
+          "start": 49.0,
+          "end": 49.32
+        },
+        {
+          "word": "to",
+          "start": 49.32,
+          "end": 49.62
+        },
+        {
+          "word": "be",
+          "start": 49.62,
+          "end": 49.76
+        },
+        {
+          "word": "protected.",
+          "start": 49.76,
+          "end": 50.22
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 50.62,
+      "end": 55.76,
+      "text": "For me, there's also an element of that initial excitement and attraction. Is that person going",
+      "lang": "en",
+      "script": "en",
+      "words": [
+        {
+          "word": "For",
+          "start": 50.62,
+          "end": 51.2
+        },
+        {
+          "word": "me,",
+          "start": 51.2,
+          "end": 51.38
+        },
+        {
+          "word": "there's",
+          "start": 51.4,
+          "end": 51.62
+        },
+        {
+          "word": "also",
+          "start": 51.62,
+          "end": 51.84
+        },
+        {
+          "word": "an",
+          "start": 51.84,
+          "end": 51.96
+        },
+        {
+          "word": "element",
+          "start": 51.96,
+          "end": 52.2
+        },
+        {
+          "word": "of",
+          "start": 52.2,
+          "end": 52.56
+        },
+        {
+          "word": "that",
+          "start": 52.56,
+          "end": 52.82
+        },
+        {
+          "word": "initial",
+          "start": 52.82,
+          "end": 53.12
+        },
+        {
+          "word": "excitement",
+          "start": 53.12,
+          "end": 53.8
+        },
+        {
+          "word": "and",
+          "start": 53.8,
+          "end": 54.02
+        },
+        {
+          "word": "attraction.",
+          "start": 54.02,
+          "end": 54.42
+        },
+        {
+          "word": "Is",
+          "start": 54.72,
+          "end": 54.94
+        },
+        {
+          "word": "that",
+          "start": 54.94,
+          "end": 55.08
+        },
+        {
+          "word": "person",
+          "start": 55.08,
+          "end": 55.42
+        },
+        {
+          "word": "going",
+          "start": 55.42,
+          "end": 55.76
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 55.76,
+      "end": 61.18,
+      "text": "to come back? Are they going to make the effort to continue to escalate the conversation sentence",
+      "lang": "en",
+      "script": "en",
+      "words": [
+        {
+          "word": "to",
+          "start": 55.76,
+          "end": 56.08
+        },
+        {
+          "word": "come",
+          "start": 56.08,
+          "end": 56.26
+        },
+        {
+          "word": "back?",
+          "start": 56.26,
+          "end": 56.46
+        },
+        {
+          "word": "Are",
+          "start": 56.58,
+          "end": 56.62
+        },
+        {
+          "word": "they",
+          "start": 56.62,
+          "end": 56.76
+        },
+        {
+          "word": "going",
+          "start": 56.76,
+          "end": 56.88
+        },
+        {
+          "word": "to",
+          "start": 56.88,
+          "end": 56.98
+        },
+        {
+          "word": "make",
+          "start": 56.98,
+          "end": 57.2
+        },
+        {
+          "word": "the",
+          "start": 57.2,
+          "end": 57.42
+        },
+        {
+          "word": "effort",
+          "start": 57.42,
+          "end": 57.76
+        },
+        {
+          "word": "to",
+          "start": 57.76,
+          "end": 58.24
+        },
+        {
+          "word": "continue",
+          "start": 58.24,
+          "end": 58.86
+        },
+        {
+          "word": "to",
+          "start": 58.86,
+          "end": 59.12
+        },
+        {
+          "word": "escalate",
+          "start": 59.12,
+          "end": 59.7
+        },
+        {
+          "word": "the",
+          "start": 59.7,
+          "end": 59.8
+        },
+        {
+          "word": "conversation",
+          "start": 59.8,
+          "end": 60.4
+        },
+        {
+          "word": "sentence",
+          "start": 60.4,
+          "end": 61.18
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 61.18,
+      "end": 67.46,
+      "text": "by sentence, give you a little more each time, reveal more of themselves? Are they going to keep coming back?",
+      "lang": "en",
+      "script": "en",
+      "words": [
+        {
+          "word": "by",
+          "start": 61.18,
+          "end": 61.52
+        },
+        {
+          "word": "sentence,",
+          "start": 61.52,
+          "end": 61.96
+        },
+        {
+          "word": "give",
+          "start": 61.96,
+          "end": 62.56
+        },
+        {
+          "word": "you",
+          "start": 62.56,
+          "end": 62.74
+        },
+        {
+          "word": "a",
+          "start": 62.74,
+          "end": 62.88
+        },
+        {
+          "word": "little",
+          "start": 62.88,
+          "end": 63.04
+        },
+        {
+          "word": "more",
+          "start": 63.04,
+          "end": 63.34
+        },
+        {
+          "word": "each",
+          "start": 63.34,
+          "end": 63.56
+        },
+        {
+          "word": "time,",
+          "start": 63.56,
+          "end": 63.88
+        },
+        {
+          "word": "reveal",
+          "start": 64.08,
+          "end": 64.46
+        },
+        {
+          "word": "more",
+          "start": 64.46,
+          "end": 64.76
+        },
+        {
+          "word": "of",
+          "start": 64.76,
+          "end": 64.9
+        },
+        {
+          "word": "themselves?",
+          "start": 64.9,
+          "end": 65.3
+        },
+        {
+          "word": "Are",
+          "start": 65.88,
+          "end": 66.02
+        },
+        {
+          "word": "they",
+          "start": 66.02,
+          "end": 66.3
+        },
+        {
+          "word": "going",
+          "start": 66.3,
+          "end": 66.52
+        },
+        {
+          "word": "to",
+          "start": 66.52,
+          "end": 66.7
+        },
+        {
+          "word": "keep",
+          "start": 66.7,
+          "end": 66.88
+        },
+        {
+          "word": "coming",
+          "start": 66.88,
+          "end": 67.16
+        },
+        {
+          "word": "back?",
+          "start": 67.16,
+          "end": 67.46
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "word": "what",
+      "start": 0.0,
+      "end": 0.34
+    },
+    {
+      "word": "would",
+      "start": 0.34,
+      "end": 0.6
+    },
+    {
+      "word": "be",
+      "start": 0.6,
+      "end": 0.84
+    },
+    {
+      "word": "the",
+      "start": 0.84,
+      "end": 1.0
+    },
+    {
+      "word": "proof,",
+      "start": 1.0,
+      "end": 1.44
+    },
+    {
+      "word": "hypothetically,",
+      "start": 1.56,
+      "end": 2.52
+    },
+    {
+      "word": "for",
+      "start": 3.06,
+      "end": 3.84
+    },
+    {
+      "word": "the",
+      "start": 3.84,
+      "end": 4.7
+    },
+    {
+      "word": "woman",
+      "start": 4.7,
+      "end": 5.04
+    },
+    {
+      "word": "that",
+      "start": 5.04,
+      "end": 5.36
+    },
+    {
+      "word": "you",
+      "start": 5.36,
+      "end": 5.7
+    },
+    {
+      "word": "can",
+      "start": 5.7,
+      "end": 5.88
+    },
+    {
+      "word": "trust",
+      "start": 5.88,
+      "end": 6.22
+    },
+    {
+      "word": "her",
+      "start": 6.22,
+      "end": 6.54
+    },
+    {
+      "word": "to",
+      "start": 6.54,
+      "end": 7.3
+    },
+    {
+      "word": "reveal",
+      "start": 7.3,
+      "end": 7.66
+    },
+    {
+      "word": "the",
+      "start": 7.66,
+      "end": 7.9
+    },
+    {
+      "word": "truth.",
+      "start": 7.9,
+      "end": 8.08
+    },
+    {
+      "word": "The",
+      "start": 8.26,
+      "end": 8.44
+    },
+    {
+      "word": "man,",
+      "start": 8.44,
+      "end": 8.84
+    },
+    {
+      "word": "which",
+      "start": 9.0,
+      "end": 9.2
+    },
+    {
+      "word": "I",
+      "start": 9.2,
+      "end": 9.38
+    },
+    {
+      "word": "think",
+      "start": 9.38,
+      "end": 9.76
+    },
+    {
+      "word": "a",
+      "start": 9.76,
+      "end": 10.34
+    },
+    {
+      "word": "very",
+      "start": 10.34,
+      "end": 10.88
+    },
+    {
+      "word": "healthy,",
+      "start": 10.88,
+      "end": 11.36
+    },
+    {
+      "word": "very",
+      "start": 11.92,
+      "end": 12.2
+    },
+    {
+      "word": "mature",
+      "start": 12.2,
+      "end": 13.16
+    },
+    {
+      "word": "man",
+      "start": 13.16,
+      "end": 13.96
+    },
+    {
+      "word": "will",
+      "start": 13.96,
+      "end": 14.56
+    },
+    {
+      "word": "test",
+      "start": 14.56,
+      "end": 14.98
+    },
+    {
+      "word": "you",
+      "start": 14.98,
+      "end": 15.16
+    },
+    {
+      "word": "first",
+      "start": 15.16,
+      "end": 15.56
+    },
+    {
+      "word": "until",
+      "start": 15.56,
+      "end": 16.26
+    },
+    {
+      "word": "he",
+      "start": 16.26,
+      "end": 16.84
+    },
+    {
+      "word": "will",
+      "start": 16.84,
+      "end": 17.0
+    },
+    {
+      "word": "reveal",
+      "start": 17.0,
+      "end": 17.4
+    },
+    {
+      "word": "the",
+      "start": 17.4,
+      "end": 17.66
+    },
+    {
+      "word": "truth",
+      "start": 17.66,
+      "end": 17.94
+    },
+    {
+      "word": "to",
+      "start": 17.94,
+      "end": 18.28
+    },
+    {
+      "word": "you,",
+      "start": 18.28,
+      "end": 18.52
+    },
+    {
+      "word": "right?",
+      "start": 18.58,
+      "end": 18.8
+    },
+    {
+      "word": "I",
+      "start": 19.08,
+      "end": 19.08
+    },
+    {
+      "word": "think",
+      "start": 19.08,
+      "end": 19.22
+    },
+    {
+      "word": "the",
+      "start": 19.22,
+      "end": 19.34
+    },
+    {
+      "word": "really",
+      "start": 19.34,
+      "end": 19.58
+    },
+    {
+      "word": "interesting",
+      "start": 19.58,
+      "end": 19.98
+    },
+    {
+      "word": "thing",
+      "start": 19.98,
+      "end": 20.2
+    },
+    {
+      "word": "when",
+      "start": 20.2,
+      "end": 20.36
+    },
+    {
+      "word": "I",
+      "start": 20.36,
+      "end": 20.46
+    },
+    {
+      "word": "would",
+      "start": 20.46,
+      "end": 20.56
+    },
+    {
+      "word": "meet",
+      "start": 20.56,
+      "end": 20.76
+    },
+    {
+      "word": "someone",
+      "start": 20.76,
+      "end": 21.14
+    },
+    {
+      "word": "who",
+      "start": 21.14,
+      "end": 21.64
+    },
+    {
+      "word": "couldn't",
+      "start": 21.64,
+      "end": 22.1
+    },
+    {
+      "word": "have",
+      "start": 22.1,
+      "end": 22.42
+    },
+    {
+      "word": "open,",
+      "start": 22.42,
+      "end": 22.96
+    },
+    {
+      "word": "raw,",
+      "start": 23.32,
+      "end": 23.96
+    },
+    {
+      "word": "radically",
+      "start": 24.22,
+      "end": 24.98
+    },
+    {
+      "word": "honest",
+      "start": 24.98,
+      "end": 25.62
+    },
+    {
+      "word": "conversation",
+      "start": 25.62,
+      "end": 26.5
+    },
+    {
+      "word": "to",
+      "start": 26.5,
+      "end": 26.88
+    },
+    {
+      "word": "begin",
+      "start": 26.88,
+      "end": 27.12
+    },
+    {
+      "word": "with,",
+      "start": 27.12,
+      "end": 27.46
+    },
+    {
+      "word": "whether",
+      "start": 27.5,
+      "end": 27.68
+    },
+    {
+      "word": "it's",
+      "start": 27.68,
+      "end": 27.96
+    },
+    {
+      "word": "about",
+      "start": 27.96,
+      "end": 28.2
+    },
+    {
+      "word": "their",
+      "start": 28.2,
+      "end": 28.34
+    },
+    {
+      "word": "intellect,",
+      "start": 28.34,
+      "end": 28.8
+    },
+    {
+      "word": "whether",
+      "start": 28.8,
+      "end": 29.2
+    },
+    {
+      "word": "it's",
+      "start": 29.2,
+      "end": 29.38
+    },
+    {
+      "word": "about",
+      "start": 29.38,
+      "end": 29.7
+    },
+    {
+      "word": "subjects",
+      "start": 29.7,
+      "end": 30.4
+    },
+    {
+      "word": "they're",
+      "start": 30.4,
+      "end": 30.74
+    },
+    {
+      "word": "passionate",
+      "start": 30.74,
+      "end": 31.1
+    },
+    {
+      "word": "about",
+      "start": 31.1,
+      "end": 31.6
+    },
+    {
+      "word": "and",
+      "start": 31.6,
+      "end": 31.86
+    },
+    {
+      "word": "especially",
+      "start": 31.86,
+      "end": 32.46
+    },
+    {
+      "word": "conversations",
+      "start": 32.46,
+      "end": 33.18
+    },
+    {
+      "word": "around",
+      "start": 33.18,
+      "end": 33.6
+    },
+    {
+      "word": "sex,",
+      "start": 33.6,
+      "end": 34.02
+    },
+    {
+      "word": "the",
+      "start": 34.32,
+      "end": 34.5
+    },
+    {
+      "word": "really",
+      "start": 34.5,
+      "end": 34.78
+    },
+    {
+      "word": "interesting",
+      "start": 34.78,
+      "end": 35.24
+    },
+    {
+      "word": "thing",
+      "start": 35.24,
+      "end": 35.52
+    },
+    {
+      "word": "for",
+      "start": 35.52,
+      "end": 35.7
+    },
+    {
+      "word": "me",
+      "start": 35.7,
+      "end": 35.86
+    },
+    {
+      "word": "is",
+      "start": 35.86,
+      "end": 36.02
+    },
+    {
+      "word": "that",
+      "start": 36.02,
+      "end": 36.24
+    },
+    {
+      "word": "those",
+      "start": 36.24,
+      "end": 36.46
+    },
+    {
+      "word": "people",
+      "start": 36.46,
+      "end": 36.74
+    },
+    {
+      "word": "who",
+      "start": 36.74,
+      "end": 36.92
+    },
+    {
+      "word": "can't",
+      "start": 36.92,
+      "end": 37.48
+    },
+    {
+      "word": "talk",
+      "start": 37.48,
+      "end": 37.66
+    },
+    {
+      "word": "about",
+      "start": 37.66,
+      "end": 37.94
+    },
+    {
+      "word": "it,",
+      "start": 37.94,
+      "end": 38.16
+    },
+    {
+      "word": "that",
+      "start": 38.24,
+      "end": 38.58
+    },
+    {
+      "word": "would",
+      "start": 38.58,
+      "end": 38.76
+    },
+    {
+      "word": "usually",
+      "start": 38.76,
+      "end": 39.22
+    },
+    {
+      "word": "tell",
+      "start": 39.22,
+      "end": 39.5
+    },
+    {
+      "word": "me",
+      "start": 39.5,
+      "end": 39.62
+    },
+    {
+      "word": "their",
+      "start": 39.62,
+      "end": 39.74
+    },
+    {
+      "word": "intentions",
+      "start": 39.74,
+      "end": 40.18
+    },
+    {
+      "word": "are",
+      "start": 40.18,
+      "end": 40.44
+    },
+    {
+      "word": "somewhere",
+      "start": 40.44,
+      "end": 40.7
+    },
+    {
+      "word": "else",
+      "start": 40.7,
+      "end": 41.08
+    },
+    {
+      "word": "and",
+      "start": 41.08,
+      "end": 41.72
+    },
+    {
+      "word": "their",
+      "start": 41.72,
+      "end": 42.18
+    },
+    {
+      "word": "intentions",
+      "start": 42.18,
+      "end": 42.62
+    },
+    {
+      "word": "usually",
+      "start": 42.62,
+      "end": 43.16
+    },
+    {
+      "word": "revolve",
+      "start": 43.16,
+      "end": 43.7
+    },
+    {
+      "word": "around",
+      "start": 43.7,
+      "end": 44.08
+    },
+    {
+      "word": "the",
+      "start": 44.08,
+      "end": 44.48
+    },
+    {
+      "word": "need",
+      "start": 44.48,
+      "end": 44.7
+    },
+    {
+      "word": "for",
+      "start": 44.7,
+      "end": 44.96
+    },
+    {
+      "word": "some",
+      "start": 44.96,
+      "end": 45.2
+    },
+    {
+      "word": "kind",
+      "start": 45.2,
+      "end": 45.42
+    },
+    {
+      "word": "of",
+      "start": 45.42,
+      "end": 45.72
+    },
+    {
+      "word": "dependent",
+      "start": 45.72,
+      "end": 46.36
+    },
+    {
+      "word": "style",
+      "start": 46.36,
+      "end": 47.1
+    },
+    {
+      "word": "protection",
+      "start": 47.1,
+      "end": 47.76
+    },
+    {
+      "word": "rather",
+      "start": 47.76,
+      "end": 48.24
+    },
+    {
+      "word": "than",
+      "start": 48.24,
+      "end": 48.58
+    },
+    {
+      "word": "actually",
+      "start": 48.58,
+      "end": 49.0
+    },
+    {
+      "word": "wanting",
+      "start": 49.0,
+      "end": 49.32
+    },
+    {
+      "word": "to",
+      "start": 49.32,
+      "end": 49.62
+    },
+    {
+      "word": "be",
+      "start": 49.62,
+      "end": 49.76
+    },
+    {
+      "word": "protected.",
+      "start": 49.76,
+      "end": 50.22
+    },
+    {
+      "word": "For",
+      "start": 50.62,
+      "end": 51.2
+    },
+    {
+      "word": "me,",
+      "start": 51.2,
+      "end": 51.38
+    },
+    {
+      "word": "there's",
+      "start": 51.4,
+      "end": 51.62
+    },
+    {
+      "word": "also",
+      "start": 51.62,
+      "end": 51.84
+    },
+    {
+      "word": "an",
+      "start": 51.84,
+      "end": 51.96
+    },
+    {
+      "word": "element",
+      "start": 51.96,
+      "end": 52.2
+    },
+    {
+      "word": "of",
+      "start": 52.2,
+      "end": 52.56
+    },
+    {
+      "word": "that",
+      "start": 52.56,
+      "end": 52.82
+    },
+    {
+      "word": "initial",
+      "start": 52.82,
+      "end": 53.12
+    },
+    {
+      "word": "excitement",
+      "start": 53.12,
+      "end": 53.8
+    },
+    {
+      "word": "and",
+      "start": 53.8,
+      "end": 54.02
+    },
+    {
+      "word": "attraction.",
+      "start": 54.02,
+      "end": 54.42
+    },
+    {
+      "word": "Is",
+      "start": 54.72,
+      "end": 54.94
+    },
+    {
+      "word": "that",
+      "start": 54.94,
+      "end": 55.08
+    },
+    {
+      "word": "person",
+      "start": 55.08,
+      "end": 55.42
+    },
+    {
+      "word": "going",
+      "start": 55.42,
+      "end": 55.76
+    },
+    {
+      "word": "to",
+      "start": 55.76,
+      "end": 56.08
+    },
+    {
+      "word": "come",
+      "start": 56.08,
+      "end": 56.26
+    },
+    {
+      "word": "back?",
+      "start": 56.26,
+      "end": 56.46
+    },
+    {
+      "word": "Are",
+      "start": 56.58,
+      "end": 56.62
+    },
+    {
+      "word": "they",
+      "start": 56.62,
+      "end": 56.76
+    },
+    {
+      "word": "going",
+      "start": 56.76,
+      "end": 56.88
+    },
+    {
+      "word": "to",
+      "start": 56.88,
+      "end": 56.98
+    },
+    {
+      "word": "make",
+      "start": 56.98,
+      "end": 57.2
+    },
+    {
+      "word": "the",
+      "start": 57.2,
+      "end": 57.42
+    },
+    {
+      "word": "effort",
+      "start": 57.42,
+      "end": 57.76
+    },
+    {
+      "word": "to",
+      "start": 57.76,
+      "end": 58.24
+    },
+    {
+      "word": "continue",
+      "start": 58.24,
+      "end": 58.86
+    },
+    {
+      "word": "to",
+      "start": 58.86,
+      "end": 59.12
+    },
+    {
+      "word": "escalate",
+      "start": 59.12,
+      "end": 59.7
+    },
+    {
+      "word": "the",
+      "start": 59.7,
+      "end": 59.8
+    },
+    {
+      "word": "conversation",
+      "start": 59.8,
+      "end": 60.4
+    },
+    {
+      "word": "sentence",
+      "start": 60.4,
+      "end": 61.18
+    },
+    {
+      "word": "by",
+      "start": 61.18,
+      "end": 61.52
+    },
+    {
+      "word": "sentence,",
+      "start": 61.52,
+      "end": 61.96
+    },
+    {
+      "word": "give",
+      "start": 61.96,
+      "end": 62.56
+    },
+    {
+      "word": "you",
+      "start": 62.56,
+      "end": 62.74
+    },
+    {
+      "word": "a",
+      "start": 62.74,
+      "end": 62.88
+    },
+    {
+      "word": "little",
+      "start": 62.88,
+      "end": 63.04
+    },
+    {
+      "word": "more",
+      "start": 63.04,
+      "end": 63.34
+    },
+    {
+      "word": "each",
+      "start": 63.34,
+      "end": 63.56
+    },
+    {
+      "word": "time,",
+      "start": 63.56,
+      "end": 63.88
+    },
+    {
+      "word": "reveal",
+      "start": 64.08,
+      "end": 64.46
+    },
+    {
+      "word": "more",
+      "start": 64.46,
+      "end": 64.76
+    },
+    {
+      "word": "of",
+      "start": 64.76,
+      "end": 64.9
+    },
+    {
+      "word": "themselves?",
+      "start": 64.9,
+      "end": 65.3
+    },
+    {
+      "word": "Are",
+      "start": 65.88,
+      "end": 66.02
+    },
+    {
+      "word": "they",
+      "start": 66.02,
+      "end": 66.3
+    },
+    {
+      "word": "going",
+      "start": 66.3,
+      "end": 66.52
+    },
+    {
+      "word": "to",
+      "start": 66.52,
+      "end": 66.7
+    },
+    {
+      "word": "keep",
+      "start": 66.7,
+      "end": 66.88
+    },
+    {
+      "word": "coming",
+      "start": 66.88,
+      "end": 67.16
+    },
+    {
+      "word": "back?",
+      "start": 67.16,
+      "end": 67.46
+    }
+  ]
+}

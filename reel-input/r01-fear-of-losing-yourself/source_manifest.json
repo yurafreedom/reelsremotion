@@ -1,0 +1,863 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "R01",
+  "slug": "r01-fear-of-losing-yourself",
+  "title": "Fear of Losing Yourself",
+  "stage": "series-production-candidate",
+  "approval_status": "HUMAN_SOURCE_APPROVED; SERIES_PRODUCTION_CANDIDATE_AUTHORIZED",
+  "source_authority": {
+    "source_video": "video1219377731.mp4",
+    "native_asr_word_timing": "transcripts/video1219377731/asr_video1219377731.json",
+    "native_srt": "transcripts/video1219377731/subtitles_native.srt",
+    "english_translation_srt": "transcripts/video1219377731/subtitles_en.srt",
+    "contextual_english_to_russian": "transcripts/video1219377731/en_spans_ru.json",
+    "prose_transcripts": "semantic search only; never timing authority"
+  },
+  "source_media": {
+    "duration_seconds": 13974.421333,
+    "video": "h264 1280x720 25fps yuv420p",
+    "audio": "aac stereo 48000Hz",
+    "source_untouched": true
+  },
+  "clips": [
+    {
+      "id": "r01-hook-loss",
+      "role": "hook",
+      "source_video": "video1219377731.mp4",
+      "source_start": 1041,
+      "source_end": 1064.46,
+      "source_start_tc": "00:17:21.000",
+      "source_end_tc": "00:17:44.460",
+      "extracted_duration_expected": 23.46,
+      "output_path": "reel-input/r01-fear-of-losing-yourself/public/clips/001_hook.mp4",
+      "extraction_mode": "exact-reencode",
+      "languages": [
+        "ru"
+      ],
+      "speaker": "Russian-speaking host, likely Evgeniia",
+      "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+      "source_quote": "когда очень много чувств, когда очень много страха потерять человека, ты начинаешь подстраиваться. Я думаю, что вам всем это знакомо, чувство, правда? И в этом подстраивании ты просто теряешь себя, потеряешь путь, куда вы движетесь, и все начинает рушиться, поэтому я так люблю с момента",
+      "source_subtitles": [
+        {
+          "id": 259,
+          "start": 1041,
+          "end": 1048.22,
+          "start_tc": "00:17:21.000",
+          "end_tc": "00:17:28.220",
+          "language": "ru",
+          "text": "когда очень много чувств, когда очень много страха потерять человека, ты начинаешь подстраиваться.",
+          "words": [
+            {
+              "word": "когда",
+              "start": 1041,
+              "end": 1041.18
+            },
+            {
+              "word": "очень",
+              "start": 1041.18,
+              "end": 1041.98
+            },
+            {
+              "word": "много",
+              "start": 1041.98,
+              "end": 1042.22
+            },
+            {
+              "word": "чувств,",
+              "start": 1042.22,
+              "end": 1042.54
+            },
+            {
+              "word": "когда",
+              "start": 1042.9,
+              "end": 1043.08
+            },
+            {
+              "word": "очень",
+              "start": 1043.08,
+              "end": 1043.4
+            },
+            {
+              "word": "много",
+              "start": 1043.4,
+              "end": 1043.72
+            },
+            {
+              "word": "страха",
+              "start": 1043.72,
+              "end": 1044.52
+            },
+            {
+              "word": "потерять",
+              "start": 1044.52,
+              "end": 1044.94
+            },
+            {
+              "word": "человека,",
+              "start": 1044.94,
+              "end": 1045.38
+            },
+            {
+              "word": "ты",
+              "start": 1046.1,
+              "end": 1046.86
+            },
+            {
+              "word": "начинаешь",
+              "start": 1046.86,
+              "end": 1047.42
+            },
+            {
+              "word": "подстраиваться.",
+              "start": 1047.42,
+              "end": 1048.22
+            }
+          ]
+        },
+        {
+          "id": 260,
+          "start": 1048.5,
+          "end": 1053.1,
+          "start_tc": "00:17:28.500",
+          "end_tc": "00:17:33.100",
+          "language": "ru",
+          "text": "Я думаю, что вам всем это знакомо, чувство, правда? И в этом подстраивании ты просто",
+          "words": [
+            {
+              "word": "Я",
+              "start": 1048.5,
+              "end": 1048.56
+            },
+            {
+              "word": "думаю,",
+              "start": 1048.56,
+              "end": 1048.72
+            },
+            {
+              "word": "что",
+              "start": 1048.74,
+              "end": 1048.96
+            },
+            {
+              "word": "вам",
+              "start": 1048.96,
+              "end": 1049.12
+            },
+            {
+              "word": "всем",
+              "start": 1049.12,
+              "end": 1049.38
+            },
+            {
+              "word": "это",
+              "start": 1049.38,
+              "end": 1049.62
+            },
+            {
+              "word": "знакомо,",
+              "start": 1049.62,
+              "end": 1050.08
+            },
+            {
+              "word": "чувство,",
+              "start": 1050.18,
+              "end": 1050.42
+            },
+            {
+              "word": "правда?",
+              "start": 1050.48,
+              "end": 1050.66
+            },
+            {
+              "word": "И",
+              "start": 1051.42,
+              "end": 1051.56
+            },
+            {
+              "word": "в",
+              "start": 1051.56,
+              "end": 1051.82
+            },
+            {
+              "word": "этом",
+              "start": 1051.82,
+              "end": 1051.96
+            },
+            {
+              "word": "подстраивании",
+              "start": 1051.96,
+              "end": 1052.64
+            },
+            {
+              "word": "ты",
+              "start": 1052.64,
+              "end": 1052.84
+            },
+            {
+              "word": "просто",
+              "start": 1052.84,
+              "end": 1053.1
+            }
+          ]
+        },
+        {
+          "id": 261,
+          "start": 1053.1,
+          "end": 1064.46,
+          "start_tc": "00:17:33.100",
+          "end_tc": "00:17:44.460",
+          "language": "ru",
+          "text": "теряешь себя, потеряешь путь, куда вы движетесь, и все начинает рушиться, поэтому я так люблю с момента",
+          "words": [
+            {
+              "word": "теряешь",
+              "start": 1053.1,
+              "end": 1053.56
+            },
+            {
+              "word": "себя,",
+              "start": 1053.56,
+              "end": 1053.82
+            },
+            {
+              "word": "потеряешь",
+              "start": 1054.4,
+              "end": 1054.88
+            },
+            {
+              "word": "путь,",
+              "start": 1054.88,
+              "end": 1057.2
+            },
+            {
+              "word": "куда",
+              "start": 1057.24,
+              "end": 1057.44
+            },
+            {
+              "word": "вы",
+              "start": 1057.44,
+              "end": 1057.56
+            },
+            {
+              "word": "движетесь,",
+              "start": 1057.56,
+              "end": 1058.16
+            },
+            {
+              "word": "и",
+              "start": 1058.32,
+              "end": 1058.36
+            },
+            {
+              "word": "все",
+              "start": 1058.36,
+              "end": 1058.54
+            },
+            {
+              "word": "начинает",
+              "start": 1058.54,
+              "end": 1058.96
+            },
+            {
+              "word": "рушиться,",
+              "start": 1058.96,
+              "end": 1059.36
+            },
+            {
+              "word": "поэтому",
+              "start": 1059.52,
+              "end": 1059.88
+            },
+            {
+              "word": "я",
+              "start": 1059.88,
+              "end": 1061.04
+            },
+            {
+              "word": "так",
+              "start": 1061.04,
+              "end": 1061.2
+            },
+            {
+              "word": "люблю",
+              "start": 1061.2,
+              "end": 1061.52
+            },
+            {
+              "word": "с",
+              "start": 1061.52,
+              "end": 1063.2
+            },
+            {
+              "word": "момента",
+              "start": 1063.2,
+              "end": 1064.46
+            }
+          ]
+        }
+      ],
+      "boundary_flags": {
+        "start_inside_subtitle": false,
+        "end_inside_subtitle": false
+      },
+      "linguistic_boundary_note": "starts on 'когда' and ends mid-thought before the proposed solution; intended as a deliberate problem block.",
+      "include_reason": "Contains the complete fear → adapting → losing yourself causal chain.",
+      "removable_filler": "Segment 260's audience aside may be removed only after an audio-safe jump-cut review.",
+      "visual_qc": "REVIEW_REQUIRED_AT_EXACT_EDGES",
+      "display_ru": {
+        "kind": "native-source-proposal",
+        "alignment": "native ASR word timing available; verify ASR errors by ear",
+        "provenance": "transcripts/video1219377731/asr_video1219377731.json",
+        "text": "когда очень много чувств, когда очень много страха потерять человека, ты начинаешь подстраиваться. Я думаю, что вам всем это знакомо, чувство, правда? И в этом подстраивании ты просто теряешь себя, теряешь путь, куда вы движетесь, и все начинает рушиться, поэтому я так люблю с момента"
+      },
+      "translation_groups": [],
+      "human_review": {
+        "audio_review": "APPROVED",
+        "start_edge": "APPROVED",
+        "end_edge": "APPROVED; final heard text: с момента",
+        "corrections": [
+          {
+            "id": "C01",
+            "decision": "ACCEPT",
+            "approved_source_text": "теряешь"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r01-clarity-ground",
+      "role": "payoff",
+      "source_video": "video1219377731.mp4",
+      "source_start": 1064.46,
+      "source_end": 1104.2,
+      "source_start_tc": "00:17:44.460",
+      "source_end_tc": "00:18:24.200",
+      "extracted_duration_expected": 39.74,
+      "output_path": "reel-input/r01-fear-of-losing-yourself/public/clips/002_payoff.mp4",
+      "extraction_mode": "exact-reencode",
+      "languages": [
+        "ru"
+      ],
+      "speaker": "Russian-speaking host, likely Evgeniia",
+      "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+      "source_quote": "открытия для себя динамики четкое проговаривание контракта, четкое проговаривание концента, четкое проговаривание куда мы движемся, потому что именно это дает четкость и понятность. И это же можно применять в обычной повсеместной жизни. Вы получите в рамках клуба ощущения, вот этой частоты, вот этого чувства, как это стоять на своей земле, не защищая позиции, не воюя за это, а просто оставаясь в своем центре. Вот это самое главное, что вы получите, и это будет как импринт вашего ощущения, которое вы понесете в жизнь.",
+      "source_subtitles": [
+        {
+          "id": 262,
+          "start": 1064.46,
+          "end": 1070.72,
+          "start_tc": "00:17:44.460",
+          "end_tc": "00:17:50.720",
+          "language": "ru",
+          "text": "открытия для себя динамики четкое проговаривание контракта, четкое проговаривание концента,",
+          "words": [
+            {
+              "word": "открытия",
+              "start": 1064.46,
+              "end": 1065.64
+            },
+            {
+              "word": "для",
+              "start": 1065.64,
+              "end": 1065.76
+            },
+            {
+              "word": "себя",
+              "start": 1065.76,
+              "end": 1065.98
+            },
+            {
+              "word": "динамики",
+              "start": 1065.98,
+              "end": 1066.48
+            },
+            {
+              "word": "четкое",
+              "start": 1066.48,
+              "end": 1066.92
+            },
+            {
+              "word": "проговаривание",
+              "start": 1066.92,
+              "end": 1067.78
+            },
+            {
+              "word": "контракта,",
+              "start": 1067.78,
+              "end": 1068.9
+            },
+            {
+              "word": "четкое",
+              "start": 1069.1,
+              "end": 1069.5
+            },
+            {
+              "word": "проговаривание",
+              "start": 1069.5,
+              "end": 1070.26
+            },
+            {
+              "word": "концента,",
+              "start": 1070.26,
+              "end": 1070.72
+            }
+          ]
+        },
+        {
+          "id": 263,
+          "start": 1070.98,
+          "end": 1076.22,
+          "start_tc": "00:17:50.980",
+          "end_tc": "00:17:56.220",
+          "language": "ru",
+          "text": "четкое проговаривание куда мы движемся, потому что именно это дает четкость и",
+          "words": [
+            {
+              "word": "четкое",
+              "start": 1070.98,
+              "end": 1071.32
+            },
+            {
+              "word": "проговаривание",
+              "start": 1071.32,
+              "end": 1071.94
+            },
+            {
+              "word": "куда",
+              "start": 1071.94,
+              "end": 1072.26
+            },
+            {
+              "word": "мы",
+              "start": 1072.26,
+              "end": 1072.66
+            },
+            {
+              "word": "движемся,",
+              "start": 1072.66,
+              "end": 1073.36
+            },
+            {
+              "word": "потому",
+              "start": 1073.7,
+              "end": 1074.04
+            },
+            {
+              "word": "что",
+              "start": 1074.04,
+              "end": 1074.28
+            },
+            {
+              "word": "именно",
+              "start": 1074.28,
+              "end": 1074.6
+            },
+            {
+              "word": "это",
+              "start": 1074.6,
+              "end": 1074.94
+            },
+            {
+              "word": "дает",
+              "start": 1074.94,
+              "end": 1075.26
+            },
+            {
+              "word": "четкость",
+              "start": 1075.26,
+              "end": 1076
+            },
+            {
+              "word": "и",
+              "start": 1076,
+              "end": 1076.22
+            }
+          ]
+        },
+        {
+          "id": 264,
+          "start": 1076.22,
+          "end": 1082.04,
+          "start_tc": "00:17:56.220",
+          "end_tc": "00:18:02.040",
+          "language": "ru",
+          "text": "понятность. И это же можно применять в обычной повсеместной жизни. Вы получите в",
+          "words": [
+            {
+              "word": "понятность.",
+              "start": 1076.22,
+              "end": 1076.84
+            },
+            {
+              "word": "И",
+              "start": 1077.32,
+              "end": 1077.56
+            },
+            {
+              "word": "это",
+              "start": 1077.56,
+              "end": 1077.84
+            },
+            {
+              "word": "же",
+              "start": 1077.84,
+              "end": 1077.96
+            },
+            {
+              "word": "можно",
+              "start": 1077.96,
+              "end": 1078.18
+            },
+            {
+              "word": "применять",
+              "start": 1078.18,
+              "end": 1078.82
+            },
+            {
+              "word": "в",
+              "start": 1078.82,
+              "end": 1079.24
+            },
+            {
+              "word": "обычной",
+              "start": 1079.24,
+              "end": 1079.9
+            },
+            {
+              "word": "повсеместной",
+              "start": 1079.9,
+              "end": 1080.5
+            },
+            {
+              "word": "жизни.",
+              "start": 1080.5,
+              "end": 1080.82
+            },
+            {
+              "word": "Вы",
+              "start": 1081.18,
+              "end": 1081.34
+            },
+            {
+              "word": "получите",
+              "start": 1081.34,
+              "end": 1081.9
+            },
+            {
+              "word": "в",
+              "start": 1081.9,
+              "end": 1082.04
+            }
+          ]
+        },
+        {
+          "id": 265,
+          "start": 1082.04,
+          "end": 1089.22,
+          "start_tc": "00:18:02.040",
+          "end_tc": "00:18:09.220",
+          "language": "ru",
+          "text": "рамках клуба ощущения, вот этой частоты, вот этого чувства, как это стоять на своей земле,",
+          "words": [
+            {
+              "word": "рамках",
+              "start": 1082.04,
+              "end": 1082.26
+            },
+            {
+              "word": "клуба",
+              "start": 1082.26,
+              "end": 1082.56
+            },
+            {
+              "word": "ощущения,",
+              "start": 1082.56,
+              "end": 1083.18
+            },
+            {
+              "word": "вот",
+              "start": 1083.5,
+              "end": 1084.02
+            },
+            {
+              "word": "этой",
+              "start": 1084.02,
+              "end": 1084.24
+            },
+            {
+              "word": "частоты,",
+              "start": 1084.24,
+              "end": 1085.36
+            },
+            {
+              "word": "вот",
+              "start": 1085.48,
+              "end": 1085.58
+            },
+            {
+              "word": "этого",
+              "start": 1085.58,
+              "end": 1085.8
+            },
+            {
+              "word": "чувства,",
+              "start": 1085.8,
+              "end": 1086.44
+            },
+            {
+              "word": "как",
+              "start": 1086.56,
+              "end": 1086.74
+            },
+            {
+              "word": "это",
+              "start": 1086.74,
+              "end": 1086.98
+            },
+            {
+              "word": "стоять",
+              "start": 1086.98,
+              "end": 1087.4
+            },
+            {
+              "word": "на",
+              "start": 1087.4,
+              "end": 1087.72
+            },
+            {
+              "word": "своей",
+              "start": 1087.72,
+              "end": 1088.06
+            },
+            {
+              "word": "земле,",
+              "start": 1088.06,
+              "end": 1089.22
+            }
+          ]
+        },
+        {
+          "id": 266,
+          "start": 1089.94,
+          "end": 1098.06,
+          "start_tc": "00:18:09.940",
+          "end_tc": "00:18:18.060",
+          "language": "ru",
+          "text": "не защищая позиции, не воюя за это, а просто оставаясь в своем центре. Вот это самое главное,",
+          "words": [
+            {
+              "word": "не",
+              "start": 1089.94,
+              "end": 1090.54
+            },
+            {
+              "word": "защищая",
+              "start": 1090.54,
+              "end": 1091.14
+            },
+            {
+              "word": "позиции,",
+              "start": 1091.14,
+              "end": 1091.72
+            },
+            {
+              "word": "не",
+              "start": 1092.04,
+              "end": 1092.04
+            },
+            {
+              "word": "воюя",
+              "start": 1092.04,
+              "end": 1093.58
+            },
+            {
+              "word": "за",
+              "start": 1093.58,
+              "end": 1093.78
+            },
+            {
+              "word": "это,",
+              "start": 1093.78,
+              "end": 1093.92
+            },
+            {
+              "word": "а",
+              "start": 1094.02,
+              "end": 1094.14
+            },
+            {
+              "word": "просто",
+              "start": 1094.14,
+              "end": 1094.48
+            },
+            {
+              "word": "оставаясь",
+              "start": 1094.48,
+              "end": 1095.52
+            },
+            {
+              "word": "в",
+              "start": 1095.52,
+              "end": 1095.72
+            },
+            {
+              "word": "своем",
+              "start": 1095.72,
+              "end": 1096.02
+            },
+            {
+              "word": "центре.",
+              "start": 1096.02,
+              "end": 1096.52
+            },
+            {
+              "word": "Вот",
+              "start": 1096.96,
+              "end": 1097.06
+            },
+            {
+              "word": "это",
+              "start": 1097.06,
+              "end": 1097.26
+            },
+            {
+              "word": "самое",
+              "start": 1097.26,
+              "end": 1097.6
+            },
+            {
+              "word": "главное,",
+              "start": 1097.6,
+              "end": 1098.06
+            }
+          ]
+        },
+        {
+          "id": 267,
+          "start": 1098.1,
+          "end": 1104.2,
+          "start_tc": "00:18:18.100",
+          "end_tc": "00:18:24.200",
+          "language": "ru",
+          "text": "что вы получите, и это будет как импринт вашего ощущения, которое вы понесете в жизнь.",
+          "words": [
+            {
+              "word": "что",
+              "start": 1098.1,
+              "end": 1098.3
+            },
+            {
+              "word": "вы",
+              "start": 1098.3,
+              "end": 1098.42
+            },
+            {
+              "word": "получите,",
+              "start": 1098.42,
+              "end": 1098.94
+            },
+            {
+              "word": "и",
+              "start": 1099.44,
+              "end": 1099.6
+            },
+            {
+              "word": "это",
+              "start": 1099.6,
+              "end": 1099.88
+            },
+            {
+              "word": "будет",
+              "start": 1099.88,
+              "end": 1100.1
+            },
+            {
+              "word": "как",
+              "start": 1100.1,
+              "end": 1100.4
+            },
+            {
+              "word": "импринт",
+              "start": 1100.4,
+              "end": 1101.16
+            },
+            {
+              "word": "вашего",
+              "start": 1101.16,
+              "end": 1101.92
+            },
+            {
+              "word": "ощущения,",
+              "start": 1101.92,
+              "end": 1102.86
+            },
+            {
+              "word": "которое",
+              "start": 1102.94,
+              "end": 1103.18
+            },
+            {
+              "word": "вы",
+              "start": 1103.18,
+              "end": 1103.38
+            },
+            {
+              "word": "понесете",
+              "start": 1103.38,
+              "end": 1103.84
+            },
+            {
+              "word": "в",
+              "start": 1103.84,
+              "end": 1104
+            },
+            {
+              "word": "жизнь.",
+              "start": 1104,
+              "end": 1104.2
+            }
+          ]
+        }
+      ],
+      "boundary_flags": {
+        "start_inside_subtitle": false,
+        "end_inside_subtitle": false
+      },
+      "linguistic_boundary_note": "continues directly from the preceding problem block and ends at a complete stated payoff.",
+      "include_reason": "Names contract/consent/direction as structure and closes on standing on one's own ground and remaining centered.",
+      "removable_filler": "The club-specific sentence beginning in segment 264 may be shortened only if the grammatical bridge is repaired transparently.",
+      "visual_qc": "REVIEW_REQUIRED_AT_EXACT_EDGES",
+      "display_ru": {
+        "kind": "native-source-proposal",
+        "alignment": "native ASR word timing available; verify ASR errors by ear",
+        "provenance": "transcripts/video1219377731/asr_video1219377731.json",
+        "text": "открытия для себя динамики четкое проговаривание контракта, четкое проговаривание консента, четкое проговаривание куда мы движемся, потому что именно это дает четкость и понятность. И это же можно применять в обычной повседневной жизни. Вы получите в рамках клуба ощущения, вот этой частоты, вот этого чувства, как это стоять на своей земле, не защищая позиции, не воюя за это, а просто оставаясь в своем центре. Вот это самое главное, что вы получите, и это будет как импринт вашего ощущения, которое вы понесете в жизнь."
+      },
+      "translation_groups": [],
+      "human_review": {
+        "audio_review": "APPROVED",
+        "start_edge": "APPROVED",
+        "end_edge": "APPROVED",
+        "corrections": [
+          {
+            "id": "C02",
+            "decision": "ACCEPT",
+            "approved_source_text": "консента",
+            "approved_display_text": "консента"
+          }
+        ]
+      }
+    }
+  ],
+  "human_decision_batch": {
+    "applied_at": "2026-08-21",
+    "artifact": "reel-input/HUMAN_EDITORIAL_DECISIONS.md",
+    "canonical_episode_asr_modified": false
+  },
+  "series_production": {
+    "width_aware_layout": true,
+    "canonical_episode_asr_modified": false,
+    "master_source_modified": false
+  }
+}

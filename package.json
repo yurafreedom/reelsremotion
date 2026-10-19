@@ -1,0 +1,49 @@
+{
+  "name": "reels-remotion",
+  "version": "1.0.0",
+  "description": "Data-driven vertical subtitle renderer for Instagram Reels (Remotion v4)",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "compositions": "remotion compositions src/index.ts",
+    "render": "remotion render src/index.ts Reels out/video.mp4",
+    "render:reel": "node compose/run.mjs compose/render_reel.ts",
+    "reel:prepare": "node scripts/reel-pipeline.mjs prepare",
+    "reel:quote": "node scripts/reel-pipeline.mjs quote",
+    "reel:preproduction": "node scripts/reel-pipeline.mjs preproduction",
+    "reel:extract": "node scripts/reel-pipeline.mjs extract",
+    "reel:broll": "node scripts/reel-pipeline.mjs broll",
+    "reel:timeline": "node scripts/reel-pipeline.mjs timeline",
+    "reel:validate": "node scripts/reel-pipeline.mjs validate",
+    "reel:render": "node scripts/reel-pipeline.mjs render",
+    "upgrade": "remotion upgrade",
+    "test:kf": "node_modules/.bin/esbuild src/keyframes.test.ts --bundle --platform=node --format=cjs | node",
+    "test:iokf": "node_modules/.bin/esbuild editor/src/io.kf.test.ts --bundle --platform=node --format=cjs | node",
+    "test:kfedits": "node_modules/.bin/esbuild editor/src/keyframes/kfEdits.test.ts --bundle --platform=node --format=cjs --alias:@engine=./src | node",
+    "test:seam": "node_modules/.bin/esbuild editor/src/keyframes/buildEdited.ts --bundle --platform=node --format=cjs --alias:@engine=./src | node",
+    "test:cut": "node_modules/.bin/esbuild editor/src/cut.test.ts --bundle --platform=node --format=cjs --alias:@engine=./src | node",
+    "test:io": "node click-tool/roundtrip.test.cjs",
+    "test:sdk": "node compose/run.mjs compose/sdk.test.ts",
+    "test:migrate": "node compose/run.mjs compose/migrateV3.check.ts",
+    "test:word-reveal": "node compose/run.mjs compose/cumulativeWordReveal.check.ts",
+    "test": "npm run test:kf && npm run test:iokf && npm run test:kfedits && npm run test:seam && npm run test:cut && npm run test:io && npm run test:sdk && npm run test:migrate",
+    "compose": "node compose/run.mjs",
+    "check": "node compose/run.mjs compose/check.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.483",
+    "@remotion/google-fonts": "4.0.483",
+    "@remotion/transitions": "^4.0.483",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.483"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "sharp": "^0.35.2",
+    "typescript": "5.7.3",
+    "vite": "^6.4.3"
+  }
+}

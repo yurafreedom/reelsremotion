@@ -1,0 +1,955 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "R04",
+  "slug": "r04-compromise-vs-consensus",
+  "title": "Compromise vs Consensus",
+  "stage": "series-production-candidate",
+  "approval_status": "HUMAN_SOURCE_APPROVED; SERIES_PRODUCTION_CANDIDATE_AUTHORIZED",
+  "final_human_gate": {
+    "compact_candidate_a": "APPROVED",
+    "recommended_edit": "COMPACT_CANDIDATE_A",
+    "preview": "scratch_check/final_human_gate/r04/r04_compact_candidate_A.mp4",
+    "practical_source_pieces": [
+      {
+        "start": 2836.37,
+        "end": 2836.59,
+        "text": "Мы"
+      },
+      {
+        "start": 2837.95,
+        "end": 2845.49,
+        "text": "пытались как-то договориться... и это не работало"
+      }
+    ],
+    "principle_clean_start": 2353.24,
+    "principle_clean_start_tc": "00:39:13.240",
+    "final_timeline_authorized": false
+  },
+  "source_authority": {
+    "source_video": "video1219377731.mp4",
+    "native_asr_word_timing": "transcripts/video1219377731/asr_video1219377731.json",
+    "native_srt": "transcripts/video1219377731/subtitles_native.srt",
+    "english_translation_srt": "transcripts/video1219377731/subtitles_en.srt",
+    "contextual_english_to_russian": "transcripts/video1219377731/en_spans_ru.json",
+    "prose_transcripts": "semantic search only; never timing authority"
+  },
+  "source_media": {
+    "duration_seconds": 13974.421333,
+    "video": "h264 1280x720 25fps yuv420p",
+    "audio": "aac stereo 48000Hz",
+    "source_untouched": true
+  },
+  "clips": [
+    {
+      "id": "r04-principle",
+      "role": "principle",
+      "source_video": "video1219377731.mp4",
+      "source_start": 2346.5,
+      "source_end": 2386.22,
+      "source_start_tc": "00:39:06.500",
+      "source_end_tc": "00:39:46.220",
+      "extracted_duration_expected": 39.72,
+      "output_path": "reel-input/r04-compromise-vs-consensus/public/clips/001_principle.mp4",
+      "extraction_mode": "exact-reencode",
+      "languages": [
+        "ru"
+      ],
+      "speaker": "Russian-speaking host, likely Evgeniia",
+      "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+      "source_quote": "то есть мы можем прийти консенсуса только... только консенсуса мы не можем прийти компромиссу, то есть компромисс это всегда у нас разрушающая история, вот яction я себя придаю если я иду на компромисс или он себе предает если мы идётבעon и только консенсус, как третья. Да, вот помните, кто у меня в тантре конюнктео? Вот эта история, когда встречаются две противоположности и выдерживая интенсивность, они рождают что-то третье. И вот у нас всегда так.",
+      "source_subtitles": [
+        {
+          "id": 402,
+          "start": 2346.5,
+          "end": 2358.86,
+          "start_tc": "00:39:06.500",
+          "end_tc": "00:39:18.860",
+          "language": "ru",
+          "text": "то есть мы можем прийти консенсуса только... только консенсуса мы не можем прийти",
+          "words": [
+            {
+              "word": "то",
+              "start": 2346.5,
+              "end": 2346.86
+            },
+            {
+              "word": "есть",
+              "start": 2346.86,
+              "end": 2355
+            },
+            {
+              "word": "мы",
+              "start": 2355,
+              "end": 2355
+            },
+            {
+              "word": "можем",
+              "start": 2355,
+              "end": 2355.36
+            },
+            {
+              "word": "прийти",
+              "start": 2355.36,
+              "end": 2355.68
+            },
+            {
+              "word": "консенсуса",
+              "start": 2355.68,
+              "end": 2356.32
+            },
+            {
+              "word": "только...",
+              "start": 2356.32,
+              "end": 2356.86
+            },
+            {
+              "word": "только",
+              "start": 2356.86,
+              "end": 2357.08
+            },
+            {
+              "word": "консенсуса",
+              "start": 2357.08,
+              "end": 2357.9
+            },
+            {
+              "word": "мы",
+              "start": 2357.9,
+              "end": 2358.24
+            },
+            {
+              "word": "не",
+              "start": 2358.24,
+              "end": 2358.36
+            },
+            {
+              "word": "можем",
+              "start": 2358.36,
+              "end": 2358.56
+            },
+            {
+              "word": "прийти",
+              "start": 2358.56,
+              "end": 2358.86
+            }
+          ]
+        },
+        {
+          "id": 403,
+          "start": 2358.86,
+          "end": 2365.64,
+          "start_tc": "00:39:18.860",
+          "end_tc": "00:39:25.640",
+          "language": "ru",
+          "text": "компромиссу, то есть компромисс это всегда у нас разрушающая история, вот яction я",
+          "words": [
+            {
+              "word": "компромиссу,",
+              "start": 2358.86,
+              "end": 2360.18
+            },
+            {
+              "word": "то",
+              "start": 2360.18,
+              "end": 2360.84
+            },
+            {
+              "word": "есть",
+              "start": 2360.84,
+              "end": 2360.96
+            },
+            {
+              "word": "компромисс",
+              "start": 2360.96,
+              "end": 2361.46
+            },
+            {
+              "word": "это",
+              "start": 2361.46,
+              "end": 2361.68
+            },
+            {
+              "word": "всегда",
+              "start": 2361.68,
+              "end": 2362.08
+            },
+            {
+              "word": "у",
+              "start": 2362.08,
+              "end": 2362.36
+            },
+            {
+              "word": "нас",
+              "start": 2362.36,
+              "end": 2362.52
+            },
+            {
+              "word": "разрушающая",
+              "start": 2362.52,
+              "end": 2363.88
+            },
+            {
+              "word": "история,",
+              "start": 2363.88,
+              "end": 2364.3
+            },
+            {
+              "word": "вот",
+              "start": 2364.3,
+              "end": 2364.58
+            },
+            {
+              "word": "яction",
+              "start": 2364.58,
+              "end": 2365.12
+            },
+            {
+              "word": "я",
+              "start": 2365.12,
+              "end": 2365.64
+            }
+          ]
+        },
+        {
+          "id": 404,
+          "start": 2365.64,
+          "end": 2369.82,
+          "start_tc": "00:39:25.640",
+          "end_tc": "00:39:29.820",
+          "language": "ru",
+          "text": "себя придаю если я иду на компромисс или он себе предает если мы идётבעon",
+          "words": [
+            {
+              "word": "себя",
+              "start": 2365.64,
+              "end": 2366.1
+            },
+            {
+              "word": "придаю",
+              "start": 2366.1,
+              "end": 2366.6
+            },
+            {
+              "word": "если",
+              "start": 2366.6,
+              "end": 2366.84
+            },
+            {
+              "word": "я",
+              "start": 2366.84,
+              "end": 2367.04
+            },
+            {
+              "word": "иду",
+              "start": 2367.04,
+              "end": 2367.2
+            },
+            {
+              "word": "на",
+              "start": 2367.2,
+              "end": 2367.36
+            },
+            {
+              "word": "компромисс",
+              "start": 2367.36,
+              "end": 2367.82
+            },
+            {
+              "word": "или",
+              "start": 2367.82,
+              "end": 2368.1
+            },
+            {
+              "word": "он",
+              "start": 2368.1,
+              "end": 2368.3
+            },
+            {
+              "word": "себе",
+              "start": 2368.3,
+              "end": 2368.5
+            },
+            {
+              "word": "предает",
+              "start": 2368.5,
+              "end": 2368.94
+            },
+            {
+              "word": "если",
+              "start": 2368.94,
+              "end": 2369.3
+            },
+            {
+              "word": "мы",
+              "start": 2369.3,
+              "end": 2369.46
+            },
+            {
+              "word": "идётבעon",
+              "start": 2369.46,
+              "end": 2369.82
+            }
+          ]
+        },
+        {
+          "id": 405,
+          "start": 2369.82,
+          "end": 2377.18,
+          "start_tc": "00:39:29.820",
+          "end_tc": "00:39:37.180",
+          "language": "ru",
+          "text": "и только консенсус, как третья. Да, вот помните, кто у меня в тантре конюнктео? Вот эта история,",
+          "words": [
+            {
+              "word": "и",
+              "start": 2369.82,
+              "end": 2370.66
+            },
+            {
+              "word": "только",
+              "start": 2370.66,
+              "end": 2370.9
+            },
+            {
+              "word": "консенсус,",
+              "start": 2370.9,
+              "end": 2371.6
+            },
+            {
+              "word": "как",
+              "start": 2371.68,
+              "end": 2371.78
+            },
+            {
+              "word": "третья.",
+              "start": 2371.78,
+              "end": 2373.12
+            },
+            {
+              "word": "Да,",
+              "start": 2373.12,
+              "end": 2373.46
+            },
+            {
+              "word": "вот",
+              "start": 2373.56,
+              "end": 2373.64
+            },
+            {
+              "word": "помните,",
+              "start": 2373.64,
+              "end": 2374
+            },
+            {
+              "word": "кто",
+              "start": 2374.1,
+              "end": 2374.28
+            },
+            {
+              "word": "у",
+              "start": 2374.28,
+              "end": 2374.42
+            },
+            {
+              "word": "меня",
+              "start": 2374.42,
+              "end": 2374.54
+            },
+            {
+              "word": "в",
+              "start": 2374.54,
+              "end": 2374.66
+            },
+            {
+              "word": "тантре",
+              "start": 2374.66,
+              "end": 2374.98
+            },
+            {
+              "word": "конюнктео?",
+              "start": 2374.98,
+              "end": 2376.28
+            },
+            {
+              "word": "Вот",
+              "start": 2376.52,
+              "end": 2376.72
+            },
+            {
+              "word": "эта",
+              "start": 2376.72,
+              "end": 2376.86
+            },
+            {
+              "word": "история,",
+              "start": 2376.86,
+              "end": 2377.18
+            }
+          ]
+        },
+        {
+          "id": 406,
+          "start": 2377.4,
+          "end": 2384.08,
+          "start_tc": "00:39:37.400",
+          "end_tc": "00:39:44.080",
+          "language": "ru",
+          "text": "когда встречаются две противоположности и выдерживая интенсивность, они рождают что-то третье.",
+          "words": [
+            {
+              "word": "когда",
+              "start": 2377.4,
+              "end": 2377.44
+            },
+            {
+              "word": "встречаются",
+              "start": 2377.44,
+              "end": 2378.26
+            },
+            {
+              "word": "две",
+              "start": 2378.26,
+              "end": 2378.56
+            },
+            {
+              "word": "противоположности",
+              "start": 2378.56,
+              "end": 2379.82
+            },
+            {
+              "word": "и",
+              "start": 2379.82,
+              "end": 2380.26
+            },
+            {
+              "word": "выдерживая",
+              "start": 2380.26,
+              "end": 2381.12
+            },
+            {
+              "word": "интенсивность,",
+              "start": 2381.12,
+              "end": 2382.18
+            },
+            {
+              "word": "они",
+              "start": 2382.32,
+              "end": 2382.76
+            },
+            {
+              "word": "рождают",
+              "start": 2382.76,
+              "end": 2383.16
+            },
+            {
+              "word": "что",
+              "start": 2383.16,
+              "end": 2383.34
+            },
+            {
+              "word": "-то",
+              "start": 2383.34,
+              "end": 2383.46
+            },
+            {
+              "word": "третье.",
+              "start": 2383.46,
+              "end": 2384.08
+            }
+          ]
+        },
+        {
+          "id": 407,
+          "start": 2384.94,
+          "end": 2386.22,
+          "start_tc": "00:39:44.940",
+          "end_tc": "00:39:46.220",
+          "language": "ru",
+          "text": "И вот у нас всегда так.",
+          "words": [
+            {
+              "word": "И",
+              "start": 2384.94,
+              "end": 2385.38
+            },
+            {
+              "word": "вот",
+              "start": 2385.38,
+              "end": 2385.52
+            },
+            {
+              "word": "у",
+              "start": 2385.52,
+              "end": 2385.64
+            },
+            {
+              "word": "нас",
+              "start": 2385.64,
+              "end": 2385.74
+            },
+            {
+              "word": "всегда",
+              "start": 2385.74,
+              "end": 2386.02
+            },
+            {
+              "word": "так.",
+              "start": 2386.02,
+              "end": 2386.22
+            }
+          ]
+        }
+      ],
+      "boundary_flags": {
+        "start_inside_subtitle": false,
+        "end_inside_subtitle": false
+      },
+      "linguistic_boundary_note": "native ASR contains corrupt mixed tokens in segments 403–405; audio verification is mandatory before display approval.",
+      "include_reason": "Contains compromise as destructive/self-betrayal and consensus as a third solution.",
+      "removable_filler": "Tantra/conjunctio aside can be removed only after native audio correction and a grammatical join.",
+      "visual_qc": "REVIEW_REQUIRED_AT_EXACT_EDGES",
+      "display_ru": {
+        "kind": "native-source-proposal",
+        "alignment": "native ASR word timing available; verify ASR errors by ear",
+        "provenance": "transcripts/video1219377731/asr_video1219377731.json",
+        "text": "И так интересно, то есть мы можем прийти к консенсусу — только к консенсусу, мы не можем прийти к компромиссу. То есть компромисс — это всегда у нас разрушающая история. Вот, я понимаю, что я себя предаю, если я иду на компромисс, или он себя предаёт, если мы идём на компромисс, и только консенсус — как третье. Да, вот помните, кто у меня в тантре coniunctio? Вот эта история, когда встречаются две противоположности и, выдерживая интенсивность, они рождают что-то третье. И вот у нас всегда так."
+      },
+      "translation_groups": [],
+      "human_review": {
+        "audio_review": "TEXT_APPROVED; CLEAN START HUMAN APPROVED; COMPACT CANDIDATE SPLICE PENDING",
+        "start_edge": "HUMAN APPROVED clean Russian start at 00:39:13.240; current package source boundary retained pending compact-candidate approval",
+        "end_edge": "HUMAN CONFIRMED clip ends after the opposing-needs/third-solution phrase",
+        "corrections": [
+          {
+            "id": "C05",
+            "decision": "ACCEPT"
+          },
+          {
+            "id": "C06",
+            "decision": "ACCEPT"
+          },
+          {
+            "id": "C07",
+            "decision": "ACCEPT_WITH_DISPLAY_NORMALIZATION",
+            "approved_source_pronunciation": "approximately коньюнктио",
+            "approved_display_text": "coniunctio"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r04-example",
+      "role": "example-payoff",
+      "source_video": "video1219377731.mp4",
+      "source_start": 2836.37,
+      "source_end": 2845.49,
+      "source_start_tc": "00:47:16.370",
+      "source_end_tc": "00:47:25.490",
+      "extracted_duration_expected": 9.12,
+      "output_path": "reel-input/r04-compromise-vs-consensus/public/clips/002_example-payoff.mp4",
+      "extraction_mode": "exact-reencode",
+      "languages": [
+        "ru"
+      ],
+      "speaker": "Denis — Club participant / Russian interpreter for Andrew in the Zoom session",
+      "speaker_confidence": "HUMAN_CONFIRMED",
+      "source_quote": "Мы всегда шли на компромисс, пытались как-то договориться, ну ладно, давай в Париже, давай как-то вот подстроимся, но всегда это был компромисс и это не работало.",
+      "source_subtitles": [
+        {
+          "id": 454,
+          "start": 2836.37,
+          "end": 2845.49,
+          "start_tc": "00:47:16.370",
+          "end_tc": "00:47:25.490",
+          "original_segment_start": 2836.37,
+          "original_segment_end": 2845.49,
+          "language": "ru",
+          "text": "Мы всегда шли на компромисс, пытались как-то договориться, ну ладно, давай в Париже, давай как-то вот подстроимся, но всегда это был компромисс и это не работало.",
+          "words": [
+            {
+              "word": "Мы",
+              "start": 2836.37,
+              "end": 2836.59
+            },
+            {
+              "word": "всегда",
+              "start": 2836.59,
+              "end": 2836.65
+            },
+            {
+              "word": "шли",
+              "start": 2836.65,
+              "end": 2837.21
+            },
+            {
+              "word": "на",
+              "start": 2837.21,
+              "end": 2837.39
+            },
+            {
+              "word": "компромисс,",
+              "start": 2837.39,
+              "end": 2837.91
+            },
+            {
+              "word": "пытались",
+              "start": 2837.95,
+              "end": 2838.33
+            },
+            {
+              "word": "как",
+              "start": 2838.33,
+              "end": 2838.57
+            },
+            {
+              "word": "-то",
+              "start": 2838.57,
+              "end": 2838.69
+            },
+            {
+              "word": "договориться,",
+              "start": 2838.69,
+              "end": 2839.19
+            },
+            {
+              "word": "ну",
+              "start": 2839.27,
+              "end": 2839.35
+            },
+            {
+              "word": "ладно,",
+              "start": 2839.35,
+              "end": 2839.51
+            },
+            {
+              "word": "давай",
+              "start": 2839.71,
+              "end": 2839.85
+            },
+            {
+              "word": "в",
+              "start": 2839.85,
+              "end": 2839.99
+            },
+            {
+              "word": "Париже,",
+              "start": 2839.99,
+              "end": 2840.49
+            },
+            {
+              "word": "давай",
+              "start": 2840.59,
+              "end": 2840.81
+            },
+            {
+              "word": "как",
+              "start": 2840.81,
+              "end": 2841.05
+            },
+            {
+              "word": "-то",
+              "start": 2841.05,
+              "end": 2841.21
+            },
+            {
+              "word": "вот",
+              "start": 2841.21,
+              "end": 2841.35
+            },
+            {
+              "word": "подстроимся,",
+              "start": 2841.35,
+              "end": 2842.01
+            },
+            {
+              "word": "но",
+              "start": 2842.13,
+              "end": 2842.25
+            },
+            {
+              "word": "всегда",
+              "start": 2842.25,
+              "end": 2842.55
+            },
+            {
+              "word": "это",
+              "start": 2842.55,
+              "end": 2842.87
+            },
+            {
+              "word": "был",
+              "start": 2842.87,
+              "end": 2843.15
+            },
+            {
+              "word": "компромисс",
+              "start": 2843.15,
+              "end": 2844.25
+            },
+            {
+              "word": "и",
+              "start": 2844.25,
+              "end": 2844.49
+            },
+            {
+              "word": "это",
+              "start": 2844.49,
+              "end": 2844.71
+            },
+            {
+              "word": "не",
+              "start": 2844.71,
+              "end": 2844.83
+            },
+            {
+              "word": "работало.",
+              "start": 2844.83,
+              "end": 2845.49
+            }
+          ]
+        }
+      ],
+      "boundary_flags": {
+        "start_inside_subtitle": false,
+        "end_inside_subtitle": false
+      },
+      "linguistic_boundary_note": "starts after a mixed-language setup and ends on a complete payoff.",
+      "include_reason": "Supplies the later concrete example: scheduling compromises failed, then a third idea worked very well.",
+      "removable_filler": "Segment 455 is long and ASR-awkward; select only complete clauses after listening.",
+      "visual_qc": "REVIEW_REQUIRED_AT_EXACT_EDGES",
+      "display_ru": {
+        "kind": "native-source-proposal",
+        "alignment": "native ASR word timing available; verify ASR errors by ear",
+        "provenance": "transcripts/video1219377731/asr_video1219377731.json",
+        "text": "Мы всегда шли на компромисс, пытались как-то договориться, ну ладно, давай в Париже, давай как-то вот подстроимся, но всегда это был компромисс и это не работало."
+      },
+      "translation_groups": [],
+      "human_review": {
+        "audio_review": "APPROVED_RETAINED_FIRST_SECTION",
+        "end_edge": "HUMAN APPROVED after и это не работало; APPLIED at 00:47:25.490",
+        "speaker": "Denis",
+        "role": "Club participant / Russian interpreter for Andrew in the Zoom session",
+        "corrections": [
+          {
+            "id": "C08",
+            "decision": "EXCLUDED_FROM_FINAL_EDIT",
+            "remediation_required": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "r04-example-approved-splice",
+      "role": "approved-practical-example",
+      "source_video": "video1219377731.mp4",
+      "source_start": 2836.37,
+      "source_end": 2845.49,
+      "source_start_tc": "00:47:16.370",
+      "source_end_tc": "00:47:25.490",
+      "extracted_duration_expected": 7.76,
+      "output_path": "reel-input/r04-compromise-vs-consensus/public/clips/003_example-approved-splice.mp4",
+      "extraction_mode": "human-approved-discontinuous-reencode",
+      "languages": [
+        "ru"
+      ],
+      "speaker": "Denis — Club participant / Russian interpreter for Andrew in the Zoom session",
+      "speaker_confidence": "HUMAN_CONFIRMED",
+      "source_quote": "Мы всегда шли на компромисс, пытались как-то договориться, ну ладно, давай в Париже, давай как-то вот подстроимся, но всегда это был компромисс и это не работало.",
+      "source_subtitles": [
+        {
+          "id": 454,
+          "start": 2836.37,
+          "end": 2845.49,
+          "start_tc": "00:47:16.370",
+          "end_tc": "00:47:25.490",
+          "original_segment_start": 2836.37,
+          "original_segment_end": 2845.49,
+          "language": "ru",
+          "text": "Мы всегда шли на компромисс, пытались как-то договориться, ну ладно, давай в Париже, давай как-то вот подстроимся, но всегда это был компромисс и это не работало.",
+          "words": [
+            {
+              "word": "Мы",
+              "start": 2836.37,
+              "end": 2836.59
+            },
+            {
+              "word": "всегда",
+              "start": 2836.59,
+              "end": 2836.65
+            },
+            {
+              "word": "шли",
+              "start": 2836.65,
+              "end": 2837.21
+            },
+            {
+              "word": "на",
+              "start": 2837.21,
+              "end": 2837.39
+            },
+            {
+              "word": "компромисс,",
+              "start": 2837.39,
+              "end": 2837.91
+            },
+            {
+              "word": "пытались",
+              "start": 2837.95,
+              "end": 2838.33
+            },
+            {
+              "word": "как",
+              "start": 2838.33,
+              "end": 2838.57
+            },
+            {
+              "word": "-то",
+              "start": 2838.57,
+              "end": 2838.69
+            },
+            {
+              "word": "договориться,",
+              "start": 2838.69,
+              "end": 2839.19
+            },
+            {
+              "word": "ну",
+              "start": 2839.27,
+              "end": 2839.35
+            },
+            {
+              "word": "ладно,",
+              "start": 2839.35,
+              "end": 2839.51
+            },
+            {
+              "word": "давай",
+              "start": 2839.71,
+              "end": 2839.85
+            },
+            {
+              "word": "в",
+              "start": 2839.85,
+              "end": 2839.99
+            },
+            {
+              "word": "Париже,",
+              "start": 2839.99,
+              "end": 2840.49
+            },
+            {
+              "word": "давай",
+              "start": 2840.59,
+              "end": 2840.81
+            },
+            {
+              "word": "как",
+              "start": 2840.81,
+              "end": 2841.05
+            },
+            {
+              "word": "-то",
+              "start": 2841.05,
+              "end": 2841.21
+            },
+            {
+              "word": "вот",
+              "start": 2841.21,
+              "end": 2841.35
+            },
+            {
+              "word": "подстроимся,",
+              "start": 2841.35,
+              "end": 2842.01
+            },
+            {
+              "word": "но",
+              "start": 2842.13,
+              "end": 2842.25
+            },
+            {
+              "word": "всегда",
+              "start": 2842.25,
+              "end": 2842.55
+            },
+            {
+              "word": "это",
+              "start": 2842.55,
+              "end": 2842.87
+            },
+            {
+              "word": "был",
+              "start": 2842.87,
+              "end": 2843.15
+            },
+            {
+              "word": "компромисс",
+              "start": 2843.15,
+              "end": 2844.25
+            },
+            {
+              "word": "и",
+              "start": 2844.25,
+              "end": 2844.49
+            },
+            {
+              "word": "это",
+              "start": 2844.49,
+              "end": 2844.71
+            },
+            {
+              "word": "не",
+              "start": 2844.71,
+              "end": 2844.83
+            },
+            {
+              "word": "работало.",
+              "start": 2844.83,
+              "end": 2845.49
+            }
+          ]
+        }
+      ],
+      "boundary_flags": {
+        "start_inside_subtitle": false,
+        "end_inside_subtitle": false
+      },
+      "linguistic_boundary_note": "starts after a mixed-language setup and ends on a complete payoff.",
+      "include_reason": "Supplies the later concrete example: scheduling compromises failed, then a third idea worked very well.",
+      "removable_filler": "Segment 455 is long and ASR-awkward; select only complete clauses after listening.",
+      "visual_qc": "REVIEW_REQUIRED_AT_EXACT_EDGES",
+      "display_ru": {
+        "kind": "native-source-proposal",
+        "alignment": "native ASR word timing available; verify ASR errors by ear",
+        "provenance": "transcripts/video1219377731/asr_video1219377731.json",
+        "text": "Мы всегда шли на компромисс, пытались как-то договориться, ну ладно, давай в Париже, давай как-то вот подстроимся, но всегда это был компромисс и это не работало."
+      },
+      "translation_groups": [],
+      "human_review": {
+        "audio_review": "APPROVED",
+        "splice": "Мы → пытались; retained through и это не работало"
+      },
+      "source_ranges": [
+        [
+          2836.37,
+          2836.59
+        ],
+        [
+          2837.95,
+          2845.49
+        ]
+      ],
+      "rendered_quote": "Мы пытались как-то договориться, ну ладно, давай в Париже, давай как-то вот подстроимся, но всегда это был компромисс и это не работало."
+    }
+  ],
+  "human_decision_batch": {
+    "applied_at": "2026-08-21",
+    "artifact": "reel-input/HUMAN_EDITORIAL_DECISIONS.md",
+    "canonical_episode_asr_modified": false
+  },
+  "series_production": {
+    "width_aware_layout": true,
+    "canonical_episode_asr_modified": false,
+    "master_source_modified": false
+  }
+}

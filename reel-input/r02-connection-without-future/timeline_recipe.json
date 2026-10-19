@@ -1,0 +1,102 @@
+{
+  "schema_version": "2.0",
+  "approval_status": "APPROVED",
+  "production_status": "R02_SERIES_PRODUCTION_CANDIDATE_AUTHORIZED",
+  "style_tokens": "reel-input/_templates/nikulina_style_tokens.json",
+  "sequence": [
+    {
+      "id": "question",
+      "kind": "video",
+      "clip_id": "r02-question",
+      "duration_seconds": 23.18,
+      "source_timing_rate": 1,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": { "x": 0, "y": 34, "width": 1080, "height": 608, "fit": "cover" }
+    },
+    {
+      "id": "context",
+      "kind": "video",
+      "clip_id": "r02-unique-value",
+      "duration_seconds": 20.8,
+      "source_timing_rate": 1,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": { "x": 0, "y": 34, "width": 1080, "height": 608, "fit": "cover" }
+    },
+    {
+      "id": "payoff",
+      "kind": "video",
+      "clip_id": "r02-permission-payoff",
+      "duration_seconds": 22.16,
+      "source_timing_rate": 1,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": { "x": 0, "y": 34, "width": 1080, "height": 608, "fit": "cover" }
+    }
+  ],
+  "graphics": [
+    { "id": "question-bottom-scrim", "sequence_id": "question", "start_seconds": 0, "end_seconds": 23.18, "shape": "rect", "x": 0, "y": 649, "width": 1080, "height": 622, "color": "#080808", "opacity": 0.3 },
+    { "id": "context-bottom-scrim", "sequence_id": "context", "start_seconds": 0, "end_seconds": 20.8, "shape": "rect", "x": 0, "y": 649, "width": 1080, "height": 622, "color": "#080808", "opacity": 0.3 },
+    { "id": "payoff-bottom-scrim", "sequence_id": "payoff", "start_seconds": 0, "end_seconds": 22.16, "shape": "rect", "x": 0, "y": 649, "width": 1080, "height": 622, "color": "#080808", "opacity": 0.3 },
+    { "id": "hook-dark-zone", "sequence_id": "question", "start_seconds": 0, "end_seconds": 8.5, "shape": "rect", "x": 0, "y": -615, "width": 1080, "height": 690, "color": "#080808", "opacity": 0.68, "animation": "fade", "animation_duration_frames": 9, "fade_out_frames": 7 },
+    { "id": "hook-wine-plate", "sequence_id": "question", "start_seconds": 0.18, "end_seconds": 8.5, "shape": "rect", "x": 0, "y": -500, "width": 928, "height": 104, "color": "#7A1F32", "borderRadius": 2, "animation": "fade-slide-up", "animation_duration_frames": 10, "slide_distance_px": 12, "fade_out_frames": 7 },
+    { "id": "final-dark-zone", "sequence_id": "payoff", "start_seconds": 18.8, "end_seconds": 22.16, "shape": "rect", "x": 0, "y": -615, "width": 1080, "height": 690, "color": "#080808", "opacity": 0.68, "animation": "fade", "animation_duration_frames": 9, "fade_out_frames": 0 }
+  ],
+  "captions": [
+    { "sequence_id": "question", "role": "editorial", "start_seconds": 0.05, "end_seconds": 8.5, "text": "МОЖЕТ ЛИ СВЯЗЬ", "font": "nikulinaCondensed", "size": 82, "weight": 700, "color": "#F7F4EF", "case": "upper", "x": -90, "y": -620, "animation": "fade-slide-up", "animation_duration_frames": 10, "slide_distance_px": 12, "fade_out_frames": 7 },
+    { "sequence_id": "question", "role": "editorial", "start_seconds": 0.18, "end_seconds": 8.5, "text": "БЫТЬ ЦЕННОЙ", "font": "nikulinaCondensed", "size": 92, "weight": 700, "color": "#F7F4EF", "case": "upper", "x": -15, "y": -498, "animation": "fade-slide-up", "animation_duration_frames": 10, "slide_distance_px": 12, "fade_out_frames": 7 },
+    { "sequence_id": "question", "role": "editorial", "start_seconds": 0.31, "end_seconds": 8.5, "text": "БЕЗ БУДУЩЕГО?", "font": "nikulinaCondensed", "size": 88, "weight": 700, "color": "#F7F4EF", "case": "upper", "x": 45, "y": -378, "animation": "fade-slide-up", "animation_duration_frames": 10, "slide_distance_px": 12, "fade_out_frames": 7 },
+
+    { "sequence_id": "question", "role": "speech", "phrase_id": "q-g1", "translation_group_id": "r02-question-g1", "start_seconds": 0, "end_seconds": 18.42, "text": "Ты когда-нибудь ловила себя на том, что воспринимаешь каждую романтическую связь", "font": "nikulinaSans", "size": 45, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 420, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "question", "role": "speech", "phrase_id": "q-g1", "translation_group_id": "r02-question-g1", "start_seconds": 0, "end_seconds": 18.42, "text": "слишком серьёзно и берёшь на себя слишком много ответственности, настолько,", "font": "nikulinaSans", "size": 45, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 480, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "question", "role": "speech", "phrase_id": "q-g1", "translation_group_id": "r02-question-g1", "start_seconds": 0, "end_seconds": 18.42, "text": "что не можешь просто встречаться с кем-то, ходить на свидания", "font": "nikulinaSans", "size": 45, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 540, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "question", "role": "speech", "phrase_id": "q-g1", "translation_group_id": "r02-question-g1", "start_seconds": 0, "end_seconds": 18.42, "text": "или заниматься любовью без чувства вины и груза ответственности,", "font": "nikulinaSans", "size": 45, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 600, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "question", "role": "speech", "phrase_id": "q-g2", "translation_group_id": "r02-question-g2", "start_seconds": 18.66, "end_seconds": 23.18, "text": "особенно когда с самого начала понимаешь,", "font": "nikulinaSans", "size": 54, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 510, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "question", "role": "speech", "phrase_id": "q-g2", "translation_group_id": "r02-question-g2", "start_seconds": 18.66, "end_seconds": 23.18, "text": "что общего будущего нет?", "font": "nikulinaSans", "size": 58, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 575, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+
+    { "sequence_id": "context", "role": "speech", "phrase_id": "c-g1", "translation_group_id": "r02-unique-value-g1", "start_seconds": 0, "end_seconds": 7.32, "text": "Это очень... на самом деле потакание тому удовольствию:", "font": "nikulinaSans", "size": 50, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 465, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "context", "role": "speech", "phrase_id": "c-g1", "translation_group_id": "r02-unique-value-g1", "start_seconds": 0, "end_seconds": 7.32, "text": "встретить кого-то, сделать его день лучше,", "font": "nikulinaSans", "size": 52, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 525, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "context", "role": "speech", "phrase_id": "c-g1", "translation_group_id": "r02-unique-value-g1", "start_seconds": 0, "end_seconds": 7.32, "text": "его неделю лучше, его месяц лучше,", "font": "nikulinaSans", "size": 54, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 585, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "context", "role": "speech", "phrase_id": "c-g2", "translation_group_id": "r02-unique-value-g2", "start_seconds": 7.76, "end_seconds": 10.9, "text": "дать ему опыт, которого у него", "font": "nikulinaSans", "size": 56, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 515, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "context", "role": "speech", "phrase_id": "c-g2", "translation_group_id": "r02-unique-value-g2", "start_seconds": 7.76, "end_seconds": 10.9, "text": "никогда раньше не было,", "font": "nikulinaSans", "size": 58, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 580, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "context", "role": "speech", "phrase_id": "c-g3", "translation_group_id": "r02-unique-value-g3", "start_seconds": 11.32, "end_seconds": 20.48, "text": "потому что это не обязательно должен быть невероятный опыт,", "font": "nikulinaSans", "size": 50, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 470, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "context", "role": "speech", "phrase_id": "c-g3", "translation_group_id": "r02-unique-value-g3", "start_seconds": 11.32, "end_seconds": 20.48, "text": "который можешь дать только ты,", "font": "nikulinaSans", "size": 54, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 530, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "context", "role": "speech", "phrase_id": "c-g3", "translation_group_id": "r02-unique-value-g3", "start_seconds": 11.32, "end_seconds": 20.48, "text": "но ты и этот один человек вместе, совершенно уникальны.", "font": "nikulinaSans", "size": 52, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 590, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+
+    { "sequence_id": "payoff", "role": "speech", "phrase_id": "p-g1", "translation_group_id": "r02-permission-payoff-g1", "start_seconds": 0, "end_seconds": 3.52, "text": "Иди устанавливай связи с людьми,", "font": "nikulinaSans", "size": 56, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 515, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "payoff", "role": "speech", "phrase_id": "p-g1", "translation_group_id": "r02-permission-payoff-g1", "start_seconds": 0, "end_seconds": 3.52, "text": "иди переживай мимолётные моменты удовольствия.", "font": "nikulinaSans", "size": 52, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 580, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "payoff", "role": "speech", "phrase_id": "p-g2", "translation_group_id": "r02-permission-payoff-g2", "start_seconds": 3.52, "end_seconds": 15.32, "text": "Не чувствуй давления или ожиданий,", "font": "nikulinaSans", "size": 52, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 430, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "payoff", "role": "speech", "phrase_id": "p-g2", "translation_group_id": "r02-permission-payoff-g2", "start_seconds": 3.52, "end_seconds": 15.32, "text": "пока у тебя добрые намерения и ты не собираешься кому-то навредить,", "font": "nikulinaSans", "size": 46, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 490, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "payoff", "role": "speech", "phrase_id": "p-g2", "translation_group_id": "r02-permission-payoff-g2", "start_seconds": 3.52, "end_seconds": 15.32, "text": "если только это не их кинк, и у тебя есть их согласие,", "font": "nikulinaSans", "size": 48, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 550, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "payoff", "role": "speech", "phrase_id": "p-g2", "translation_group_id": "r02-permission-payoff-g2", "start_seconds": 3.52, "end_seconds": 15.32, "text": "и это то, чего они хотят.", "font": "nikulinaSans", "size": 54, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 610, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "payoff", "role": "speech", "phrase_id": "p-g3", "translation_group_id": "r02-permission-payoff-g3", "start_seconds": 15.96, "end_seconds": 22.16, "text": "Тогда у тебя добрые намерения,", "font": "nikulinaSans", "size": 56, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 520, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "payoff", "role": "speech", "phrase_id": "p-g3", "translation_group_id": "r02-permission-payoff-g3", "start_seconds": 15.96, "end_seconds": 22.16, "text": "ты входишь во что-то лёгкое без всяких ожиданий.", "font": "nikulinaSans", "size": 52, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 585, "shadow": [{ "y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)" }] },
+    { "sequence_id": "payoff", "role": "editorial", "start_seconds": 18.8, "end_seconds": 22.16, "text": "ЛЕГКО. ЧЕСТНО.", "font": "nikulinaCondensed", "size": 76, "weight": 700, "color": "#F7F4EF", "case": "upper", "x": -105, "y": -545, "animation": "fade-slide-up", "animation_duration_frames": 9, "slide_distance_px": 10, "fade_out_frames": 0 },
+    { "sequence_id": "payoff", "role": "editorial", "start_seconds": 19.0, "end_seconds": 22.16, "text": "БЕЗ ЛОЖНЫХ ОБЕЩАНИЙ.", "font": "nikulinaCondensed", "size": 64, "weight": 700, "color": "#F7F4EF", "case": "upper", "x": 0, "y": -430, "animation": "fade-slide-up", "animation_duration_frames": 9, "slide_distance_px": 10, "fade_out_frames": 0 }
+  ],
+  "broll": [
+    { "id": "r02-br020-unique-laughter", "sequence_id": "context", "src": "broll/series/br020_unique_laughter.mp4", "start_seconds": 4.5, "end_seconds": 6.2, "fit": "cover" },
+    { "id": "r02-br012-light-walk", "sequence_id": "payoff", "src": "broll/series/br012_light_walk.mp4", "start_seconds": 18.9, "end_seconds": 20.5, "fit": "cover" }
+  ],
+  "music": {
+    "src": "media/connection_wayne_jones.mp3",
+    "start_seconds": 0,
+    "volume": 0.11,
+    "fadeInFrames": 15,
+    "fadeOutFrames": 30,
+    "ducking": { "enabled": true, "duckedVolume": 0.05, "attackFrames": 6, "releaseFrames": 8 }
+  }
+}

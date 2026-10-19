@@ -1,0 +1,388 @@
+{
+  "schema_version": "2.0",
+  "approval_status": "APPROVED",
+  "production_status": "R05_SERIES_PRODUCTION_CANDIDATE_AUTHORIZED",
+  "style_tokens": "reel-input/_templates/nikulina_style_tokens.json",
+  "sequence": [
+    {
+      "id": "argument",
+      "kind": "video",
+      "clip_id": "r05-conditions-boundaries",
+      "duration_seconds": 55.98,
+      "source_timing_rate": 1,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": {
+        "x": 0,
+        "y": 34,
+        "width": 1080,
+        "height": 608,
+        "fit": "cover"
+      }
+    }
+  ],
+  "graphics": [
+    {
+      "id": "argument-bottom-scrim",
+      "sequence_id": "argument",
+      "start_seconds": 0,
+      "end_seconds": 55.98,
+      "shape": "rect",
+      "x": 0,
+      "y": 649,
+      "width": 1080,
+      "height": 622,
+      "color": "#080808",
+      "opacity": 0.3
+    },
+    {
+      "id": "argument-hook-zone",
+      "sequence_id": "argument",
+      "start_seconds": 0,
+      "end_seconds": 7.4,
+      "shape": "rect",
+      "x": 0,
+      "y": -615,
+      "width": 1080,
+      "height": 690,
+      "color": "#080808",
+      "opacity": 0.68,
+      "animation": "fade",
+      "animation_duration_frames": 9,
+      "fade_out_frames": 7
+    },
+    {
+      "id": "argument-hook-plate",
+      "sequence_id": "argument",
+      "start_seconds": 0.18,
+      "end_seconds": 7.4,
+      "shape": "rect",
+      "x": 0,
+      "y": -500,
+      "width": 910,
+      "height": 104,
+      "color": "#7A1F32",
+      "borderRadius": 2,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "id": "argument-final-zone",
+      "sequence_id": "argument",
+      "start_seconds": 52.18,
+      "end_seconds": 55.98,
+      "shape": "rect",
+      "x": 0,
+      "y": -615,
+      "width": 1080,
+      "height": 690,
+      "color": "#080808",
+      "opacity": 0.68,
+      "animation": "fade",
+      "animation_duration_frames": 9
+    }
+  ],
+  "captions": [
+    {
+      "sequence_id": "argument",
+      "role": "editorial",
+      "start_seconds": 0.05,
+      "end_seconds": 7.4,
+      "text": "ВЗРОСЛАЯ ЛЮБОВЬ",
+      "font": "nikulinaCondensed",
+      "size": 68,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 0,
+      "y": -620,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "sequence_id": "argument",
+      "role": "editorial",
+      "start_seconds": 0.18,
+      "end_seconds": 7.4,
+      "text": "ВСЁ РАВНО УСЛОВНА",
+      "font": "nikulinaCondensed",
+      "size": 76,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 0,
+      "y": -498,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "sequence_id": "argument",
+      "role": "speech",
+      "phrase_id": "argument-g1",
+      "start_seconds": 0,
+      "end_seconds": 7.52,
+      "text": "потому что привычка доказывать эту ценность, она настолько въедена в психику,",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "argument",
+      "role": "speech",
+      "phrase_id": "argument-g2",
+      "start_seconds": 8.4,
+      "end_seconds": 14.18,
+      "text": "что даже когда уже как бы все тебя безусловно до конца всего приняли,",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "argument",
+      "role": "speech",
+      "phrase_id": "argument-g3",
+      "start_seconds": 14.96,
+      "end_seconds": 20.76,
+      "text": "ты все равно, ты начинаешь понимать, что взрослая любовь, она все равно условна.",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "argument",
+      "role": "speech",
+      "phrase_id": "argument-g4",
+      "start_seconds": 21.36,
+      "end_seconds": 23.12,
+      "text": "И там начинается момент взросления.",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "argument",
+      "role": "speech",
+      "phrase_id": "argument-g5",
+      "start_seconds": 24.04,
+      "end_seconds": 30.58,
+      "text": "То есть, когда ты принимаешь условную любовь, как что-то очень классное, развивающее тебя и здоровое,",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "argument",
+      "role": "speech",
+      "phrase_id": "argument-g6",
+      "start_seconds": 31.4,
+      "end_seconds": 37.94,
+      "text": "тут начинается вот это вот переход от твоей детской части, которая хочет безусловно любить мамочку,",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "argument",
+      "role": "speech",
+      "phrase_id": "argument-g7",
+      "start_seconds": 37.98,
+      "end_seconds": 42.16,
+      "text": "люби меня за то, что я просто такой красивый есть, до того,",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "argument",
+      "role": "speech",
+      "phrase_id": "argument-g8",
+      "start_seconds": 42.34,
+      "end_seconds": 47.12,
+      "text": "что, блять, оказывается, условия это прям классно, границы это прям круто, блять,",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "argument",
+      "role": "speech",
+      "phrase_id": "argument-g9",
+      "start_seconds": 47.22,
+      "end_seconds": 54.26,
+      "text": "меня возвращают и структурируют. Блин, у меня яйца начинают появляться, какие-то другого формата,",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "argument",
+      "role": "speech",
+      "phrase_id": "argument-g10",
+      "start_seconds": 54.38,
+      "end_seconds": 55.98,
+      "text": "другого размера, и это прям круто.",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "argument",
+      "role": "editorial",
+      "start_seconds": 52.18,
+      "end_seconds": 55.98,
+      "text": "ГРАНИЦЫ МОГУТ УКРЕПЛЯТЬ",
+      "font": "nikulinaCondensed",
+      "size": 66,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 0,
+      "y": -500,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    }
+  ],
+  "broll": [
+    {
+      "id": "r05-br004-adult-life",
+      "sequence_id": "argument",
+      "src": "broll/series/br004_adult_domestic.mp4",
+      "start_seconds": 18.5,
+      "end_seconds": 20.5,
+      "fit": "cover"
+    },
+    {
+      "id": "r05-br053-shared-direction",
+      "sequence_id": "argument",
+      "src": "broll/series/br053_shared_direction.mp4",
+      "start_seconds": 45,
+      "end_seconds": 47,
+      "fit": "cover"
+    }
+  ],
+  "music": {
+    "src": "media/series_music.mp3",
+    "start_seconds": 0,
+    "volume": 0.1,
+    "fadeInFrames": 18,
+    "fadeOutFrames": 36,
+    "ducking": {
+      "enabled": true,
+      "duckedVolume": 0.04,
+      "attackFrames": 8,
+      "releaseFrames": 12
+    }
+  }
+}

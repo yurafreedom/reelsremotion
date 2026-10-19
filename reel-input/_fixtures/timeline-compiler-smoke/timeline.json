@@ -1,0 +1,112 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 54,
+  "tracks": [
+    {
+      "id": "video",
+      "kind": "video",
+      "clips": [
+        {
+          "id": "smoke-card",
+          "kind": "color",
+          "color": "#8B1E2D",
+          "start": 0,
+          "end": 30,
+          "transitionToNext": {
+            "type": "fade",
+            "durationInFrames": 6,
+            "timing": "linear"
+          }
+        },
+        {
+          "id": "smoke-source",
+          "kind": "video",
+          "src": "smoke-video.mp4",
+          "start": 24,
+          "end": 54,
+          "startFrom": 0,
+          "fit": "cover",
+          "backColor": "#000000",
+          "volume": 1,
+          "muted": false,
+          "speechRegions": [
+            {
+              "startFrame": 27,
+              "endFrame": 51
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shape",
+      "kind": "shape",
+      "shapes": []
+    },
+    {
+      "id": "text",
+      "kind": "text",
+      "words": [
+        {
+          "text": "PIPELINE SMOKE",
+          "start": 0,
+          "end": 30,
+          "x": 0,
+          "y": 0,
+          "font": "unbounded",
+          "size": 78,
+          "weight": 800,
+          "color": "#ffffff",
+          "enterFrom": "none",
+          "case": "upper",
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 4,
+                "value": 1,
+                "easing": "easeOut"
+              }
+            ],
+            "size": [
+              {
+                "frame": 0,
+                "value": 70
+              },
+              {
+                "frame": 4,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "VIDEO BRANCH",
+          "start": 24,
+          "end": 54,
+          "x": 0,
+          "y": 500,
+          "font": "onest",
+          "size": 64,
+          "weight": 600,
+          "color": "#ffffff",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.72)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

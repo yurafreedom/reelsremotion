@@ -1,0 +1,463 @@
+{
+  "schema_version": "2.0",
+  "approval_status": "APPROVED",
+  "production_status": "R01_SERIES_PRODUCTION_CANDIDATE_AUTHORIZED",
+  "style_tokens": "reel-input/_templates/nikulina_style_tokens.json",
+  "sequence": [
+    {
+      "id": "loss",
+      "kind": "video",
+      "clip_id": "r01-hook-loss",
+      "duration_seconds": 23.46,
+      "source_timing_rate": 1,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": {
+        "x": 0,
+        "y": 34,
+        "width": 1080,
+        "height": 608,
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "ground",
+      "kind": "video",
+      "clip_id": "r01-clarity-ground",
+      "duration_seconds": 39.74,
+      "source_timing_rate": 1,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": {
+        "x": 0,
+        "y": 34,
+        "width": 1080,
+        "height": 608,
+        "fit": "cover"
+      }
+    }
+  ],
+  "graphics": [
+    {
+      "id": "loss-bottom-scrim",
+      "sequence_id": "loss",
+      "start_seconds": 0,
+      "end_seconds": 23.46,
+      "shape": "rect",
+      "x": 0,
+      "y": 649,
+      "width": 1080,
+      "height": 622,
+      "color": "#080808",
+      "opacity": 0.3
+    },
+    {
+      "id": "ground-bottom-scrim",
+      "sequence_id": "ground",
+      "start_seconds": 0,
+      "end_seconds": 39.74,
+      "shape": "rect",
+      "x": 0,
+      "y": 649,
+      "width": 1080,
+      "height": 622,
+      "color": "#080808",
+      "opacity": 0.3
+    },
+    {
+      "id": "loss-hook-zone",
+      "sequence_id": "loss",
+      "start_seconds": 0,
+      "end_seconds": 7.4,
+      "shape": "rect",
+      "x": 0,
+      "y": -615,
+      "width": 1080,
+      "height": 690,
+      "color": "#080808",
+      "opacity": 0.68,
+      "animation": "fade",
+      "animation_duration_frames": 9,
+      "fade_out_frames": 7
+    },
+    {
+      "id": "loss-hook-plate",
+      "sequence_id": "loss",
+      "start_seconds": 0.18,
+      "end_seconds": 7.4,
+      "shape": "rect",
+      "x": 0,
+      "y": -500,
+      "width": 910,
+      "height": 104,
+      "color": "#7A1F32",
+      "borderRadius": 2,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "id": "ground-final-zone",
+      "sequence_id": "ground",
+      "start_seconds": 35.940000000000005,
+      "end_seconds": 39.74,
+      "shape": "rect",
+      "x": 0,
+      "y": -615,
+      "width": 1080,
+      "height": 690,
+      "color": "#080808",
+      "opacity": 0.68,
+      "animation": "fade",
+      "animation_duration_frames": 9
+    }
+  ],
+  "captions": [
+    {
+      "sequence_id": "loss",
+      "role": "editorial",
+      "start_seconds": 0.05,
+      "end_seconds": 7.4,
+      "text": "СТРАХ ПОТЕРЯТЬ ДРУГОГО",
+      "font": "nikulinaCondensed",
+      "size": 68,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 0,
+      "y": -620,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "sequence_id": "loss",
+      "role": "editorial",
+      "start_seconds": 0.18,
+      "end_seconds": 7.4,
+      "text": "МОЖЕТ СТЕРЕТЬ ТЕБЯ",
+      "font": "nikulinaCondensed",
+      "size": 76,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 0,
+      "y": -498,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "sequence_id": "loss",
+      "role": "speech",
+      "phrase_id": "loss-g1",
+      "start_seconds": 0,
+      "end_seconds": 7.22,
+      "text": "когда очень много чувств, когда очень много страха потерять человека, ты начинаешь подстраиваться.",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "loss",
+      "role": "speech",
+      "phrase_id": "loss-g2",
+      "start_seconds": 7.5,
+      "end_seconds": 9.66,
+      "text": "Я думаю, что вам всем это знакомо, чувство, правда?",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "loss",
+      "role": "speech",
+      "phrase_id": "loss-g3",
+      "start_seconds": 10.42,
+      "end_seconds": 17.16,
+      "text": "И в этом подстраивании ты просто теряешь себя, теряешь путь, куда вы движетесь,",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "loss",
+      "role": "speech",
+      "phrase_id": "loss-g4",
+      "start_seconds": 17.32,
+      "end_seconds": 23.46,
+      "text": "и все начинает рушиться, поэтому я так люблю с момента",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "ground",
+      "role": "speech",
+      "phrase_id": "ground-g1",
+      "start_seconds": 0,
+      "end_seconds": 7.48,
+      "text": "открытия для себя динамики четкое проговаривание контракта, четкое проговаривание консента, четкое проговаривание",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "ground",
+      "role": "speech",
+      "phrase_id": "ground-g2",
+      "start_seconds": 7.48,
+      "end_seconds": 12.38,
+      "text": "куда мы движемся, потому что именно это дает четкость и понятность.",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "ground",
+      "role": "speech",
+      "phrase_id": "ground-g3",
+      "start_seconds": 12.86,
+      "end_seconds": 16.36,
+      "text": "И это же можно применять в обычной повседневной жизни.",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "ground",
+      "role": "speech",
+      "phrase_id": "ground-g4",
+      "start_seconds": 16.72,
+      "end_seconds": 21.98,
+      "text": "Вы получите в рамках клуба ощущения, вот этой частоты, вот этого чувства,",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "ground",
+      "role": "speech",
+      "phrase_id": "ground-g5",
+      "start_seconds": 22.1,
+      "end_seconds": 29.32,
+      "text": "как это стоять на своей земле, не защищая позиции, не воюя за",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "ground",
+      "role": "speech",
+      "phrase_id": "ground-g6",
+      "start_seconds": 29.32,
+      "end_seconds": 32.06,
+      "text": "это, а просто оставаясь в своем центре.",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "ground",
+      "role": "speech",
+      "phrase_id": "ground-g7",
+      "start_seconds": 32.5,
+      "end_seconds": 38.4,
+      "text": "Вот это самое главное, что вы получите, и это будет как импринт вашего ощущения,",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "ground",
+      "role": "speech",
+      "phrase_id": "ground-g8",
+      "start_seconds": 38.48,
+      "end_seconds": 39.74,
+      "text": "которое вы понесете в жизнь.",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "ground",
+      "role": "editorial",
+      "start_seconds": 35.940000000000005,
+      "end_seconds": 39.74,
+      "text": "СТОЯТЬ НА СВОЕЙ ЗЕМЛЕ",
+      "font": "nikulinaCondensed",
+      "size": 66,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 0,
+      "y": -500,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    }
+  ],
+  "broll": [
+    {
+      "id": "r01-br041-loss-of-self",
+      "sequence_id": "loss",
+      "src": "broll/series/br041_walk_away.mp4",
+      "start_seconds": 11.9,
+      "end_seconds": 13.7,
+      "fit": "cover"
+    },
+    {
+      "id": "r01-br009-ground",
+      "sequence_id": "ground",
+      "src": "broll/series/br009_grounded_steps.mp4",
+      "start_seconds": 22.4,
+      "end_seconds": 24.2,
+      "fit": "cover"
+    }
+  ],
+  "music": {
+    "src": "media/series_music.mp3",
+    "start_seconds": 0,
+    "volume": 0.18,
+    "fadeInFrames": 18,
+    "fadeOutFrames": 36,
+    "ducking": {
+      "enabled": true,
+      "duckedVolume": 0.075,
+      "attackFrames": 8,
+      "releaseFrames": 12
+    }
+  }
+}

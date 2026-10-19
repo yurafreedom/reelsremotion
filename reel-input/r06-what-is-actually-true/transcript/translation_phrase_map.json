@@ -1,0 +1,119 @@
+{
+  "rule": "DISPLAY RU for English speech is phrase-group mapping only. Never treat Russian display words as acoustically aligned to English source words.",
+  "clips": [
+    {
+      "id": "r06-zaur-question",
+      "groups": [
+        {
+          "id": "r06-zaur-question-g1",
+          "source_start": 8171.26,
+          "source_end": 8175.24,
+          "clip_start": 0,
+          "clip_end": 3.98,
+          "source_text": "What you would recommend to do",
+          "display_ru": "Что бы ты порекомендовал делать,"
+        },
+        {
+          "id": "r06-zaur-question-g2",
+          "source_start": 8175.24,
+          "source_end": 8179.54,
+          "clip_start": 3.98,
+          "clip_end": 8.28,
+          "source_text": "so that I don't think for other people",
+          "display_ru": "чтобы я не додумывал за других людей"
+        },
+        {
+          "id": "r06-zaur-question-g3",
+          "source_start": 8179.54,
+          "source_end": 8183.64,
+          "clip_start": 8.28,
+          "clip_end": 12.38,
+          "source_text": "and I don't overanalyse their actions and behaviours",
+          "display_ru": "и не переанализировал их действия и поведение,"
+        },
+        {
+          "id": "r06-zaur-question-g4",
+          "source_start": 8183.64,
+          "source_end": 8186.86,
+          "clip_start": 12.38,
+          "clip_end": 15.6,
+          "source_text": "in order not to go from reality into illusion.",
+          "display_ru": "чтобы не уходить из реальности в иллюзию."
+        }
+      ]
+    },
+    {
+      "id": "r06-evidence-question",
+      "source_start": 8228.82,
+      "source_end": 8238.16,
+      "source_language": [
+        "en"
+      ],
+      "source_text": "And the question that the other person needs to ask you is how much evidence is enough evidence for you to believe me.",
+      "display_ru": "А другой человек должен спросить тебя: Сколько доказательств тебе нужно, чтобы поверить?",
+      "translation_provenance": "transcripts/video1219377731/en_spans_ru.json[57]",
+      "mapping_status": "PHRASE_GROUPS_MAPPED; HUMAN_DISPLAY_APPROVED; DERIVED_VISUAL_REVEAL_ONLY",
+      "groups": [
+        {
+          "id": "r06-evidence-question-g1",
+          "source_start": 8228.82,
+          "source_end": 8233.54,
+          "clip_start": 0,
+          "clip_end": 4.72,
+          "source_text": "And the question that the other person needs to ask you is",
+          "display_ru": "А другой человек должен спросить тебя:"
+        },
+        {
+          "id": "r06-evidence-question-g2",
+          "source_start": 8233.54,
+          "source_end": 8237.24,
+          "clip_start": 4.72,
+          "clip_end": 8.42,
+          "source_text": "how much evidence is enough evidence for you",
+          "display_ru": "Сколько доказательств тебе нужно,"
+        },
+        {
+          "id": "r06-evidence-question-g3",
+          "source_start": 8237.24,
+          "source_end": 8238.16,
+          "clip_start": 8.42,
+          "clip_end": 9.34,
+          "source_text": "to believe me.",
+          "display_ru": "чтобы поверить?"
+        }
+      ]
+    },
+    {
+      "id": "r06-facts",
+      "source_start": 8248.6,
+      "source_end": 8260.34,
+      "source_language": [
+        "en"
+      ],
+      "source_text": "The first question on you is really all about like what do you know to be true? What has that person actually done?",
+      "display_ru": "Что ты знаешь наверняка? Что этот человек действительно сделал?",
+      "translation_provenance": "transcripts/video1219377731/en_spans_ru.json[58]",
+      "mapping_status": "PHRASE_GROUPS_MAPPED; HUMAN_DISPLAY_APPROVED; DERIVED_VISUAL_REVEAL_ONLY",
+      "groups": [
+        {
+          "id": "r06-facts-g1",
+          "source_start": 8248.6,
+          "source_end": 8256,
+          "clip_start": 0,
+          "clip_end": 7.4,
+          "source_text": "The first question on you is really all about like what do you know to be true?",
+          "display_ru": "Что ты знаешь наверняка?"
+        },
+        {
+          "id": "r06-facts-g2",
+          "source_start": 8256,
+          "source_end": 8260.34,
+          "clip_start": 7.4,
+          "clip_end": 11.74,
+          "source_text": "What has that person actually done?",
+          "display_ru": "Что этот человек действительно сделал?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "showGrid": false,
+  "timeline": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "durationInFrames": 100,
+    "tracks": [
+      {
+        "id": "video",
+        "kind": "video",
+        "clips": [
+          {
+            "id": "s1-bg",
+            "kind": "video",
+            "src": "placeholder",
+            "start": 0,
+            "end": 60,
+            "startFrom": 0,
+            "fit": "contain",
+            "backColor": "#1a1a1a",
+            "x": 0,
+            "y": -120,
+            "width": 880,
+            "height": 500,
+            "borderRadius": 20,
+            "speechRegions": [
+              {
+                "startFrame": 4,
+                "endFrame": 56
+              }
+            ],
+            "transitionToNext": {
+              "type": "fade",
+              "durationInFrames": 20,
+              "timing": "linear"
+            }
+          },
+          {
+            "id": "s2-bg",
+            "kind": "color",
+            "color": "#0a0a0c",
+            "start": 40,
+            "end": 100
+          }
+        ]
+      },
+      {
+        "id": "image",
+        "kind": "image",
+        "clips": []
+      },
+      {
+        "id": "shape",
+        "kind": "shape",
+        "shapes": [
+          {
+            "id": "plate1",
+            "shape": "rect",
+            "start": 0,
+            "end": 60,
+            "x": -120,
+            "y": 320,
+            "width": 360,
+            "height": 110,
+            "color": "#c0182a",
+            "borderRadius": 16,
+            "opacity": 0.9
+          }
+        ]
+      },
+      {
+        "id": "text",
+        "kind": "text",
+        "words": [
+          {
+            "text": "СЦЕНА",
+            "start": 4,
+            "end": 60,
+            "x": -120,
+            "y": 320,
+            "font": "condensedHeavy",
+            "size": 90,
+            "weight": 800,
+            "color": "#ffffff",
+            "enterFrom": "left",
+            "case": "upper",
+            "keyframes": {
+              "position": [
+                {
+                  "frame": 0,
+                  "value": {
+                    "x": -320,
+                    "y": 360
+                  },
+                  "spatialOut": {
+                    "x": 280,
+                    "y": -400
+                  }
+                },
+                {
+                  "frame": 40,
+                  "value": {
+                    "x": 320,
+                    "y": 360
+                  },
+                  "easing": {
+                    "bezier": [
+                      0.2,
+                      0.9,
+                      0.2,
+                      1
+                    ]
+                  },
+                  "spatialIn": {
+                    "x": -260,
+                    "y": -380
+                  }
+                }
+              ],
+              "size": [
+                {
+                  "frame": 0,
+                  "value": 40
+                },
+                {
+                  "frame": 40,
+                  "value": 120,
+                  "easing": {
+                    "bezier": [
+                      0.3,
+                      0,
+                      0.1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "color": [
+                {
+                  "frame": 0,
+                  "value": "#ffffff"
+                },
+                {
+                  "frame": 40,
+                  "value": "#c0182a",
+                  "easing": "linear"
+                }
+              ],
+              "rotation": [
+                {
+                  "frame": 0,
+                  "value": 0
+                },
+                {
+                  "frame": 40,
+                  "value": 360,
+                  "easing": "easeInOut"
+                }
+              ],
+              "blur": [
+                {
+                  "frame": 0,
+                  "value": 24
+                },
+                {
+                  "frame": 14,
+                  "value": 0,
+                  "easing": "easeOut"
+                }
+              ]
+            }
+          },
+          {
+            "text": "один",
+            "start": 14,
+            "end": 60,
+            "x": 120,
+            "y": 420,
+            "font": "cleanSans",
+            "size": 54,
+            "weight": 400,
+            "color": "#c0182a",
+            "enterFrom": "right",
+            "keyframes": {
+              "position": [
+                {
+                  "frame": 0,
+                  "value": {
+                    "x": -320,
+                    "y": 360
+                  },
+                  "spatialOut": {
+                    "x": 280,
+                    "y": -400
+                  }
+                },
+                {
+                  "frame": 40,
+                  "value": {
+                    "x": 320,
+                    "y": 360
+                  },
+                  "easing": {
+                    "bezier": [
+                      0.2,
+                      0.9,
+                      0.2,
+                      1
+                    ]
+                  },
+                  "spatialIn": {
+                    "x": -260,
+                    "y": -380
+                  }
+                }
+              ],
+              "size": [
+                {
+                  "frame": 0,
+                  "value": 40
+                },
+                {
+                  "frame": 40,
+                  "value": 120,
+                  "easing": {
+                    "bezier": [
+                      0.3,
+                      0,
+                      0.1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "color": [
+                {
+                  "frame": 0,
+                  "value": "#ffffff"
+                },
+                {
+                  "frame": 40,
+                  "value": "#c0182a",
+                  "easing": "linear"
+                }
+              ],
+              "rotation": [
+                {
+                  "frame": 0,
+                  "value": 0
+                },
+                {
+                  "frame": 40,
+                  "value": 360,
+                  "easing": "easeInOut"
+                }
+              ],
+              "blur": [
+                {
+                  "frame": 0,
+                  "value": 24
+                },
+                {
+                  "frame": 14,
+                  "value": 0,
+                  "easing": "easeOut"
+                }
+              ]
+            }
+          },
+          {
+            "text": "СЦЕНА",
+            "start": 44,
+            "end": 100,
+            "x": 120,
+            "y": -380,
+            "font": "condensedHeavy",
+            "size": 90,
+            "weight": 800,
+            "color": "#ffffff",
+            "enterFrom": "right",
+            "case": "upper"
+          },
+          {
+            "text": "два",
+            "start": 54,
+            "end": 100,
+            "x": -150,
+            "y": -280,
+            "font": "cleanSans",
+            "size": 54,
+            "weight": 400,
+            "color": "#c0182a",
+            "enterFrom": "left"
+          }
+        ]
+      },
+      {
+        "id": "audio",
+        "kind": "audio",
+        "clips": []
+      }
+    ]
+  }
+}

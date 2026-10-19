@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Click-to-place — субтитры (1080×1920)</title>
+
+<!-- Fonts: must match renderer FONT_MAP exactly.
+     condensedHeavy -> Oswald, cleanSans -> Inter. Cyrillic subset included. -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700;800&family=Inter:wght@400;700;800&display=swap&subset=cyrillic,latin" rel="stylesheet" />
+
+<style>
+  :root {
+    --bg: #15171c;
+    --panel: #1d2026;
+    --panel2: #262a32;
+    --border: #353b45;
+    --text: #e6e8ec;
+    --muted: #9aa1ad;
+    --accent: #4f8cff;
+    --accent2: #c0182a;
+    --danger: #e0533d;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; height: 100%;
+    background: var(--bg); color: var(--text);
+    font-family: Inter, system-ui, sans-serif; font-size: 13px;
+  }
+  #app { display: flex; height: 100vh; overflow: hidden; }
+
+  /* ---------- Stage area ---------- */
+  #stageWrap {
+    flex: 1; display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    padding: 14px; gap: 8px; min-width: 0;
+  }
+  #readout {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 12px; color: var(--muted);
+    display: flex; gap: 18px; align-items: center;
+    width: 100%; justify-content: center;
+  }
+  #readout b { color: var(--text); font-weight: 700; }
+  #readout .hint { color: var(--accent); }
+
+  #stage {
+    position: relative; overflow: hidden;
+    box-shadow: 0 0 0 1px var(--border), 0 10px 40px rgba(0,0,0,.5);
+    background: #000;
+    cursor: crosshair;
+  }
+  /* The logical 1080x1920 canvas, scaled down to fit the stage. */
+  #canvas {
+    position: absolute; top: 0; left: 0;
+    width: 1080px; height: 1920px;
+    transform-origin: top left;
+    background: #000;
+  }
+  #bgImg, #bgVideo {
+    position: absolute; inset: 0;
+    width: 1080px; height: 1920px;
+    object-fit: cover;
+    user-select: none; -webkit-user-drag: none; pointer-events: none;
+  }
+  #grid {
+    position: absolute; inset: 0; pointer-events: none; display: none;
+  }
+  #grid.on { display: block; }
+  .gridline { position: absolute; background: rgba(255,255,255,.10); }
+  .gridline.major { background: rgba(255,255,255,.20); }
+  .axis { position: absolute; background: rgba(79,140,255,.55); }
+
+  /* Word markers (rendered with the SAME transform model as the renderer). */
+  .word {
+    position: absolute; left: 50%; top: 50%;
+    white-space: nowrap; text-align: center; line-height: 1.1;
+    cursor: grab; user-select: none;
+    outline: 1px dashed transparent;
+  }
+  .word.sel {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+  .word .dot {
+    position: absolute; left: 50%; top: 50%;
+    width: 12px; height: 12px; margin: -6px 0 0 -6px;
+    border-radius: 50%; background: var(--accent);
+    box-shadow: 0 0 0 2px rgba(0,0,0,.6); display: none;
+  }
+  .word.sel .dot { display: block; }
+
+  /* Video inset rectangle */
+  #inset {
+    position: absolute; left: 50%; top: 50%;
+    border: 2px solid var(--accent2);
+    background: rgba(192,24,42,.12);
+    display: none; cursor: move;
+  }
+  #inset.on { display: block; }
+  #inset .label {
+    position: absolute; top: 4px; left: 6px;
+    font: 700 22px Inter; color: #fff; text-shadow: 0 1px 3px #000;
+    pointer-events: none;
+  }
+  #inset .h {
+    position: absolute; width: 22px; height: 22px;
+    background: var(--accent2); border: 2px solid #fff; border-radius: 3px;
+  }
+  #inset .h.nw { left: -11px; top: -11px; cursor: nwse-resize; }
+  #inset .h.ne { right: -11px; top: -11px; cursor: nesw-resize; }
+  #inset .h.sw { left: -11px; bottom: -11px; cursor: nesw-resize; }
+  #inset .h.se { right: -11px; bottom: -11px; cursor: nwse-resize; }
+
+  /* ---------- Right panel ---------- */
+  #panel {
+    width: 360px; flex-shrink: 0;
+    background: var(--panel); border-left: 1px solid var(--border);
+    overflow-y: auto; padding: 14px;
+  }
+  #panel h2 {
+    font-size: 11px; text-transform: uppercase; letter-spacing: .08em;
+    color: var(--muted); margin: 18px 0 8px; font-weight: 700;
+  }
+  #panel h2:first-child { margin-top: 0; }
+
+  .row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
+  button {
+    background: var(--panel2); color: var(--text);
+    border: 1px solid var(--border); border-radius: 7px;
+    padding: 8px 11px; font-size: 12px; cursor: pointer; font-family: inherit;
+    transition: background .12s, border-color .12s;
+  }
+  button:hover { background: #2f343d; }
+  button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  button.primary:hover { filter: brightness(1.08); }
+  button.danger { color: var(--danger); }
+  button.active { border-color: var(--accent); color: var(--accent); }
+
+  label.field { display: block; margin-bottom: 9px; }
+  label.field > span { display: block; color: var(--muted); margin-bottom: 3px; font-size: 11px; }
+  input[type=text], input[type=number], select {
+    width: 100%; background: var(--panel2); color: var(--text);
+    border: 1px solid var(--border); border-radius: 6px;
+    padding: 7px 8px; font-size: 12px; font-family: inherit;
+  }
+  input[type=color] {
+    width: 100%; height: 32px; padding: 2px; background: var(--panel2);
+    border: 1px solid var(--border); border-radius: 6px; cursor: pointer;
+  }
+  input[type=range] { width: 100%; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+  .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; }
+
+  /* Word list */
+  #wordList { display: flex; flex-direction: column; gap: 3px; max-height: 180px; overflow-y: auto; }
+  .wl-item {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 6px 8px; border-radius: 6px; cursor: pointer;
+    background: var(--panel2); border: 1px solid transparent; font-size: 12px;
+  }
+  .wl-item:hover { border-color: var(--border); }
+  .wl-item.sel { border-color: var(--accent); }
+  .wl-item .t { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .wl-item .xy { color: var(--muted); font-family: ui-monospace, monospace; font-size: 10px; margin-left: 8px; flex-shrink: 0; }
+  .empty { color: var(--muted); font-style: italic; padding: 6px 2px; }
+
+  .toggle { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .toggle input { width: 16px; height: 16px; }
+
+  textarea {
+    width: 100%; height: 220px; resize: vertical;
+    background: #11131a; color: #cde3ff; border: 1px solid var(--border);
+    border-radius: 7px; padding: 9px; font-family: ui-monospace, monospace;
+    font-size: 11px; line-height: 1.45;
+  }
+  .seg { display: flex; border: 1px solid var(--border); border-radius: 7px; overflow: hidden; }
+  .seg button { border: none; border-radius: 0; flex: 1; }
+  .seg button.active { background: var(--accent); color: #fff; }
+  .note { color: var(--muted); font-size: 11px; margin: 4px 0 0; line-height: 1.4; }
+  #scrubWrap { display: none; margin-bottom: 8px; }
+  #scrubWrap.on { display: block; }
+  .ok { color: #4fd07a; }
+</style>
+</head>
+<body>
+<div id="app">
+  <!-- STAGE -->
+  <div id="stageWrap">
+    <div id="readout">
+      <span>cursor: <b id="rdXY">x=–  y=–</b></span>
+      <span>scale: <b id="rdScale">–</b></span>
+      <span class="hint" id="rdMode">click empty stage to place a word</span>
+    </div>
+    <div id="stage">
+      <div id="canvas">
+        <div id="grid"></div>
+        <div id="inset">
+          <div class="label">VIDEO</div>
+          <div class="h nw" data-h="nw"></div>
+          <div class="h ne" data-h="ne"></div>
+          <div class="h sw" data-h="sw"></div>
+          <div class="h se" data-h="se"></div>
+        </div>
+        <!-- words injected here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- PANEL -->
+  <div id="panel">
+    <h2>Import timeline.json</h2>
+    <div class="row">
+      <button id="btnImport" class="primary">Import timeline.json</button>
+      <button id="btnClearImport" class="danger" style="display:none">Clear import</button>
+    </div>
+    <input type="file" id="fileTimeline" accept="application/json,.json" hidden />
+    <div id="sceneSelWrap" style="display:none">
+      <label class="field"><span>Edit scene (one at a time)</span>
+        <select id="sceneSelect"></select>
+      </label>
+      <p class="note" id="importInfo"></p>
+    </div>
+
+    <h2>Источники / Actions</h2>
+    <div class="row">
+      <button id="btnImg">Load image</button>
+      <button id="btnVid">Load video</button>
+      <button id="btnAdd" class="primary">+ Add word</button>
+    </div>
+    <input type="file" id="fileImg" accept="image/*" hidden />
+    <input type="file" id="fileVid" accept="video/*" hidden />
+
+    <div id="scrubWrap">
+      <label class="field"><span>Видео-скраббер (выбери кадр для фона)</span>
+        <input type="range" id="scrub" min="0" max="100" value="0" step="0.01" />
+      </label>
+      <button id="btnUseFrame" class="primary" style="width:100%">Использовать этот кадр как фон</button>
+    </div>
+
+    <h2>Слова (<span id="wordCount">0</span>)</h2>
+    <div id="wordList"><div class="empty">кликни по стейджу, чтобы добавить</div></div>
+    <div class="row" style="margin-top:8px">
+      <button id="btnDel" class="danger">Delete selected</button>
+      <button id="btnDelLast">Delete last</button>
+    </div>
+
+    <div id="props" style="display:none">
+      <h2>Свойства слова</h2>
+      <label class="field"><span>text</span>
+        <input type="text" id="pText" />
+      </label>
+      <div class="grid2">
+        <label class="field"><span>font</span>
+          <select id="pFont">
+            <option value="condensedHeavy">condensedHeavy (Oswald)</option>
+            <option value="cleanSans">cleanSans (Inter)</option>
+          </select>
+        </label>
+        <label class="field"><span>case</span>
+          <select id="pCase">
+            <option value="upper">upper</option>
+            <option value="lower">lower</option>
+            <option value="none">none</option>
+          </select>
+        </label>
+      </div>
+      <div class="grid3">
+        <label class="field"><span>size</span><input type="number" id="pSize" min="1" /></label>
+        <label class="field"><span>weight</span>
+          <select id="pWeight">
+            <option value="400">400</option>
+            <option value="700">700</option>
+            <option value="800">800</option>
+          </select>
+        </label>
+        <label class="field"><span>color</span><input type="color" id="pColor" /></label>
+      </div>
+      <div class="grid3">
+        <label class="field"><span>enterFrom</span>
+          <select id="pEnter">
+            <option value="left">left</option>
+            <option value="right">right</option>
+            <option value="top">top</option>
+            <option value="bottom">bottom</option>
+            <option value="none">none</option>
+          </select>
+        </label>
+        <label class="field"><span>start (frame)</span><input type="number" id="pStart" /></label>
+        <label class="field"><span>end (frame)</span><input type="number" id="pEnd" /></label>
+      </div>
+      <div class="grid2">
+        <label class="field"><span>x (offset от центра)</span><input type="number" id="pX" /></label>
+        <label class="field"><span>y (offset от центра)</span><input type="number" id="pY" /></label>
+      </div>
+    </div>
+
+    <h2>Видео-вставка (inset)</h2>
+    <div class="row">
+      <button id="btnRect">Draw rect</button>
+      <button id="btnDelRect" class="danger">Remove rect</button>
+    </div>
+    <div id="insetProps" style="display:none">
+      <label class="field"><span>borderRadius: <b id="brVal">20</b> px</span>
+        <input type="range" id="pRadius" min="0" max="200" value="20" />
+      </label>
+      <div class="grid2">
+        <label class="field"><span>x</span><input type="number" id="iX" /></label>
+        <label class="field"><span>y</span><input type="number" id="iY" /></label>
+        <label class="field"><span>width</span><input type="number" id="iW" /></label>
+        <label class="field"><span>height</span><input type="number" id="iH" /></label>
+      </div>
+    </div>
+
+    <h2>Сетка / Привязка</h2>
+    <div class="toggle"><input type="checkbox" id="tGrid" /> <label for="tGrid">Show grid</label>
+      <select id="gridStep" style="width:auto;margin-left:auto">
+        <option value="50">50px</option>
+        <option value="100" selected>100px</option>
+      </select>
+    </div>
+    <div class="toggle"><input type="checkbox" id="tSnap" /> <label for="tSnap">Snap</label>
+      <select id="snapStep" style="width:auto;margin-left:auto">
+        <option value="5">5px</option>
+        <option value="10" selected>10px</option>
+        <option value="25">25px</option>
+        <option value="50">50px</option>
+      </select>
+    </div>
+
+    <h2>Экспорт</h2>
+    <div class="seg" style="margin-bottom:8px">
+      <button id="modeWords" class="active">Words only</button>
+      <button id="modeScene">Full scene</button>
+      <button id="modeTimeline" style="display:none">Full timeline</button>
+    </div>
+    <div id="sceneFields" style="display:none">
+      <div class="grid2">
+        <label class="field"><span>scene id</span><input type="text" id="sId" value="s1" /></label>
+        <label class="field"><span>durationInFrames</span><input type="number" id="sDur" value="90" /></label>
+      </div>
+    </div>
+    <textarea id="out" readonly></textarea>
+    <div class="row" style="margin-top:8px">
+      <button id="btnCopy" class="primary" style="flex:1">Copy JSON</button>
+      <button id="btnSave">Save .json</button>
+      <span id="copyOk" class="ok" style="align-self:center;display:none">copied ✓</span>
+    </div>
+    <p class="note">Words-only → вставить в <code>scene.words</code>. Full scene → в <code>scenes[]</code>.
+    <b>Full timeline</b> (после Import) → весь <code>timeline.json</code> целиком, готов для движка.
+    Тайминги (<code>start/end</code>) и нетронутые сцены сохраняются как есть.</p>
+  </div>
+</div>
+
+<script>
+"use strict";
+
+// ============ Constants (CONTRACT) ============
+const W = 1080, H = 1920, CX = 540, CY = 960;
+// FONT_MAP — MUST match renderer src/fonts.ts
+const FONT_MAP = { condensedHeavy: "Oswald", cleanSans: "Inter" };
+
+// ===== CORE:TIMELINE-IO BEGIN =====
+// Pure, env-agnostic import/export logic. NO DOM access here — this exact block
+// is extracted and required by the Node round-trip gate (single source of truth,
+// still one file). CONTRACT §4 key order. CRITICAL: `case` is OPTIONAL — it is
+// emitted ONLY when present on the word, so a round-trip of a timeline whose
+// words omit `case` (e.g. public/timeline.json) is byte/deep equal to its input.
+(function (root) {
+  "use strict";
+
+  // Serialize one Word with the exact CONTRACT §4 key order. Any non-schema
+  // keys (the tool's transient `id`) are dropped. `case` only if present.
+  function serializeWord(w) {
+    const o = {};
+    o.text = w.text;
+    o.start = w.start;
+    o.end = w.end;
+    o.x = w.x;
+    o.y = w.y;
+    o.font = w.font;
+    o.size = w.size;
+    o.weight = w.weight;
+    o.color = w.color;
+    o.enterFrom = w.enterFrom;
+    if (w.case !== undefined && w.case !== null) o.case = w.case;
+    return o;
+  }
+
+  // Serialize a VideoInset preserving src/startFrom (fields the tool does NOT
+  // edit). Defaults match CONTRACT §6 for scratch-mode rects with no src yet.
+  function serializeVideo(v) {
+    if (!v) return null;
+    const o = {
+      src: v.src !== undefined && v.src !== null ? v.src : "placeholder",
+      x: v.x,
+      y: v.y,
+      width: v.width,
+      height: v.height,
+      borderRadius: v.borderRadius,
+      startFrom: v.startFrom !== undefined && v.startFrom !== null ? v.startFrom : 0,
+    };
+    // v2.0 audio fields — only when present so old files round-trip equal.
+    if (v.volume !== undefined && v.volume !== null) o.volume = v.volume;
+    if (v.muted !== undefined && v.muted !== null) o.muted = v.muted;
+    // speechRegions are FROZEN (from ASR) — pass through verbatim.
+    if (Array.isArray(v.speechRegions)) {
+      o.speechRegions = v.speechRegions.map(function (r) {
+        return { startFrame: r.startFrame, endFrame: r.endFrame };
+      });
+    }
+    return o;
+  }
+
+  // AudioTrack (v2.0). Legacy bare string path stays a string. Optional fields
+  // only when present.
+  function serializeAudio(a) {
+    if (a === undefined || a === null) return null;
+    if (typeof a === "string") return a;
+    const o = { src: a.src, volume: a.volume };
+    if (a.fadeInFrames !== undefined && a.fadeInFrames !== null) o.fadeInFrames = a.fadeInFrames;
+    if (a.fadeOutFrames !== undefined && a.fadeOutFrames !== null) o.fadeOutFrames = a.fadeOutFrames;
+    if (a.ducking !== undefined && a.ducking !== null) {
+      o.ducking = {
+        enabled: a.ducking.enabled,
+        duckedVolume: a.ducking.duckedVolume,
+        attackFrames: a.ducking.attackFrames,
+        releaseFrames: a.ducking.releaseFrames,
+      };
+    }
+    return o;
+  }
+
+  function serializeScene(s) {
+    const o = {
+      id: s.id,
+      durationInFrames: s.durationInFrames,
+      video: serializeVideo(s.video),
+      words: (s.words || []).map(serializeWord),
+    };
+    // v2.0: pass through the optional scene transition ONLY when present, so a
+    // round-trip of an old timeline (no transitions) stays deep-equal to input.
+    if (s.transitionToNext !== undefined && s.transitionToNext !== null) {
+      o.transitionToNext = serializeTransition(s.transitionToNext);
+    }
+    return o;
+  }
+
+  // Serialize a SceneTransition with CONTRACT §4.1 key order. Optional fields
+  // (direction, timing) emitted only when present.
+  function serializeTransition(t) {
+    const o = {};
+    o.type = t.type;
+    o.durationInFrames = t.durationInFrames;
+    if (t.direction !== undefined && t.direction !== null) o.direction = t.direction;
+    if (t.timing !== undefined && t.timing !== null) o.timing = t.timing;
+    return o;
+  }
+
+  // Re-export the WHOLE timeline. Untouched scenes/words/global fields pass
+  // through verbatim; edited ones carry the tool's mutations.
+  function serializeTimeline(t) {
+    return {
+      fps: t.fps,
+      width: t.width,
+      height: t.height,
+      background: t.background,
+      audio: serializeAudio(t.audio),
+      scenes: (t.scenes || []).map(serializeScene),
+    };
+  }
+
+  // Minimal structural validation on import. Returns array of error strings
+  // (empty = valid). We do not coerce or rewrite anything (CRITICAL №1).
+  function validateTimeline(t) {
+    const errs = [];
+    if (!t || typeof t !== "object" || Array.isArray(t)) {
+      errs.push("root is not a Timeline object");
+      return errs;
+    }
+    for (const k of ["fps", "width", "height"]) {
+      if (typeof t[k] !== "number") errs.push(k + " must be a number");
+    }
+    if (typeof t.background !== "string") errs.push("background must be a string");
+    if (!("audio" in t)) errs.push("audio field missing (use null)");
+    if (!Array.isArray(t.scenes)) {
+      errs.push("scenes must be an array");
+      return errs;
+    }
+    t.scenes.forEach((s, i) => {
+      if (typeof s.id !== "string") errs.push(`scenes[${i}].id must be a string`);
+      if (typeof s.durationInFrames !== "number")
+        errs.push(`scenes[${i}].durationInFrames must be a number`);
+      if (!Array.isArray(s.words)) errs.push(`scenes[${i}].words must be an array`);
+      (s.words || []).forEach((w, j) => {
+        for (const k of ["start", "end", "x", "y", "size", "weight"]) {
+          if (typeof w[k] !== "number")
+            errs.push(`scenes[${i}].words[${j}].${k} must be a number`);
+        }
+        if (typeof w.text !== "string")
+          errs.push(`scenes[${i}].words[${j}].text must be a string`);
+      });
+    });
+    return errs;
+  }
+
+  // Deep clone via JSON — timelines are pure JSON, so this is exact and also
+  // guarantees the in-memory master is decoupled from the parsed input object.
+  function cloneTimeline(t) {
+    return JSON.parse(JSON.stringify(t));
+  }
+
+  const api = {
+    serializeWord,
+    serializeVideo,
+    serializeAudio,
+    serializeScene,
+    serializeTransition,
+    serializeTimeline,
+    validateTimeline,
+    cloneTimeline,
+  };
+  if (typeof module !== "undefined" && module.exports) module.exports = api;
+  root.TimelineIO = api;
+})(typeof window !== "undefined" ? window : globalThis);
+// ===== CORE:TIMELINE-IO END =====
+
+// ============ State ============
+const state = {
+  words: [],
+  selectedId: null,
+  video: null,           // {x,y,width,height,borderRadius, src?, startFrom?}
+  showGrid: false,
+  gridStep: 100,
+  snap: false,
+  snapStep: 10,
+  exportMode: "words",   // 'words' | 'scene' | 'timeline'
+  // Import mode: the full imported Timeline kept live in memory. Editing the
+  // selected scene mutates this master BY REFERENCE (words[] and video are the
+  // same objects), so re-export just re-serializes the whole master — untouched
+  // scenes and global fields (fps/bg/audio/...) and every word's start/end are
+  // preserved verbatim. null = scratch mode (the original from-scratch flow).
+  master: null,
+  sceneIndex: 0,
+};
+let nextId = 1;
+let S = 1; // display scale = displayedWidth / 1080
+
+// ============ Elements ============
+const $ = (id) => document.getElementById(id);
+const stage = $("stage"), canvas = $("canvas"), gridEl = $("grid");
+const insetEl = $("inset");
+
+// ============ Scale / layout ============
+function fitStage() {
+  // Scale the 1080x1920 canvas to fit available height (and width) of the stage area.
+  const wrap = $("stageWrap");
+  const availH = wrap.clientHeight - 60;          // minus readout row
+  const availW = wrap.clientWidth - 28;           // minus padding
+  const scaleByH = availH / H;
+  const scaleByW = availW / W;
+  S = Math.min(scaleByH, scaleByW);
+  if (!isFinite(S) || S <= 0) S = 0.3;
+  stage.style.width = (W * S) + "px";
+  stage.style.height = (H * S) + "px";
+  canvas.style.transform = "scale(" + S + ")";
+  $("rdScale").textContent = Math.round(S * 100) + "%";
+}
+window.addEventListener("resize", fitStage);
+
+// ============ Coordinate conversion (CONTRACT) ============
+// Client px -> logical px inside the 1080x1920 canvas.
+function clientToLogical(clientX, clientY) {
+  const r = canvas.getBoundingClientRect();
+  const lx = (clientX - r.left) / S;
+  const ly = (clientY - r.top) / S;
+  return { lx, ly };
+}
+// Logical px -> offset from center (the x,y that go into JSON).
+function logicalToOffset(lx, ly) {
+  return { x: Math.round(lx - CX), y: Math.round(ly - CY) };
+}
+function snapVal(v) {
+  if (!state.snap) return Math.round(v);
+  const s = state.snapStep;
+  return Math.round(v / s) * s;
+}
+
+// ============ Grid ============
+function buildGrid() {
+  gridEl.innerHTML = "";
+  const step = state.gridStep;
+  for (let gx = 0; gx <= W; gx += step) {
+    const d = document.createElement("div");
+    d.className = "gridline" + (gx % 200 === 0 ? " major" : "");
+    d.style.left = gx + "px"; d.style.top = "0"; d.style.width = "1px"; d.style.height = H + "px";
+    gridEl.appendChild(d);
+  }
+  for (let gy = 0; gy <= H; gy += step) {
+    const d = document.createElement("div");
+    d.className = "gridline" + (gy % 200 === 0 ? " major" : "");
+    d.style.top = gy + "px"; d.style.left = "0"; d.style.height = "1px"; d.style.width = W + "px";
+    gridEl.appendChild(d);
+  }
+  // center axes
+  const ax = document.createElement("div");
+  ax.className = "axis"; ax.style.left = CX + "px"; ax.style.top = "0"; ax.style.width = "2px"; ax.style.height = H + "px";
+  gridEl.appendChild(ax);
+  const ay = document.createElement("div");
+  ay.className = "axis"; ay.style.top = CY + "px"; ay.style.left = "0"; ay.style.height = "2px"; ay.style.width = W + "px";
+  gridEl.appendChild(ay);
+}
+
+// ============ Words rendering ============
+function defaultWord(x, y) {
+  return {
+    id: nextId++,
+    text: "СЛОВО",
+    start: 0, end: 90,
+    x, y,
+    font: "condensedHeavy", size: 64, weight: 800,
+    color: "#ffffff", enterFrom: "left", case: "upper",
+  };
+}
+function applyCase(t, c) {
+  if (c === "upper") return t.toUpperCase();
+  if (c === "lower") return t.toLowerCase();
+  return t;
+}
+function renderWords() {
+  // remove old word nodes
+  canvas.querySelectorAll(".word").forEach((n) => n.remove());
+  for (const w of state.words) {
+    const el = document.createElement("div");
+    el.className = "word" + (w.id === state.selectedId ? " sel" : "");
+    el.dataset.id = w.id;
+    // SAME transform model as renderer: center the box, then offset by (x,y).
+    el.style.transform = `translate(-50%, -50%) translate(${w.x}px, ${w.y}px)`;
+    el.style.fontFamily = FONT_MAP[w.font] + ", sans-serif";
+    el.style.fontSize = w.size + "px";
+    el.style.fontWeight = w.weight;
+    el.style.color = w.color;
+    el.textContent = applyCase(w.text, w.case);
+    const dot = document.createElement("div");
+    dot.className = "dot";
+    el.appendChild(dot);
+    canvas.appendChild(el);
+  }
+}
+
+// ============ Word list (panel) ============
+function renderWordList() {
+  const list = $("wordList");
+  $("wordCount").textContent = state.words.length;
+  if (!state.words.length) {
+    list.innerHTML = '<div class="empty">кликни по стейджу, чтобы добавить</div>';
+    return;
+  }
+  list.innerHTML = "";
+  for (const w of state.words) {
+    const it = document.createElement("div");
+    it.className = "wl-item" + (w.id === state.selectedId ? " sel" : "");
+    it.innerHTML = `<span class="t">${applyCase(w.text, w.case) || "∅"}</span><span class="xy">${w.x},${w.y}</span>`;
+    it.onclick = () => select(w.id);
+    list.appendChild(it);
+  }
+}
+
+// ============ Selection + props form ============
+function selectedWord() { return state.words.find((w) => w.id === state.selectedId) || null; }
+function select(id) {
+  state.selectedId = id;
+  renderWords(); renderWordList(); syncProps();
+}
+function syncProps() {
+  const w = selectedWord();
+  $("props").style.display = w ? "block" : "none";
+  if (!w) return;
+  $("pText").value = w.text;
+  $("pFont").value = w.font;
+  // Display-only fallback: a word with no `case` shows as "none" (identical
+  // render), but w.case stays undefined until the user picks one — so an
+  // untouched round-trip still omits the field (CRITICAL №2).
+  $("pCase").value = w.case || "none";
+  $("pSize").value = w.size;
+  $("pWeight").value = String(w.weight);
+  $("pColor").value = w.color;
+  $("pEnter").value = w.enterFrom;
+  $("pStart").value = w.start;
+  $("pEnd").value = w.end;
+  $("pX").value = w.x;
+  $("pY").value = w.y;
+}
+function bindProp(id, key, parse) {
+  $(id).addEventListener("input", () => {
+    const w = selectedWord(); if (!w) return;
+    w[key] = parse ? parse($(id).value) : $(id).value;
+    renderWords(); renderWordList(); refreshExport();
+  });
+}
+bindProp("pText", "text");
+bindProp("pFont", "font");
+bindProp("pCase", "case");
+bindProp("pSize", "size", (v) => Math.max(1, parseInt(v) || 1));
+bindProp("pWeight", "weight", (v) => parseInt(v));
+bindProp("pColor", "color");
+bindProp("pEnter", "enterFrom");
+bindProp("pStart", "start", (v) => parseInt(v) || 0);
+bindProp("pEnd", "end", (v) => parseInt(v) || 0);
+bindProp("pX", "x", (v) => parseInt(v) || 0);
+bindProp("pY", "y", (v) => parseInt(v) || 0);
+
+// ============ Add / delete words ============
+function addWordAt(lx, ly) {
+  const ox = snapVal(lx - CX), oy = snapVal(ly - CY);
+  const w = defaultWord(ox, oy);
+  state.words.push(w);
+  select(w.id);
+  refreshExport();
+}
+$("btnAdd").onclick = () => { addWordAt(CX, CY); };
+$("btnDel").onclick = () => {
+  if (state.selectedId == null) return;
+  state.words = state.words.filter((w) => w.id !== state.selectedId);
+  state.selectedId = null;
+  renderWords(); renderWordList(); syncProps(); refreshExport();
+};
+$("btnDelLast").onclick = () => {
+  state.words.pop();
+  state.selectedId = null;
+  renderWords(); renderWordList(); syncProps(); refreshExport();
+};
+
+// ============ Pointer interactions on stage ============
+let drag = null; // {type:'word'|'inset'|'resize'|'drawrect', ...}
+
+stage.addEventListener("mousedown", (e) => {
+  const wordEl = e.target.closest(".word");
+  const handle = e.target.closest(".h");
+  const onInset = e.target.closest("#inset");
+
+  if (handle && state.video) {
+    e.preventDefault();
+    drag = { type: "resize", corner: handle.dataset.h, start: { ...state.video } };
+    return;
+  }
+  if (onInset && state.video) {
+    e.preventDefault();
+    const { lx, ly } = clientToLogical(e.clientX, e.clientY);
+    drag = { type: "inset", offX: lx - (CX + state.video.x), offY: ly - (CY + state.video.y) };
+    return;
+  }
+  if (wordEl) {
+    e.preventDefault();
+    const id = parseInt(wordEl.dataset.id);
+    select(id);
+    const w = selectedWord();
+    const { lx, ly } = clientToLogical(e.clientX, e.clientY);
+    drag = { type: "word", id, offX: lx - (CX + w.x), offY: ly - (CY + w.y), moved: false };
+    return;
+  }
+  // empty canvas
+  const { lx, ly } = clientToLogical(e.clientX, e.clientY);
+  if (rectMode) {
+    e.preventDefault();
+    const sx = snapVal(lx), sy = snapVal(ly);
+    // Preserve src/startFrom if a rect already existed (e.g. imported inset),
+    // so redrawing the box doesn't silently drop the real clip path.
+    const prev = state.video;
+    state.video = {
+      x: snapVal(sx - CX), y: snapVal(sy - CY), width: 0, height: 0, borderRadius: 20,
+      src: prev && prev.src !== undefined ? prev.src : undefined,
+      startFrom: prev && prev.startFrom !== undefined ? prev.startFrom : undefined,
+    };
+    drag = { type: "drawrect", anchorX: sx, anchorY: sy };
+    renderInset();
+    return;
+  }
+  drag = { type: "place", lx, ly, moved: false };
+});
+
+window.addEventListener("mousemove", (e) => {
+  // live readout
+  const { lx, ly } = clientToLogical(e.clientX, e.clientY);
+  const off = logicalToOffset(lx, ly);
+  if (lx >= -200 && lx <= W + 200 && ly >= -200 && ly <= H + 200) {
+    $("rdXY").textContent = `x=${off.x}  y=${off.y}`;
+  }
+  if (!drag) return;
+
+  if (drag.type === "word") {
+    const w = selectedWord(); if (!w) return;
+    w.x = snapVal(lx - drag.offX - CX);
+    w.y = snapVal(ly - drag.offY - CY);
+    drag.moved = true;
+    renderWords(); $("pX").value = w.x; $("pY").value = w.y;
+    refreshExport();
+  } else if (drag.type === "inset") {
+    state.video.x = snapVal(lx - drag.offX - CX);
+    state.video.y = snapVal(ly - drag.offY - CY);
+    renderInset(); syncInsetProps(); refreshExport();
+  } else if (drag.type === "resize") {
+    resizeInset(lx, ly, drag.corner);
+    renderInset(); syncInsetProps(); refreshExport();
+  } else if (drag.type === "drawrect") {
+    const x0 = Math.min(drag.anchorX, lx), x1 = Math.max(drag.anchorX, lx);
+    const y0 = Math.min(drag.anchorY, ly), y1 = Math.max(drag.anchorY, ly);
+    const w = x1 - x0, h = y1 - y0;
+    state.video.width = Math.round(w);
+    state.video.height = Math.round(h);
+    state.video.x = Math.round((x0 + x1) / 2 - CX);
+    state.video.y = Math.round((y0 + y1) / 2 - CY);
+    renderInset(); syncInsetProps(); refreshExport();
+  } else if (drag.type === "place") {
+    if (Math.abs(lx - drag.lx) > 4 || Math.abs(ly - drag.ly) > 4) drag.moved = true;
+  }
+});
+
+window.addEventListener("mouseup", (e) => {
+  if (!drag) return;
+  if (drag.type === "place" && !drag.moved) {
+    addWordAt(drag.lx, drag.ly);
+  }
+  if (drag.type === "drawrect") {
+    // tiny accidental rect -> give it a default size
+    if (state.video.width < 20 || state.video.height < 20) {
+      state.video.width = 880; state.video.height = 500;
+      renderInset(); syncInsetProps(); refreshExport();
+    }
+    setRectMode(false);
+  }
+  drag = null;
+});
+
+// click on word also selects (covered by mousedown); prevent place when clicking word handled above.
+
+// ============ Video inset ============
+let rectMode = false;
+function setRectMode(on) {
+  rectMode = on;
+  $("btnRect").classList.toggle("active", on);
+  $("rdMode").textContent = on ? "draw: тяни рамку видео-вставки" : "click empty stage to place a word";
+  stage.style.cursor = on ? "cell" : "crosshair";
+}
+$("btnRect").onclick = () => setRectMode(!rectMode);
+$("btnDelRect").onclick = () => {
+  state.video = null; renderInset(); refreshExport();
+};
+function resizeInset(lx, ly, corner) {
+  const v = state.video;
+  // current edges
+  let left = CX + v.x - v.width / 2, right = CX + v.x + v.width / 2;
+  let top = CY + v.y - v.height / 2, bottom = CY + v.y + v.height / 2;
+  lx = snapVal(lx); ly = snapVal(ly);
+  if (corner.includes("w")) left = lx;
+  if (corner.includes("e")) right = lx;
+  if (corner.includes("n")) top = ly;
+  if (corner.includes("s")) bottom = ly;
+  if (right < left) [left, right] = [right, left];
+  if (bottom < top) [top, bottom] = [bottom, top];
+  v.width = Math.round(right - left);
+  v.height = Math.round(bottom - top);
+  v.x = Math.round((left + right) / 2 - CX);
+  v.y = Math.round((top + bottom) / 2 - CY);
+}
+function renderInset() {
+  const v = state.video;
+  if (!v) {
+    insetEl.classList.remove("on");
+    $("insetProps").style.display = "none";
+    return;
+  }
+  insetEl.classList.add("on");
+  $("insetProps").style.display = "block";
+  insetEl.style.width = v.width + "px";
+  insetEl.style.height = v.height + "px";
+  insetEl.style.borderRadius = v.borderRadius + "px";
+  insetEl.style.transform = `translate(-50%, -50%) translate(${v.x}px, ${v.y}px)`;
+}
+function syncInsetProps() {
+  const v = state.video; if (!v) return;
+  $("iX").value = v.x; $("iY").value = v.y;
+  $("iW").value = v.width; $("iH").value = v.height;
+  $("pRadius").value = v.borderRadius; $("brVal").textContent = v.borderRadius;
+}
+$("pRadius").addEventListener("input", () => {
+  if (!state.video) return;
+  state.video.borderRadius = parseInt($("pRadius").value);
+  $("brVal").textContent = state.video.borderRadius;
+  renderInset(); refreshExport();
+});
+["iX", "iY", "iW", "iH"].forEach((id) => {
+  $(id).addEventListener("input", () => {
+    if (!state.video) return;
+    const v = state.video;
+    v.x = parseInt($("iX").value) || 0;
+    v.y = parseInt($("iY").value) || 0;
+    v.width = Math.max(0, parseInt($("iW").value) || 0);
+    v.height = Math.max(0, parseInt($("iH").value) || 0);
+    renderInset(); refreshExport();
+  });
+});
+
+// ============ Grid / snap toggles ============
+$("tGrid").addEventListener("change", () => {
+  state.showGrid = $("tGrid").checked;
+  gridEl.classList.toggle("on", state.showGrid);
+});
+$("gridStep").addEventListener("change", () => {
+  state.gridStep = parseInt($("gridStep").value); buildGrid();
+});
+$("tSnap").addEventListener("change", () => { state.snap = $("tSnap").checked; });
+$("snapStep").addEventListener("change", () => { state.snapStep = parseInt($("snapStep").value); });
+
+// ============ Background: image ============
+$("btnImg").onclick = () => $("fileImg").click();
+$("fileImg").addEventListener("change", (e) => {
+  const f = e.target.files[0]; if (!f) return;
+  const url = URL.createObjectURL(f);
+  setBgImage(url);
+});
+function setBgImage(url) {
+  let img = $("bgImg");
+  if (!img) {
+    img = document.createElement("img");
+    img.id = "bgImg";
+    canvas.insertBefore(img, gridEl);
+  }
+  img.src = url;
+  removeBgVideo();
+}
+function removeBgImage() { const i = $("bgImg"); if (i) i.remove(); }
+function removeBgVideo() { const v = $("bgVideo"); if (v) v.remove(); }
+
+// ============ Background: video + scrubber ============
+let scrubVideo = null;
+$("btnVid").onclick = () => $("fileVid").click();
+$("fileVid").addEventListener("change", (e) => {
+  const f = e.target.files[0]; if (!f) return;
+  const url = URL.createObjectURL(f);
+  // hidden video used only to grab a frame
+  if (!scrubVideo) {
+    scrubVideo = document.createElement("video");
+    scrubVideo.muted = true; scrubVideo.playsInline = true;
+    scrubVideo.style.display = "none";
+    document.body.appendChild(scrubVideo);
+  }
+  scrubVideo.src = url;
+  scrubVideo.onloadedmetadata = () => {
+    $("scrubWrap").classList.add("on");
+    $("scrub").max = scrubVideo.duration;
+    $("scrub").value = 0;
+    scrubVideo.currentTime = 0;
+  };
+  // live preview the scrubbed frame as bg
+  showVideoPreview();
+});
+function showVideoPreview() {
+  let v = $("bgVideo");
+  if (!v) {
+    v = document.createElement("video");
+    v.id = "bgVideo"; v.muted = true; v.playsInline = true;
+    canvas.insertBefore(v, gridEl);
+  }
+  v.src = scrubVideo.src;
+  removeBgImage();
+  v.onloadedmetadata = () => { v.currentTime = parseFloat($("scrub").value) || 0; };
+}
+$("scrub").addEventListener("input", () => {
+  const t = parseFloat($("scrub").value);
+  const v = $("bgVideo");
+  if (v) v.currentTime = t;
+  if (scrubVideo) scrubVideo.currentTime = t;
+});
+$("btnUseFrame").onclick = () => {
+  if (!scrubVideo) return;
+  // Snapshot current frame to a canvas -> data URL -> static bg image.
+  const c = document.createElement("canvas");
+  c.width = scrubVideo.videoWidth || W; c.height = scrubVideo.videoHeight || H;
+  c.getContext("2d").drawImage(scrubVideo, 0, 0, c.width, c.height);
+  try {
+    const url = c.toDataURL("image/png");
+    setBgImage(url);
+    $("scrubWrap").classList.remove("on");
+  } catch (err) {
+    alert("Не удалось захватить кадр (CORS). Используй локальный файл.");
+  }
+};
+
+// ============ Export ============
+// Use the shared pure core (TimelineIO) so the export path tested headlessly
+// in Node is the SAME code that runs in the browser.
+function buildExport() {
+  if (state.exportMode === "timeline") {
+    // Re-export the WHOLE imported timeline. Editing mutated `master` by
+    // reference, so this already reflects the user's drags/accents while every
+    // untouched field (start/end, other scenes, fps/bg/audio) is preserved.
+    commitWords();
+    if (!state.master) return "// Import a timeline.json first.";
+    return JSON.stringify(TimelineIO.serializeTimeline(state.master), null, 2);
+  }
+  const words = state.words.map(TimelineIO.serializeWord);
+  if (state.exportMode === "words") {
+    return JSON.stringify(words, null, 2);
+  }
+  // Full scene (scratch flow). In import mode reuse the selected scene's real
+  // id/duration/video so a single-scene export is still faithful.
+  const masterScene = state.master ? state.master.scenes[state.sceneIndex] : null;
+  const scene = {
+    id: masterScene ? masterScene.id : ($("sId").value || "s1"),
+    durationInFrames: masterScene
+      ? masterScene.durationInFrames
+      : (parseInt($("sDur").value) || 90),
+    video: TimelineIO.serializeVideo(state.video),
+    words,
+  };
+  return JSON.stringify(scene, null, 2);
+}
+// Keep master's selected scene in sync with the working state. Drags/accents
+// mutate shared objects in place, but add/delete (words[]) and draw/remove-rect
+// (video) reassign the references, so write them back before serializing.
+function commitWords() {
+  if (!state.master) return;
+  const sc = state.master.scenes[state.sceneIndex];
+  sc.words = state.words;
+  sc.video = state.video;
+}
+function refreshExport() { $("out").value = buildExport(); }
+
+$("modeWords").onclick = () => { state.exportMode = "words"; setMode(); };
+$("modeScene").onclick = () => { state.exportMode = "scene"; setMode(); };
+$("modeTimeline").onclick = () => { state.exportMode = "timeline"; setMode(); };
+function setMode() {
+  const m = state.exportMode;
+  $("modeWords").classList.toggle("active", m === "words");
+  $("modeScene").classList.toggle("active", m === "scene");
+  $("modeTimeline").classList.toggle("active", m === "timeline");
+  // scene-id/duration inputs only matter for the scratch "Full scene" export.
+  $("sceneFields").style.display = (m === "scene" && !state.master) ? "block" : "none";
+  refreshExport();
+}
+["sId", "sDur"].forEach((id) => $(id).addEventListener("input", refreshExport));
+
+// ============ Import timeline.json ============
+$("btnImport").onclick = () => $("fileTimeline").click();
+$("fileTimeline").addEventListener("change", (e) => {
+  const f = e.target.files[0];
+  e.target.value = ""; // allow re-importing the same file
+  if (!f) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    let parsed;
+    try {
+      parsed = JSON.parse(reader.result);
+    } catch (err) {
+      alert("Invalid JSON: " + err.message);
+      return;
+    }
+    const errs = TimelineIO.validateTimeline(parsed);
+    if (errs.length) {
+      alert("Not a valid timeline.json:\n - " + errs.slice(0, 8).join("\n - "));
+      return;
+    }
+    doImport(parsed);
+  };
+  reader.readAsText(f);
+});
+
+function doImport(tl) {
+  // Keep a private deep clone as the live master (decoupled from the file).
+  state.master = TimelineIO.cloneTimeline(tl);
+  state.sceneIndex = 0;
+  populateSceneSelect();
+  loadScene(0);
+  // Reflect the imported background on the stage for faithful placement.
+  canvas.style.background = state.master.background || "#000";
+  $("sceneSelWrap").style.display = state.master.scenes.length ? "block" : "none";
+  $("btnClearImport").style.display = "inline-block";
+  $("modeTimeline").style.display = "block";
+  state.exportMode = "timeline";
+  setMode();
+}
+
+function populateSceneSelect() {
+  const sel = $("sceneSelect");
+  sel.innerHTML = "";
+  state.master.scenes.forEach((s, i) => {
+    const o = document.createElement("option");
+    o.value = i;
+    o.textContent = `#${i + 1} — ${s.id} (${s.words.length} words, ${s.durationInFrames}f)`;
+    sel.appendChild(o);
+  });
+  sel.value = state.sceneIndex;
+}
+
+function loadScene(i) {
+  // NOTE: do NOT commit here — on a fresh import state.words is stale and `sc`
+  // below aliases the very array commit would overwrite. The scene-switch
+  // handler commits the OUTGOING scene before calling this.
+  state.sceneIndex = i;
+  const sc = state.master.scenes[i];
+  // words[] is the SAME array as master's — edits flow straight into master.
+  state.words = sc.words;
+  // Imported words carry no `id`; assign transient ones for DOM/selection.
+  // serializeWord drops non-schema keys, so this never leaks into export.
+  for (const w of state.words) if (w.id == null) w.id = nextId++;
+  state.selectedId = null;
+  // video is the SAME object as master's (preserves src/startFrom on edit).
+  state.video = sc.video || null;
+  $("importInfo").textContent =
+    `Editing scene "${sc.id}". start/end and untouched fields are preserved; ` +
+    `drag to move, set accents — re-export gives the whole timeline.`;
+  renderWords();
+  renderWordList();
+  syncProps();
+  renderInset();
+  syncInsetProps();
+  refreshExport();
+}
+
+$("sceneSelect").addEventListener("change", () => {
+  // Commit edits to the scene we're leaving (state.sceneIndex is still the old
+  // one here), then load the newly selected scene.
+  commitWords();
+  loadScene(parseInt($("sceneSelect").value) || 0);
+});
+
+$("btnClearImport").onclick = () => {
+  // Return to the from-scratch flow without reloading the page.
+  state.master = null;
+  state.sceneIndex = 0;
+  state.words = [];
+  state.video = null;
+  state.selectedId = null;
+  canvas.style.background = "#000";
+  $("sceneSelWrap").style.display = "none";
+  $("btnClearImport").style.display = "none";
+  $("modeTimeline").style.display = "none";
+  state.exportMode = "words";
+  setMode();
+  renderWords();
+  renderWordList();
+  syncProps();
+  renderInset();
+};
+
+// ============ Save .json ============
+$("btnSave").onclick = () => {
+  const blob = new Blob([$("out").value], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = state.exportMode === "timeline" ? "timeline.json"
+    : state.exportMode === "scene" ? "scene.json" : "words.json";
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+};
+
+$("btnCopy").onclick = async () => {
+  try {
+    await navigator.clipboard.writeText($("out").value);
+  } catch (e) {
+    $("out").select(); document.execCommand("copy");
+  }
+  const ok = $("copyOk"); ok.style.display = "inline";
+  setTimeout(() => { ok.style.display = "none"; }, 1200);
+};
+
+// ============ Init ============
+buildGrid();
+fitStage();
+renderWords();
+renderWordList();
+refreshExport();
+
+// Self-test sanity (logged): center click must give x≈0,y≈0.
+{
+  const t = logicalToOffset(CX, CY);
+  console.log("[selftest] center offset:", t, "(expect x=0,y=0)");
+  console.log("[selftest] top-left offset:", logicalToOffset(0, 0), "(expect x=-540,y=-960)");
+}
+</script>
+</body>
+</html>

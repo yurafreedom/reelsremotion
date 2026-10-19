@@ -1,0 +1,14 @@
+{
+  "name": "reels-editor",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Single-window WYSIWYG Reels editor (Player + timeline + transitions) over the ReelsRemotion engine.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "comment": "All runtime deps (react, react-dom, remotion, @remotion/*) resolve from the repo-root node_modules so the editor and the embedded <Player> share one React/Remotion instance. Vite tooling is installed at the repo root too."
+}

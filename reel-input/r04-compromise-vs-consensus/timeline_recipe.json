@@ -1,0 +1,364 @@
+{
+  "schema_version": "2.0",
+  "approval_status": "APPROVED",
+  "production_status": "R04_SERIES_PRODUCTION_CANDIDATE_AUTHORIZED",
+  "style_tokens": "reel-input/_templates/nikulina_style_tokens.json",
+  "sequence": [
+    {
+      "id": "example",
+      "kind": "video",
+      "clip_id": "r04-example-approved-splice",
+      "duration_seconds": 7.76,
+      "source_timing_rate": 1,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": {
+        "x": 0,
+        "y": 34,
+        "width": 1080,
+        "height": 608,
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "principle",
+      "kind": "video",
+      "clip_id": "r04-principle",
+      "duration_seconds": 32.98,
+      "trim_start_seconds": 6.74,
+      "source_timing_rate": 1,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": {
+        "x": 0,
+        "y": 34,
+        "width": 1080,
+        "height": 608,
+        "fit": "cover"
+      }
+    }
+  ],
+  "graphics": [
+    {
+      "id": "example-bottom-scrim",
+      "sequence_id": "example",
+      "start_seconds": 0,
+      "end_seconds": 7.76,
+      "shape": "rect",
+      "x": 0,
+      "y": 649,
+      "width": 1080,
+      "height": 622,
+      "color": "#080808",
+      "opacity": 0.3
+    },
+    {
+      "id": "principle-bottom-scrim",
+      "sequence_id": "principle",
+      "start_seconds": 0,
+      "end_seconds": 32.98,
+      "shape": "rect",
+      "x": 0,
+      "y": 649,
+      "width": 1080,
+      "height": 622,
+      "color": "#080808",
+      "opacity": 0.3
+    },
+    {
+      "id": "example-hook-zone",
+      "sequence_id": "example",
+      "start_seconds": 0,
+      "end_seconds": 7.4,
+      "shape": "rect",
+      "x": 0,
+      "y": -615,
+      "width": 1080,
+      "height": 690,
+      "color": "#080808",
+      "opacity": 0.68,
+      "animation": "fade",
+      "animation_duration_frames": 9,
+      "fade_out_frames": 7
+    },
+    {
+      "id": "example-hook-plate",
+      "sequence_id": "example",
+      "start_seconds": 0.18,
+      "end_seconds": 7.4,
+      "shape": "rect",
+      "x": 0,
+      "y": -500,
+      "width": 910,
+      "height": 104,
+      "color": "#7A1F32",
+      "borderRadius": 2,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "id": "principle-final-zone",
+      "sequence_id": "principle",
+      "start_seconds": 29.179999999999996,
+      "end_seconds": 32.98,
+      "shape": "rect",
+      "x": 0,
+      "y": -615,
+      "width": 1080,
+      "height": 690,
+      "color": "#080808",
+      "opacity": 0.68,
+      "animation": "fade",
+      "animation_duration_frames": 9
+    }
+  ],
+  "captions": [
+    {
+      "sequence_id": "example",
+      "role": "editorial",
+      "start_seconds": 0.05,
+      "end_seconds": 7.4,
+      "text": "КОМПРОМИСС",
+      "font": "nikulinaCondensed",
+      "size": 68,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 0,
+      "y": -620,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "sequence_id": "example",
+      "role": "editorial",
+      "start_seconds": 0.18,
+      "end_seconds": 7.4,
+      "text": "НЕ ВСЕГДА РЕШАЕТ",
+      "font": "nikulinaCondensed",
+      "size": 76,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 0,
+      "y": -498,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "sequence_id": "example",
+      "role": "speech",
+      "phrase_id": "example-g1",
+      "start_seconds": 0,
+      "end_seconds": 4.28,
+      "text": "Мы пытались как-то договориться, ну ладно, давай в Париже, давай как-то вот подстроимся,",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "example",
+      "role": "speech",
+      "phrase_id": "example-g2",
+      "start_seconds": 4.4,
+      "end_seconds": 7.76,
+      "text": "но всегда это был компромисс и это не работало.",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "principle",
+      "role": "speech",
+      "phrase_id": "principle-g1",
+      "translation_group_id": "r04-approved-g1",
+      "start_seconds": 0,
+      "end_seconds": 6.94,
+      "text": "И так интересно, то есть мы можем прийти к консенсусу, только к консенсусу, мы не можем прийти к компромиссу.",
+      "font": "nikulinaSans",
+      "size": 54,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "principle",
+      "role": "speech",
+      "phrase_id": "principle-g2",
+      "translation_group_id": "r04-approved-g2",
+      "start_seconds": 6.94,
+      "end_seconds": 11.06,
+      "text": "То есть компромисс, это всегда у нас разрушающая история.",
+      "font": "nikulinaSans",
+      "size": 54,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "principle",
+      "role": "speech",
+      "phrase_id": "principle-g3",
+      "translation_group_id": "r04-approved-g3",
+      "start_seconds": 11.06,
+      "end_seconds": 19.88,
+      "text": "Вот, я понимаю, что я себя предаю, если я иду на компромисс, или он себя предаёт, если мы идём на компромисс, и только консенсус, как третье.",
+      "font": "nikulinaSans",
+      "size": 54,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "principle",
+      "role": "speech",
+      "phrase_id": "principle-g4",
+      "translation_group_id": "r04-approved-g4",
+      "start_seconds": 19.88,
+      "end_seconds": 23.28,
+      "text": "Да, вот помните, кто у меня в тантре coniunctio?",
+      "font": "nikulinaSans",
+      "size": 54,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "principle",
+      "role": "speech",
+      "phrase_id": "principle-g5",
+      "translation_group_id": "r04-approved-g5",
+      "start_seconds": 23.28,
+      "end_seconds": 32.98,
+      "text": "Вот эта история, когда встречаются две противоположности и, выдерживая интенсивность, они рождают что-то третье. И вот у нас всегда так.",
+      "font": "nikulinaSans",
+      "size": 54,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 520,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "principle",
+      "role": "editorial",
+      "start_seconds": 29.179999999999996,
+      "end_seconds": 32.98,
+      "text": "КОНСЕНСУС ИЩЕТ ТРЕТЬЕ",
+      "font": "nikulinaCondensed",
+      "size": 66,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 0,
+      "y": -500,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    }
+  ],
+  "broll": [
+    {
+      "id": "r04-br007-attention",
+      "sequence_id": "example",
+      "src": "broll/series/br007_shared_attention.mp4",
+      "start_seconds": 1.2,
+      "end_seconds": 3.2,
+      "fit": "cover"
+    },
+    {
+      "id": "r04-br026-join-mask",
+      "sequence_id": "principle",
+      "src": "broll/series/br026_transition_embrace.mp4",
+      "start_seconds": 0,
+      "end_seconds": 1.8,
+      "fit": "cover"
+    }
+  ],
+  "music": {
+    "src": "media/series_music.mp3",
+    "start_seconds": 0,
+    "volume": 0.055,
+    "fadeInFrames": 18,
+    "fadeOutFrames": 36,
+    "ducking": {
+      "enabled": true,
+      "duckedVolume": 0.022,
+      "attackFrames": 8,
+      "releaseFrames": 12
+    }
+  }
+}

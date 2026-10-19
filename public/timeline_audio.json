@@ -1,0 +1,84 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "background": "#1a1a1a",
+  "audio": {
+    "src": "music.mp3",
+    "volume": 0.6,
+    "fadeInFrames": 15,
+    "fadeOutFrames": 20,
+    "ducking": {
+      "enabled": true,
+      "duckedVolume": 0.15,
+      "attackFrames": 6,
+      "releaseFrames": 12
+    }
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "durationInFrames": 60,
+      "video": {
+        "src": "placeholder",
+        "x": 0,
+        "y": -120,
+        "width": 880,
+        "height": 500,
+        "borderRadius": 20,
+        "startFrom": 0,
+        "volume": 1,
+        "muted": false,
+        "speechRegions": [
+          { "startFrame": 4, "endFrame": 28 },
+          { "startFrame": 34, "endFrame": 58 }
+        ]
+      },
+      "words": [
+        {
+          "text": "СЦЕНА",
+          "start": 4,
+          "end": 60,
+          "x": -120,
+          "y": 320,
+          "font": "condensedHeavy",
+          "size": 90,
+          "weight": 800,
+          "color": "#ffffff",
+          "enterFrom": "left",
+          "case": "upper"
+        }
+      ],
+      "transitionToNext": { "type": "fade", "durationInFrames": 20, "timing": "linear" }
+    },
+    {
+      "id": "s2",
+      "durationInFrames": 60,
+      "video": {
+        "src": "placeholder",
+        "x": 0,
+        "y": 120,
+        "width": 700,
+        "height": 700,
+        "borderRadius": 40,
+        "startFrom": 0,
+        "muted": true,
+        "speechRegions": [{ "startFrame": 6, "endFrame": 40 }]
+      },
+      "words": [
+        {
+          "text": "два",
+          "start": 8,
+          "end": 60,
+          "x": -150,
+          "y": -280,
+          "font": "cleanSans",
+          "size": 54,
+          "weight": 400,
+          "color": "#c0182a",
+          "enterFrom": "left"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "schema_version": "2.0",
+  "system": "NIKULINA_2026",
+  "status": "VISUAL_GATE_CLOSED_APPROVED",
+  "visual_gate": "CLOSED",
+  "frame": {"width": 1080, "height": 1920, "fps": 30},
+  "safe_area": {"left": 96, "right": 96, "top": 220, "bottom": 300},
+  "subtitle_layout": {
+    "system": "WIDTH_AWARE_FIXED_SUBTITLE_LAYOUT",
+    "internal_margin_px": 24,
+    "maximum_lines": 4,
+    "minimum_font_size_px": 44,
+    "fixed_final_layout_before_reveal": true,
+    "horizontal_reflow": false,
+    "vertical_reflow": false,
+    "horizontal_clipping": "FORBIDDEN"
+  },
+  "palette": {
+    "wine": "#7A1F32",
+    "wine_dark": "#4B101D",
+    "near_white": "#F7F4EF",
+    "black": "#080808",
+    "charcoal": "#171717",
+    "white": "#FFFFFF",
+    "grey": "#B9B5B0"
+  },
+  "canonical_presets": {
+    "preset_1_main_hook": {
+      "status": "LOCKED",
+      "role": "PRIMARY_OPENING_HOOK",
+      "typography_token": "preset_1_main_hook",
+      "dark_zone_height": 690,
+      "label": "R06 / NIKULINA 2026",
+      "line_baselines": [378, 494, 616],
+      "accent_block": {"x": 96, "y": 401, "width": 454, "height": 112},
+      "motion": {"type": "fade_slide_up", "duration_frames": 12, "stagger_frames": 4, "distance_px": 14}
+    },
+    "preset_2_secondary_punch": {
+      "status": "LOCKED",
+      "role": "SECONDARY_QUESTION_OR_ARGUMENTATIVE_PUNCH",
+      "typography_token": "preset_2_secondary_punch",
+      "dark_zone_height": 690,
+      "line_baselines": [344, 448, 548, 638],
+      "accent_block": {"x": 96, "y": 371, "width": 846, "height": 94},
+      "motion": {"type": "fade_slide_up", "duration_frames": 12, "stagger_frames": 3, "distance_px": 12}
+    },
+    "preset_3_lower_third": {
+      "status": "LOCKED",
+      "role": "LOWER_THIRD_SEMANTIC_QUESTION",
+      "typography_token": "preset_3_lower_third",
+      "panel": {"x": 78, "y": 1386, "width": 924, "height": 160, "radius": 18, "padding_x": 28, "padding_y": 20},
+      "accent_line": {"x": 78, "y": 1386, "width": 8, "height": 160},
+      "line_baselines": [1455, 1521],
+      "motion": {"type": "fade_slide_up", "duration_frames": 12, "distance_px": 14}
+    }
+  },
+  "archival_variations": {
+    "screen_2_quiet_question": {"status": "NOT_BASE", "allowed": "OPTIONAL_ARCHIVAL_VARIATION_ONLY"}
+  },
+  "typography": {
+    "subtitle": {
+      "font": "nikulinaSans",
+      "size": 58,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "case": "none",
+      "x": 0,
+      "y": 570,
+      "max_lines": 4,
+      "line_height": 1.14,
+      "animation": "none",
+      "shadow": [{"y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)"}]
+    },
+    "hook": {
+      "font": "nikulinaCondensed",
+      "size": 116,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 0,
+      "y": -530,
+      "max_lines": 3,
+      "line_height": 0.94,
+      "animation": "fade-pop"
+    },
+    "preset_1_main_hook": {
+      "font": "nikulinaCondensed",
+      "size": 112,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "accent_color": "#7A1F32",
+      "case": "upper",
+      "x": 0,
+      "y": -530,
+      "max_lines": 3,
+      "line_height": 0.91,
+      "animation": "fade-pop"
+    },
+    "preset_2_secondary_punch": {
+      "font": "nikulinaCondensed",
+      "secondary_font": "nikulinaSans",
+      "size": 86,
+      "accent_size": 80,
+      "secondary_size": 60,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "accent_color": "#7A1F32",
+      "case": "upper",
+      "x": 0,
+      "y": -530,
+      "max_lines": 4,
+      "line_height": 0.94,
+      "animation": "fade-pop"
+    },
+    "preset_3_lower_third": {
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "accent_color": "#7A1F32",
+      "case": "none",
+      "x": 0,
+      "y": 526,
+      "max_lines": 2,
+      "line_height": 1.12,
+      "animation": "none",
+      "panel_color": "rgba(8,8,8,0.62)",
+      "panel_radius": 18
+    },
+    "punch": {
+      "font": "nikulinaCondensed",
+      "size": 100,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 0,
+      "y": -500,
+      "max_lines": 3,
+      "line_height": 0.96,
+      "animation": "fade-pop"
+    },
+    "serif_accent": {
+      "font": "nikulinaSans",
+      "size": 68,
+      "weight": 600,
+      "color": "#7A1F32",
+      "case": "none",
+      "x": 0,
+      "y": 0,
+      "animation": "fade-pop"
+    }
+  },
+  "animation": {
+    "principle": "Subtitles remain stable; hooks and intentional keywords may use one restrained emphasis.",
+    "fade_pop_frames": 4,
+    "canonical_entrance": "fade_slide_up_12_frames",
+    "maximum_simultaneous_emphasis_events": 1,
+    "forbidden": ["bounce_loop", "rainbow", "neon_glow", "glassmorphism", "per_word_karaoke"]
+  },
+  "background": {
+    "primary": "source_video",
+    "allowed_treatments": ["subtle_vignette", "restrained_bottom_gradient", "same-source_blur_extension"],
+    "forbidden": ["generic_tiktok_template", "decorative_stock_background"]
+  }
+}

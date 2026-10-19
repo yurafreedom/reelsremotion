@@ -1,0 +1,65 @@
+{
+  "schema_version": "2.0",
+  "approval_status": "APPROVED",
+  "production_status": "SHORT_WORD_REVEAL_PROOF_ONLY",
+  "style_tokens": "reel-input/_templates/nikulina_style_tokens.json",
+  "sequence": [
+    {
+      "id": "block-1",
+      "kind": "video",
+      "clip_id": "r06-self-question",
+      "duration_seconds": 4.36,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": {"x": 0, "y": 34, "width": 1080, "height": 608, "fit": "cover"}
+    },
+    {
+      "id": "block-2",
+      "kind": "video",
+      "clip_id": "r06-evidence-question",
+      "duration_seconds": 9.34,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": {"x": 0, "y": 34, "width": 1080, "height": 608, "fit": "cover"}
+    }
+  ],
+  "graphics": [
+    {"id": "b1-bottom-scrim", "sequence_id": "block-1", "start_seconds": 0, "end_seconds": 4.36, "shape": "rect", "x": 0, "y": 649, "width": 1080, "height": 622, "color": "#080808", "opacity": 0.28},
+    {"id": "b2-bottom-scrim", "sequence_id": "block-2", "start_seconds": 0, "end_seconds": 9.34, "shape": "rect", "x": 0, "y": 649, "width": 1080, "height": 622, "color": "#080808", "opacity": 0.28},
+    {"id": "preset1-dark-zone", "sequence_id": "block-1", "start_seconds": 0, "end_seconds": 4.36, "shape": "rect", "x": 0, "y": -615, "width": 1080, "height": 690, "color": "#080808", "opacity": 0.66},
+    {"id": "preset1-context-wine-plate", "sequence_id": "block-1", "start_seconds": 0.16, "end_seconds": 2.05, "shape": "rect", "x": 0, "y": -503, "width": 854, "height": 104, "color": "#7A1F32", "borderRadius": 2, "animation": "fade-slide-up", "animation_duration_frames": 10, "slide_distance_px": 12, "fade_out_frames": 5},
+    {"id": "preset1-wine-plate", "sequence_id": "block-1", "start_seconds": 2.18, "end_seconds": 4.36, "shape": "rect", "x": -217, "y": -503, "width": 454, "height": 112, "color": "#7A1F32", "borderRadius": 2, "animation": "fade-slide-up", "animation_duration_frames": 10, "slide_distance_px": 12, "fade_out_frames": 7},
+    {"id": "preset2-dark-zone", "sequence_id": "block-2", "start_seconds": 4.72, "end_seconds": 9.34, "shape": "rect", "x": 0, "y": -615, "width": 1080, "height": 690, "color": "#080808", "opacity": 0.66, "animation": "fade", "animation_duration_frames": 9, "fade_out_frames": 7},
+    {"id": "preset2-wine-plate", "sequence_id": "block-2", "start_seconds": 4.72, "end_seconds": 8.42, "shape": "rect", "x": -21, "y": -542, "width": 846, "height": 94, "color": "#7A1F32", "borderRadius": 2, "animation": "fade-slide-up", "animation_duration_frames": 9, "slide_distance_px": 12, "fade_out_frames": 4}
+  ],
+  "captions": [
+    {"sequence_id": "block-1", "role": "editorial", "start_seconds": 0.04, "end_seconds": 2.05, "text": "КАК ПЕРЕСТАТЬ", "font": "nikulinaCondensed", "size": 82, "weight": 700, "color": "#F7F4EF", "case": "upper", "x": -126, "y": -620, "animation": "fade-slide-up", "animation_duration_frames": 10, "slide_distance_px": 12, "fade_out_frames": 5},
+    {"sequence_id": "block-1", "role": "editorial", "start_seconds": 0.16, "end_seconds": 2.05, "text": "ДОДУМЫВАТЬ", "font": "nikulinaCondensed", "size": 88, "weight": 700, "color": "#F7F4EF", "case": "upper", "x": -6, "y": -500, "animation": "fade-slide-up", "animation_duration_frames": 10, "slide_distance_px": 12, "fade_out_frames": 5},
+    {"sequence_id": "block-1", "role": "editorial", "start_seconds": 0.28, "end_seconds": 2.05, "text": "ЗА ДРУГОГО?", "font": "nikulinaCondensed", "size": 94, "weight": 700, "color": "#F7F4EF", "case": "upper", "x": 58, "y": -380, "animation": "fade-slide-up", "animation_duration_frames": 10, "slide_distance_px": 12, "fade_out_frames": 5},
+    {"sequence_id": "block-1", "role": "editorial", "start_seconds": 2.05, "end_seconds": 4.36, "text": "ЧТО ТЫ", "font": "nikulinaCondensed", "size": 112, "weight": 700, "color": "#F7F4EF", "case": "upper", "x": -250, "y": -620, "animation": "fade-slide-up", "animation_duration_frames": 10, "slide_distance_px": 12, "fade_out_frames": 7},
+    {"sequence_id": "block-1", "role": "editorial", "start_seconds": 2.18, "end_seconds": 4.36, "text": "ЗНАЕШЬ", "font": "nikulinaCondensed", "size": 108, "weight": 700, "color": "#F7F4EF", "case": "upper", "x": -225, "y": -500, "animation": "fade-slide-up", "animation_duration_frames": 10, "slide_distance_px": 12, "fade_out_frames": 7},
+    {"sequence_id": "block-1", "role": "editorial", "start_seconds": 2.31, "end_seconds": 4.36, "text": "НАВЕРНЯКА?", "font": "nikulinaCondensed", "size": 112, "weight": 700, "color": "#F7F4EF", "case": "upper", "x": -55, "y": -380, "animation": "fade-slide-up", "animation_duration_frames": 10, "slide_distance_px": 12, "fade_out_frames": 7},
+
+    {"sequence_id": "block-1", "role": "speech", "phrase_id": "b1-native-g1", "start_seconds": 0, "end_seconds": 1.86, "text": "Вопрос, который нужно", "font": "nikulinaSans", "size": 56, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 505, "shadow": [{"y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)"}]},
+    {"sequence_id": "block-1", "role": "speech", "phrase_id": "b1-native-g1", "start_seconds": 0, "end_seconds": 1.86, "text": "задать себе:", "font": "nikulinaSans", "size": 58, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 572, "shadow": [{"y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)"}]},
+    {"sequence_id": "block-1", "role": "speech", "phrase_id": "b1-native-g2", "start_seconds": 1.86, "end_seconds": 4.36, "text": "Это что я знаю точно", "font": "nikulinaSans", "size": 54, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 505, "shadow": [{"y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)"}]},
+    {"sequence_id": "block-1", "role": "speech", "phrase_id": "b1-native-g2", "start_seconds": 1.86, "end_seconds": 4.36, "text": "является правдой.", "font": "nikulinaSans", "size": 58, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 572, "shadow": [{"y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)"}]},
+
+    {"sequence_id": "block-2", "role": "speech", "phrase_id": "b2-translated-g1", "translation_group_id": "r06-evidence-question-g1", "start_seconds": 0, "end_seconds": 4.72, "text": "А другой человек должен", "font": "nikulinaSans", "size": 56, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 505, "shadow": [{"y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)"}]},
+    {"sequence_id": "block-2", "role": "speech", "phrase_id": "b2-translated-g1", "translation_group_id": "r06-evidence-question-g1", "start_seconds": 0, "end_seconds": 4.72, "text": "спросить тебя:", "font": "nikulinaSans", "size": 58, "weight": 600, "color": "#F7F4EF", "x": 0, "y": 572, "shadow": [{"y": 3, "blur": 18, "color": "rgba(0,0,0,0.76)"}]},
+    {"sequence_id": "block-2", "role": "speech", "phrase_id": "b2-translated-g2", "translation_group_id": "r06-evidence-question-g2", "start_seconds": 4.72, "end_seconds": 8.42, "text": "СКОЛЬКО", "font": "nikulinaCondensed", "size": 88, "weight": 700, "color": "#F7F4EF", "case": "upper", "x": -220, "y": -642},
+    {"sequence_id": "block-2", "role": "speech", "phrase_id": "b2-translated-g2", "translation_group_id": "r06-evidence-question-g2", "start_seconds": 4.72, "end_seconds": 8.42, "text": "ДОКАЗАТЕЛЬСТВ", "font": "nikulinaCondensed", "size": 80, "weight": 700, "color": "#F7F4EF", "case": "upper", "x": -25, "y": -540},
+    {"sequence_id": "block-2", "role": "speech", "phrase_id": "b2-translated-g2", "translation_group_id": "r06-evidence-question-g2", "start_seconds": 4.72, "end_seconds": 8.42, "text": "ТЕБЕ НУЖНО,", "font": "nikulinaCondensed", "size": 86, "weight": 700, "color": "#F7F4EF", "case": "upper", "x": -140, "y": -438},
+    {"sequence_id": "block-2", "role": "speech", "phrase_id": "b2-translated-g3", "translation_group_id": "r06-evidence-question-g3", "start_seconds": 8.42, "end_seconds": 9.34, "text": "чтобы поверить мне?", "font": "nikulinaSans", "size": 56, "weight": 600, "color": "#F7F4EF", "x": -130, "y": -342}
+  ],
+  "broll": [],
+  "music": null
+}

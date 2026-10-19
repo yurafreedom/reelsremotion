@@ -1,0 +1,2335 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 1550,
+  "tracks": [
+    {
+      "id": "video",
+      "kind": "video",
+      "clips": [
+        {
+          "id": "question",
+          "kind": "video",
+          "src": "clips/v4/000_zaur_question_1x.mp4",
+          "start": 0,
+          "end": 468,
+          "startFrom": 0,
+          "fit": "cover",
+          "backColor": "#080808",
+          "volume": 1,
+          "muted": false,
+          "speechRegions": [
+            {
+              "startFrame": 0,
+              "endFrame": 468
+            }
+          ],
+          "backgroundBlur": 32,
+          "backgroundBrightness": 0.6,
+          "backgroundSaturation": 0.72,
+          "backgroundScale": 1.08
+        },
+        {
+          "id": "block-1",
+          "kind": "video",
+          "src": "clips/001_hook.mp4",
+          "start": 468,
+          "end": 599,
+          "startFrom": 0,
+          "fit": "cover",
+          "backColor": "#080808",
+          "volume": 1,
+          "muted": false,
+          "speechRegions": [
+            {
+              "startFrame": 468,
+              "endFrame": 599
+            }
+          ],
+          "backgroundBlur": 32,
+          "backgroundBrightness": 0.6,
+          "backgroundSaturation": 0.72,
+          "backgroundScale": 1.08
+        },
+        {
+          "id": "block-2",
+          "kind": "video",
+          "src": "clips/002_second-question.mp4",
+          "start": 599,
+          "end": 879,
+          "startFrom": 0,
+          "fit": "cover",
+          "backColor": "#080808",
+          "volume": 1,
+          "muted": false,
+          "speechRegions": [
+            {
+              "startFrame": 599,
+              "endFrame": 879
+            }
+          ],
+          "backgroundBlur": 32,
+          "backgroundBrightness": 0.6,
+          "backgroundSaturation": 0.72,
+          "backgroundScale": 1.08
+        },
+        {
+          "id": "block-3",
+          "kind": "video",
+          "src": "clips/003_payoff.mp4",
+          "start": 879,
+          "end": 1231,
+          "startFrom": 0,
+          "fit": "cover",
+          "backColor": "#080808",
+          "volume": 1,
+          "muted": false,
+          "speechRegions": [
+            {
+              "startFrame": 879,
+              "endFrame": 1231
+            }
+          ],
+          "backgroundBlur": 32,
+          "backgroundBrightness": 0.6,
+          "backgroundSaturation": 0.72,
+          "backgroundScale": 1.08
+        },
+        {
+          "id": "block-4",
+          "kind": "video",
+          "src": "clips/004_context.mp4",
+          "start": 1231,
+          "end": 1550,
+          "startFrom": 0,
+          "fit": "cover",
+          "backColor": "#080808",
+          "volume": 1,
+          "muted": false,
+          "speechRegions": [
+            {
+              "startFrame": 1231,
+              "endFrame": 1550
+            }
+          ],
+          "backgroundBlur": 32,
+          "backgroundBrightness": 0.6,
+          "backgroundSaturation": 0.72,
+          "backgroundScale": 1.08
+        }
+      ]
+    },
+    {
+      "id": "source-window",
+      "kind": "image",
+      "clips": [
+        {
+          "id": "question-source-window",
+          "kind": "image",
+          "src": "clips/v4/000_zaur_question_1x.mp4",
+          "start": 0,
+          "end": 468,
+          "startFrom": 0,
+          "x": 0,
+          "y": 34,
+          "width": 1080,
+          "height": 608,
+          "fit": "cover",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        {
+          "id": "block-1-source-window",
+          "kind": "image",
+          "src": "clips/001_hook.mp4",
+          "start": 468,
+          "end": 599,
+          "startFrom": 0,
+          "x": 0,
+          "y": 34,
+          "width": 1080,
+          "height": 608,
+          "fit": "cover",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        {
+          "id": "block-2-source-window",
+          "kind": "image",
+          "src": "clips/002_second-question.mp4",
+          "start": 599,
+          "end": 879,
+          "startFrom": 0,
+          "x": 0,
+          "y": 34,
+          "width": 1080,
+          "height": 608,
+          "fit": "cover",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        {
+          "id": "block-3-source-window",
+          "kind": "image",
+          "src": "clips/003_payoff.mp4",
+          "start": 879,
+          "end": 1231,
+          "startFrom": 0,
+          "x": 0,
+          "y": 34,
+          "width": 1080,
+          "height": 608,
+          "fit": "cover",
+          "borderRadius": 0,
+          "opacity": 1
+        },
+        {
+          "id": "block-4-source-window",
+          "kind": "image",
+          "src": "clips/004_context.mp4",
+          "start": 1231,
+          "end": 1550,
+          "startFrom": 0,
+          "x": 0,
+          "y": 34,
+          "width": 1080,
+          "height": 608,
+          "fit": "cover",
+          "borderRadius": 0,
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": "broll-1",
+      "kind": "image",
+      "clips": [
+        {
+          "id": "question-rain-reflection",
+          "kind": "image",
+          "src": "broll/v3/br039_rain_reflection.mp4",
+          "start": 420,
+          "end": 468,
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "fit": "cover",
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": "broll-2",
+      "kind": "image",
+      "clips": [
+        {
+          "id": "evidence-observable-interaction",
+          "kind": "image",
+          "src": "broll/v3/br019_observable_interaction.mp4",
+          "start": 764,
+          "end": 806,
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "fit": "cover",
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": "broll-3",
+      "kind": "image",
+      "clips": [
+        {
+          "id": "facts-grounded-action",
+          "kind": "image",
+          "src": "broll/v3/br052_grounded_action.mp4",
+          "start": 1101,
+          "end": 1143,
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "fit": "cover",
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": "shape",
+      "kind": "shape",
+      "shapes": [
+        {
+          "id": "question-bottom-scrim",
+          "shape": "rect",
+          "start": 0,
+          "end": 468,
+          "x": 0,
+          "y": 649,
+          "width": 1080,
+          "height": 622,
+          "color": "#080808",
+          "borderRadius": 0,
+          "opacity": 0.28
+        },
+        {
+          "id": "question-dark-zone",
+          "shape": "rect",
+          "start": 0,
+          "end": 468,
+          "x": 0,
+          "y": -615,
+          "width": 1080,
+          "height": 690,
+          "color": "#080808",
+          "borderRadius": 0,
+          "opacity": 0.66,
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 9,
+                "value": 0.66,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 461,
+                "value": 0.66
+              },
+              {
+                "frame": 468,
+                "value": 0,
+                "easing": "easeIn"
+              }
+            ]
+          }
+        },
+        {
+          "id": "b1-bottom-scrim",
+          "shape": "rect",
+          "start": 468,
+          "end": 599,
+          "x": 0,
+          "y": 649,
+          "width": 1080,
+          "height": 622,
+          "color": "#080808",
+          "borderRadius": 0,
+          "opacity": 0.28
+        },
+        {
+          "id": "b2-bottom-scrim",
+          "shape": "rect",
+          "start": 599,
+          "end": 879,
+          "x": 0,
+          "y": 649,
+          "width": 1080,
+          "height": 622,
+          "color": "#080808",
+          "borderRadius": 0,
+          "opacity": 0.28
+        },
+        {
+          "id": "b3-bottom-scrim",
+          "shape": "rect",
+          "start": 879,
+          "end": 1231,
+          "x": 0,
+          "y": 649,
+          "width": 1080,
+          "height": 622,
+          "color": "#080808",
+          "borderRadius": 0,
+          "opacity": 0.28
+        },
+        {
+          "id": "b4-bottom-scrim",
+          "shape": "rect",
+          "start": 1231,
+          "end": 1550,
+          "x": 0,
+          "y": 649,
+          "width": 1080,
+          "height": 622,
+          "color": "#080808",
+          "borderRadius": 0,
+          "opacity": 0.28
+        },
+        {
+          "id": "preset1-dark-zone",
+          "shape": "rect",
+          "start": 468,
+          "end": 599,
+          "x": 0,
+          "y": -615,
+          "width": 1080,
+          "height": 690,
+          "color": "#080808",
+          "borderRadius": 0,
+          "opacity": 0.66,
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 9,
+                "value": 0.66,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 124,
+                "value": 0.66
+              },
+              {
+                "frame": 131,
+                "value": 0,
+                "easing": "easeIn"
+              }
+            ]
+          }
+        },
+        {
+          "id": "preset1-context-wine-plate",
+          "shape": "rect",
+          "start": 7,
+          "end": 468,
+          "x": 0,
+          "y": -503,
+          "width": 854,
+          "height": 104,
+          "color": "#7A1F32",
+          "borderRadius": 2,
+          "opacity": 1,
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 10,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 454,
+                "value": 1
+              },
+              {
+                "frame": 461,
+                "value": 0,
+                "easing": "easeIn"
+              }
+            ],
+            "position": [
+              {
+                "frame": 0,
+                "value": {
+                  "x": 0,
+                  "y": -491
+                }
+              },
+              {
+                "frame": 10,
+                "value": {
+                  "x": 0,
+                  "y": -503
+                },
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "id": "preset1-wine-plate",
+          "shape": "rect",
+          "start": 533,
+          "end": 599,
+          "x": -217,
+          "y": -503,
+          "width": 454,
+          "height": 112,
+          "color": "#7A1F32",
+          "borderRadius": 2,
+          "opacity": 1,
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 10,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 59,
+                "value": 1
+              },
+              {
+                "frame": 66,
+                "value": 0,
+                "easing": "easeIn"
+              }
+            ],
+            "position": [
+              {
+                "frame": 0,
+                "value": {
+                  "x": -217,
+                  "y": -491
+                }
+              },
+              {
+                "frame": 10,
+                "value": {
+                  "x": -217,
+                  "y": -503
+                },
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "id": "preset2-dark-zone",
+          "shape": "rect",
+          "start": 741,
+          "end": 879,
+          "x": 0,
+          "y": -615,
+          "width": 1080,
+          "height": 690,
+          "color": "#080808",
+          "borderRadius": 0,
+          "opacity": 0.66,
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 9,
+                "value": 0.66,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 131,
+                "value": 0.66
+              },
+              {
+                "frame": 138,
+                "value": 0,
+                "easing": "easeIn"
+              }
+            ]
+          }
+        },
+        {
+          "id": "preset2-wine-plate",
+          "shape": "rect",
+          "start": 745,
+          "end": 852,
+          "x": -21,
+          "y": -542,
+          "width": 846,
+          "height": 94,
+          "color": "#7A1F32",
+          "borderRadius": 2,
+          "opacity": 1,
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 12,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 100,
+                "value": 1
+              },
+              {
+                "frame": 107,
+                "value": 0,
+                "easing": "easeIn"
+              }
+            ],
+            "position": [
+              {
+                "frame": 0,
+                "value": {
+                  "x": -21,
+                  "y": -530
+                }
+              },
+              {
+                "frame": 12,
+                "value": {
+                  "x": -21,
+                  "y": -542
+                },
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "id": "preset3-panel",
+          "shape": "rect",
+          "start": 1101,
+          "end": 1231,
+          "x": 0,
+          "y": 506,
+          "width": 924,
+          "height": 160,
+          "color": "#080808",
+          "borderRadius": 18,
+          "opacity": 0.64,
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 12,
+                "value": 0.64,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 123,
+                "value": 0.64
+              },
+              {
+                "frame": 130,
+                "value": 0,
+                "easing": "easeIn"
+              }
+            ],
+            "position": [
+              {
+                "frame": 0,
+                "value": {
+                  "x": 0,
+                  "y": 520
+                }
+              },
+              {
+                "frame": 12,
+                "value": {
+                  "x": 0,
+                  "y": 506
+                },
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "id": "preset3-wine-line",
+          "shape": "rect",
+          "start": 1101,
+          "end": 1231,
+          "x": -458,
+          "y": 506,
+          "width": 8,
+          "height": 160,
+          "color": "#7A1F32",
+          "borderRadius": 4,
+          "opacity": 1,
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 12,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 123,
+                "value": 1
+              },
+              {
+                "frame": 130,
+                "value": 0,
+                "easing": "easeIn"
+              }
+            ],
+            "position": [
+              {
+                "frame": 0,
+                "value": {
+                  "x": -458,
+                  "y": 520
+                }
+              },
+              {
+                "frame": 12,
+                "value": {
+                  "x": -458,
+                  "y": 506
+                },
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "id": "closing-dark-zone",
+          "shape": "rect",
+          "start": 1496,
+          "end": 1550,
+          "x": 0,
+          "y": -615,
+          "width": 1080,
+          "height": 690,
+          "color": "#080808",
+          "borderRadius": 0,
+          "opacity": 0.66,
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 8,
+                "value": 0.66,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "text",
+      "kind": "text",
+      "words": [
+        {
+          "text": "КАК ПЕРЕСТАТЬ",
+          "start": 2,
+          "end": 468,
+          "x": -126,
+          "y": -620,
+          "font": "nikulinaCondensed",
+          "size": 82,
+          "weight": 700,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "editorial",
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 10,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 459,
+                "value": 1
+              },
+              {
+                "frame": 466,
+                "value": 0,
+                "easing": "easeIn"
+              }
+            ],
+            "position": [
+              {
+                "frame": 0,
+                "value": {
+                  "x": -126,
+                  "y": -608
+                }
+              },
+              {
+                "frame": 10,
+                "value": {
+                  "x": -126,
+                  "y": -620
+                },
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "ДОДУМЫВАТЬ",
+          "start": 7,
+          "end": 468,
+          "x": -6,
+          "y": -500,
+          "font": "nikulinaCondensed",
+          "size": 88,
+          "weight": 700,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "editorial",
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 10,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 454,
+                "value": 1
+              },
+              {
+                "frame": 461,
+                "value": 0,
+                "easing": "easeIn"
+              }
+            ],
+            "position": [
+              {
+                "frame": 0,
+                "value": {
+                  "x": -6,
+                  "y": -488
+                }
+              },
+              {
+                "frame": 10,
+                "value": {
+                  "x": -6,
+                  "y": -500
+                },
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "ЗА ДРУГОГО?",
+          "start": 13,
+          "end": 468,
+          "x": 58,
+          "y": -380,
+          "font": "nikulinaCondensed",
+          "size": 94,
+          "weight": 700,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "editorial",
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 10,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 448,
+                "value": 1
+              },
+              {
+                "frame": 455,
+                "value": 0,
+                "easing": "easeIn"
+              }
+            ],
+            "position": [
+              {
+                "frame": 0,
+                "value": {
+                  "x": 58,
+                  "y": -368
+                }
+              },
+              {
+                "frame": 10,
+                "value": {
+                  "x": 58,
+                  "y": -380
+                },
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Что бы ты порекомендовал",
+          "start": 0,
+          "end": 119,
+          "x": 0,
+          "y": 512,
+          "font": "nikulinaSans",
+          "size": 58,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "Что",
+              "revealFrame": 0
+            },
+            {
+              "text": "бы",
+              "revealFrame": 28
+            },
+            {
+              "text": "ты",
+              "revealFrame": 56
+            },
+            {
+              "text": "порекомендовал",
+              "revealFrame": 84
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true
+        },
+        {
+          "text": "делать,",
+          "start": 0,
+          "end": 119,
+          "x": 0,
+          "y": 572,
+          "font": "nikulinaSans",
+          "size": 58,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "делать,",
+              "revealFrame": 112
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true
+        },
+        {
+          "text": "чтобы я не додумывал",
+          "start": 119,
+          "end": 248,
+          "x": 0,
+          "y": 512,
+          "font": "nikulinaSans",
+          "size": 58,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "чтобы",
+              "revealFrame": 119
+            },
+            {
+              "text": "я",
+              "revealFrame": 139
+            },
+            {
+              "text": "не",
+              "revealFrame": 160
+            },
+            {
+              "text": "додумывал",
+              "revealFrame": 180
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true
+        },
+        {
+          "text": "за других людей",
+          "start": 119,
+          "end": 248,
+          "x": 0,
+          "y": 572,
+          "font": "nikulinaSans",
+          "size": 58,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "за",
+              "revealFrame": 200
+            },
+            {
+              "text": "других",
+              "revealFrame": 221
+            },
+            {
+              "text": "людей",
+              "revealFrame": 241
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true
+        },
+        {
+          "text": "и не переанализировал их",
+          "start": 248,
+          "end": 371,
+          "x": 0,
+          "y": 512,
+          "font": "nikulinaSans",
+          "size": 58,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "и",
+              "revealFrame": 248
+            },
+            {
+              "text": "не",
+              "revealFrame": 267
+            },
+            {
+              "text": "переанализировал",
+              "revealFrame": 287
+            },
+            {
+              "text": "их",
+              "revealFrame": 306
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true
+        },
+        {
+          "text": "действия и поведение,",
+          "start": 248,
+          "end": 371,
+          "x": 0,
+          "y": 572,
+          "font": "nikulinaSans",
+          "size": 58,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "действия",
+              "revealFrame": 325
+            },
+            {
+              "text": "и",
+              "revealFrame": 345
+            },
+            {
+              "text": "поведение,",
+              "revealFrame": 364
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true
+        },
+        {
+          "text": "чтобы не уходить из",
+          "start": 371,
+          "end": 468,
+          "x": 0,
+          "y": 512,
+          "font": "nikulinaSans",
+          "size": 58,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "чтобы",
+              "revealFrame": 371
+            },
+            {
+              "text": "не",
+              "revealFrame": 386
+            },
+            {
+              "text": "уходить",
+              "revealFrame": 401
+            },
+            {
+              "text": "из",
+              "revealFrame": 416
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true
+        },
+        {
+          "text": "реальности в иллюзию.",
+          "start": 371,
+          "end": 468,
+          "x": 0,
+          "y": 572,
+          "font": "nikulinaSans",
+          "size": 58,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "реальности",
+              "revealFrame": 431
+            },
+            {
+              "text": "в",
+              "revealFrame": 446
+            },
+            {
+              "text": "иллюзию.",
+              "revealFrame": 461
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true
+        },
+        {
+          "text": "ЧТО ТЫ",
+          "start": 530,
+          "end": 599,
+          "x": -250,
+          "y": -620,
+          "font": "nikulinaCondensed",
+          "size": 112,
+          "weight": 700,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "editorial",
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 10,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 62,
+                "value": 1
+              },
+              {
+                "frame": 69,
+                "value": 0,
+                "easing": "easeIn"
+              }
+            ],
+            "position": [
+              {
+                "frame": 0,
+                "value": {
+                  "x": -250,
+                  "y": -608
+                }
+              },
+              {
+                "frame": 10,
+                "value": {
+                  "x": -250,
+                  "y": -620
+                },
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "ЗНАЕШЬ",
+          "start": 533,
+          "end": 599,
+          "x": -225,
+          "y": -500,
+          "font": "nikulinaCondensed",
+          "size": 108,
+          "weight": 700,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "editorial",
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 10,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 59,
+                "value": 1
+              },
+              {
+                "frame": 66,
+                "value": 0,
+                "easing": "easeIn"
+              }
+            ],
+            "position": [
+              {
+                "frame": 0,
+                "value": {
+                  "x": -225,
+                  "y": -488
+                }
+              },
+              {
+                "frame": 10,
+                "value": {
+                  "x": -225,
+                  "y": -500
+                },
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "НАВЕРНЯКА?",
+          "start": 537,
+          "end": 599,
+          "x": -55,
+          "y": -380,
+          "font": "nikulinaCondensed",
+          "size": 112,
+          "weight": 700,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "editorial",
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 10,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 55,
+                "value": 1
+              },
+              {
+                "frame": 62,
+                "value": 0,
+                "easing": "easeIn"
+              }
+            ],
+            "position": [
+              {
+                "frame": 0,
+                "value": {
+                  "x": -55,
+                  "y": -368
+                }
+              },
+              {
+                "frame": 10,
+                "value": {
+                  "x": -55,
+                  "y": -380
+                },
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Вопрос, который нужно",
+          "start": 468,
+          "end": 524,
+          "x": 0,
+          "y": 505,
+          "font": "nikulinaSans",
+          "size": 54,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "Вопрос,",
+              "revealFrame": 468
+            },
+            {
+              "text": "который",
+              "revealFrame": 485
+            },
+            {
+              "text": "нужно",
+              "revealFrame": 491
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "SOURCE_WORD_TIMESTAMPS",
+          "notAcousticWordAlignment": false
+        },
+        {
+          "text": "задать себе:",
+          "start": 468,
+          "end": 524,
+          "x": 0,
+          "y": 572,
+          "font": "nikulinaSans",
+          "size": 58,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "задать",
+              "revealFrame": 497
+            },
+            {
+              "text": "себе:",
+              "revealFrame": 509
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "SOURCE_WORD_TIMESTAMPS",
+          "notAcousticWordAlignment": false
+        },
+        {
+          "text": "Это что я знаю точно",
+          "start": 524,
+          "end": 599,
+          "x": 0,
+          "y": 505,
+          "font": "nikulinaSans",
+          "size": 54,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "Это",
+              "revealFrame": 524
+            },
+            {
+              "text": "что",
+              "revealFrame": 530
+            },
+            {
+              "text": "я",
+              "revealFrame": 539
+            },
+            {
+              "text": "знаю",
+              "revealFrame": 545
+            },
+            {
+              "text": "точно",
+              "revealFrame": 555
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "SOURCE_WORD_TIMESTAMPS",
+          "notAcousticWordAlignment": false
+        },
+        {
+          "text": "является правдой.",
+          "start": 524,
+          "end": 599,
+          "x": 0,
+          "y": 572,
+          "font": "nikulinaSans",
+          "size": 58,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "является",
+              "revealFrame": 568
+            },
+            {
+              "text": "правдой.",
+              "revealFrame": 584
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "SOURCE_WORD_TIMESTAMPS",
+          "notAcousticWordAlignment": false
+        },
+        {
+          "text": "А другой человек должен",
+          "start": 599,
+          "end": 741,
+          "x": 0,
+          "y": 505,
+          "font": "nikulinaSans",
+          "size": 56,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "А",
+              "revealFrame": 599
+            },
+            {
+              "text": "другой",
+              "revealFrame": 626
+            },
+            {
+              "text": "человек",
+              "revealFrame": 653
+            },
+            {
+              "text": "должен",
+              "revealFrame": 680
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true
+        },
+        {
+          "text": "спросить тебя:",
+          "start": 599,
+          "end": 741,
+          "x": 0,
+          "y": 572,
+          "font": "nikulinaSans",
+          "size": 58,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "спросить",
+              "revealFrame": 707
+            },
+            {
+              "text": "тебя:",
+              "revealFrame": 734
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true
+        },
+        {
+          "text": "СКОЛЬКО",
+          "start": 741,
+          "end": 852,
+          "x": -220,
+          "y": -642,
+          "font": "nikulinaCondensed",
+          "size": 88,
+          "weight": 700,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "СКОЛЬКО",
+              "revealFrame": 741
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true
+        },
+        {
+          "text": "ДОКАЗАТЕЛЬСТВ",
+          "start": 741,
+          "end": 852,
+          "x": -25,
+          "y": -540,
+          "font": "nikulinaCondensed",
+          "size": 80,
+          "weight": 700,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "ДОКАЗАТЕЛЬСТВ",
+              "revealFrame": 776
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true
+        },
+        {
+          "text": "ТЕБЕ НУЖНО,",
+          "start": 741,
+          "end": 852,
+          "x": -140,
+          "y": -438,
+          "font": "nikulinaCondensed",
+          "size": 86,
+          "weight": 700,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "ТЕБЕ",
+              "revealFrame": 810
+            },
+            {
+              "text": "НУЖНО,",
+              "revealFrame": 845
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true
+        },
+        {
+          "text": "чтобы поверить?",
+          "start": 852,
+          "end": 879,
+          "x": -130,
+          "y": -342,
+          "font": "nikulinaSans",
+          "size": 56,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "editorial"
+        },
+        {
+          "text": "Что ты знаешь наверняка?",
+          "start": 879,
+          "end": 1101,
+          "x": 0,
+          "y": 550,
+          "font": "nikulinaSans",
+          "size": 58,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "Что",
+              "revealFrame": 879
+            },
+            {
+              "text": "ты",
+              "revealFrame": 951
+            },
+            {
+              "text": "знаешь",
+              "revealFrame": 1022
+            },
+            {
+              "text": "наверняка?",
+              "revealFrame": 1094
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true
+        },
+        {
+          "text": "Что этот человек",
+          "start": 1101,
+          "end": 1231,
+          "x": 0,
+          "y": 468,
+          "font": "nikulinaSans",
+          "size": 56,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "Что",
+              "revealFrame": 1101
+            },
+            {
+              "text": "этот",
+              "revealFrame": 1132
+            },
+            {
+              "text": "человек",
+              "revealFrame": 1163
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true
+        },
+        {
+          "text": "действительно сделал?",
+          "start": 1101,
+          "end": 1231,
+          "x": 0,
+          "y": 534,
+          "font": "nikulinaSans",
+          "size": 56,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "действительно",
+              "revealFrame": 1193
+            },
+            {
+              "text": "сделал?",
+              "revealFrame": 1224
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "DERIVED_VISUAL_REVEAL",
+          "notAcousticWordAlignment": true
+        },
+        {
+          "text": "Первый вопрос: это что",
+          "start": 1231,
+          "end": 1341,
+          "x": 0,
+          "y": 505,
+          "font": "nikulinaSans",
+          "size": 50,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "Первый",
+              "revealFrame": 1231
+            },
+            {
+              "text": "вопрос:",
+              "revealFrame": 1251
+            },
+            {
+              "text": "это",
+              "revealFrame": 1260
+            },
+            {
+              "text": "что",
+              "revealFrame": 1273
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "SOURCE_WORD_TIMESTAMPS",
+          "notAcousticWordAlignment": false
+        },
+        {
+          "text": "действительно я знаю по факту?",
+          "start": 1231,
+          "end": 1341,
+          "x": 0,
+          "y": 572,
+          "font": "nikulinaSans",
+          "size": 56,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "действительно",
+              "revealFrame": 1282
+            },
+            {
+              "text": "я",
+              "revealFrame": 1301
+            },
+            {
+              "text": "знаю",
+              "revealFrame": 1308
+            },
+            {
+              "text": "по",
+              "revealFrame": 1319
+            },
+            {
+              "text": "факту?",
+              "revealFrame": 1331
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "SOURCE_WORD_TIMESTAMPS",
+          "notAcousticWordAlignment": false
+        },
+        {
+          "text": "Что это является правдой?",
+          "start": 1341,
+          "end": 1382,
+          "x": 0,
+          "y": 550,
+          "font": "nikulinaSans",
+          "size": 54,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "Что",
+              "revealFrame": 1341
+            },
+            {
+              "text": "это",
+              "revealFrame": 1346
+            },
+            {
+              "text": "является",
+              "revealFrame": 1351
+            },
+            {
+              "text": "правдой?",
+              "revealFrame": 1362
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "SOURCE_WORD_TIMESTAMPS",
+          "notAcousticWordAlignment": false
+        },
+        {
+          "text": "Что действительно этот",
+          "start": 1390,
+          "end": 1442,
+          "x": 0,
+          "y": 505,
+          "font": "nikulinaSans",
+          "size": 58,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "Что",
+              "revealFrame": 1390
+            },
+            {
+              "text": "действительно",
+              "revealFrame": 1394
+            },
+            {
+              "text": "этот",
+              "revealFrame": 1408
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "SOURCE_WORD_TIMESTAMPS",
+          "notAcousticWordAlignment": false
+        },
+        {
+          "text": "человек сделал?",
+          "start": 1390,
+          "end": 1442,
+          "x": 0,
+          "y": 572,
+          "font": "nikulinaSans",
+          "size": 58,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "человек",
+              "revealFrame": 1416
+            },
+            {
+              "text": "сделал?",
+              "revealFrame": 1430
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "SOURCE_WORD_TIMESTAMPS",
+          "notAcousticWordAlignment": false
+        },
+        {
+          "text": "Что я действительно сделал?",
+          "start": 1448,
+          "end": 1484,
+          "x": 0,
+          "y": 550,
+          "font": "nikulinaSans",
+          "size": 58,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "Что",
+              "revealFrame": 1448
+            },
+            {
+              "text": "я",
+              "revealFrame": 1451
+            },
+            {
+              "text": "действительно",
+              "revealFrame": 1457
+            },
+            {
+              "text": "сделал?",
+              "revealFrame": 1467
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "SOURCE_WORD_TIMESTAMPS",
+          "notAcousticWordAlignment": false
+        },
+        {
+          "text": "Что на самом деле в",
+          "start": 1491,
+          "end": 1550,
+          "x": 0,
+          "y": 505,
+          "font": "nikulinaSans",
+          "size": 56,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "Что",
+              "revealFrame": 1491
+            },
+            {
+              "text": "на",
+              "revealFrame": 1491
+            },
+            {
+              "text": "самом",
+              "revealFrame": 1497
+            },
+            {
+              "text": "деле",
+              "revealFrame": 1505
+            },
+            {
+              "text": "в",
+              "revealFrame": 1514
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "SOURCE_WORD_TIMESTAMPS",
+          "notAcousticWordAlignment": false
+        },
+        {
+          "text": "реальности произошло?",
+          "start": 1491,
+          "end": 1550,
+          "x": 0,
+          "y": 572,
+          "font": "nikulinaSans",
+          "size": 58,
+          "weight": 600,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "none",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "speech",
+          "revealMode": "cumulative-word",
+          "wordReveals": [
+            {
+              "text": "реальности",
+              "revealFrame": 1518
+            },
+            {
+              "text": "произошло?",
+              "revealFrame": 1532
+            }
+          ],
+          "revealFadeFrames": 3,
+          "timingType": "SOURCE_WORD_TIMESTAMPS",
+          "notAcousticWordAlignment": false
+        },
+        {
+          "text": "НЕ ТО, ЧТО ТЫ ДОДУМАЛ.",
+          "start": 1496,
+          "end": 1550,
+          "x": 0,
+          "y": -520,
+          "font": "nikulinaCondensed",
+          "size": 66,
+          "weight": 700,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "editorial",
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 9,
+                "value": 1,
+                "easing": "easeOut"
+              }
+            ],
+            "position": [
+              {
+                "frame": 0,
+                "value": {
+                  "x": 0,
+                  "y": -510
+                }
+              },
+              {
+                "frame": 9,
+                "value": {
+                  "x": 0,
+                  "y": -520
+                },
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "А ТО, ЧТО РЕАЛЬНО ПРОИЗОШЛО.",
+          "start": 1500,
+          "end": 1550,
+          "x": 0,
+          "y": -414,
+          "font": "nikulinaCondensed",
+          "size": 58,
+          "weight": 700,
+          "color": "#F7F4EF",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 18,
+              "color": "rgba(0,0,0,0.76)"
+            }
+          ],
+          "subtitleRole": "editorial",
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 9,
+                "value": 1,
+                "easing": "easeOut"
+              }
+            ],
+            "position": [
+              {
+                "frame": 0,
+                "value": {
+                  "x": 0,
+                  "y": -404
+                }
+              },
+              {
+                "frame": 9,
+                "value": {
+                  "x": 0,
+                  "y": -414
+                },
+                "easing": "easeOut"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "kind": "audio",
+      "clips": [
+        {
+          "id": "music",
+          "src": "media/Meridian - National Sweetheart.mp3",
+          "start": 0,
+          "end": 1550,
+          "startFrom": 0,
+          "volume": 0.055,
+          "fadeInFrames": 15,
+          "fadeOutFrames": 30,
+          "ducking": {
+            "enabled": true,
+            "duckedVolume": 0.025,
+            "attackFrames": 6,
+            "releaseFrames": 8
+          }
+        }
+      ]
+    }
+  ]
+}

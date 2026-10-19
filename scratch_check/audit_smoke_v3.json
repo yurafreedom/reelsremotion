@@ -1,0 +1,66 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 60,
+  "tracks": [
+    {
+      "id": "video",
+      "kind": "video",
+      "clips": [
+        {
+          "id": "audit-bg",
+          "kind": "color",
+          "color": "#8B1E2D",
+          "start": 0,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "text",
+      "kind": "text",
+      "words": [
+        {
+          "id": "audit-word",
+          "text": "HEADLESS OK",
+          "start": 0,
+          "end": 60,
+          "x": 0,
+          "y": 0,
+          "font": "unbounded",
+          "size": 76,
+          "weight": 700,
+          "color": "#ffffff",
+          "case": "upper",
+          "keyframes": {
+            "opacity": [
+              { "frame": 0, "value": 0 },
+              { "frame": 12, "value": 1, "easing": "easeOut" }
+            ],
+            "scale": [
+              { "frame": 0, "value": 0.85 },
+              { "frame": 12, "value": 1, "easing": "easeOut" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "kind": "audio",
+      "clips": [
+        {
+          "id": "audit-music",
+          "src": "media/connection_wayne_jones.mp3",
+          "start": 0,
+          "end": 60,
+          "startFrom": 0,
+          "volume": 0.1,
+          "fadeInFrames": 10,
+          "fadeOutFrames": 15
+        }
+      ]
+    }
+  ]
+}

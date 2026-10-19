@@ -1,0 +1,1096 @@
+{
+  "schema_version": "2.0",
+  "approval_status": "APPROVED",
+  "production_status": "R06_V5_TARGETED_MUSIC_AND_SUBTITLE_FIX_CANDIDATE_AUTHORIZED",
+  "style_tokens": "reel-input/_templates/nikulina_style_tokens.json",
+  "sequence": [
+    {
+      "id": "question",
+      "kind": "video",
+      "clip_id": "r06-zaur-question",
+      "duration_seconds": 15.6,
+      "source_timing_rate": 1,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": {
+        "x": 0,
+        "y": 34,
+        "width": 1080,
+        "height": 608,
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "block-1",
+      "kind": "video",
+      "clip_id": "r06-self-question",
+      "duration_seconds": 4.36,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": {
+        "x": 0,
+        "y": 34,
+        "width": 1080,
+        "height": 608,
+        "fit": "cover"
+      },
+      "source_timing_rate": 1
+    },
+    {
+      "id": "block-2",
+      "kind": "video",
+      "clip_id": "r06-evidence-question",
+      "duration_seconds": 9.34,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": {
+        "x": 0,
+        "y": 34,
+        "width": 1080,
+        "height": 608,
+        "fit": "cover"
+      },
+      "source_timing_rate": 1
+    },
+    {
+      "id": "block-3",
+      "kind": "video",
+      "clip_id": "r06-facts",
+      "duration_seconds": 11.74,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": {
+        "x": 0,
+        "y": 34,
+        "width": 1080,
+        "height": 608,
+        "fit": "cover"
+      },
+      "source_timing_rate": 1
+    },
+    {
+      "id": "block-4",
+      "kind": "video",
+      "clip_id": "r06-reality",
+      "duration_seconds": 10.62,
+      "fit": "cover",
+      "volume": 1,
+      "backgroundBlur": 32,
+      "backgroundBrightness": 0.6,
+      "backgroundSaturation": 0.72,
+      "backgroundScale": 1.08,
+      "source_window": {
+        "x": 0,
+        "y": 34,
+        "width": 1080,
+        "height": 608,
+        "fit": "cover"
+      },
+      "source_timing_rate": 1
+    }
+  ],
+  "graphics": [
+    {
+      "id": "question-bottom-scrim",
+      "sequence_id": "question",
+      "start_seconds": 0,
+      "end_seconds": 15.6,
+      "shape": "rect",
+      "x": 0,
+      "y": 649,
+      "width": 1080,
+      "height": 622,
+      "color": "#080808",
+      "opacity": 0.28
+    },
+    {
+      "id": "question-dark-zone",
+      "sequence_id": "question",
+      "start_seconds": 0,
+      "end_seconds": 15.6,
+      "shape": "rect",
+      "x": 0,
+      "y": -615,
+      "width": 1080,
+      "height": 690,
+      "color": "#080808",
+      "opacity": 0.66,
+      "animation": "fade",
+      "animation_duration_frames": 9,
+      "fade_out_frames": 7
+    },
+    {
+      "id": "b1-bottom-scrim",
+      "sequence_id": "block-1",
+      "start_seconds": 0,
+      "end_seconds": 4.36,
+      "shape": "rect",
+      "x": 0,
+      "y": 649,
+      "width": 1080,
+      "height": 622,
+      "color": "#080808",
+      "opacity": 0.28
+    },
+    {
+      "id": "b2-bottom-scrim",
+      "sequence_id": "block-2",
+      "start_seconds": 0,
+      "end_seconds": 9.34,
+      "shape": "rect",
+      "x": 0,
+      "y": 649,
+      "width": 1080,
+      "height": 622,
+      "color": "#080808",
+      "opacity": 0.28
+    },
+    {
+      "id": "b3-bottom-scrim",
+      "sequence_id": "block-3",
+      "start_seconds": 0,
+      "end_seconds": 11.74,
+      "shape": "rect",
+      "x": 0,
+      "y": 649,
+      "width": 1080,
+      "height": 622,
+      "color": "#080808",
+      "opacity": 0.28
+    },
+    {
+      "id": "b4-bottom-scrim",
+      "sequence_id": "block-4",
+      "start_seconds": 0,
+      "end_seconds": 10.62,
+      "shape": "rect",
+      "x": 0,
+      "y": 649,
+      "width": 1080,
+      "height": 622,
+      "color": "#080808",
+      "opacity": 0.28
+    },
+    {
+      "id": "preset1-dark-zone",
+      "sequence_id": "block-1",
+      "start_seconds": 0,
+      "end_seconds": 4.36,
+      "shape": "rect",
+      "x": 0,
+      "y": -615,
+      "width": 1080,
+      "height": 690,
+      "color": "#080808",
+      "opacity": 0.66,
+      "animation": "fade",
+      "animation_duration_frames": 9,
+      "fade_out_frames": 7
+    },
+    {
+      "id": "preset1-context-wine-plate",
+      "sequence_id": "question",
+      "start_seconds": 0.24,
+      "end_seconds": 15.6,
+      "shape": "rect",
+      "x": 0,
+      "y": -503,
+      "width": 854,
+      "height": 104,
+      "color": "#7A1F32",
+      "borderRadius": 2,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "id": "preset1-wine-plate",
+      "sequence_id": "block-1",
+      "start_seconds": 2.18,
+      "end_seconds": 4.36,
+      "shape": "rect",
+      "x": -217,
+      "y": -503,
+      "width": 454,
+      "height": 112,
+      "color": "#7A1F32",
+      "borderRadius": 2,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "id": "preset2-dark-zone",
+      "sequence_id": "block-2",
+      "start_seconds": 4.72,
+      "end_seconds": 9.34,
+      "shape": "rect",
+      "x": 0,
+      "y": -615,
+      "width": 1080,
+      "height": 690,
+      "color": "#080808",
+      "opacity": 0.66,
+      "animation": "fade",
+      "animation_duration_frames": 9,
+      "fade_out_frames": 7
+    },
+    {
+      "id": "preset2-wine-plate",
+      "sequence_id": "block-2",
+      "start_seconds": 4.88,
+      "end_seconds": 8.419999,
+      "shape": "rect",
+      "x": -21,
+      "y": -542,
+      "width": 846,
+      "height": 94,
+      "color": "#7A1F32",
+      "borderRadius": 2,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 12,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "id": "preset3-panel",
+      "sequence_id": "block-3",
+      "start_seconds": 7.399999,
+      "end_seconds": 11.74,
+      "shape": "rect",
+      "x": 0,
+      "y": 506,
+      "width": 924,
+      "height": 160,
+      "color": "#080808",
+      "borderRadius": 18,
+      "opacity": 0.64,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 12,
+      "slide_distance_px": 14,
+      "fade_out_frames": 7
+    },
+    {
+      "id": "preset3-wine-line",
+      "sequence_id": "block-3",
+      "start_seconds": 7.399999,
+      "end_seconds": 11.74,
+      "shape": "rect",
+      "x": -458,
+      "y": 506,
+      "width": 8,
+      "height": 160,
+      "color": "#7A1F32",
+      "borderRadius": 4,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 12,
+      "slide_distance_px": 14,
+      "fade_out_frames": 7
+    },
+    {
+      "id": "closing-dark-zone",
+      "sequence_id": "block-4",
+      "start_seconds": 8.82,
+      "end_seconds": 10.62,
+      "shape": "rect",
+      "x": 0,
+      "y": -615,
+      "width": 1080,
+      "height": 690,
+      "color": "#080808",
+      "opacity": 0.66,
+      "animation": "fade",
+      "animation_duration_frames": 8,
+      "fade_out_frames": 0
+    }
+  ],
+  "captions": [
+    {
+      "sequence_id": "question",
+      "role": "editorial",
+      "start_seconds": 0.06,
+      "end_seconds": 15.6,
+      "text": "КАК ПЕРЕСТАТЬ",
+      "font": "nikulinaCondensed",
+      "size": 82,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": -126,
+      "y": -620,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "sequence_id": "question",
+      "role": "editorial",
+      "start_seconds": 0.24,
+      "end_seconds": 15.6,
+      "text": "ДОДУМЫВАТЬ",
+      "font": "nikulinaCondensed",
+      "size": 88,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": -6,
+      "y": -500,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "sequence_id": "question",
+      "role": "editorial",
+      "start_seconds": 0.42,
+      "end_seconds": 15.6,
+      "text": "ЗА ДРУГОГО?",
+      "font": "nikulinaCondensed",
+      "size": 94,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 58,
+      "y": -380,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "sequence_id": "question",
+      "role": "speech",
+      "font": "nikulinaSans",
+      "size": 58,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ],
+      "phrase_id": "q-en-ru-g1",
+      "translation_group_id": "r06-zaur-question-g1",
+      "start_seconds": 0,
+      "end_seconds": 3.98,
+      "text": "Что бы ты порекомендовал",
+      "y": 512
+    },
+    {
+      "sequence_id": "question",
+      "role": "speech",
+      "font": "nikulinaSans",
+      "size": 58,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ],
+      "phrase_id": "q-en-ru-g1",
+      "translation_group_id": "r06-zaur-question-g1",
+      "start_seconds": 0,
+      "end_seconds": 3.98,
+      "text": "делать,",
+      "y": 572
+    },
+    {
+      "sequence_id": "question",
+      "role": "speech",
+      "font": "nikulinaSans",
+      "size": 58,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ],
+      "phrase_id": "q-en-ru-g2",
+      "translation_group_id": "r06-zaur-question-g2",
+      "start_seconds": 3.98,
+      "end_seconds": 8.28,
+      "text": "чтобы я не додумывал",
+      "y": 512
+    },
+    {
+      "sequence_id": "question",
+      "role": "speech",
+      "font": "nikulinaSans",
+      "size": 58,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ],
+      "phrase_id": "q-en-ru-g2",
+      "translation_group_id": "r06-zaur-question-g2",
+      "start_seconds": 3.98,
+      "end_seconds": 8.28,
+      "text": "за других людей",
+      "y": 572
+    },
+    {
+      "sequence_id": "question",
+      "role": "speech",
+      "font": "nikulinaSans",
+      "size": 58,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ],
+      "phrase_id": "q-en-ru-g3",
+      "translation_group_id": "r06-zaur-question-g3",
+      "start_seconds": 8.28,
+      "end_seconds": 12.38,
+      "text": "и не переанализировал их",
+      "y": 512
+    },
+    {
+      "sequence_id": "question",
+      "role": "speech",
+      "font": "nikulinaSans",
+      "size": 58,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ],
+      "phrase_id": "q-en-ru-g3",
+      "translation_group_id": "r06-zaur-question-g3",
+      "start_seconds": 8.28,
+      "end_seconds": 12.38,
+      "text": "действия и поведение,",
+      "y": 572
+    },
+    {
+      "sequence_id": "question",
+      "role": "speech",
+      "font": "nikulinaSans",
+      "size": 58,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ],
+      "phrase_id": "q-en-ru-g4",
+      "translation_group_id": "r06-zaur-question-g4",
+      "start_seconds": 12.38,
+      "end_seconds": 15.6,
+      "text": "чтобы не уходить из",
+      "y": 512
+    },
+    {
+      "sequence_id": "question",
+      "role": "speech",
+      "font": "nikulinaSans",
+      "size": 58,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ],
+      "phrase_id": "q-en-ru-g4",
+      "translation_group_id": "r06-zaur-question-g4",
+      "start_seconds": 12.38,
+      "end_seconds": 15.6,
+      "text": "реальности в иллюзию.",
+      "y": 572
+    },
+    {
+      "sequence_id": "block-1",
+      "role": "editorial",
+      "start_seconds": 2.050001,
+      "end_seconds": 4.36,
+      "text": "ЧТО ТЫ",
+      "font": "nikulinaCondensed",
+      "size": 112,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": -250,
+      "y": -620,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "sequence_id": "block-1",
+      "role": "editorial",
+      "start_seconds": 2.18,
+      "end_seconds": 4.36,
+      "text": "ЗНАЕШЬ",
+      "font": "nikulinaCondensed",
+      "size": 108,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": -225,
+      "y": -500,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "sequence_id": "block-1",
+      "role": "editorial",
+      "start_seconds": 2.31,
+      "end_seconds": 4.36,
+      "text": "НАВЕРНЯКА?",
+      "font": "nikulinaCondensed",
+      "size": 112,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": -55,
+      "y": -380,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 10,
+      "slide_distance_px": 12,
+      "fade_out_frames": 7
+    },
+    {
+      "sequence_id": "block-1",
+      "role": "speech",
+      "phrase_id": "b1-native-g1",
+      "start_seconds": 0,
+      "end_seconds": 1.86,
+      "text": "Вопрос, который нужно",
+      "font": "nikulinaSans",
+      "size": 54,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 505,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "block-1",
+      "role": "speech",
+      "phrase_id": "b1-native-g1",
+      "start_seconds": 0,
+      "end_seconds": 1.86,
+      "text": "задать себе:",
+      "font": "nikulinaSans",
+      "size": 58,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 572,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "block-1",
+      "role": "speech",
+      "phrase_id": "b1-native-g2",
+      "start_seconds": 1.86,
+      "end_seconds": 4.36,
+      "text": "Это что я знаю точно",
+      "font": "nikulinaSans",
+      "size": 54,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 505,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "block-1",
+      "role": "speech",
+      "phrase_id": "b1-native-g2",
+      "start_seconds": 1.86,
+      "end_seconds": 4.36,
+      "text": "является правдой.",
+      "font": "nikulinaSans",
+      "size": 58,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 572,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "block-2",
+      "role": "speech",
+      "phrase_id": "b2-g1",
+      "translation_group_id": "r06-evidence-question-g1",
+      "start_seconds": 0,
+      "end_seconds": 4.72,
+      "text": "А другой человек должен",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 505,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "block-2",
+      "role": "speech",
+      "phrase_id": "b2-g1",
+      "translation_group_id": "r06-evidence-question-g1",
+      "start_seconds": 0,
+      "end_seconds": 4.72,
+      "text": "спросить тебя:",
+      "font": "nikulinaSans",
+      "size": 58,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 572,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "block-2",
+      "role": "speech",
+      "phrase_id": "b2-g2",
+      "translation_group_id": "r06-evidence-question-g2",
+      "start_seconds": 4.72,
+      "end_seconds": 8.419999,
+      "text": "СКОЛЬКО",
+      "font": "nikulinaCondensed",
+      "size": 88,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": -220,
+      "y": -642
+    },
+    {
+      "sequence_id": "block-2",
+      "role": "speech",
+      "phrase_id": "b2-g2",
+      "translation_group_id": "r06-evidence-question-g2",
+      "start_seconds": 4.72,
+      "end_seconds": 8.419999,
+      "text": "ДОКАЗАТЕЛЬСТВ",
+      "font": "nikulinaCondensed",
+      "size": 80,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": -25,
+      "y": -540
+    },
+    {
+      "sequence_id": "block-2",
+      "role": "speech",
+      "phrase_id": "b2-g2",
+      "translation_group_id": "r06-evidence-question-g2",
+      "start_seconds": 4.72,
+      "end_seconds": 8.419999,
+      "text": "ТЕБЕ НУЖНО,",
+      "font": "nikulinaCondensed",
+      "size": 86,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": -140,
+      "y": -438
+    },
+    {
+      "sequence_id": "block-2",
+      "role": "editorial",
+      "start_seconds": 8.419999,
+      "end_seconds": 9.34,
+      "text": "чтобы поверить?",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": -130,
+      "y": -342,
+      "animation": "none"
+    },
+    {
+      "sequence_id": "block-3",
+      "role": "speech",
+      "phrase_id": "b3-g1",
+      "translation_group_id": "r06-facts-g1",
+      "start_seconds": 0,
+      "end_seconds": 7.399999,
+      "text": "Что ты знаешь наверняка?",
+      "font": "nikulinaSans",
+      "size": 58,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 550,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "block-3",
+      "role": "speech",
+      "phrase_id": "b3-g2",
+      "translation_group_id": "r06-facts-g2",
+      "start_seconds": 7.399999,
+      "end_seconds": 11.74,
+      "text": "Что этот человек",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 468
+    },
+    {
+      "sequence_id": "block-3",
+      "role": "speech",
+      "phrase_id": "b3-g2",
+      "translation_group_id": "r06-facts-g2",
+      "start_seconds": 7.399999,
+      "end_seconds": 11.74,
+      "text": "действительно сделал?",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 534
+    },
+    {
+      "sequence_id": "block-4",
+      "role": "speech",
+      "phrase_id": "b4-native-g1",
+      "start_seconds": 0,
+      "end_seconds": 3.66,
+      "text": "Первый вопрос: это что",
+      "font": "nikulinaSans",
+      "size": 50,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 505,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "block-4",
+      "role": "speech",
+      "phrase_id": "b4-native-g1",
+      "start_seconds": 0,
+      "end_seconds": 3.66,
+      "text": "действительно я знаю по факту?",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 572,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "block-4",
+      "role": "speech",
+      "phrase_id": "b4-native-g2",
+      "start_seconds": 3.66,
+      "end_seconds": 5.04,
+      "text": "Что это является правдой?",
+      "font": "nikulinaSans",
+      "size": 54,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 550,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "block-4",
+      "role": "speech",
+      "phrase_id": "b4-native-g3",
+      "start_seconds": 5.3,
+      "end_seconds": 7.04,
+      "text": "Что действительно этот",
+      "font": "nikulinaSans",
+      "size": 58,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 505,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "block-4",
+      "role": "speech",
+      "phrase_id": "b4-native-g3",
+      "start_seconds": 5.3,
+      "end_seconds": 7.04,
+      "text": "человек сделал?",
+      "font": "nikulinaSans",
+      "size": 58,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 572,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "block-4",
+      "role": "speech",
+      "phrase_id": "b4-native-g4",
+      "start_seconds": 7.22,
+      "end_seconds": 8.419999,
+      "text": "Что я действительно сделал?",
+      "font": "nikulinaSans",
+      "size": 58,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 550,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "block-4",
+      "role": "speech",
+      "phrase_id": "b4-native-g5",
+      "start_seconds": 8.659999,
+      "end_seconds": 10.62,
+      "text": "Что на самом деле в",
+      "font": "nikulinaSans",
+      "size": 56,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 505,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "block-4",
+      "role": "speech",
+      "phrase_id": "b4-native-g5",
+      "start_seconds": 8.659999,
+      "end_seconds": 10.62,
+      "text": "реальности произошло?",
+      "font": "nikulinaSans",
+      "size": 58,
+      "weight": 600,
+      "color": "#F7F4EF",
+      "x": 0,
+      "y": 572,
+      "shadow": [
+        {
+          "y": 3,
+          "blur": 18,
+          "color": "rgba(0,0,0,0.76)"
+        }
+      ]
+    },
+    {
+      "sequence_id": "block-4",
+      "role": "editorial",
+      "start_seconds": 8.82,
+      "end_seconds": 10.62,
+      "text": "НЕ ТО, ЧТО ТЫ ДОДУМАЛ.",
+      "font": "nikulinaCondensed",
+      "size": 66,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 0,
+      "y": -520,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 9,
+      "slide_distance_px": 10,
+      "fade_out_frames": 0
+    },
+    {
+      "sequence_id": "block-4",
+      "role": "editorial",
+      "start_seconds": 8.98,
+      "end_seconds": 10.62,
+      "text": "А ТО, ЧТО РЕАЛЬНО ПРОИЗОШЛО.",
+      "font": "nikulinaCondensed",
+      "size": 58,
+      "weight": 700,
+      "color": "#F7F4EF",
+      "case": "upper",
+      "x": 0,
+      "y": -414,
+      "animation": "fade-slide-up",
+      "animation_duration_frames": 9,
+      "slide_distance_px": 10,
+      "fade_out_frames": 0
+    }
+  ],
+  "broll": [
+    {
+      "id": "question-rain-reflection",
+      "sequence_id": "question",
+      "src": "broll/v3/br039_rain_reflection.mp4",
+      "start_seconds": 14,
+      "end_seconds": 15.6,
+      "fit": "cover"
+    },
+    {
+      "id": "evidence-observable-interaction",
+      "sequence_id": "block-2",
+      "src": "broll/v3/br019_observable_interaction.mp4",
+      "start_seconds": 5.5,
+      "end_seconds": 6.9,
+      "fit": "cover"
+    },
+    {
+      "id": "facts-grounded-action",
+      "sequence_id": "block-3",
+      "src": "broll/v3/br052_grounded_action.mp4",
+      "start_seconds": 7.4,
+      "end_seconds": 8.8,
+      "fit": "cover"
+    }
+  ],
+  "music": {
+    "src": "media/Meridian - National Sweetheart.mp3",
+    "start_seconds": 0,
+    "volume": 0.055,
+    "fadeInFrames": 15,
+    "fadeOutFrames": 30,
+    "ducking": {
+      "enabled": true,
+      "duckedVolume": 0.025,
+      "attackFrames": 6,
+      "releaseFrames": 8
+    }
+  }
+}

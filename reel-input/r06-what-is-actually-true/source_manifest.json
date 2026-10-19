@@ -1,0 +1,974 @@
+{
+  "schema_version": "1.0",
+  "reel_id": "R06",
+  "slug": "r06-what-is-actually-true",
+  "title": "What Do You Actually Know Is True?",
+  "stage": "production-candidate-review",
+  "approval_status": "R06_V5_TARGETED_MUSIC_AND_SUBTITLE_FIX_CANDIDATE_AUTHORIZED; HUMAN_REVIEW_PENDING",
+  "source_authority": {
+    "source_video": "video1219377731.mp4",
+    "native_asr_word_timing": "transcripts/video1219377731/asr_video1219377731.json",
+    "native_srt": "transcripts/video1219377731/subtitles_native.srt",
+    "english_translation_srt": "transcripts/video1219377731/subtitles_en.srt",
+    "contextual_english_to_russian": "transcripts/video1219377731/en_spans_ru.json",
+    "prose_transcripts": "semantic search only; never timing authority"
+  },
+  "source_media": {
+    "duration_seconds": 13974.421333,
+    "video": "h264 1280x720 25fps yuv420p",
+    "audio": "aac stereo 48000Hz",
+    "source_untouched": true
+  },
+  "clips": [
+    {
+      "id": "r06-zaur-question",
+      "role": "spoken-context-question",
+      "source_video": "video1219377731.mp4",
+      "source_start": 8171.26,
+      "source_end": 8186.86,
+      "source_start_tc": "02:16:11.260",
+      "source_end_tc": "02:16:26.860",
+      "source_duration_seconds": 15.6,
+      "extracted_duration_expected": 15.6,
+      "source_timing_rate": 1,
+      "pitch_preservation_method": "Original source video/audio at unmodified 1.0x playback",
+      "output_path": "reel-input/r06-what-is-actually-true/public/clips/v4/000_zaur_question_1x.mp4",
+      "languages": [
+        "en"
+      ],
+      "speaker": "Zaur question read aloud in English",
+      "source_quote": "What you would recommend to do so that I don't think for other people and I don't overanalyse their actions and behaviours in order not to go from reality into illusion.",
+      "source_subtitles": [
+        {
+          "id": 1416,
+          "start": 8171.26,
+          "end": 8186.86,
+          "start_tc": "02:16:11.260",
+          "end_tc": "02:16:26.860",
+          "language": "en",
+          "text": "What you would recommend to do so that I don't think for other people and I don't overanalyse their actions and behaviours in order not to go from reality into illusion.",
+          "words": [
+            {
+              "word": "What",
+              "start": 8171.26,
+              "end": 8171.98
+            },
+            {
+              "word": "you",
+              "start": 8171.98,
+              "end": 8172.22
+            },
+            {
+              "word": "would",
+              "start": 8172.22,
+              "end": 8172.46
+            },
+            {
+              "word": "recommend",
+              "start": 8172.46,
+              "end": 8173.12
+            },
+            {
+              "word": "to",
+              "start": 8173.12,
+              "end": 8174.76
+            },
+            {
+              "word": "do",
+              "start": 8174.76,
+              "end": 8175.24
+            },
+            {
+              "word": "so",
+              "start": 8175.24,
+              "end": 8177.44
+            },
+            {
+              "word": "that",
+              "start": 8177.44,
+              "end": 8177.7
+            },
+            {
+              "word": "I",
+              "start": 8177.7,
+              "end": 8177.82
+            },
+            {
+              "word": "don't",
+              "start": 8177.82,
+              "end": 8178.14
+            },
+            {
+              "word": "think",
+              "start": 8178.14,
+              "end": 8178.44
+            },
+            {
+              "word": "for",
+              "start": 8178.44,
+              "end": 8178.9
+            },
+            {
+              "word": "other",
+              "start": 8178.9,
+              "end": 8179.18
+            },
+            {
+              "word": "people",
+              "start": 8179.18,
+              "end": 8179.54
+            },
+            {
+              "word": "and",
+              "start": 8179.54,
+              "end": 8180.02
+            },
+            {
+              "word": "I",
+              "start": 8180.02,
+              "end": 8180.24
+            },
+            {
+              "word": "don't",
+              "start": 8180.24,
+              "end": 8180.72
+            },
+            {
+              "word": "overanalyse",
+              "start": 8180.72,
+              "end": 8181.88
+            },
+            {
+              "word": "their",
+              "start": 8181.88,
+              "end": 8182.16
+            },
+            {
+              "word": "actions",
+              "start": 8182.16,
+              "end": 8182.68
+            },
+            {
+              "word": "and",
+              "start": 8182.68,
+              "end": 8183.04
+            },
+            {
+              "word": "behaviours",
+              "start": 8183.04,
+              "end": 8183.64
+            },
+            {
+              "word": "in",
+              "start": 8183.64,
+              "end": 8184.58
+            },
+            {
+              "word": "order",
+              "start": 8184.58,
+              "end": 8184.78
+            },
+            {
+              "word": "not",
+              "start": 8184.78,
+              "end": 8185.14
+            },
+            {
+              "word": "to",
+              "start": 8185.14,
+              "end": 8185.34
+            },
+            {
+              "word": "go",
+              "start": 8185.34,
+              "end": 8185.5
+            },
+            {
+              "word": "from",
+              "start": 8185.5,
+              "end": 8185.7
+            },
+            {
+              "word": "reality",
+              "start": 8185.7,
+              "end": 8186.1
+            },
+            {
+              "word": "into",
+              "start": 8186.1,
+              "end": 8186.46
+            },
+            {
+              "word": "illusion.",
+              "start": 8186.46,
+              "end": 8186.86
+            }
+          ]
+        }
+      ],
+      "translation_groups": [
+        {
+          "id": "r06-zaur-question-g1",
+          "source_start": 8171.26,
+          "source_end": 8175.24,
+          "clip_start": 0,
+          "clip_end": 3.98,
+          "source_text": "What you would recommend to do",
+          "display_ru": "Что бы ты порекомендовал делать,"
+        },
+        {
+          "id": "r06-zaur-question-g2",
+          "source_start": 8175.24,
+          "source_end": 8179.54,
+          "clip_start": 3.98,
+          "clip_end": 8.28,
+          "source_text": "so that I don't think for other people",
+          "display_ru": "чтобы я не додумывал за других людей"
+        },
+        {
+          "id": "r06-zaur-question-g3",
+          "source_start": 8179.54,
+          "source_end": 8183.64,
+          "clip_start": 8.28,
+          "clip_end": 12.38,
+          "source_text": "and I don't overanalyse their actions and behaviours",
+          "display_ru": "и не переанализировал их действия и поведение,"
+        },
+        {
+          "id": "r06-zaur-question-g4",
+          "source_start": 8183.64,
+          "source_end": 8186.86,
+          "clip_start": 12.38,
+          "clip_end": 15.6,
+          "source_text": "in order not to go from reality into illusion.",
+          "display_ru": "чтобы не уходить из реальности в иллюзию."
+        }
+      ],
+      "human_review": {
+        "editorial_content": "AUTHORIZED_FOR_R06_V4_CONTEXT",
+        "final_audio_review": "PENDING",
+        "playback_rate": "HUMAN_APPROVED_1.0X"
+      },
+      "display_ru": {
+        "kind": "translation-layer",
+        "alignment": "phrase-group-only; no Russian acoustic word timestamps",
+        "provenance": "transcripts/video1219377731/en_spans_ru.json[56]",
+        "text": "Что бы ты порекомендовал делать, чтобы я не додумывал за других людей и не переанализировал их действия и поведение, чтобы не уходить из реальности в иллюзию."
+      }
+    },
+    {
+      "id": "r06-self-question",
+      "role": "hook",
+      "source_video": "video1219377731.mp4",
+      "source_start": 8224.46,
+      "source_end": 8228.82,
+      "source_start_tc": "02:17:04.460",
+      "source_end_tc": "02:17:08.820",
+      "source_duration_seconds": 4.36,
+      "extracted_duration_expected": 4.36,
+      "source_timing_rate": 1,
+      "pitch_preservation_method": "Original source video/audio at unmodified 1.0x playback",
+      "output_path": "reel-input/r06-what-is-actually-true/public/clips/001_hook.mp4",
+      "extraction_mode": "exact-reencode",
+      "languages": [
+        "ru"
+      ],
+      "speaker": "Russian-speaking host/interpreter",
+      "speaker_confidence": "INFERRED_FROM_LANGUAGE; UNDIARIZED",
+      "source_quote": "Вопрос, который нужно задать себе, это что я знаю точно является правдой.",
+      "source_subtitles": [
+        {
+          "id": 1420,
+          "start": 8224.46,
+          "end": 8228.82,
+          "start_tc": "02:17:04.460",
+          "end_tc": "02:17:08.820",
+          "language": "ru",
+          "text": "Вопрос, который нужно задать себе, это что я знаю точно является правдой.",
+          "words": [
+            {
+              "word": "Вопрос,",
+              "start": 8224.46,
+              "end": 8224.92
+            },
+            {
+              "word": "который",
+              "start": 8225.02,
+              "end": 8225.22
+            },
+            {
+              "word": "нужно",
+              "start": 8225.22,
+              "end": 8225.44
+            },
+            {
+              "word": "задать",
+              "start": 8225.44,
+              "end": 8225.84
+            },
+            {
+              "word": "себе,",
+              "start": 8225.84,
+              "end": 8226.14
+            },
+            {
+              "word": "это",
+              "start": 8226.32,
+              "end": 8226.52
+            },
+            {
+              "word": "что",
+              "start": 8226.52,
+              "end": 8226.84
+            },
+            {
+              "word": "я",
+              "start": 8226.84,
+              "end": 8227.04
+            },
+            {
+              "word": "знаю",
+              "start": 8227.04,
+              "end": 8227.36
+            },
+            {
+              "word": "точно",
+              "start": 8227.36,
+              "end": 8227.78
+            },
+            {
+              "word": "является",
+              "start": 8227.78,
+              "end": 8228.32
+            },
+            {
+              "word": "правдой.",
+              "start": 8228.32,
+              "end": 8228.82
+            }
+          ]
+        }
+      ],
+      "boundary_flags": {
+        "start_inside_subtitle": false,
+        "end_inside_subtitle": false
+      },
+      "linguistic_boundary_note": "complete short question.",
+      "include_reason": "States the opening self-question in Russian.",
+      "removable_filler": "None.",
+      "visual_qc": "REVIEW_REQUIRED_AT_EXACT_EDGES",
+      "display_ru": {
+        "kind": "native-source-proposal",
+        "alignment": "native ASR word timing available; verify ASR errors by ear",
+        "provenance": "transcripts/video1219377731/asr_video1219377731.json",
+        "text": "Вопрос, который нужно задать себе, это что я знаю точно является правдой."
+      },
+      "translation_groups": [],
+      "human_review": {
+        "audio_review": "APPROVED",
+        "start_edge": "APPROVED",
+        "end_edge": "APPROVED",
+        "editorial_content": "APPROVED"
+      }
+    },
+    {
+      "id": "r06-evidence-question",
+      "role": "second-question",
+      "source_video": "video1219377731.mp4",
+      "source_start": 8228.82,
+      "source_end": 8238.16,
+      "source_start_tc": "02:17:08.820",
+      "source_end_tc": "02:17:18.160",
+      "source_duration_seconds": 9.34,
+      "extracted_duration_expected": 9.34,
+      "source_timing_rate": 1,
+      "pitch_preservation_method": "Original source video/audio at unmodified 1.0x playback",
+      "output_path": "reel-input/r06-what-is-actually-true/public/clips/002_second-question.mp4",
+      "extraction_mode": "exact-reencode",
+      "languages": [
+        "en"
+      ],
+      "speaker": "English-speaking guest, likely Andrew",
+      "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+      "source_quote": "And the question that the other person needs to ask you is how much evidence is enough evidence for you to believe me.",
+      "source_subtitles": [
+        {
+          "id": 1421,
+          "start": 8228.82,
+          "end": 8238.16,
+          "start_tc": "02:17:08.820",
+          "end_tc": "02:17:18.160",
+          "language": "en",
+          "text": "And the question that the other person needs to ask you is how much evidence is enough evidence for you to believe me.",
+          "words": [
+            {
+              "word": "And",
+              "start": 8228.82,
+              "end": 8228.9
+            },
+            {
+              "word": "the",
+              "start": 8228.9,
+              "end": 8230.38
+            },
+            {
+              "word": "question",
+              "start": 8230.38,
+              "end": 8231.24
+            },
+            {
+              "word": "that",
+              "start": 8231.24,
+              "end": 8231.66
+            },
+            {
+              "word": "the",
+              "start": 8231.66,
+              "end": 8231.78
+            },
+            {
+              "word": "other",
+              "start": 8231.78,
+              "end": 8231.94
+            },
+            {
+              "word": "person",
+              "start": 8231.94,
+              "end": 8232.4
+            },
+            {
+              "word": "needs",
+              "start": 8232.4,
+              "end": 8232.62
+            },
+            {
+              "word": "to",
+              "start": 8232.62,
+              "end": 8232.86
+            },
+            {
+              "word": "ask",
+              "start": 8232.86,
+              "end": 8233.08
+            },
+            {
+              "word": "you",
+              "start": 8233.08,
+              "end": 8233.34
+            },
+            {
+              "word": "is",
+              "start": 8233.34,
+              "end": 8233.54
+            },
+            {
+              "word": "how",
+              "start": 8233.54,
+              "end": 8234.34
+            },
+            {
+              "word": "much",
+              "start": 8234.34,
+              "end": 8234.76
+            },
+            {
+              "word": "evidence",
+              "start": 8234.76,
+              "end": 8235.38
+            },
+            {
+              "word": "is",
+              "start": 8235.38,
+              "end": 8235.74
+            },
+            {
+              "word": "enough",
+              "start": 8235.74,
+              "end": 8236.2
+            },
+            {
+              "word": "evidence",
+              "start": 8236.2,
+              "end": 8236.88
+            },
+            {
+              "word": "for",
+              "start": 8236.88,
+              "end": 8237.24
+            },
+            {
+              "word": "you",
+              "start": 8237.24,
+              "end": 8237.42
+            },
+            {
+              "word": "to",
+              "start": 8237.42,
+              "end": 8237.56
+            },
+            {
+              "word": "believe",
+              "start": 8237.56,
+              "end": 8237.86
+            },
+            {
+              "word": "me.",
+              "start": 8237.86,
+              "end": 8238.16
+            }
+          ]
+        }
+      ],
+      "boundary_flags": {
+        "start_inside_subtitle": false,
+        "end_inside_subtitle": false
+      },
+      "linguistic_boundary_note": "complete English sentence.",
+      "include_reason": "Asks exactly how much evidence is enough to believe the other person.",
+      "removable_filler": "None; keep as one phrase group.",
+      "visual_qc": "REVIEW_REQUIRED_AT_EXACT_EDGES",
+      "display_ru": {
+        "kind": "translation-layer",
+        "alignment": "phrase-group-only; no Russian acoustic word timestamps",
+        "provenance": "transcripts/video1219377731/en_spans_ru.json[57]",
+        "text": "А вопрос, который другой человек должен задать тебе, — это: сколько доказательств тебе достаточно, чтобы мне поверить."
+      },
+      "translation_groups": [
+        {
+          "id": "r06-evidence-question-g1",
+          "source_start": 8228.82,
+          "source_end": 8238.16,
+          "clip_start": 0,
+          "clip_end": 9.34,
+          "source_text": "And the question that the other person needs to ask you is how much evidence is enough evidence for you to believe me.",
+          "display_ru": "А вопрос, который другой человек должен задать тебе, — это: сколько доказательств тебе достаточно, чтобы мне поверить."
+        }
+      ],
+      "human_review": {
+        "audio_review": "APPROVED",
+        "start_edge": "APPROVED",
+        "end_edge": "APPROVED",
+        "editorial_content": "APPROVED"
+      }
+    },
+    {
+      "id": "r06-facts",
+      "role": "payoff",
+      "source_video": "video1219377731.mp4",
+      "source_start": 8248.6,
+      "source_end": 8260.34,
+      "source_start_tc": "02:17:28.600",
+      "source_end_tc": "02:17:40.340",
+      "source_duration_seconds": 11.74,
+      "extracted_duration_expected": 11.74,
+      "source_timing_rate": 1,
+      "pitch_preservation_method": "Original source video/audio at unmodified 1.0x playback",
+      "output_path": "reel-input/r06-what-is-actually-true/public/clips/003_payoff.mp4",
+      "extraction_mode": "exact-reencode",
+      "languages": [
+        "en"
+      ],
+      "speaker": "English-speaking guest, likely Andrew",
+      "speaker_confidence": "INFERRED_FROM_LANGUAGE_AND_PROJECT_CONTEXT; UNDIARIZED",
+      "source_quote": "The first question on you is really all about like what do you know to be true? What has that person actually done?",
+      "source_subtitles": [
+        {
+          "id": 1423,
+          "start": 8248.6,
+          "end": 8256,
+          "start_tc": "02:17:28.600",
+          "end_tc": "02:17:36.000",
+          "language": "en",
+          "text": "The first question on you is really all about like what do you know to be true?",
+          "words": [
+            {
+              "word": "The",
+              "start": 8248.6,
+              "end": 8249.24
+            },
+            {
+              "word": "first",
+              "start": 8249.24,
+              "end": 8249.88
+            },
+            {
+              "word": "question",
+              "start": 8249.88,
+              "end": 8250.46
+            },
+            {
+              "word": "on",
+              "start": 8250.46,
+              "end": 8250.62
+            },
+            {
+              "word": "you",
+              "start": 8250.62,
+              "end": 8250.8
+            },
+            {
+              "word": "is",
+              "start": 8250.8,
+              "end": 8250.98
+            },
+            {
+              "word": "really",
+              "start": 8250.98,
+              "end": 8252.94
+            },
+            {
+              "word": "all",
+              "start": 8252.94,
+              "end": 8253.26
+            },
+            {
+              "word": "about",
+              "start": 8253.26,
+              "end": 8253.66
+            },
+            {
+              "word": "like",
+              "start": 8253.66,
+              "end": 8254.18
+            },
+            {
+              "word": "what",
+              "start": 8254.18,
+              "end": 8254.5
+            },
+            {
+              "word": "do",
+              "start": 8254.5,
+              "end": 8254.68
+            },
+            {
+              "word": "you",
+              "start": 8254.68,
+              "end": 8254.8
+            },
+            {
+              "word": "know",
+              "start": 8254.8,
+              "end": 8255.08
+            },
+            {
+              "word": "to",
+              "start": 8255.08,
+              "end": 8255.32
+            },
+            {
+              "word": "be",
+              "start": 8255.32,
+              "end": 8255.6
+            },
+            {
+              "word": "true?",
+              "start": 8255.6,
+              "end": 8256
+            }
+          ]
+        },
+        {
+          "id": 1424,
+          "start": 8256,
+          "end": 8260.34,
+          "start_tc": "02:17:36.000",
+          "end_tc": "02:17:40.340",
+          "language": "en",
+          "text": "What has that person actually done?",
+          "words": [
+            {
+              "word": "What",
+              "start": 8256,
+              "end": 8256.8
+            },
+            {
+              "word": "has",
+              "start": 8256.8,
+              "end": 8257.08
+            },
+            {
+              "word": "that",
+              "start": 8257.08,
+              "end": 8257.28
+            },
+            {
+              "word": "person",
+              "start": 8257.28,
+              "end": 8259.24
+            },
+            {
+              "word": "actually",
+              "start": 8259.24,
+              "end": 8259.88
+            },
+            {
+              "word": "done?",
+              "start": 8259.88,
+              "end": 8260.34
+            }
+          ]
+        }
+      ],
+      "boundary_flags": {
+        "start_inside_subtitle": false,
+        "end_inside_subtitle": false
+      },
+      "linguistic_boundary_note": "complete two-question English span.",
+      "include_reason": "Returns to evidence: what is true and what the person actually did.",
+      "removable_filler": "The conversational 'really all about like' may only be removed as an explicitly logged readability edit.",
+      "visual_qc": "REVIEW_REQUIRED_AT_EXACT_EDGES",
+      "display_ru": {
+        "kind": "translation-layer",
+        "alignment": "phrase-group-only; no Russian acoustic word timestamps",
+        "provenance": "transcripts/video1219377731/en_spans_ru.json[58]",
+        "text": "Первый вопрос к тебе на самом деле весь про то, что ты знаешь как правду? Что этот человек на самом деле сделал?"
+      },
+      "translation_groups": [
+        {
+          "id": "r06-facts-g1",
+          "source_start": 8248.6,
+          "source_end": 8256,
+          "clip_start": 0,
+          "clip_end": 7.4,
+          "source_text": "The first question on you is really all about like what do you know to be true?",
+          "display_ru": "Первый вопрос к тебе на самом деле весь про то, что ты знаешь как правду?"
+        },
+        {
+          "id": "r06-facts-g2",
+          "source_start": 8256,
+          "source_end": 8260.34,
+          "clip_start": 7.4,
+          "clip_end": 11.74,
+          "source_text": "What has that person actually done?",
+          "display_ru": "Что этот человек на самом деле сделал?"
+        }
+      ],
+      "human_review": {
+        "audio_review": "APPROVED",
+        "start_edge": "APPROVED",
+        "end_edge": "APPROVED",
+        "editorial_content": "APPROVED"
+      }
+    },
+    {
+      "id": "r06-reality",
+      "role": "context",
+      "source_video": "video1219377731.mp4",
+      "source_start": 8265.64,
+      "source_end": 8276.26,
+      "source_start_tc": "02:17:45.640",
+      "source_end_tc": "02:17:56.260",
+      "source_duration_seconds": 10.62,
+      "extracted_duration_expected": 10.62,
+      "source_timing_rate": 1,
+      "pitch_preservation_method": "Original source video/audio at unmodified 1.0x playback",
+      "output_path": "reel-input/r06-what-is-actually-true/public/clips/004_context.mp4",
+      "extraction_mode": "exact-reencode",
+      "languages": [
+        "ru"
+      ],
+      "speaker": "Russian-speaking host/interpreter",
+      "speaker_confidence": "INFERRED_FROM_LANGUAGE; UNDIARIZED",
+      "source_quote": "Первый вопрос это что действительно я знаю по факту что это является правдой, что действительно этот человек сделал, что я действительно сделал, что на самом деле в реальности произошло.",
+      "source_subtitles": [
+        {
+          "id": 1425,
+          "start": 8265.64,
+          "end": 8276.26,
+          "start_tc": "02:17:45.640",
+          "end_tc": "02:17:56.260",
+          "language": "ru",
+          "text": "Первый вопрос это что действительно я знаю по факту что это является правдой, что действительно этот человек сделал, что я действительно сделал, что на самом деле в реальности произошло.",
+          "words": [
+            {
+              "word": "Первый",
+              "start": 8265.64,
+              "end": 8266.32
+            },
+            {
+              "word": "вопрос",
+              "start": 8266.32,
+              "end": 8266.6
+            },
+            {
+              "word": "это",
+              "start": 8266.6,
+              "end": 8267.04
+            },
+            {
+              "word": "что",
+              "start": 8267.04,
+              "end": 8267.34
+            },
+            {
+              "word": "действительно",
+              "start": 8267.34,
+              "end": 8267.96
+            },
+            {
+              "word": "я",
+              "start": 8267.96,
+              "end": 8268.2
+            },
+            {
+              "word": "знаю",
+              "start": 8268.2,
+              "end": 8268.58
+            },
+            {
+              "word": "по",
+              "start": 8268.58,
+              "end": 8268.96
+            },
+            {
+              "word": "факту",
+              "start": 8268.96,
+              "end": 8269.3
+            },
+            {
+              "word": "что",
+              "start": 8269.3,
+              "end": 8269.48
+            },
+            {
+              "word": "это",
+              "start": 8269.48,
+              "end": 8269.64
+            },
+            {
+              "word": "является",
+              "start": 8269.64,
+              "end": 8270.02
+            },
+            {
+              "word": "правдой,",
+              "start": 8270.02,
+              "end": 8270.68
+            },
+            {
+              "word": "что",
+              "start": 8270.94,
+              "end": 8271.06
+            },
+            {
+              "word": "действительно",
+              "start": 8271.06,
+              "end": 8271.54
+            },
+            {
+              "word": "этот",
+              "start": 8271.54,
+              "end": 8271.82
+            },
+            {
+              "word": "человек",
+              "start": 8271.82,
+              "end": 8272.26
+            },
+            {
+              "word": "сделал,",
+              "start": 8272.26,
+              "end": 8272.68
+            },
+            {
+              "word": "что",
+              "start": 8272.86,
+              "end": 8272.96
+            },
+            {
+              "word": "я",
+              "start": 8272.96,
+              "end": 8273.18
+            },
+            {
+              "word": "действительно",
+              "start": 8273.18,
+              "end": 8273.52
+            },
+            {
+              "word": "сделал,",
+              "start": 8273.52,
+              "end": 8274.06
+            },
+            {
+              "word": "что",
+              "start": 8274.3,
+              "end": 8274.32
+            },
+            {
+              "word": "на",
+              "start": 8274.32,
+              "end": 8274.5
+            },
+            {
+              "word": "самом",
+              "start": 8274.5,
+              "end": 8274.76
+            },
+            {
+              "word": "деле",
+              "start": 8274.76,
+              "end": 8275.06
+            },
+            {
+              "word": "в",
+              "start": 8275.06,
+              "end": 8275.22
+            },
+            {
+              "word": "реальности",
+              "start": 8275.22,
+              "end": 8275.66
+            },
+            {
+              "word": "произошло.",
+              "start": 8275.66,
+              "end": 8276.26
+            }
+          ]
+        }
+      ],
+      "boundary_flags": {
+        "start_inside_subtitle": false,
+        "end_inside_subtitle": false
+      },
+      "linguistic_boundary_note": "complete interpretive sentence.",
+      "include_reason": "Expands the factual test into what actually happened in reality.",
+      "removable_filler": "Repeated clauses can be visually de-emphasized but not silently rewritten.",
+      "visual_qc": "REVIEW_REQUIRED_AT_EXACT_EDGES",
+      "display_ru": {
+        "kind": "native-source-proposal",
+        "alignment": "native ASR word timing available; verify ASR errors by ear",
+        "provenance": "transcripts/video1219377731/asr_video1219377731.json",
+        "text": "Первый вопрос это что действительно я знаю по факту что это является правдой, что действительно этот человек сделал, что я действительно сделал, что на самом деле в реальности произошло."
+      },
+      "translation_groups": [],
+      "human_review": {
+        "audio_review": "APPROVED",
+        "start_edge": "APPROVED",
+        "end_edge": "APPROVED",
+        "editorial_content": "APPROVED"
+      }
+    }
+  ],
+  "human_decision_batch": {
+    "applied_at": "2026-08-21",
+    "artifact": "reel-input/HUMAN_EDITORIAL_DECISIONS.md",
+    "canonical_episode_asr_modified": false
+  },
+  "production": {
+    "timeline": "reel-input/r06-what-is-actually-true/timeline.json",
+    "candidate": "out/r06-what-is-actually-true-v3-1.5x-broll-candidate.mp4",
+    "duration_seconds": 34.496,
+    "video_duration_seconds": 34.433333,
+    "speech_playback_rate": 1.5,
+    "pitch_preservation_method": "ffmpeg setpts=(PTS-STARTPTS)/1.5 + atempo=1.5",
+    "broll_insert_count": 3,
+    "technical_qc": "PASS",
+    "qc_frames": "scratch_check/nikulina_2026/r06_v3_final_qc/",
+    "edit_plan": "R06_V3_EDIT_PLAN.md",
+    "human_final_review": "R06_V3_FINAL_REVIEW_PENDING",
+    "series_production_authorized": false
+  }
+}

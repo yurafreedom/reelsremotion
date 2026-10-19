@@ -1,0 +1,880 @@
+{
+  "authority": "transcripts/video1219377731/asr_video1219377731.json",
+  "timing_semantics": "source seconds are absolute master time; clip seconds are relative to extracted clip start",
+  "clips": [
+    {
+      "id": "r06-zaur-question",
+      "language": [
+        "en"
+      ],
+      "words": [
+        {
+          "source": "What",
+          "source_start": 8171.26,
+          "source_end": 8171.98,
+          "clip_start": 0,
+          "clip_end": 0.72
+        },
+        {
+          "source": "you",
+          "source_start": 8171.98,
+          "source_end": 8172.22,
+          "clip_start": 0.72,
+          "clip_end": 0.96
+        },
+        {
+          "source": "would",
+          "source_start": 8172.22,
+          "source_end": 8172.46,
+          "clip_start": 0.96,
+          "clip_end": 1.2
+        },
+        {
+          "source": "recommend",
+          "source_start": 8172.46,
+          "source_end": 8173.12,
+          "clip_start": 1.2,
+          "clip_end": 1.86
+        },
+        {
+          "source": "to",
+          "source_start": 8173.12,
+          "source_end": 8174.76,
+          "clip_start": 1.86,
+          "clip_end": 3.5
+        },
+        {
+          "source": "do",
+          "source_start": 8174.76,
+          "source_end": 8175.24,
+          "clip_start": 3.5,
+          "clip_end": 3.98
+        },
+        {
+          "source": "so",
+          "source_start": 8175.24,
+          "source_end": 8177.44,
+          "clip_start": 3.98,
+          "clip_end": 6.18
+        },
+        {
+          "source": "that",
+          "source_start": 8177.44,
+          "source_end": 8177.7,
+          "clip_start": 6.18,
+          "clip_end": 6.44
+        },
+        {
+          "source": "I",
+          "source_start": 8177.7,
+          "source_end": 8177.82,
+          "clip_start": 6.44,
+          "clip_end": 6.56
+        },
+        {
+          "source": "don't",
+          "source_start": 8177.82,
+          "source_end": 8178.14,
+          "clip_start": 6.56,
+          "clip_end": 6.88
+        },
+        {
+          "source": "think",
+          "source_start": 8178.14,
+          "source_end": 8178.44,
+          "clip_start": 6.88,
+          "clip_end": 7.18
+        },
+        {
+          "source": "for",
+          "source_start": 8178.44,
+          "source_end": 8178.9,
+          "clip_start": 7.18,
+          "clip_end": 7.64
+        },
+        {
+          "source": "other",
+          "source_start": 8178.9,
+          "source_end": 8179.18,
+          "clip_start": 7.64,
+          "clip_end": 7.92
+        },
+        {
+          "source": "people",
+          "source_start": 8179.18,
+          "source_end": 8179.54,
+          "clip_start": 7.92,
+          "clip_end": 8.28
+        },
+        {
+          "source": "and",
+          "source_start": 8179.54,
+          "source_end": 8180.02,
+          "clip_start": 8.28,
+          "clip_end": 8.76
+        },
+        {
+          "source": "I",
+          "source_start": 8180.02,
+          "source_end": 8180.24,
+          "clip_start": 8.76,
+          "clip_end": 8.98
+        },
+        {
+          "source": "don't",
+          "source_start": 8180.24,
+          "source_end": 8180.72,
+          "clip_start": 8.98,
+          "clip_end": 9.46
+        },
+        {
+          "source": "overanalyse",
+          "source_start": 8180.72,
+          "source_end": 8181.88,
+          "clip_start": 9.46,
+          "clip_end": 10.62
+        },
+        {
+          "source": "their",
+          "source_start": 8181.88,
+          "source_end": 8182.16,
+          "clip_start": 10.62,
+          "clip_end": 10.9
+        },
+        {
+          "source": "actions",
+          "source_start": 8182.16,
+          "source_end": 8182.68,
+          "clip_start": 10.9,
+          "clip_end": 11.42
+        },
+        {
+          "source": "and",
+          "source_start": 8182.68,
+          "source_end": 8183.04,
+          "clip_start": 11.42,
+          "clip_end": 11.78
+        },
+        {
+          "source": "behaviours",
+          "source_start": 8183.04,
+          "source_end": 8183.64,
+          "clip_start": 11.78,
+          "clip_end": 12.38
+        },
+        {
+          "source": "in",
+          "source_start": 8183.64,
+          "source_end": 8184.58,
+          "clip_start": 12.38,
+          "clip_end": 13.32
+        },
+        {
+          "source": "order",
+          "source_start": 8184.58,
+          "source_end": 8184.78,
+          "clip_start": 13.32,
+          "clip_end": 13.52
+        },
+        {
+          "source": "not",
+          "source_start": 8184.78,
+          "source_end": 8185.14,
+          "clip_start": 13.52,
+          "clip_end": 13.88
+        },
+        {
+          "source": "to",
+          "source_start": 8185.14,
+          "source_end": 8185.34,
+          "clip_start": 13.88,
+          "clip_end": 14.08
+        },
+        {
+          "source": "go",
+          "source_start": 8185.34,
+          "source_end": 8185.5,
+          "clip_start": 14.08,
+          "clip_end": 14.24
+        },
+        {
+          "source": "from",
+          "source_start": 8185.5,
+          "source_end": 8185.7,
+          "clip_start": 14.24,
+          "clip_end": 14.44
+        },
+        {
+          "source": "reality",
+          "source_start": 8185.7,
+          "source_end": 8186.1,
+          "clip_start": 14.44,
+          "clip_end": 14.84
+        },
+        {
+          "source": "into",
+          "source_start": 8186.1,
+          "source_end": 8186.46,
+          "clip_start": 14.84,
+          "clip_end": 15.2
+        },
+        {
+          "source": "illusion.",
+          "source_start": 8186.46,
+          "source_end": 8186.86,
+          "clip_start": 15.2,
+          "clip_end": 15.6
+        }
+      ]
+    },
+    {
+      "id": "r06-self-question",
+      "source_start": 8224.46,
+      "source_end": 8228.82,
+      "language": [
+        "ru"
+      ],
+      "words": [
+        {
+          "source": "Вопрос,",
+          "source_start": 8224.46,
+          "source_end": 8224.92,
+          "clip_start": 0,
+          "clip_end": 0.46
+        },
+        {
+          "source": "который",
+          "source_start": 8225.02,
+          "source_end": 8225.22,
+          "clip_start": 0.56,
+          "clip_end": 0.76
+        },
+        {
+          "source": "нужно",
+          "source_start": 8225.22,
+          "source_end": 8225.44,
+          "clip_start": 0.76,
+          "clip_end": 0.98
+        },
+        {
+          "source": "задать",
+          "source_start": 8225.44,
+          "source_end": 8225.84,
+          "clip_start": 0.98,
+          "clip_end": 1.38
+        },
+        {
+          "source": "себе,",
+          "source_start": 8225.84,
+          "source_end": 8226.14,
+          "clip_start": 1.38,
+          "clip_end": 1.68
+        },
+        {
+          "source": "это",
+          "source_start": 8226.32,
+          "source_end": 8226.52,
+          "clip_start": 1.86,
+          "clip_end": 2.06
+        },
+        {
+          "source": "что",
+          "source_start": 8226.52,
+          "source_end": 8226.84,
+          "clip_start": 2.06,
+          "clip_end": 2.38
+        },
+        {
+          "source": "я",
+          "source_start": 8226.84,
+          "source_end": 8227.04,
+          "clip_start": 2.38,
+          "clip_end": 2.58
+        },
+        {
+          "source": "знаю",
+          "source_start": 8227.04,
+          "source_end": 8227.36,
+          "clip_start": 2.58,
+          "clip_end": 2.9
+        },
+        {
+          "source": "точно",
+          "source_start": 8227.36,
+          "source_end": 8227.78,
+          "clip_start": 2.9,
+          "clip_end": 3.32
+        },
+        {
+          "source": "является",
+          "source_start": 8227.78,
+          "source_end": 8228.32,
+          "clip_start": 3.32,
+          "clip_end": 3.86
+        },
+        {
+          "source": "правдой.",
+          "source_start": 8228.32,
+          "source_end": 8228.82,
+          "clip_start": 3.86,
+          "clip_end": 4.36
+        }
+      ]
+    },
+    {
+      "id": "r06-evidence-question",
+      "source_start": 8228.82,
+      "source_end": 8238.16,
+      "language": [
+        "en"
+      ],
+      "words": [
+        {
+          "source": "And",
+          "source_start": 8228.82,
+          "source_end": 8228.9,
+          "clip_start": 0,
+          "clip_end": 0.08
+        },
+        {
+          "source": "the",
+          "source_start": 8228.9,
+          "source_end": 8230.38,
+          "clip_start": 0.08,
+          "clip_end": 1.56
+        },
+        {
+          "source": "question",
+          "source_start": 8230.38,
+          "source_end": 8231.24,
+          "clip_start": 1.56,
+          "clip_end": 2.42
+        },
+        {
+          "source": "that",
+          "source_start": 8231.24,
+          "source_end": 8231.66,
+          "clip_start": 2.42,
+          "clip_end": 2.84
+        },
+        {
+          "source": "the",
+          "source_start": 8231.66,
+          "source_end": 8231.78,
+          "clip_start": 2.84,
+          "clip_end": 2.96
+        },
+        {
+          "source": "other",
+          "source_start": 8231.78,
+          "source_end": 8231.94,
+          "clip_start": 2.96,
+          "clip_end": 3.12
+        },
+        {
+          "source": "person",
+          "source_start": 8231.94,
+          "source_end": 8232.4,
+          "clip_start": 3.12,
+          "clip_end": 3.58
+        },
+        {
+          "source": "needs",
+          "source_start": 8232.4,
+          "source_end": 8232.62,
+          "clip_start": 3.58,
+          "clip_end": 3.8
+        },
+        {
+          "source": "to",
+          "source_start": 8232.62,
+          "source_end": 8232.86,
+          "clip_start": 3.8,
+          "clip_end": 4.04
+        },
+        {
+          "source": "ask",
+          "source_start": 8232.86,
+          "source_end": 8233.08,
+          "clip_start": 4.04,
+          "clip_end": 4.26
+        },
+        {
+          "source": "you",
+          "source_start": 8233.08,
+          "source_end": 8233.34,
+          "clip_start": 4.26,
+          "clip_end": 4.52
+        },
+        {
+          "source": "is",
+          "source_start": 8233.34,
+          "source_end": 8233.54,
+          "clip_start": 4.52,
+          "clip_end": 4.72
+        },
+        {
+          "source": "how",
+          "source_start": 8233.54,
+          "source_end": 8234.34,
+          "clip_start": 4.72,
+          "clip_end": 5.52
+        },
+        {
+          "source": "much",
+          "source_start": 8234.34,
+          "source_end": 8234.76,
+          "clip_start": 5.52,
+          "clip_end": 5.94
+        },
+        {
+          "source": "evidence",
+          "source_start": 8234.76,
+          "source_end": 8235.38,
+          "clip_start": 5.94,
+          "clip_end": 6.56
+        },
+        {
+          "source": "is",
+          "source_start": 8235.38,
+          "source_end": 8235.74,
+          "clip_start": 6.56,
+          "clip_end": 6.92
+        },
+        {
+          "source": "enough",
+          "source_start": 8235.74,
+          "source_end": 8236.2,
+          "clip_start": 6.92,
+          "clip_end": 7.38
+        },
+        {
+          "source": "evidence",
+          "source_start": 8236.2,
+          "source_end": 8236.88,
+          "clip_start": 7.38,
+          "clip_end": 8.06
+        },
+        {
+          "source": "for",
+          "source_start": 8236.88,
+          "source_end": 8237.24,
+          "clip_start": 8.06,
+          "clip_end": 8.42
+        },
+        {
+          "source": "you",
+          "source_start": 8237.24,
+          "source_end": 8237.42,
+          "clip_start": 8.42,
+          "clip_end": 8.6
+        },
+        {
+          "source": "to",
+          "source_start": 8237.42,
+          "source_end": 8237.56,
+          "clip_start": 8.6,
+          "clip_end": 8.74
+        },
+        {
+          "source": "believe",
+          "source_start": 8237.56,
+          "source_end": 8237.86,
+          "clip_start": 8.74,
+          "clip_end": 9.04
+        },
+        {
+          "source": "me.",
+          "source_start": 8237.86,
+          "source_end": 8238.16,
+          "clip_start": 9.04,
+          "clip_end": 9.34
+        }
+      ]
+    },
+    {
+      "id": "r06-facts",
+      "source_start": 8248.6,
+      "source_end": 8260.34,
+      "language": [
+        "en"
+      ],
+      "words": [
+        {
+          "source": "The",
+          "source_start": 8248.6,
+          "source_end": 8249.24,
+          "clip_start": 0,
+          "clip_end": 0.64
+        },
+        {
+          "source": "first",
+          "source_start": 8249.24,
+          "source_end": 8249.88,
+          "clip_start": 0.64,
+          "clip_end": 1.28
+        },
+        {
+          "source": "question",
+          "source_start": 8249.88,
+          "source_end": 8250.46,
+          "clip_start": 1.28,
+          "clip_end": 1.86
+        },
+        {
+          "source": "on",
+          "source_start": 8250.46,
+          "source_end": 8250.62,
+          "clip_start": 1.86,
+          "clip_end": 2.02
+        },
+        {
+          "source": "you",
+          "source_start": 8250.62,
+          "source_end": 8250.8,
+          "clip_start": 2.02,
+          "clip_end": 2.2
+        },
+        {
+          "source": "is",
+          "source_start": 8250.8,
+          "source_end": 8250.98,
+          "clip_start": 2.2,
+          "clip_end": 2.38
+        },
+        {
+          "source": "really",
+          "source_start": 8250.98,
+          "source_end": 8252.94,
+          "clip_start": 2.38,
+          "clip_end": 4.34
+        },
+        {
+          "source": "all",
+          "source_start": 8252.94,
+          "source_end": 8253.26,
+          "clip_start": 4.34,
+          "clip_end": 4.66
+        },
+        {
+          "source": "about",
+          "source_start": 8253.26,
+          "source_end": 8253.66,
+          "clip_start": 4.66,
+          "clip_end": 5.06
+        },
+        {
+          "source": "like",
+          "source_start": 8253.66,
+          "source_end": 8254.18,
+          "clip_start": 5.06,
+          "clip_end": 5.58
+        },
+        {
+          "source": "what",
+          "source_start": 8254.18,
+          "source_end": 8254.5,
+          "clip_start": 5.58,
+          "clip_end": 5.9
+        },
+        {
+          "source": "do",
+          "source_start": 8254.5,
+          "source_end": 8254.68,
+          "clip_start": 5.9,
+          "clip_end": 6.08
+        },
+        {
+          "source": "you",
+          "source_start": 8254.68,
+          "source_end": 8254.8,
+          "clip_start": 6.08,
+          "clip_end": 6.2
+        },
+        {
+          "source": "know",
+          "source_start": 8254.8,
+          "source_end": 8255.08,
+          "clip_start": 6.2,
+          "clip_end": 6.48
+        },
+        {
+          "source": "to",
+          "source_start": 8255.08,
+          "source_end": 8255.32,
+          "clip_start": 6.48,
+          "clip_end": 6.72
+        },
+        {
+          "source": "be",
+          "source_start": 8255.32,
+          "source_end": 8255.6,
+          "clip_start": 6.72,
+          "clip_end": 7
+        },
+        {
+          "source": "true?",
+          "source_start": 8255.6,
+          "source_end": 8256,
+          "clip_start": 7,
+          "clip_end": 7.4
+        },
+        {
+          "source": "What",
+          "source_start": 8256,
+          "source_end": 8256.8,
+          "clip_start": 7.4,
+          "clip_end": 8.2
+        },
+        {
+          "source": "has",
+          "source_start": 8256.8,
+          "source_end": 8257.08,
+          "clip_start": 8.2,
+          "clip_end": 8.48
+        },
+        {
+          "source": "that",
+          "source_start": 8257.08,
+          "source_end": 8257.28,
+          "clip_start": 8.48,
+          "clip_end": 8.68
+        },
+        {
+          "source": "person",
+          "source_start": 8257.28,
+          "source_end": 8259.24,
+          "clip_start": 8.68,
+          "clip_end": 10.64
+        },
+        {
+          "source": "actually",
+          "source_start": 8259.24,
+          "source_end": 8259.88,
+          "clip_start": 10.64,
+          "clip_end": 11.28
+        },
+        {
+          "source": "done?",
+          "source_start": 8259.88,
+          "source_end": 8260.34,
+          "clip_start": 11.28,
+          "clip_end": 11.74
+        }
+      ]
+    },
+    {
+      "id": "r06-reality",
+      "source_start": 8265.64,
+      "source_end": 8276.26,
+      "language": [
+        "ru"
+      ],
+      "words": [
+        {
+          "source": "Первый",
+          "source_start": 8265.64,
+          "source_end": 8266.32,
+          "clip_start": 0,
+          "clip_end": 0.68
+        },
+        {
+          "source": "вопрос",
+          "source_start": 8266.32,
+          "source_end": 8266.6,
+          "clip_start": 0.68,
+          "clip_end": 0.96
+        },
+        {
+          "source": "это",
+          "source_start": 8266.6,
+          "source_end": 8267.04,
+          "clip_start": 0.96,
+          "clip_end": 1.4
+        },
+        {
+          "source": "что",
+          "source_start": 8267.04,
+          "source_end": 8267.34,
+          "clip_start": 1.4,
+          "clip_end": 1.7
+        },
+        {
+          "source": "действительно",
+          "source_start": 8267.34,
+          "source_end": 8267.96,
+          "clip_start": 1.7,
+          "clip_end": 2.32
+        },
+        {
+          "source": "я",
+          "source_start": 8267.96,
+          "source_end": 8268.2,
+          "clip_start": 2.32,
+          "clip_end": 2.56
+        },
+        {
+          "source": "знаю",
+          "source_start": 8268.2,
+          "source_end": 8268.58,
+          "clip_start": 2.56,
+          "clip_end": 2.94
+        },
+        {
+          "source": "по",
+          "source_start": 8268.58,
+          "source_end": 8268.96,
+          "clip_start": 2.94,
+          "clip_end": 3.32
+        },
+        {
+          "source": "факту",
+          "source_start": 8268.96,
+          "source_end": 8269.3,
+          "clip_start": 3.32,
+          "clip_end": 3.66
+        },
+        {
+          "source": "что",
+          "source_start": 8269.3,
+          "source_end": 8269.48,
+          "clip_start": 3.66,
+          "clip_end": 3.84
+        },
+        {
+          "source": "это",
+          "source_start": 8269.48,
+          "source_end": 8269.64,
+          "clip_start": 3.84,
+          "clip_end": 4
+        },
+        {
+          "source": "является",
+          "source_start": 8269.64,
+          "source_end": 8270.02,
+          "clip_start": 4,
+          "clip_end": 4.38
+        },
+        {
+          "source": "правдой,",
+          "source_start": 8270.02,
+          "source_end": 8270.68,
+          "clip_start": 4.38,
+          "clip_end": 5.04
+        },
+        {
+          "source": "что",
+          "source_start": 8270.94,
+          "source_end": 8271.06,
+          "clip_start": 5.3,
+          "clip_end": 5.42
+        },
+        {
+          "source": "действительно",
+          "source_start": 8271.06,
+          "source_end": 8271.54,
+          "clip_start": 5.42,
+          "clip_end": 5.9
+        },
+        {
+          "source": "этот",
+          "source_start": 8271.54,
+          "source_end": 8271.82,
+          "clip_start": 5.9,
+          "clip_end": 6.18
+        },
+        {
+          "source": "человек",
+          "source_start": 8271.82,
+          "source_end": 8272.26,
+          "clip_start": 6.18,
+          "clip_end": 6.62
+        },
+        {
+          "source": "сделал,",
+          "source_start": 8272.26,
+          "source_end": 8272.68,
+          "clip_start": 6.62,
+          "clip_end": 7.04
+        },
+        {
+          "source": "что",
+          "source_start": 8272.86,
+          "source_end": 8272.96,
+          "clip_start": 7.22,
+          "clip_end": 7.32
+        },
+        {
+          "source": "я",
+          "source_start": 8272.96,
+          "source_end": 8273.18,
+          "clip_start": 7.32,
+          "clip_end": 7.54
+        },
+        {
+          "source": "действительно",
+          "source_start": 8273.18,
+          "source_end": 8273.52,
+          "clip_start": 7.54,
+          "clip_end": 7.88
+        },
+        {
+          "source": "сделал,",
+          "source_start": 8273.52,
+          "source_end": 8274.06,
+          "clip_start": 7.88,
+          "clip_end": 8.42
+        },
+        {
+          "source": "что",
+          "source_start": 8274.3,
+          "source_end": 8274.32,
+          "clip_start": 8.66,
+          "clip_end": 8.68
+        },
+        {
+          "source": "на",
+          "source_start": 8274.32,
+          "source_end": 8274.5,
+          "clip_start": 8.68,
+          "clip_end": 8.86
+        },
+        {
+          "source": "самом",
+          "source_start": 8274.5,
+          "source_end": 8274.76,
+          "clip_start": 8.86,
+          "clip_end": 9.12
+        },
+        {
+          "source": "деле",
+          "source_start": 8274.76,
+          "source_end": 8275.06,
+          "clip_start": 9.12,
+          "clip_end": 9.42
+        },
+        {
+          "source": "в",
+          "source_start": 8275.06,
+          "source_end": 8275.22,
+          "clip_start": 9.42,
+          "clip_end": 9.58
+        },
+        {
+          "source": "реальности",
+          "source_start": 8275.22,
+          "source_end": 8275.66,
+          "clip_start": 9.58,
+          "clip_end": 10.02
+        },
+        {
+          "source": "произошло.",
+          "source_start": 8275.66,
+          "source_end": 8276.26,
+          "clip_start": 10.02,
+          "clip_end": 10.62
+        }
+      ]
+    }
+  ]
+}

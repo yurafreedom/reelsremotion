@@ -1,0 +1,5504 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "audio": {
+    "src": "media/connection_wayne_jones.mp3",
+    "volume": 0.28,
+    "fadeInFrames": 30,
+    "fadeOutFrames": 50,
+    "ducking": {
+      "enabled": true,
+      "duckedVolume": 0.15,
+      "attackFrames": 6,
+      "releaseFrames": 12
+    }
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "durationInFrames": 1573,
+      "background": {
+        "type": "box",
+        "src": "media/Reels.mp4",
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 608,
+        "borderRadius": 0,
+        "backColor": "#6e1020",
+        "startFrom": 0,
+        "volume": 1,
+        "speechRegions": [
+          {
+            "startFrame": 0,
+            "endFrame": 1573
+          }
+        ]
+      },
+      "words": [
+        {
+          "text": "У",
+          "start": 0,
+          "end": 43,
+          "x": -327,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 41,
+                "value": 1
+              },
+              {
+                "frame": 43,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "меня",
+          "start": 5,
+          "end": 43,
+          "x": -196,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 36,
+                "value": 1
+              },
+              {
+                "frame": 38,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "есть",
+          "start": 10,
+          "end": 43,
+          "x": -10,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 31,
+                "value": 1
+              },
+              {
+                "frame": 33,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "пример",
+          "start": 19,
+          "end": 43,
+          "x": 218,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 22,
+                "value": 1
+              },
+              {
+                "frame": 24,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "друг",
+          "start": 41,
+          "end": 100,
+          "x": -268,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 57,
+                "value": 1
+              },
+              {
+                "frame": 59,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "—",
+          "start": 47,
+          "end": 100,
+          "x": -121,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 51,
+                "value": 1
+              },
+              {
+                "frame": 53,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "невероятно",
+          "start": 55,
+          "end": 100,
+          "x": 146,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 43,
+                "value": 1
+              },
+              {
+                "frame": 45,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "красивый",
+          "start": 75,
+          "end": 100,
+          "x": 0,
+          "y": 512,
+          "font": "playfairItalic",
+          "size": 96,
+          "weight": 600,
+          "color": "#a01f33",
+          "enterFrom": "none",
+          "case": "none",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 5
+          },
+          "shadow": [
+            {
+              "y": 4,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.55)"
+            },
+            {
+              "blur": 26,
+              "color": "rgba(255,255,255,0.5)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 83
+              },
+              {
+                "frame": 3,
+                "value": 96,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 23,
+                "value": 1
+              },
+              {
+                "frame": 25,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "невероятно",
+          "start": 98,
+          "end": 150,
+          "x": -240,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 50,
+                "value": 1
+              },
+              {
+                "frame": 52,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "успешный",
+          "start": 112,
+          "end": 150,
+          "x": 215,
+          "y": 465,
+          "font": "playfairItalic",
+          "size": 96,
+          "weight": 600,
+          "color": "#a01f33",
+          "enterFrom": "none",
+          "case": "none",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 5
+          },
+          "shadow": [
+            {
+              "y": 4,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.55)"
+            },
+            {
+              "blur": 26,
+              "color": "rgba(255,255,255,0.5)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 83
+              },
+              {
+                "frame": 3,
+                "value": 96,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 36,
+                "value": 1
+              },
+              {
+                "frame": 38,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "был",
+          "start": 148,
+          "end": 235,
+          "x": -315,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 85,
+                "value": 1
+              },
+              {
+                "frame": 87,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "одержим",
+          "start": 186,
+          "end": 235,
+          "x": 28,
+          "y": 461,
+          "font": "playfairItalic",
+          "size": 108,
+          "weight": 700,
+          "color": "#b0223a",
+          "enterFrom": "none",
+          "case": "none",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 6
+          },
+          "shadow": [
+            {
+              "y": 5,
+              "blur": 24,
+              "color": "rgba(0,0,0,0.55)"
+            },
+            {
+              "blur": 32,
+              "color": "rgba(255,255,255,0.55)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 93
+              },
+              {
+                "frame": 3,
+                "value": 108,
+                "easing": {
+                  "bezier": [
+                    0.34,
+                    1.56,
+                    0.64,
+                    1
+                  ]
+                }
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 47,
+                "value": 1
+              },
+              {
+                "frame": 49,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "ею",
+          "start": 193,
+          "end": 235,
+          "x": 344,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 40,
+                "value": 1
+              },
+              {
+                "frame": 42,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "не",
+          "start": 233,
+          "end": 263,
+          "x": -283,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 28,
+                "value": 1
+              },
+              {
+                "frame": 30,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "переспал",
+          "start": 241,
+          "end": 263,
+          "x": -55,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 20,
+                "value": 1
+              },
+              {
+                "frame": 22,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "с",
+          "start": 247,
+          "end": 263,
+          "x": 155,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 14,
+                "value": 1
+              },
+              {
+                "frame": 16,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "ней",
+          "start": 253,
+          "end": 263,
+          "x": 261,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 8,
+                "value": 1
+              },
+              {
+                "frame": 10,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "после",
+          "start": 261,
+          "end": 300,
+          "x": -187,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 37,
+                "value": 1
+              },
+              {
+                "frame": 39,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "шести",
+          "start": 274,
+          "end": 300,
+          "x": 118,
+          "y": 414,
+          "font": "playfairItalic",
+          "size": 108,
+          "weight": 700,
+          "color": "#b0223a",
+          "enterFrom": "none",
+          "case": "none",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 6
+          },
+          "shadow": [
+            {
+              "y": 5,
+              "blur": 24,
+              "color": "rgba(0,0,0,0.55)"
+            },
+            {
+              "blur": 32,
+              "color": "rgba(255,255,255,0.55)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 93
+              },
+              {
+                "frame": 3,
+                "value": 108,
+                "easing": {
+                  "bezier": [
+                    0.34,
+                    1.56,
+                    0.64,
+                    1
+                  ]
+                }
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 24,
+                "value": 1
+              },
+              {
+                "frame": 26,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "свиданий",
+          "start": 282,
+          "end": 300,
+          "x": 0,
+          "y": 517,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 16,
+                "value": 1
+              },
+              {
+                "frame": 18,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "он",
+          "start": 298,
+          "end": 367,
+          "x": -357,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 67,
+                "value": 1
+              },
+              {
+                "frame": 69,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "показал",
+          "start": 320,
+          "end": 367,
+          "x": -139,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 45,
+                "value": 1
+              },
+              {
+                "frame": 47,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "переписку",
+          "start": 332,
+          "end": 367,
+          "x": 218,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 33,
+                "value": 1
+              },
+              {
+                "frame": 35,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "«что",
+          "start": 365,
+          "end": 445,
+          "x": -203,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 78,
+                "value": 1
+              },
+              {
+                "frame": 80,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "я",
+          "start": 375,
+          "end": 445,
+          "x": -78,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 68,
+                "value": 1
+              },
+              {
+                "frame": 70,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "не так",
+          "start": 377,
+          "end": 445,
+          "x": 125,
+          "y": 418,
+          "font": "playfairItalic",
+          "size": 96,
+          "weight": 600,
+          "color": "#a01f33",
+          "enterFrom": "none",
+          "case": "none",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 5
+          },
+          "shadow": [
+            {
+              "y": 4,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.55)"
+            },
+            {
+              "blur": 26,
+              "color": "rgba(255,255,255,0.5)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 83
+              },
+              {
+                "frame": 3,
+                "value": 96,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 66,
+                "value": 1
+              },
+              {
+                "frame": 68,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "сделал?»",
+          "start": 388,
+          "end": 445,
+          "x": 0,
+          "y": 517,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 55,
+                "value": 1
+              },
+              {
+                "frame": 57,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "«какого",
+          "start": 443,
+          "end": 479,
+          "x": -142,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 34,
+                "value": 1
+              },
+              {
+                "frame": 36,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "хрена",
+          "start": 450,
+          "end": 479,
+          "x": 153,
+          "y": 418,
+          "font": "playfairItalic",
+          "size": 96,
+          "weight": 600,
+          "color": "#a01f33",
+          "enterFrom": "none",
+          "case": "none",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 5
+          },
+          "shadow": [
+            {
+              "y": 4,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.55)"
+            },
+            {
+              "blur": 26,
+              "color": "rgba(255,255,255,0.5)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 83
+              },
+              {
+                "frame": 3,
+                "value": 96,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 27,
+                "value": 1
+              },
+              {
+                "frame": 29,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "происходит?»",
+          "start": 463,
+          "end": 479,
+          "x": 0,
+          "y": 517,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 14,
+                "value": 1
+              },
+              {
+                "frame": 16,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "я",
+          "start": 477,
+          "end": 513,
+          "x": -273,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 34,
+                "value": 1
+              },
+              {
+                "frame": 36,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "думала,",
+          "start": 480,
+          "end": 513,
+          "x": -82,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 31,
+                "value": 1
+              },
+              {
+                "frame": 33,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "я",
+          "start": 485,
+          "end": 513,
+          "x": 109,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 26,
+                "value": 1
+              },
+              {
+                "frame": 28,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "тебе",
+          "start": 490,
+          "end": 513,
+          "x": 225,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 21,
+                "value": 1
+              },
+              {
+                "frame": 23,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "нравлюсь",
+          "start": 496,
+          "end": 513,
+          "x": 0,
+          "y": 512,
+          "font": "playfairItalic",
+          "size": 96,
+          "weight": 600,
+          "color": "#a01f33",
+          "enterFrom": "none",
+          "case": "none",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 5
+          },
+          "shadow": [
+            {
+              "y": 4,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.55)"
+            },
+            {
+              "blur": 26,
+              "color": "rgba(255,255,255,0.5)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 83
+              },
+              {
+                "frame": 3,
+                "value": 96,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 15,
+                "value": 1
+              },
+              {
+                "frame": 17,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "в",
+          "start": 511,
+          "end": 583,
+          "x": -355,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 70,
+                "value": 1
+              },
+              {
+                "frame": 72,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "чём",
+          "start": 518,
+          "end": 583,
+          "x": -245,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 63,
+                "value": 1
+              },
+              {
+                "frame": 65,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "проблема?»",
+          "start": 522,
+          "end": 583,
+          "x": 111,
+          "y": 465,
+          "font": "playfairItalic",
+          "size": 96,
+          "weight": 600,
+          "color": "#a01f33",
+          "enterFrom": "none",
+          "case": "none",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 5
+          },
+          "shadow": [
+            {
+              "y": 4,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.55)"
+            },
+            {
+              "blur": 26,
+              "color": "rgba(255,255,255,0.5)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 83
+              },
+              {
+                "frame": 3,
+                "value": 96,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 59,
+                "value": 1
+              },
+              {
+                "frame": 61,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "«я",
+          "start": 581,
+          "end": 643,
+          "x": -328,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 60,
+                "value": 1
+              },
+              {
+                "frame": 62,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "не",
+          "start": 586,
+          "end": 643,
+          "x": -224,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 55,
+                "value": 1
+              },
+              {
+                "frame": 57,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "чувствую",
+          "start": 595,
+          "end": 643,
+          "x": 11,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 46,
+                "value": 1
+              },
+              {
+                "frame": 48,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "себя",
+          "start": 600,
+          "end": 643,
+          "x": 288,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 41,
+                "value": 1
+              },
+              {
+                "frame": 43,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "желанной",
+          "start": 607,
+          "end": 643,
+          "x": 0,
+          "y": 508,
+          "font": "playfairItalic",
+          "size": 108,
+          "weight": 700,
+          "color": "#b0223a",
+          "enterFrom": "none",
+          "case": "none",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 6
+          },
+          "shadow": [
+            {
+              "y": 5,
+              "blur": 24,
+              "color": "rgba(0,0,0,0.55)"
+            },
+            {
+              "blur": 32,
+              "color": "rgba(255,255,255,0.55)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 93
+              },
+              {
+                "frame": 3,
+                "value": 108,
+                "easing": {
+                  "bezier": [
+                    0.34,
+                    1.56,
+                    0.64,
+                    1
+                  ]
+                }
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 34,
+                "value": 1
+              },
+              {
+                "frame": 36,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "ты",
+          "start": 641,
+          "end": 685,
+          "x": -340,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 42,
+                "value": 1
+              },
+              {
+                "frame": 44,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "водишь",
+          "start": 647,
+          "end": 685,
+          "x": -128,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 36,
+                "value": 1
+              },
+              {
+                "frame": 38,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "в",
+          "start": 661,
+          "end": 685,
+          "x": 60,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 22,
+                "value": 1
+              },
+              {
+                "frame": 24,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "нужные",
+          "start": 664,
+          "end": 685,
+          "x": 246,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 19,
+                "value": 1
+              },
+              {
+                "frame": 21,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "места",
+          "start": 666,
+          "end": 685,
+          "x": 0,
+          "y": 517,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 17,
+                "value": 1
+              },
+              {
+                "frame": 19,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "ты",
+          "start": 683,
+          "end": 804,
+          "x": -347,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 119,
+                "value": 1
+              },
+              {
+                "frame": 121,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "явно",
+          "start": 728,
+          "end": 804,
+          "x": -188,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 74,
+                "value": 1
+              },
+              {
+                "frame": 76,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "добытчик",
+          "start": 765,
+          "end": 804,
+          "x": 159,
+          "y": 465,
+          "font": "playfairItalic",
+          "size": 96,
+          "weight": 600,
+          "color": "#a01f33",
+          "enterFrom": "none",
+          "case": "none",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 5
+          },
+          "shadow": [
+            {
+              "y": 4,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.55)"
+            },
+            {
+              "blur": 26,
+              "color": "rgba(255,255,255,0.5)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 83
+              },
+              {
+                "frame": 3,
+                "value": 96,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 37,
+                "value": 1
+              },
+              {
+                "frame": 39,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "готов",
+          "start": 802,
+          "end": 894,
+          "x": -242,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 90,
+                "value": 1
+              },
+              {
+                "frame": 92,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "дать",
+          "start": 823,
+          "end": 894,
+          "x": -38,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 69,
+                "value": 1
+              },
+              {
+                "frame": 71,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "мне",
+          "start": 850,
+          "end": 894,
+          "x": 132,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 42,
+                "value": 1
+              },
+              {
+                "frame": 44,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "всё",
+          "start": 862,
+          "end": 894,
+          "x": 281,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 30,
+                "value": 1
+              },
+              {
+                "frame": 32,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "но",
+          "start": 892,
+          "end": 1004,
+          "x": -348,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 110,
+                "value": 1
+              },
+              {
+                "frame": 112,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "не",
+          "start": 919,
+          "end": 1004,
+          "x": -241,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 83,
+                "value": 1
+              },
+              {
+                "frame": 85,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "то, что нужно",
+          "start": 962,
+          "end": 1004,
+          "x": 107,
+          "y": 467,
+          "font": "condensedHeavy",
+          "size": 87,
+          "weight": 700,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.65)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 75
+              },
+              {
+                "frame": 3,
+                "value": 87,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 40,
+                "value": 1
+              },
+              {
+                "frame": 42,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "твоё",
+          "start": 1002,
+          "end": 1029,
+          "x": -232,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 25,
+                "value": 1
+              },
+              {
+                "frame": 27,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "внимание",
+          "start": 1006,
+          "end": 1029,
+          "x": 88,
+          "y": 465,
+          "font": "playfairItalic",
+          "size": 96,
+          "weight": 600,
+          "color": "#a01f33",
+          "enterFrom": "none",
+          "case": "none",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 5
+          },
+          "shadow": [
+            {
+              "y": 4,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.55)"
+            },
+            {
+              "blur": 26,
+              "color": "rgba(255,255,255,0.5)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 83
+              },
+              {
+                "frame": 3,
+                "value": 96,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 21,
+                "value": 1
+              },
+              {
+                "frame": 23,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "твоё",
+          "start": 1027,
+          "end": 1054,
+          "x": -247,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 25,
+                "value": 1
+              },
+              {
+                "frame": 27,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "желание",
+          "start": 1029,
+          "end": 1054,
+          "x": 88,
+          "y": 461,
+          "font": "playfairItalic",
+          "size": 108,
+          "weight": 700,
+          "color": "#b0223a",
+          "enterFrom": "none",
+          "case": "none",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 6
+          },
+          "shadow": [
+            {
+              "y": 5,
+              "blur": 24,
+              "color": "rgba(0,0,0,0.55)"
+            },
+            {
+              "blur": 32,
+              "color": "rgba(255,255,255,0.55)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 93
+              },
+              {
+                "frame": 3,
+                "value": 108,
+                "easing": {
+                  "bezier": [
+                    0.34,
+                    1.56,
+                    0.64,
+                    1
+                  ]
+                }
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 23,
+                "value": 1
+              },
+              {
+                "frame": 25,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "вышла",
+          "start": 1052,
+          "end": 1113,
+          "x": -195,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 59,
+                "value": 1
+              },
+              {
+                "frame": 61,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "из",
+          "start": 1064,
+          "end": 1113,
+          "x": -2,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 47,
+                "value": 1
+              },
+              {
+                "frame": 49,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "долгих",
+          "start": 1072,
+          "end": 1113,
+          "x": 192,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 39,
+                "value": 1
+              },
+              {
+                "frame": 41,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "отношений",
+          "start": 1084,
+          "end": 1113,
+          "x": 0,
+          "y": 517,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 27,
+                "value": 1
+              },
+              {
+                "frame": 29,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "переехала",
+          "start": 1111,
+          "end": 1159,
+          "x": -164,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 46,
+                "value": 1
+              },
+              {
+                "frame": 48,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "в",
+          "start": 1121,
+          "end": 1159,
+          "x": 59,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 36,
+                "value": 1
+              },
+              {
+                "frame": 38,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "новый",
+          "start": 1133,
+          "end": 1159,
+          "x": 223,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 24,
+                "value": 1
+              },
+              {
+                "frame": 26,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "город",
+          "start": 1138,
+          "end": 1159,
+          "x": 0,
+          "y": 517,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 19,
+                "value": 1
+              },
+              {
+                "frame": 21,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "на",
+          "start": 1157,
+          "end": 1237,
+          "x": -321,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 78,
+                "value": 1
+              },
+              {
+                "frame": 80,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "пике карьеры",
+          "start": 1196,
+          "end": 1237,
+          "x": 55,
+          "y": 465,
+          "font": "playfairItalic",
+          "size": 96,
+          "weight": 600,
+          "color": "#a01f33",
+          "enterFrom": "none",
+          "case": "none",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 5
+          },
+          "shadow": [
+            {
+              "y": 4,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.55)"
+            },
+            {
+              "blur": 26,
+              "color": "rgba(255,255,255,0.5)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 83
+              },
+              {
+                "frame": 3,
+                "value": 96,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 39,
+                "value": 1
+              },
+              {
+                "frame": 41,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "взяла",
+          "start": 1235,
+          "end": 1323,
+          "x": -208,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 86,
+                "value": 1
+              },
+              {
+                "frame": 88,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "жизнь",
+          "start": 1246,
+          "end": 1323,
+          "x": 38,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 75,
+                "value": 1
+              },
+              {
+                "frame": 77,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "под",
+          "start": 1258,
+          "end": 1323,
+          "x": 245,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 63,
+                "value": 1
+              },
+              {
+                "frame": 65,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "контроль",
+          "start": 1288,
+          "end": 1323,
+          "x": 0,
+          "y": 512,
+          "font": "playfairItalic",
+          "size": 96,
+          "weight": 600,
+          "color": "#a01f33",
+          "enterFrom": "none",
+          "case": "none",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 5
+          },
+          "shadow": [
+            {
+              "y": 4,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.55)"
+            },
+            {
+              "blur": 26,
+              "color": "rgba(255,255,255,0.5)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 83
+              },
+              {
+                "frame": 3,
+                "value": 96,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 33,
+                "value": 1
+              },
+              {
+                "frame": 35,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "кайфовала",
+          "start": 1321,
+          "end": 1399,
+          "x": -144,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 76,
+                "value": 1
+              },
+              {
+                "frame": 78,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "от",
+          "start": 1330,
+          "end": 1399,
+          "x": 118,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 67,
+                "value": 1
+              },
+              {
+                "frame": 69,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "этой",
+          "start": 1350,
+          "end": 1399,
+          "x": 261,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 47,
+                "value": 1
+              },
+              {
+                "frame": 49,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "власти",
+          "start": 1372,
+          "end": 1399,
+          "x": 0,
+          "y": 512,
+          "font": "playfairItalic",
+          "size": 96,
+          "weight": 600,
+          "color": "#a01f33",
+          "enterFrom": "none",
+          "case": "none",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 5
+          },
+          "shadow": [
+            {
+              "y": 4,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.55)"
+            },
+            {
+              "blur": 26,
+              "color": "rgba(255,255,255,0.5)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 83
+              },
+              {
+                "frame": 3,
+                "value": 96,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 25,
+                "value": 1
+              },
+              {
+                "frame": 27,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "хотела",
+          "start": 1397,
+          "end": 1444,
+          "x": -326,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 45,
+                "value": 1
+              },
+              {
+                "frame": 47,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "чувствовать",
+          "start": 1398,
+          "end": 1444,
+          "x": 38,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 44,
+                "value": 1
+              },
+              {
+                "frame": 46,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "себя",
+          "start": 1414,
+          "end": 1444,
+          "x": 365,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 28,
+                "value": 1
+              },
+              {
+                "frame": 30,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "живой",
+          "start": 1418,
+          "end": 1444,
+          "x": 0,
+          "y": 508,
+          "font": "playfairItalic",
+          "size": 108,
+          "weight": 700,
+          "color": "#b0223a",
+          "enterFrom": "none",
+          "case": "none",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 6
+          },
+          "shadow": [
+            {
+              "y": 5,
+              "blur": 24,
+              "color": "rgba(0,0,0,0.55)"
+            },
+            {
+              "blur": 32,
+              "color": "rgba(255,255,255,0.55)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 93
+              },
+              {
+                "frame": 3,
+                "value": 108,
+                "easing": {
+                  "bezier": [
+                    0.34,
+                    1.56,
+                    0.64,
+                    1
+                  ]
+                }
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 24,
+                "value": 1
+              },
+              {
+                "frame": 26,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "он",
+          "start": 1442,
+          "end": 1497,
+          "x": -401,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 53,
+                "value": 1
+              },
+              {
+                "frame": 55,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "дал",
+          "start": 1447,
+          "end": 1497,
+          "x": -262,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 48,
+                "value": 1
+              },
+              {
+                "frame": 50,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "ей",
+          "start": 1453,
+          "end": 1497,
+          "x": -130,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 42,
+                "value": 1
+              },
+              {
+                "frame": 44,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "это",
+          "start": 1456,
+          "end": 1497,
+          "x": -9,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 39,
+                "value": 1
+              },
+              {
+                "frame": 41,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "ощущение",
+          "start": 1462,
+          "end": 1497,
+          "x": 260,
+          "y": 470,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 33,
+                "value": 1
+              },
+              {
+                "frame": 35,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "но",
+          "start": 1495,
+          "end": 1575,
+          "x": -213,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 78,
+                "value": 1
+              },
+              {
+                "frame": 80,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "всё",
+          "start": 1502,
+          "end": 1575,
+          "x": -86,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 71,
+                "value": 1
+              },
+              {
+                "frame": 73,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "быстро",
+          "start": 1507,
+          "end": 1575,
+          "x": 127,
+          "y": 423,
+          "font": "condensedHeavy",
+          "size": 78,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 3,
+              "blur": 20,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 67
+              },
+              {
+                "frame": 3,
+                "value": 78,
+                "easing": "easeOut"
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 66,
+                "value": 1
+              },
+              {
+                "frame": 68,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "рухнуло",
+          "start": 1535,
+          "end": 1575,
+          "x": 0,
+          "y": 508,
+          "font": "playfairItalic",
+          "size": 108,
+          "weight": 700,
+          "color": "#b0223a",
+          "enterFrom": "none",
+          "case": "none",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 6
+          },
+          "shadow": [
+            {
+              "y": 5,
+              "blur": 24,
+              "color": "rgba(0,0,0,0.55)"
+            },
+            {
+              "blur": 32,
+              "color": "rgba(255,255,255,0.55)"
+            }
+          ],
+          "keyframes": {
+            "size": [
+              {
+                "frame": 0,
+                "value": 93
+              },
+              {
+                "frame": 3,
+                "value": 108,
+                "easing": {
+                  "bezier": [
+                    0.34,
+                    1.56,
+                    0.64,
+                    1
+                  ]
+                }
+              }
+            ],
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 3,
+                "value": 1,
+                "easing": "easeOut"
+              },
+              {
+                "frame": 38,
+                "value": 1
+              },
+              {
+                "frame": 40,
+                "value": 0,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        }
+      ],
+      "overlays": [
+        {
+          "src": "media/Frame_1.png",
+          "start": 0,
+          "end": 1573,
+          "x": 0,
+          "y": -632,
+          "width": 1080,
+          "height": 656,
+          "fit": "cover"
+        },
+        {
+          "src": "media/Frame_2.png",
+          "start": 0,
+          "end": 1573,
+          "x": 0,
+          "y": 617,
+          "width": 1080,
+          "height": 686,
+          "fit": "cover"
+        }
+      ],
+      "transitionToNext": {
+        "type": "fade",
+        "durationInFrames": 10
+      }
+    },
+    {
+      "id": "s2",
+      "durationInFrames": 105,
+      "background": {
+        "type": "color",
+        "color": "#000000"
+      },
+      "shapes": [
+        {
+          "id": "outro-plate",
+          "shape": "rect",
+          "start": 0,
+          "end": 105,
+          "x": 0,
+          "y": 499,
+          "width": 894,
+          "height": 245,
+          "color": "rgba(0,0,0,0.72)",
+          "borderRadius": 130,
+          "opacity": 1,
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 9,
+                "value": 1,
+                "easing": "easeOut"
+              }
+            ],
+            "blur": [
+              {
+                "frame": 0,
+                "value": 26
+              }
+            ]
+          }
+        }
+      ],
+      "words": [
+        {
+          "text": "пиши",
+          "start": 0,
+          "end": 105,
+          "x": -265,
+          "y": 478,
+          "font": "condensedHeavy",
+          "size": 48,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 2,
+              "blur": 10,
+              "color": "rgba(0,0,0,0.55)"
+            }
+          ],
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 9,
+                "value": 1,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "слово",
+          "start": 0,
+          "end": 105,
+          "x": -122,
+          "y": 478,
+          "font": "condensedHeavy",
+          "size": 48,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 2,
+              "blur": 10,
+              "color": "rgba(0,0,0,0.55)"
+            }
+          ],
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 9,
+                "value": 1,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "«клуб»,",
+          "start": 0,
+          "end": 105,
+          "x": 67,
+          "y": 474,
+          "font": "playfairItalic",
+          "size": 60,
+          "weight": 600,
+          "color": "#c33049",
+          "enterFrom": "none",
+          "case": "none",
+          "stroke": {
+            "color": "#ffffff",
+            "width": 3
+          },
+          "shadow": [
+            {
+              "y": 2,
+              "blur": 10,
+              "color": "rgba(0,0,0,0.5)"
+            },
+            {
+              "blur": 14,
+              "color": "rgba(255,255,255,0.4)"
+            }
+          ],
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 9,
+                "value": 1,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "чтобы",
+          "start": 0,
+          "end": 105,
+          "x": 256,
+          "y": 478,
+          "font": "condensedHeavy",
+          "size": 48,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 2,
+              "blur": 10,
+              "color": "rgba(0,0,0,0.55)"
+            }
+          ],
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 9,
+                "value": 1,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "получить",
+          "start": 0,
+          "end": 105,
+          "x": -258,
+          "y": 542,
+          "font": "condensedHeavy",
+          "size": 48,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 2,
+              "blur": 10,
+              "color": "rgba(0,0,0,0.55)"
+            }
+          ],
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 9,
+                "value": 1,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "полную",
+          "start": 0,
+          "end": 105,
+          "x": -52,
+          "y": 542,
+          "font": "condensedHeavy",
+          "size": 48,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 2,
+              "blur": 10,
+              "color": "rgba(0,0,0,0.55)"
+            }
+          ],
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 9,
+                "value": 1,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "версию",
+          "start": 0,
+          "end": 105,
+          "x": 131,
+          "y": 542,
+          "font": "condensedHeavy",
+          "size": 48,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 2,
+              "blur": 10,
+              "color": "rgba(0,0,0,0.55)"
+            }
+          ],
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 9,
+                "value": 1,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        },
+        {
+          "text": "эфира",
+          "start": 0,
+          "end": 105,
+          "x": 295,
+          "y": 542,
+          "font": "condensedHeavy",
+          "size": 48,
+          "weight": 500,
+          "color": "#f7f5f3",
+          "enterFrom": "none",
+          "case": "upper",
+          "shadow": [
+            {
+              "y": 2,
+              "blur": 10,
+              "color": "rgba(0,0,0,0.55)"
+            }
+          ],
+          "keyframes": {
+            "opacity": [
+              {
+                "frame": 0,
+                "value": 0
+              },
+              {
+                "frame": 9,
+                "value": 1,
+                "easing": "easeOut"
+              }
+            ]
+          }
+        }
+      ],
+      "overlays": [
+        {
+          "src": "media/outro_photo_club.jpg",
+          "start": 0,
+          "end": 105,
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "fit": "cover"
+        }
+      ]
+    }
+  ]
+}

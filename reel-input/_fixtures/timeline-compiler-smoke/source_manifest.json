@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "slug": "timeline-compiler-smoke",
+  "stage": "fixture",
+  "clips": [
+    {
+      "id": "smoke-video",
+      "source_video": "reel-input/_fixtures/timeline-compiler-smoke/public/smoke-video.mp4",
+      "source_start": 0,
+      "source_end": 1,
+      "extracted_duration_expected": 1,
+      "output_path": "reel-input/_fixtures/timeline-compiler-smoke/public/smoke-video.mp4",
+      "source_quote": "smoke",
+      "source_subtitles": [
+        {
+          "id": 0,
+          "start": 0,
+          "end": 1,
+          "language": "fixture",
+          "text": "smoke",
+          "words": [{"word": "smoke", "start": 0.1, "end": 0.9}]
+        }
+      ],
+      "boundary_flags": {
+        "start_inside_subtitle": false,
+        "end_inside_subtitle": false
+      },
+      "display_ru": {
+        "kind": "native-source-proposal",
+        "alignment": "fixture",
+        "text": "smoke"
+      }
+    }
+  ]
+}
