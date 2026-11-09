@@ -1,0 +1,21 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 150,
+  "tracks": [
+    {
+      "id": "video",
+      "kind": "video",
+      "clips": [{ "id": "main", "kind": "video", "src": "placeholder", "start": 0, "end": 150, "startFrom": 0, "fit": "cover", "volume": 1 }]
+    },
+    { "id": "image", "kind": "image", "clips": [] },
+    { "id": "shape", "kind": "shape", "shapes": [] },
+    {
+      "id": "text",
+      "kind": "text",
+      "words": [{ "text": "ВАШ ТЕКСТ", "start": 0, "end": 150, "x": 0, "y": 450, "font": "cleanSans", "size": 64, "weight": 700, "color": "#ffffff", "enterFrom": "none" }]
+    },
+    { "id": "audio", "kind": "audio", "clips": [] }
+  ]
+}

@@ -100,6 +100,8 @@ export const FONT_OPTIONS: FontKey[] = [
   "unbounded",
   "onest",
   "playfairItalic",
+  "nikulinaCondensed",
+  "nikulinaSans",
 ];
 
 /** Human-readable labels for the font picker (keys stay the FontKey contract). */
@@ -109,6 +111,8 @@ export const FONT_LABELS: Record<FontKey, string> = {
   unbounded: "Unbounded",
   onest: "Onest",
   playfairItalic: "Playfair Display italic",
+  nikulinaCondensed: "Nikulina condensed (system font)",
+  nikulinaSans: "Nikulina sans (system font)",
 };
 
 /** Word-relative playhead frame for a given scene-relative editor frame. */

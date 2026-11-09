@@ -1,128 +1,138 @@
-# Reels Editor — v2.0 (single-window WYSIWYG)
+# Как монтировать в браузере
 
-One window that replaces the click-tool + Studio round-trip: place, retime, add
-transitions, mix audio, and play with sound — all over the **same engine
-composition** that renders the final mp4 (via `@remotion/player`), so
-**preview === render** (WYSIWYG).
+Из корня проекта выполните `npm install`, затем `npm run dev` и откройте [localhost:5173](http://localhost:5173/). Здесь можно вручную собрать простой вертикальный ролик или поправить монтаж, подготовленный помощником. Общая установка описана в [главном README](../README.md).
 
-## Run
+**Редактор пока находится в стадии прототипа. Сохраняйте монтаж через `Export timeline.json` перед закрытием или обновлением вкладки. Автосохранения нет.**
 
-The editor reuses the engine in `../src` and resolves all runtime deps
-(`react`, `remotion`, `@remotion/*`) from the **repo-root** `node_modules`, so
-there is exactly one React/Remotion instance. Install once at the repo root,
-then start Vite here:
+## Что находится на экране
 
-```bash
-# from the repo root (installs engine + editor toolchain)
-npm install
+- **Большой вертикальный кадр** — предпросмотр ролика.
+- **Кнопки воспроизведения** — просмотр, переход по кадрам и секундам.
+- **Дорожки снизу** — полоски, показывающие, когда включается видео, текст, изображение, фигура или звук. Это и есть таймлайн.
+- **Панель справа** — свойства выбранного элемента. Сначала нажмите на элемент, затем меняйте его настройки.
+- **Import / Export** — открытие проекта, сохранение монтажного листа и сборка MP4.
 
-# start the editor
-cd editor && npm run dev          # → http://localhost:5173
-npm run typecheck                 # tsc --noEmit
-```
+Интерфейс пока на английском. `Start` — начало, `End` — конец, `Src` — путь к файлу, `Volume` — громкость, `Cut` — разрезать, `Duplicate` — создать копию.
 
-## Export → MP4 (v2.5)
+## Первый собственный ролик: по шагам
 
-The **Export → MP4** button in the top bar renders the current reel to
-`out/<name>.mp4` from the UI — **no terminal**. Rendering an mp4 is server-side
-work (Remotion drives headless Chromium in a Node process; a browser can't
-produce the mp4 itself), so the button triggers a **local render** via a dev-only
-Vite middleware:
+### 1. Откройте простой шаблон
 
-- **`POST /__render`** `{ props, fps, quality, outName }` forks a worker
-  (`server/render-worker.mjs`) that runs the **same render path as the CLI** —
-  `bundle()` the same `src/index.ts` entry → `selectComposition('Reels')` →
-  `renderMedia()` — writing to `out/<name>.mp4` (the same folder `npm run render`
-  uses). The props are the editor's existing `toRenderProps(timeline)` output
-  (`{ showGrid:false, timeline }`), reused verbatim → the exported file matches
-  the CLI render for the same timeline (verified: SSIM ≈ 0.999).
-- **`GET /__render/:id`** polls progress (`renderedFrames / totalFrames`, %).
-- **`GET /__render/file/:name`** streams the finished mp4 as a download.
+Нажмите `Import JSON…` и выберите **`docs/examples/editor-starter.json`** из папки проекта. Это пятисекундная заготовка с одним местом для видео и надписью «ВАШ ТЕКСТ», без чужих материалов.
 
-Options: **fps 30 / 60**, **quality High (CRF 18) / Medium (CRF 23)**, filename.
-**Resolution is fixed 1080×1920** (the whole engine is built on it, CONTRACT §1)
-— shown, not editable.
+Импорт заменяет текущий монтаж в открытой вкладке. Если уже работали над своим роликом, сначала сохраните его через `Export timeline.json`.
 
-### fps behavior (30 vs 60) — re-timing
+Можно работать и со стартовым демонстрационным примером, но там уже есть два фрагмента, несколько слов и красная плашка.
 
-The engine is frame-based at the timeline's base fps (CONTRACT §1/§3: 30).
-Exporting at **60 fps** must show the **same animation, only smoother** — never
-faster/slower. Remotion takes the composition fps from `timeline.fps`, so the
-worker **re-times** the timeline (`server/retime.mjs`): it sets `fps = 60` and
-scales every *frame-valued* field by `ratio = 60/30 = 2` (scene durations, word/
-shape `start`/`end`, all keyframe `frame`s, transition durations, audio
-fade/duck frames, `startFrom`, `speechRegions`). Pixel/value fields (x, y, size,
-spatial tangents, …) are untouched. Result: identical wall-clock duration with
-twice the in-between frames. Verified: a 30 fps export and a 60 fps export of the
-same reel have the **same duration** (4.067 s) and the same frame content at any
-given moment (SSIM ≈ 0.995) — 60 is purely smoother.
+### 2. Подставьте своё видео
 
-## What it does
+Нажмите на клип `placeholder` в дорожке `VIDEO`. Правой кнопкой откройте его меню и выберите `Replace media…`; эта же операция доступна в панели свойств. Выберите короткий видеофайл.
 
-- **Player + transport** — play/pause, scrub, ±1 frame, ±1s, frame/time
-  readout; the `<Player>` plays video and audio itself.
-  Keyboard: `Space` toggle, `←/→` ±1 frame, `Shift+←/→` ±1s.
-- **Global timeline** — tracks for Scenes (+ transition regions), Text (a clip
-  per word at absolute positions), Video (inset per scene), Audio. Drag a word
-  clip to retime (converted back to scene-relative `start/end`), drag an edge to
-  change duration. Playhead is synced to the Player both ways.
-- **Transitions** — add/remove between adjacent scenes; fade / slide / wipe with
-  direction, duration (drag the overlap width or type a number), and
-  linear/spring timing. Live in the Player.
-- **Canvas drag** — move words and the inset (position + size) directly on the
-  preview; only items active at the playhead frame are shown (no pile-up),
-  coordinates per CONTRACT §2.
-- **Keyframes** (CONTRACT §4 — the only animation system) — select a word to get
-  per-property lanes with **diamonds** at word-relative frames (click to select,
-  ⇧/⌘-click multi-select, drag to retime, `Delete` to remove). **Auto-keyframe**:
-  with a track present, editing a property (panel input, canvas drag, size/rotate)
-  writes a kf at the playhead; a never-animated property edits its static value or
-  is started with the lane's `◇+`. **Presets** generate editable keyframes
-  (slide-in/fade-in/scale-in/pulse/spin/fade-out). **Graph editor**: select a
-  keyframe → its incoming segment's easing as a draggable cubic-bezier + presets.
-  **Motion path**: a position track draws an editable curve on the canvas with
-  draggable anchors + spatial tangents (`+curve`). **Copy/paste** (`⌘C`/`⌘V`,
-  `⇧⌘V` offsets to the playhead; panel `Paste→scene` for many words) — word-
-  relative, so it reproduces motion verbatim. Every edit is live in the Player.
-  On **import**, a legacy/ASR word's `enterFrom` is expanded into slide-in
-  keyframes so old content still animates (idempotent; already-keyframed words
-  untouched).
-- **Audio** — music track with volume, fade in/out, and speech-driven **ducking**
-  (attack/release); per-inset volume/mute. ASR `speechRegions` are shown
-  read-only on the Video track and are never edited here (they belong to ASR).
-- **IO** — Import `timeline.json` (incl. the ASR draft), Export the whole
-  timeline (round-trip via the ported `TimelineIO`, deep-equal), and
-  Save `props.json` for `npx remotion render Reels out.mp4 --props=./props.json`.
+Файл копируется в `public/media/`. В поле `Src` появится его путь, например `media/my-clip.mp4`. Оригинальный файл остаётся на месте.
 
-## Layout
+**Замена сохраняет длительность заготовки — 5 секунд.** Если нужно 10 секунд, в свойствах клипа поставьте `End (abs) = 300`; если нужны 3 секунды — `90`. В редакторе время в числовых полях задаётся кадрами: **30 кадров = 1 секунда**. Не задавайте длительность больше доступного фрагмента исходника.
 
-```
-editor/src/
-  Editor.tsx          shell: <Player> + canvas overlay, right panel, bottom timeline
-  io.ts               TimelineIO port (serialize/validate/clone, render props)
-  edits.ts            immutable Timeline edit helpers
-  selection.ts        what is selected (word | inset | transition | audio)
-  fixtures.ts         default 2-scene document (fade transition + speech regions)
-  transport/Transport.tsx
-  timeline/Timeline.tsx   tracks, clips, retime drag, transition regions, speech markers
-  canvas/CanvasOverlay.tsx drag-place words/inset + motion-path anchors/tangents
-  panel/Panel.tsx     word / inset / transition / audio panels + keyframe section
-  keyframes/
-    kfModel.ts        9 property metas + value sampling/formatting
-    kfEdits.ts        immutable keyframe ops (add/move/easing/tangent/preset/copy-paste)
-    kfSelection.ts    diamond sub-selection + clipboard types
-    KeyframeLanes.tsx per-property lanes + diamonds under the selected word
-    GraphEditor.tsx   per-segment cubic-bezier speed/graph editor
-    *.test.ts / buildEdited.ts  node-assert ops tests + end-to-end seam proof
-  IoBar.tsx           import / export / save props
-```
+Для нескольких видео используйте `+ Video`: новый файл добавляется **в конец видеодорожки**, а не в положение указателя. Если добавляете первый клип этим способом, сначала удалите ненужную заглушку. Перетаскивание файла на кадр тоже добавляет клип.
 
-Keyframe data layer is node-tested (`npm test` at the repo root runs the sampling,
-IO round-trip, edit-ops, and import→edit→export seam checks). Pointer-drag *feel*
-(canvas/graph/path handles) is the human-confirm step — the math + the render are
-the correctness gate.
+### 3. Выберите начало и конец
 
-The engine (`../src`) is reused as-is; only the top-level scene assembly switched
-from `<Sequence>` to `<TransitionSeries>` (`../src/Video.tsx`). Timing math and
-the absolute↔scene-relative mapping live in `../src/compose.ts` (one source of
-truth shared with the editor).
+Нажмите на видео в дорожке. Можно двигать клип за середину и тянуть его края. Для точной настройки используйте:
+
+| Поле | Что означает | Пример при 30 fps |
+|---|---|---|
+| `Start (abs)` | Когда фрагмент начинается в готовом ролике | `60` = через 2 секунды |
+| `End (abs)` | Когда фрагмент заканчивается в готовом ролике | `210` = на 7-й секунде |
+| `StartFrom` | Откуда читать исходное видео | `90` = пропустить первые 3 секунды исходника |
+
+Чтобы вырезать середину, поставьте указатель в нужное место, выделите видеоклип и нажмите `Cut` или `S`. Сделайте второй разрез, затем удалите выделенный ненужный кусок через `Delete` или контекстное меню.
+
+**Удаление сдвигает следующие клипы только на этой дорожке.** Текст, изображения и музыка за видео автоматически не следуют. Сначала закончите основную нарезку, затем настройте субтитры; после новых разрезов проверяйте синхронизацию.
+
+### 4. Настройте кадр
+
+Для выбранного видео:
+
+- `cover (fullscreen)` заполняет вертикальный экран; края широкого видео могут обрезаться.
+- `contain (box)` позволяет настроить окно с видео: положение, ширину, высоту, скругление и фон.
+- `Volume` и `Muted` регулируют звук самого видео.
+
+Для окна и надписей `X = 0, Y = 0` означает центр кадра. Отрицательный `X` — левее, положительный — правее; отрицательный `Y` — выше, положительный — ниже. Поддерживаемые элементы можно двигать прямо на предпросмотре.
+
+### 5. Измените надпись и добавьте следующие
+
+Нажмите «ВАШ ТЕКСТ» на дорожке `TEXT` или в кадре. Справа измените `Text`, шрифт, размер, цвет и `Start / End`.
+
+Для второй надписи нажмите на первую правой кнопкой → `Duplicate`. Копия появляется на том же месте и в то же время: выделите её на дорожке, измените текст и время. Повторите для следующих фраз.
+
+**Отдельной кнопки `+ Text` нет.** Если удалить все надписи, создать новую через интерфейс сейчас нельзя: верните удаление через Undo либо импортируйте сохранённый проект с текстом. Импорт заготовки заменяет весь текущий монтаж.
+
+Речь не распознаётся автоматически. Для большого количества субтитров удобнее сначала [подготовить их с Claude/GPT](../docs/AI_WORKFLOW.md), затем импортировать монтажный лист.
+
+### 6. Добавьте анимацию, картинки и фигуры
+
+Для текста и фигур доступны настройки анимации: плавное появление, движение, изменение размера и другие пресеты. Пресет создаёт **ключевые кадры** — точки, в которых записаны положение или другие свойства. Их можно двигать на дорожке и настраивать плавность в графике.
+
+Начинайте с одного простого эффекта. Если у свойства уже есть анимация, изменение этого свойства в текущий момент может добавить ключевой кадр, а не передвинуть элемент сразу на весь ролик.
+
+`+ Image` добавляет картинку в текущий момент, обычно на 3 секунды. Длительность и геометрию можно изменить. `Rect`, `Ellipse`, `Line` добавляют прямоугольник, овал и линию. Дополнительные слои картинок создаются через `+ Image track`.
+
+Движок умеет использовать видео как дополнительный визуальный слой через JSON, но кнопка `+ Image` принимает изображения. Для видео поверх другого видео используйте подготовку через помощника.
+
+### 7. Добавьте переходы и проверьте звук
+
+Между соседними клипами есть кнопка `+` для перехода. После нажатия выберите `fade` — растворение, `slide` — сдвиг или `wipe` — стирание. Настройте длительность и направление. Переход использует перекрытие фрагментов; после изменения посмотрите стык со звуком.
+
+Звук загруженного видеоклипа воспроизводится вместе с ним. **Музыку отдельным новым клипом через интерфейс пока загрузить нельзя.** Кнопка `+ Audio track` создаёт пустую дорожку, но не добавляет файл; подсказка `add audio in the panel` сейчас вводит в заблуждение.
+
+Если импортировать проект с аудиоклипом, его можно двигать, обрезать, разрезать и настроить `Volume`, `Fade in`, `Fade out`. `Duck speech` приглушает музыку по заранее заданным участкам речи (`speechRegions`); сам редактор речь не ищет. Новую музыку проще добавить через помощника в JSON, затем снова импортировать проект.
+
+### 8. Сохраните монтаж и видео
+
+1. Нажмите **`Export timeline.json`**. Браузер скачает монтажный лист. Переименуйте его, например в `my-first-reel-v1.json`, и храните вместе с материалами проекта.
+2. Нажмите **`Export → MP4`**.
+3. Оставьте **30 fps**, выберите `High` или `Medium`, задайте уникальное имя файла.
+4. Нажмите `Start export` и дождитесь `Done — 100%`.
+5. Нажмите `Download`. Копия видео уже лежит в **`out/<имя>.mp4`** внутри проекта; загрузка через браузер создаёт ещё одну копию.
+6. Посмотрите и прослушайте готовый MP4 полностью: начало, стыки, субтитры и последнюю фразу.
+
+Существующий MP4 с тем же именем может быть перезаписан. Используйте имена `my-reel-v1`, `my-reel-v2` для разных вариантов.
+
+**Не используйте 60 fps для текущих проектов с дорожками:** пересчёт времени поддерживает только старую схему сцен. Например, 90 кадров при 30 fps превращаются в 90 кадров при 60 fps — 1,5 секунды вместо 3. Исправление этой ошибки ещё требуется.
+
+`Save props.json (render)` — дополнительный файл для запуска рендера командой, обычному пользователю достаточно `Export timeline.json` и MP4. Ни один JSON не содержит видеофайлов внутри себя.
+
+## Как продолжить завтра
+
+1. Запустите `npm run dev`.
+2. Нажмите `Import JSON…` и выберите сохранённый монтажный лист.
+3. Убедитесь, что файлы из `public/media/` остались на месте.
+4. Продолжайте редактировать и сохраняйте новые версии.
+
+На другой компьютер нужно перенести **и JSON, и файлы с теми же относительными путями внутри `public/`**. Одного JSON недостаточно. Автосохранения, облачной синхронизации, списка недавних проектов и автоматического поиска потерянных файлов нет.
+
+## Клавиши
+
+| Клавиша | Действие |
+|---|---|
+| `Space` | Воспроизведение / пауза |
+| `←` / `→` | Один кадр назад / вперёд |
+| `Shift` + `←` / `→` | Одна секунда назад / вперёд |
+| `S` | Разрезать выделенный видео- или аудиоклип в текущем месте |
+| `Delete` / `Backspace` | Удалить выделенный элемент |
+| `Ctrl/Cmd + Z` | Отменить изменение в текущей сессии |
+| `Ctrl/Cmd + Shift + Z` | Вернуть отменённое изменение |
+
+При вводе текста сочетания могут работать как обычное редактирование поля. `Ctrl/Cmd + C/V` в редакторе относятся к анимации выбранного слова, а не к универсальному копированию любых клипов.
+
+## Реальные ограничения интерфейса
+
+- Один основной видеоряд; дополнительные дорожки создаются для изображений и звука. Общий предел при добавлении — 8 дорожек.
+- Нет проекта «с чистого листа» одной кнопкой: используйте JSON-заготовку или подготовленный монтаж.
+- Нет автоматического монтажа по смыслу, генерации сценария, распознавания речи, перевода и анализа референса.
+- Нет связанного перемещения видео и субтитров, полноценного многокамерного монтажа, звуковой волны, записи голоса, шумоподавления и цветокоррекции в интерфейсе.
+- Не все возможности движка доступны в панелях: часть сложных субтитров, видео-вставок и оформления создаётся через JSON/скрипты.
+- Загрузка одного файла ограничена 512 МиБ. Поддержка конкретного видео зависит от кодека; расширение `.mov` само по себе не гарантирует воспроизведение.
+- Шрифты зависят от интернета и системы; системные шрифты оформления Nikulina могут выглядеть иначе на другом компьютере.
+- Загрузка и MP4 работают через локальный сервер `npm run dev`. `npm run build` внутри `editor/` собирает интерфейс, но не превращает его в готовый онлайн-сервис.
+
+Точная проверка текущей версии и оставшиеся задачи: [стадия продукта](../docs/PRODUCT_STATUS.md).

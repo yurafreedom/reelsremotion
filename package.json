@@ -4,6 +4,10 @@
   "description": "Data-driven vertical subtitle renderer for Instagram Reels (Remotion v4)",
   "private": true,
   "scripts": {
+    "dev": "npm --prefix editor run dev --",
+    "build:editor": "npm --prefix editor run build",
+    "typecheck": "tsc --noEmit && npm --prefix editor run typecheck",
+    "check:versions": "remotion versions",
     "studio": "remotion studio src/index.ts",
     "compositions": "remotion compositions src/index.ts",
     "render": "remotion render src/index.ts Reels out/video.mp4",
@@ -31,12 +35,15 @@
     "check": "node compose/run.mjs compose/check.ts"
   },
   "dependencies": {
-    "@remotion/cli": "4.0.483",
-    "@remotion/google-fonts": "4.0.483",
-    "@remotion/transitions": "^4.0.483",
+    "@remotion/bundler": "4.0.541",
+    "@remotion/cli": "4.0.541",
+    "@remotion/google-fonts": "4.0.541",
+    "@remotion/player": "4.0.541",
+    "@remotion/renderer": "4.0.541",
+    "@remotion/transitions": "4.0.541",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "remotion": "4.0.483"
+    "remotion": "4.0.541"
   },
   "devDependencies": {
     "@types/react": "19.0.0",
